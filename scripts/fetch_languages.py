@@ -1,8 +1,9 @@
-"""Aggregate actual language bytes across all owned public repositories."""
+"""Aggregate actual language bytes across the eligible public project pool."""
 from collections import Counter
 from urllib.parse import quote
 
 from common import API, DATA, USERNAME, GitHub, read_json, run, today, write_json
+from fetch_builds import select_repositories
 
 
 def aggregate_languages(repos, get_json, cache=None):
@@ -28,11 +29,11 @@ def aggregate_languages(repos, get_json, cache=None):
 def main():
     client = GitHub()
     source = f"{API}/users/{USERNAME}/repos"
-    repos = [repo for page in client.pages(source + "?type=owner&sort=full_name") for repo in page]
+    repos = select_repositories([repo for page in client.pages(source + "?type=owner&sort=full_name") for repo in page], read_json(DATA / "profile-config.json")["excluded_repositories"])
     path = DATA / "languages.json"
     old = read_json(path) if path.exists() else {}
-    # Force a full refresh weekly: Linguist may finish processing after pushed_at.
-    refresh = today().isoweekday() == 7
+    # Refresh all bytes once a day: Linguist can finish after pushed_at changes.
+    refresh = old.get("as_of") != today().isoformat()
     result = aggregate_languages(repos, client.json, {} if refresh else old.get("repos", {}))
     write_json(path, {"username": USERNAME, "as_of": today().isoformat(), "source": source, **result})
     print(f"Aggregated {result['total_bytes']:,} language bytes across {len(repos)} repositories")

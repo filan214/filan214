@@ -10,12 +10,13 @@ from xml.etree import ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from make_info_card import render as info
-from make_status_panel import render as processes
+from render_build_spotlight import render as spotlight
 from make_tagline import render as tagline
 from render_commit_log import render as commit
 from render_heatmap_svg import calendar_days, render as heatmap
 from render_languages_svg import render as languages
 from render_status_bar import render as status
+from test_live_panels import SNAPSHOT, LANGUAGES as LIVE_LANGUAGES
 
 NS = {"s": "http://www.w3.org/2000/svg"}
 CALENDAR = {"as_of": "2026-09-12", "days": [{"date": "2026-09-11", "count": 3, "level": 2}]}
@@ -25,7 +26,7 @@ STATUS = {"objectives_done": 5, "objectives_total": 5, "defense_status": "pendin
 
 class SvgTests(unittest.TestCase):
     def renders(self):
-        return [info(), processes(), tagline(), commit({"event": None}), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
+        return [info(SNAPSHOT, LIVE_LANGUAGES), spotlight(SNAPSHOT, LIVE_LANGUAGES), tagline(SNAPSHOT, LIVE_LANGUAGES), commit({"event": None}), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
 
     def test_all_panels_have_accessible_self_contained_theme_markup(self):
         for source in self.renders():

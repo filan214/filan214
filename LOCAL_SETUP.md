@@ -1,136 +1,109 @@
-# Run your profile locally on Windows
+# Maintain the live profile
 
-The repository is the `filan214` folder. All eight SVGs are committed, so GitHub can display them immediately after you push. The original JPEG remains outside the repository; its local copy under `assets/` is ignored. `prep_photo.py` has deliberately not been run: use it only once you provide the source photo you want processed.
+The public profile repository is [filan214/filan214](https://github.com/filan214/filan214). GitHub Actions refreshes its public data hourly at minute 17, on pushes to `main`, and from **Actions → Update profile art → Run workflow**. A schedule is a polling interval, not an instant update guarantee; GitHub can delay runs and cache images.
 
-## 1. Open PowerShell in this repository
+## Windows setup
+
+Open PowerShell in the `filan214` directory:
 
 ```powershell
-cd 'D:\TUGAS\C Path\Portfolio\Github Profile\filan214'
 py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 python -m pip install -r scripts/requirements.txt
 ```
 
-Python 3.11+ works for the daily scripts; GitHub Actions uses 3.11. If only Python 3.13 is installed, use `py -3.13 -m venv .venv` for the daily scripts and the existing JPEG. The optional rembg pipeline may need Python 3.11 depending on available ONNX/OpenCV wheels. A local `.venv` created during setup can be activated directly without recreating it.
+If `.venv` already exists, just activate it. The recurring workflow uses Python 3.11 and installs only pinned `requests` and `beautifulsoup4`. No token, PAT, third-party card service, or hosted JavaScript is required for reads. GitHub's unauthenticated API limit is shared by requests from the same IP. Rate-limit errors fail the run and retain the last published snapshot; retry after the reset time shown in the error.
 
-If PowerShell blocks activation, either allow it for this shell only with `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`, or invoke `.\.venv\Scripts\python.exe` in place of `python` throughout. No global execution-policy change is needed.
+## Refresh locally
 
-## 2. Confirm your manual thesis status
-
-`data/status.json` already contains your requested starting example:
-
-```json
-{
-  "objectives_done": 5,
-  "objectives_total": 5,
-  "defense_status": "pending"
-}
-```
-
-Edit it in your editor. The numbers must be integers, total must be positive, and done cannot exceed total. Defense is separate text: 5/5 objectives does not mean the defense has happened. The values are hand-maintained and never scraped.
+Run in this order. Stop if any command fails; do not publish a partially refreshed set.
 
 ```powershell
-python scripts/render_status_bar.py
-```
-
-This updates `thesis-progress.svg`. The workflow repeats it after every push to `main`, including a manual edit made through GitHub. The htop panel is illustrative: its 89% is mock activity, not this completion ratio. Edit `PROCESSES` in `scripts/make_status_panel.py` to change those labels.
-
-## 3. Generate the portrait from your existing reference
-
-Only Pillow is needed for an existing JPEG:
-
-```powershell
-python -m pip install pillow
-python scripts/make_ascii_svg.py '..\filan-ascii.jpg'
-```
-
-You can also use the ignored local copy:
-
-```powershell
-python scripts/make_ascii_svg.py assets/filan-ascii.jpg
-```
-
-The 100 × 53 character grid preserves the photo's aspect ratio with whitespace padding and uses the requested ramp. This direct conversion keeps the reference image's background. Source photos are never embedded in the resulting SVG.
-
-Later, after supplying a source photo, optionally run the full preparation pipeline:
-
-```powershell
-python -m pip install -r scripts/requirements-portrait.txt
-python scripts/prep_photo.py 'C:\path\to\your-source-photo.jpg'
-python scripts/make_ascii_svg.py
-```
-
-The pipeline removes the background with rembg's portrait-specific `u2net_human_seg` model, boosts luminance contrast using CLAHE, composites onto white, and saves `assets/portrait-gray.png`. rembg downloads its model on first use. The CPU extra provides the ONNX runtime. Portrait dependencies and model downloads are excluded from daily CI.
-
-## 4. Build the other static panels
-
-```powershell
-python scripts/make_info_card.py
-python scripts/make_status_panel.py
-python scripts/make_tagline.py
-```
-
-These emit `info-card.svg`, `status-panel.svg`, and `tagline.svg`. Edit the copy directly in their scripts and rerun when your biography changes.
-
-## 5. Fetch and render live GitHub data
-
-```powershell
+python scripts/fetch_builds.py
 python scripts/fetch_contributions.py
 python scripts/render_heatmap_svg.py
 python scripts/fetch_last_event.py
 python scripts/render_commit_log.py
 python scripts/fetch_languages.py
 python scripts/render_languages_svg.py
-```
-
-Each fetcher updates its corresponding `data/*.json`, and each renderer reads that file. A failure exits with an error and preserves the existing snapshot. The scripts use public requests without tokens or `.netrc` credentials. Unauthenticated API limits are shared by IP; if limited, wait until the reset reported by the script instead of repeatedly retrying.
-
-- Contributions: exact counts are parsed from GitHub's tooltips or legacy count attributes. The fetcher combines each calendar year intersecting the 53-week window because the endpoint selects a single year when given an end date. Streaks are bounded by that window. A present, zero-contribution today can continue yesterday's streak; missing dates break it. Monthly totals are stored in JSON. The calendar uses 53 Sunday-first weeks, with dashed cells for unavailable/future dates; the brightest of six green levels marks peak days. Dates are evaluated in Asia/Jakarta (UTC+07).
-- Latest event: public events are a limited, potentially delayed history. When PushEvent omits its message, the script fetches the event's exact head commit. No public push produces an explicit empty state. Deleted/inaccessible commits fail without silently substituting another commit.
-- Languages: every page of owned public repos is read, including forks if any. Real byte counts come from each repo's language endpoint. Top six bars are shares of the full byte total, so hidden languages can make visible percentages sum below 100%. These are code proportions, not skill ratings. Unchanged repo results are cached by `pushed_at`; Sunday runs refresh everything to pick up delayed language processing. All repo snapshots stay inside `data/languages.json`, so the requested workflow file pattern captures the cache.
-
-## 6. Inspect and verify
-
-```powershell
+python scripts/render_build_spotlight.py
+python scripts/make_info_card.py
+python scripts/make_tagline.py
+python scripts/render_readme.py
 python -m unittest discover -s tests -v
 python scripts/make_preview.py
+```
+
+`README.md` is generated by `scripts/render_readme.py`; edit that generator to change layout or copy. The same `data/builds.json` drives the card, links, profile facts, and tagline, so the links follow the featured repository automatically. Generated JSON contains source URLs and a snapshot date/time. No sample data is used on a successful refresh.
+
+The workflow commits only after **all** fetch and render steps succeed. Its auto-commit includes all live SVGs, JSON, and README links together. It retains the configured author and committer `Valentinus Filan <valentinus.filan@gmail.com>`, with no co-author trailer. Automated commits are still visible as automation in workflow history and can contribute to GitHub's contribution calendar.
+
+## What the panels measure
+
+| Panel | Source and meaning |
+| --- | --- |
+| Contribution calendar | GitHub's public contribution HTML, 53 Sunday-first weeks. Exact tooltip counts, not estimated color levels. Full account activity, including automation; private details are not accessed. Missing dates are dashed, not fake zeroes. |
+| Commit strip | Current default-branch tip of the featured repository. This is not a claim about your latest authored commit across every branch or organization. The script keeps its historical name `fetch_last_event.py`, but now reads the fresh build snapshot instead of relying on the delayed public event feed. |
+| Neofetch | Current GitHub profile name, account counts, most recently pushed eligible project, and language names. No fixed student, thesis, business, or location claims. |
+| Recent Build Spotlight | Eligible owned public repos ranked by `pushed_at`. Project title comes from its README heading, or its repository name. Description and project-site link come from GitHub repo settings. Empty metadata stays absent; it is never inferred. |
+| Activity chart | Actual commits reachable from the featured default-branch tip, by committer date, for the last 28 calendar days in Asia/Jakarta. All authors and merge commits included. Paginated history is fetched in full; a pagination or API failure aborts publication. These counts are not progress or completion percentages. |
+| Language bars | GitHub Linguist byte counts on default branches of eligible projects. Percentages are code proportions, not proficiency. Push changes invalidate a repo's cache; the first successful run each Jakarta day refreshes all language bytes to pick up delayed Linguist analysis. |
+| Tagline | Rotates current account/project/language facts from the same snapshot. |
+| Portrait | The real photograph supplied by Filan. It is an identity asset, not fetched activity. |
+
+The spotlight excludes this profile repo so its own automated pushes cannot take over the showcase. Forks, archives, disabled repos, private repos, and repositories listed in `data/profile-config.json` are also excluded from project selection and language totals. `TA_Filan_RealData` is currently excluded at your request. GitHub's account-wide counts and contribution calendar remain the actual account totals.
+
+The old mock process panel is removed. The thesis progress SVG is removed from the profile. Your hand-maintained `data/status.json` and `scripts/render_status_bar.py` are retained as unused local utilities, but the workflow no longer renders or displays thesis progress. Edit the exclusions file to change the project pool; never edit generated `builds.json` to manufacture a featured project.
+
+## Interactions and appearance
+
+The featured card opens its repository. Links underneath open the exact commit, commit history, and project site when GitHub has a valid HTTP(S) homepage. Expand **Browse more recent projects** for the next three repositories and their links. Expand **Data sources & freshness** to inspect sync time and provenance.
+
+GitHub README images cannot run interactive JavaScript or embedded application controls. Interactions are native HTML links and `<details>` disclosures; all animation stays inside self-contained SVGs. Every SVG has a title, description, light fallback, dark color-scheme styles, and reduced-motion handling. All README images have alt text. The tagline loops; other reveals play once and freeze.
+
+Preview with a local server:
+
+```powershell
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open [the local preview](http://localhost:8000/preview/) in your browser. The server is only for local inspection; there is nothing to deploy. Use browser developer tools to emulate light/dark `prefers-color-scheme` and reduced motion. GitHub can shrink images to its available content width and applies its own table cell padding. SVG intrinsic widths are 860, with a 370/490 portrait/card pair. The browser/OS color preference drives media queries inside external SVGs; a manually selected GitHub theme may differ from that preference.
+Open [the preview](http://localhost:8000/preview/). Check light/dark mode and reduced motion in browser developer tools. Intrinsic widths are 860px, with the 370/490 portrait pair; GitHub scales these to its available content width. For frozen copies without changing tracked SVGs:
 
-All SVGs have embedded light/dark CSS, title/description, and no script or external stylesheet. Every README image has alt text. The portrait, calendar, panels, commit line, and bars animate once; only the tagline loops. Reduced motion shows the final content and all four tagline phrases.
+```powershell
+python scripts/make_preview.py --static
+```
 
-For a static info-card preview:
+`STATIC=1` also works for individual generators:
 
 ```powershell
 $env:STATIC = '1'
 python scripts/make_info_card.py
 Remove-Item Env:STATIC
+python scripts/make_info_card.py
 ```
 
-That command replaces `info-card.svg` with its frozen frame. Run `python scripts/make_info_card.py` again after removing the environment variable to restore animation. `STATIC=1` is supported by every SVG generator. `make_preview.py --static` writes frozen copies under ignored `preview/static/` without replacing committed SVGs.
+## Replace the portrait later
 
-## 7. Review the local commit and publish yourself
+Source photos, processed photos, preview output, and the venv are ignored by Git. The current portrait uses the supplied PNG stored locally in `assets/filan-ascii.png`.
 
 ```powershell
+python -m pip install -r scripts/requirements-portrait.txt
+python scripts/prep_photo.py assets/filan-ascii.png
+python scripts/make_ascii_svg.py
+```
+
+The pipeline removes the background with the explicit `u2net_human_seg` model, applies CLAHE contrast, composites onto white, then saves grayscale `assets/portrait-gray.png`. The model downloads on first use. Only `filan-ascii.svg` is published; heavy portrait dependencies are not installed in the recurring workflow.
+
+## Commit and publish future edits
+
+```powershell
+git diff --check
 git status
-git log -1 --format=fuller
-git remote -v
+git add <intended-files>
+git commit -m "Update profile"
+git push origin main
 ```
 
-The local repository uses `Valentinus Filan <valentinus.filan@gmail.com>` as author and committer, with no co-author trailer. Verify that email belongs to your GitHub account: attribution comes from commit metadata, not who presses Push. The workflow also uses this identity; GitHub Actions still performs the automated push when you enable it.
+Inspect [the workflow](https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml) after publishing. Scheduled workflows may be disabled after prolonged repository inactivity; the Actions page shows failures or disabled scheduling. You can always request a manual run there.
 
-Create an **empty public** repository named **filan214** under your GitHub account (do not initialize a README, license, or .gitignore). The local origin is prepared as `https://github.com/filan214/filan214.git`. Then, when you are ready:
-
-```powershell
-git push -u origin main
-```
-
-This is your step; it has not been run for you. If you make local edits after the initial commit, first stage the intended files and commit them yourself.
-
-The first push containing `.github/workflows/update-profile-art.yml` starts the workflow if Actions are enabled. It subsequently runs daily at 07:17 Jakarta, on pushes to `main`, and from **Actions → Update profile art → Run workflow**. It installs only requests/BeautifulSoup, runs data/renderer tests, refreshes the three feeds, and renders your manual thesis bar. `contents: write` lets the auto-commit action save the generated files. The commit message includes `[skip ci]` to avoid a refresh loop. Branch protection may require allowing these updates. GitHub can delay scheduled runs or disable schedules in inactive public repositories.
-
-To review the published README before any workflow runs, disable Actions for the new repository before your initial push, inspect the profile, then enable Actions and run the workflow manually. No workflow or remote repository was enabled by the local build.
-
-Reference: [GitHub profile README setup](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme), [event payloads](https://docs.github.com/en/rest/using-the-rest-api/github-event-types), [repository languages](https://docs.github.com/en/rest/repos/repos#list-repository-languages), [API rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api), and [auto-commit action inputs](https://github.com/stefanzweifel/git-auto-commit-action/tree/v5).
+References: [repository API](https://docs.github.com/en/rest/repos/repos), [commit API](https://docs.github.com/en/rest/commits/commits), [API rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api), [scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [SVG image restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image).

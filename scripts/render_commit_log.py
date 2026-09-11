@@ -7,12 +7,12 @@ def render(data):
     event = data.get("event")
     if event:
         line = f"{event['sha'][:7]}  {event['repo']}  {event['message']}"
-        desc = f"Latest available public push on {event['created_at']}: {line}"
+        desc = f"Featured repository default-branch tip, commit date {event['created_at']}: {line}"
     else:
-        line = "No public push in the available event window."
+        line = "No eligible public project commit available."
         desc = line
     body = rect(.5, .5, 859, 49, "bg", 10)
-    body += text(20, 30, "$ git log --oneline -1", "accent", 10.5)
+    body += text(20, 30, "$ featured: git log -1", "accent", 10.5)
     content = text(178, 30, shorten(line, 98), "", 10.5)
     # Fixed-step SMIL gives a character-by-character terminal reveal.
     revealed = wipe("commit-line", 178, 10, 662, 30, content, duration=1.8)
@@ -22,7 +22,7 @@ def render(data):
     import re
     revealed = re.sub(r'values="[^"]+" keyTimes="[^"]+"', f'values="{values}" keyTimes="{times}" calcMode="discrete"', revealed)
     body += revealed
-    return svg(860, 50, "Latest public commit", desc, body)
+    return svg(860, 50, "Featured repository commit", desc, body)
 
 
 if __name__ == "__main__":

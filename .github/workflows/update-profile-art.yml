@@ -2,7 +2,7 @@ name: Update profile art
 
 on:
   schedule:
-    - cron: '17 0 * * *' # 07:17 Asia/Jakarta; GitHub schedules use UTC.
+    - cron: '17 * * * *' # Hourly at minute 17; scheduling may be delayed by GitHub.
   workflow_dispatch:
   push:
     branches: [main]
@@ -31,11 +31,13 @@ jobs:
         run: python -m pip install -r scripts/requirements.txt
       - name: Check data and renderer contracts
         run: python -m unittest discover -s tests -v
+      - name: Fetch current public projects and profile
+        run: python scripts/fetch_builds.py
       - name: Refresh contributions
         run: |
           python scripts/fetch_contributions.py
           python scripts/render_heatmap_svg.py
-      - name: Refresh latest public push
+      - name: Refresh featured repository commit
         run: |
           python scripts/fetch_last_event.py
           python scripts/render_commit_log.py
@@ -43,12 +45,16 @@ jobs:
         run: |
           python scripts/fetch_languages.py
           python scripts/render_languages_svg.py
-      - name: Render manually maintained thesis status
-        run: python scripts/render_status_bar.py
+      - name: Render live project panels and navigation
+        run: |
+          python scripts/render_build_spotlight.py
+          python scripts/make_info_card.py
+          python scripts/make_tagline.py
+          python scripts/render_readme.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: refresh profile art [skip ci]'
-          file_pattern: 'data/*.json contrib-heatmap.svg commit-log.svg languages.svg thesis-progress.svg'
+          file_pattern: 'data/*.json README.md contrib-heatmap.svg commit-log.svg languages.svg recent-build.svg info-card.svg tagline.svg'
           commit_user_name: Valentinus Filan
           commit_user_email: valentinus.filan@gmail.com
           commit_author: Valentinus Filan <valentinus.filan@gmail.com>

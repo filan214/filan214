@@ -1,7 +1,7 @@
-"""Resolve the latest available public PushEvent and its exact head commit."""
+"""Write the featured repo's current tip; retain the exact-event parser for tools."""
 from urllib.parse import quote
 
-from common import API, DATA, USERNAME, GitHub, run, today, write_json
+from common import API, DATA, USERNAME, read_json, run, write_json
 
 
 def latest_push(events, get_json):
@@ -25,15 +25,11 @@ def latest_push(events, get_json):
 
 
 def main():
-    client = GitHub()
-    source = f"{API}/users/{USERNAME}/events/public"
-    commit = None
-    for events in client.pages(source, max_pages=3):
-        commit = latest_push(events, client.json)
-        if commit:
-            break
-    write_json(DATA / "last-event.json", {"username": USERNAME, "as_of": today().isoformat(), "source": source, "event": commit})
-    print("Fetched latest public push" if commit else "No PushEvent in GitHub's available public event window")
+    builds = read_json(DATA / "builds.json")
+    commit = builds["projects"][0]["commit"] if builds["projects"] else None
+    write_json(DATA / "last-event.json", {"username": USERNAME, "as_of": builds["as_of"], "fetched_at": builds["fetched_at"],
+               "source": commit["url"] if commit else builds["source"], "scope": "Featured repository default-branch tip", "event": commit})
+    print("Resolved featured repository tip" if commit else "No eligible project commit available")
 
 
 if __name__ == "__main__":

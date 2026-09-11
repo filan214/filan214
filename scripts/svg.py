@@ -69,7 +69,7 @@ def wipe(identifier, x, y, width, height, content, delay=0, duration=.8):
             f'</rect></clipPath></defs><g class="wipe" clip-path="url(#{identifier})">{content}</g>')
 
 
-def svg(width, height, title, desc, body, css=""):
+def svg(width, height, title, desc, body, css="", styles=""):
     static = os.environ.get("STATIC") == "1"
     if static:
         body = re.sub(r'<animate(?:Transform)?\b[^>]*/>', '', body)
@@ -78,7 +78,7 @@ def svg(width, height, title, desc, body, css=""):
         animation = MOTION + css + REDUCED
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">\n'
             f'<title id="title">{esc(title)}</title>\n<desc id="desc">{esc(desc)}</desc>\n'
-            f'<style>{THEME}{animation}</style>\n{body}\n</svg>\n')
+            f'<style>{THEME}{styles}{animation}</style>\n{body}\n</svg>\n')
 
 
 def save(name, content):
