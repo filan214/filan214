@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="420" viewBox="0 0 490 420" role="img" aria-labelledby="title desc">
+<title id="title">About filan214</title>
+<desc id="desc">Now: Final-semester Information Systems student, UAJY; Focus: Data Analytics → Data Science / AI Engineering; Building: Freelance web/mobile dev, Jogja Ride Premium; Stack: Python, SQL, Next.js, Tailwind, Drizzle ORM, PostgreSQL, Power BI; Highlight: Thesis — SARIMA 0.83% MAPE vs RF 2.95% / LSTM 4.62%, Streamlit DSS dashboard</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="489" height="419" rx="12" class="bg" /><text x="22" y="27" class="accent bold" >$</text><text x="38" y="27" class="muted small" >neofetch</text><text x="468" y="27" class="muted tiny" text-anchor="end">profile / 02</text><path d="M20 42H470" class="line"/><text x="22" y="78" class="accent bold" style="font-size:21px" >filan214</text><text x="134" y="78" class="muted" style="font-size:13px" >@ yogyakarta</text><text x="22" y="99" class="muted small" >information systems · data · things that work</text><g class="enter" style="animation-delay:0.00s"><text x="22" y="132" class="cyan bold" style="font-size:11px" >now</text><text x="105" y="132" class="" style="font-size:11.5px" >Final-semester Information Systems student, UAJY</text></g><g class="enter" style="animation-delay:0.13s"><text x="22" y="163" class="cyan bold" style="font-size:11px" >focus</text><text x="105" y="163" class="" style="font-size:11.5px" >Data Analytics → Data Science / AI Engineering</text></g><g class="enter" style="animation-delay:0.26s"><text x="22" y="194" class="cyan bold" style="font-size:11px" >building</text><text x="105" y="194" class="" style="font-size:11.5px" >Freelance web/mobile dev, Jogja Ride Premium</text></g><g class="enter" style="animation-delay:0.39s"><text x="22" y="225" class="cyan bold" style="font-size:11px" >stack</text><text x="105" y="225" class="" style="font-size:11.5px" >Python, SQL, Next.js, Tailwind, Drizzle ORM,</text><text x="105" y="243" class="" style="font-size:11.5px" >PostgreSQL, Power BI</text></g><g class="enter" style="animation-delay:0.52s"><text x="22" y="274" class="cyan bold" style="font-size:11px" >highlight</text><text x="105" y="274" class="" style="font-size:11.5px" >Thesis — SARIMA 0.83% MAPE vs RF 2.95% / LSTM</text><text x="105" y="292" class="" style="font-size:11.5px" >4.62%, Streamlit DSS dashboard</text></g><rect x="22" y="381" width="16" height="9" rx="2" class="ink" /><rect x="44" y="381" width="16" height="9" rx="2" class="muted" /><rect x="66" y="381" width="16" height="9" rx="2" class="cyan" /><rect x="88" y="381" width="16" height="9" rx="2" class="accent" /><rect x="110" y="381" width="16" height="9" rx="2" class="amber" /><rect x="132" y="381" width="16" height="9" rx="2" class="p3" /><text x="468" y="391" class="muted tiny" text-anchor="end">always learning_</text>
+</svg>

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.svg linguist-generated=true
+data/contributions.json linguist-generated=true
+data/last-event.json linguist-generated=true
+data/languages.json linguist-generated=true

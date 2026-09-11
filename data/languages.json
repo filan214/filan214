@@ -1,0 +1,191 @@
+{
+  "username": "filan214",
+  "as_of": "2026-09-12",
+  "source": "https://api.github.com/users/filan214/repos",
+  "repo_count": 15,
+  "total_bytes": 2958290,
+  "languages": [
+    {
+      "name": "TypeScript",
+      "bytes": 1476933,
+      "percent": 49.93
+    },
+    {
+      "name": "PHP",
+      "bytes": 482850,
+      "percent": 16.32
+    },
+    {
+      "name": "Blade",
+      "bytes": 325500,
+      "percent": 11.0
+    },
+    {
+      "name": "Python",
+      "bytes": 298638,
+      "percent": 10.09
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 200164,
+      "percent": 6.77
+    },
+    {
+      "name": "HTML",
+      "bytes": 66242,
+      "percent": 2.24
+    },
+    {
+      "name": "CSS",
+      "bytes": 46938,
+      "percent": 1.59
+    },
+    {
+      "name": "Shell",
+      "bytes": 42202,
+      "percent": 1.43
+    },
+    {
+      "name": "Perl",
+      "bytes": 9452,
+      "percent": 0.32
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 9371,
+      "percent": 0.32
+    }
+  ],
+  "repos": {
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-08-11T05:06:37Z",
+      "languages": {
+        "TypeScript": 305208,
+        "HTML": 65343,
+        "CSS": 2775,
+        "PLpgSQL": 2264,
+        "JavaScript": 81
+      }
+    },
+    "filan214/CaloriesTracker": {
+      "pushed_at": "2026-07-18T08:38:12Z",
+      "languages": {
+        "JavaScript": 132012,
+        "CSS": 17823,
+        "HTML": 899
+      }
+    },
+    "filan214/epl-season-forecast": {
+      "pushed_at": "2026-07-24T10:40:43Z",
+      "languages": {
+        "Python": 115976,
+        "TypeScript": 11351,
+        "PLpgSQL": 4411,
+        "CSS": 4168,
+        "JavaScript": 562
+      }
+    },
+    "filan214/F1---2026-Car-Details": {
+      "pushed_at": "2026-09-11T16:58:17Z",
+      "languages": {
+        "JavaScript": 26672,
+        "Python": 4225
+      }
+    },
+    "filan214/FinTrack": {
+      "pushed_at": "2026-05-15T14:37:57Z",
+      "languages": {
+        "TypeScript": 127597,
+        "PLpgSQL": 2696,
+        "CSS": 812,
+        "JavaScript": 559
+      }
+    },
+    "filan214/FormWAtch-Football": {
+      "pushed_at": "2026-06-23T18:20:26Z",
+      "languages": {
+        "TypeScript": 184606,
+        "Python": 124562,
+        "CSS": 6610,
+        "JavaScript": 559
+      }
+    },
+    "filan214/FullHelpdeskl": {
+      "pushed_at": "2026-02-09T14:21:38Z",
+      "languages": {
+        "TypeScript": 177669,
+        "Blade": 98039,
+        "PHP": 86328,
+        "Shell": 21101,
+        "Perl": 4726,
+        "CSS": 1638,
+        "JavaScript": 1017
+      }
+    },
+    "filan214/Helpdesk-frntend": {
+      "pushed_at": "2026-02-03T03:11:28Z",
+      "languages": {
+        "TypeScript": 90068,
+        "CSS": 1248,
+        "JavaScript": 559
+      }
+    },
+    "filan214/Helpdeskfulldone": {
+      "pushed_at": "2026-02-23T09:34:25Z",
+      "languages": {
+        "TypeScript": 185839,
+        "Blade": 98039,
+        "PHP": 88894,
+        "Shell": 21101,
+        "Perl": 4726,
+        "CSS": 1638,
+        "JavaScript": 1017
+      }
+    },
+    "filan214/JogjaRideSmart": {
+      "pushed_at": "2026-05-19T16:16:46Z",
+      "languages": {
+        "TypeScript": 247038,
+        "CSS": 1824,
+        "JavaScript": 282
+      }
+    },
+    "filan214/POS": {
+      "pushed_at": "2026-08-24T10:04:56Z",
+      "languages": {
+        "PHP": 307628,
+        "Blade": 129422,
+        "JavaScript": 31514,
+        "CSS": 4889
+      }
+    },
+    "filan214/Savor": {
+      "pushed_at": "2026-08-11T06:02:26Z",
+      "languages": {
+        "TypeScript": 83941,
+        "JavaScript": 4725,
+        "CSS": 429
+      }
+    },
+    "filan214/TA_Filan_RealData": {
+      "pushed_at": "2026-06-25T06:48:47Z",
+      "languages": {
+        "Python": 17039
+      }
+    },
+    "filan214/Transfer-Globe": {
+      "pushed_at": "2026-07-17T18:07:47Z",
+      "languages": {
+        "TypeScript": 63616,
+        "CSS": 3084,
+        "JavaScript": 605
+      }
+    },
+    "filan214/WC-prediction": {
+      "pushed_at": "2026-07-14T06:58:57Z",
+      "languages": {
+        "Python": 36836
+      }
+    }
+  }
+}

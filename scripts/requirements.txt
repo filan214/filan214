@@ -1,0 +1,4 @@
+requests==2.32.3
+beautifulsoup4==4.12.3
+# Portrait-only: pillow, numpy, opencv-python, rembg.
+# Install scripts/requirements-portrait.txt locally; daily cron skips these.

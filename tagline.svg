@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="50" viewBox="0 0 860 50" role="img" aria-labelledby="title desc">
+<title id="title">The many hats of filan214</title>
+<desc id="desc">IS student; thesis researcher; freelance dev; weekend driver</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+.tag-static{display:none}.tag-word{clip-path:inset(0 100% 0 0);transform-box:fill-box}@keyframes type0 {0%,0% {clip-path:inset(0 100% 0 0)}7%,19% {clip-path:inset(0 0 0 0)}24%,100% {clip-path:inset(0 100% 0 0)}}.word0 {animation:type0 16s steps(10,end) infinite}@keyframes type1 {0%,25% {clip-path:inset(0 100% 0 0)}32%,44% {clip-path:inset(0 0 0 0)}49%,100% {clip-path:inset(0 100% 0 0)}}.word1 {animation:type1 16s steps(17,end) infinite}@keyframes type2 {0%,50% {clip-path:inset(0 100% 0 0)}57%,69% {clip-path:inset(0 0 0 0)}74%,100% {clip-path:inset(0 100% 0 0)}}.word2 {animation:type2 16s steps(13,end) infinite}@keyframes type3 {0%,75% {clip-path:inset(0 100% 0 0)}82%,94% {clip-path:inset(0 0 0 0)}99%,100% {clip-path:inset(0 100% 0 0)}}.word3 {animation:type3 16s steps(14,end) infinite}
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="859" height="49" rx="10" class="bg" /><text x="22" y="30" class="accent" style="font-size:11px" >$ whoami</text><g class="tag-cycle"><text x="115" y="30" class="tag-word word0" style="font-size:12px" >IS student_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word1" style="font-size:12px" >thesis researcher_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word2" style="font-size:12px" >freelance dev_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word3" style="font-size:12px" >weekend driver_</text></g><text x="115" y="30" class="tag-static" style="font-size:11px" >IS student / thesis researcher / freelance dev / weekend driver</text><text x="838" y="30" class="muted small" text-anchor="end">Yogyakarta, ID</text>
+</svg>
