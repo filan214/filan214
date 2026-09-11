@@ -2,58 +2,58 @@
   "username": "filan214",
   "as_of": "2026-09-12",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 15,
-  "total_bytes": 2958290,
+  "repo_count": 16,
+  "total_bytes": 3004641,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1476933,
-      "percent": 49.93
+      "percent": 49.16
     },
     {
       "name": "PHP",
       "bytes": 482850,
-      "percent": 16.32
+      "percent": 16.07
+    },
+    {
+      "name": "Python",
+      "bytes": 344989,
+      "percent": 11.48
     },
     {
       "name": "Blade",
       "bytes": 325500,
-      "percent": 11.0
-    },
-    {
-      "name": "Python",
-      "bytes": 298638,
-      "percent": 10.09
+      "percent": 10.83
     },
     {
       "name": "JavaScript",
       "bytes": 200164,
-      "percent": 6.77
+      "percent": 6.66
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.24
+      "percent": 2.2
     },
     {
       "name": "CSS",
       "bytes": 46938,
-      "percent": 1.59
+      "percent": 1.56
     },
     {
       "name": "Shell",
       "bytes": 42202,
-      "percent": 1.43
+      "percent": 1.4
     },
     {
       "name": "Perl",
       "bytes": 9452,
-      "percent": 0.32
+      "percent": 0.31
     },
     {
       "name": "PLpgSQL",
       "bytes": 9371,
-      "percent": 0.32
+      "percent": 0.31
     }
   ],
   "repos": {
@@ -90,6 +90,12 @@
       "languages": {
         "JavaScript": 26672,
         "Python": 4225
+      }
+    },
+    "filan214/filan214": {
+      "pushed_at": "2026-09-11T18:12:08Z",
+      "languages": {
+        "Python": 46351
       }
     },
     "filan214/FinTrack": {
