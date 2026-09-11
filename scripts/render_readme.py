@@ -24,8 +24,8 @@ def render(data):
              image("commit-log", "The featured repository's actual default-branch tip commit", url=project["commit"]["url"] if project else ""), '<br>',
              '<h3>filan214@github:~$ neofetch --github</h3>',
              '<table align="center" width="860" cellpadding="0" cellspacing="0"><tr>',
-             '<td width="370" align="center">' + image("filan-ascii", "Animated ASCII portrait of Filan from the supplied photograph", 370) + '</td>',
-             '<td width="490" align="center">' + image("info-card", "GitHub profile, real repository counts, latest project, and code languages", 490, "https://github.com/filan214?tab=repositories") + '</td>',
+             '<td width="43%" align="center">' + image("filan-ascii", "Animated ASCII portrait of Filan from the supplied photograph", 370) + '</td>',
+             '<td width="57%" align="center">' + image("info-card", "GitHub profile, real repository counts, latest project, and code languages", 490, "https://github.com/filan214?tab=repositories") + '</td>',
              '</tr></table>', '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
              image("recent-build", "Recent Build Spotlight: " + (project["title"] + ", measured commit activity and language bytes. Open the repository." if project else "No eligible public projects."), url=project["url"] if project else "")]
     if project:

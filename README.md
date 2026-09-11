@@ -16,9 +16,9 @@
 
 <table align="center" width="860" cellpadding="0" cellspacing="0"><tr>
 
-<td width="370" align="center"><img src="./filan-ascii.svg" width="370" alt="Animated ASCII portrait of Filan from the supplied photograph"></td>
+<td width="43%" align="center"><img src="./filan-ascii.svg" width="370" alt="Animated ASCII portrait of Filan from the supplied photograph"></td>
 
-<td width="490" align="center"><a href="https://github.com/filan214?tab=repositories"><img src="./info-card.svg" width="490" alt="GitHub profile, real repository counts, latest project, and code languages"></a></td>
+<td width="57%" align="center"><a href="https://github.com/filan214?tab=repositories"><img src="./info-card.svg" width="490" alt="GitHub profile, real repository counts, latest project, and code languages"></a></td>
 
 </tr></table>
 
