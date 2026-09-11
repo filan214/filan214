@@ -25,7 +25,11 @@ def main():
         outputs = {
             "contrib-heatmap.svg": heatmap(read_json(DATA / "contributions.json")),
             "commit-log.svg": commit(read_json(DATA / "last-event.json")),
-            "filan-ascii.svg": portrait(ROOT / "assets" / "filan-ascii.jpg"),
+            "filan-ascii.svg": portrait(
+                ROOT / "assets" / "portrait-gray.png"
+                if (ROOT / "assets" / "portrait-gray.png").exists()
+                else ROOT / "assets" / "filan-ascii.jpg"
+            ),
             "info-card.svg": info(), "status-panel.svg": processes(),
             "thesis-progress.svg": status(read_json(DATA / "status.json")),
             "languages.svg": languages(read_json(DATA / "languages.json")),

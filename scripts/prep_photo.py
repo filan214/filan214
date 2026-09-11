@@ -10,10 +10,13 @@ def prepare(source, output):
     import cv2
     import numpy as np
     from PIL import Image, ImageOps
-    from rembg import remove
+    from rembg import new_session, remove
 
     with Image.open(source) as photo:
-        rgba = remove(ImageOps.exif_transpose(photo).convert("RGBA")).convert("RGBA")
+        # The human-segmentation model is smaller and better suited to portraits
+        # than rembg's large general-purpose default.
+        session = new_session("u2net_human_seg")
+        rgba = remove(ImageOps.exif_transpose(photo).convert("RGBA"), session=session).convert("RGBA")
     pixels = np.asarray(rgba)
     lab = cv2.cvtColor(pixels[:, :, :3], cv2.COLOR_RGB2LAB)
     lab[:, :, 0] = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8)).apply(lab[:, :, 0])

@@ -60,7 +60,7 @@ python scripts/prep_photo.py 'C:\path\to\your-source-photo.jpg'
 python scripts/make_ascii_svg.py
 ```
 
-The pipeline removes the background with rembg, boosts luminance contrast using CLAHE, composites onto white, and saves `assets/portrait-gray.png`. rembg downloads its model on first use. The CPU extra provides the ONNX runtime. Portrait dependencies and model downloads are excluded from daily CI.
+The pipeline removes the background with rembg's portrait-specific `u2net_human_seg` model, boosts luminance contrast using CLAHE, composites onto white, and saves `assets/portrait-gray.png`. rembg downloads its model on first use. The CPU extra provides the ONNX runtime. Portrait dependencies and model downloads are excluded from daily CI.
 
 ## 4. Build the other static panels
 
