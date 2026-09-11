@@ -64,7 +64,7 @@
 
 <details><summary>Data sources &amp; freshness</summary>
 
-<p>Last successful sync: <strong>12 Sep 2026 · 01:29 WIB</strong>. Scheduled hourly, with manual refresh available. GitHub schedules, contribution processing, and image caches can delay updates.</p>
+<p>Last successful sync: <strong>12 Sep 2026 · 01:45 WIB</strong>. Scheduled hourly, with manual refresh available. GitHub schedules, contribution processing, and image caches can delay updates.</p>
 
 <p>Project selection and languages exclude this profile repository, configured exclusions, forks, and archives. The contribution calendar and account counts reflect the full public GitHub profile, including automation. Commit dates describe repository history; they do not prove a release or personal completion.</p>
 
