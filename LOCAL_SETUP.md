@@ -20,6 +20,7 @@ Run in this order. Stop if any command fails; do not publish a partially refresh
 
 ```powershell
 python scripts/fetch_builds.py
+python scripts/fetch_commit_stream.py
 python scripts/fetch_contributions.py
 python scripts/render_heatmap_svg.py
 python scripts/fetch_last_event.py
@@ -27,6 +28,8 @@ python scripts/render_commit_log.py
 python scripts/fetch_languages.py
 python scripts/render_languages_svg.py
 python scripts/render_build_spotlight.py
+python scripts/render_repo_sparklines.py
+python scripts/render_commit_stream.py
 python scripts/make_info_card.py
 python scripts/make_tagline.py
 python scripts/render_readme.py
@@ -47,6 +50,8 @@ The workflow commits only after **all** fetch and render steps succeed. Its auto
 | Neofetch | Current GitHub profile name, account counts, most recently pushed eligible project, and language names. No fixed student, thesis, business, or location claims. |
 | Recent Build Spotlight | Eligible owned public repos ranked by `pushed_at`. Project title comes from its README heading, or its repository name. Description and project-site link come from GitHub repo settings. Empty metadata stays absent; it is never inferred. |
 | Activity chart | Actual commits reachable from the featured default-branch tip, by committer date, for the last 28 calendar days in Asia/Jakarta. All authors and merge commits included. Paginated history is fetched in full; a pagination or API failure aborts publication. These counts are not progress or completion percentages. |
+| Per-repository sparklines | The same 28-day history is fetched for every repository shown in the `ps --repos` table. Each thin line is scaled to that repo's own peak, with total commits and peak/day labels. Zero activity is a flat baseline. Sparkline files occupy four stable slots and are regenerated when projects change. |
+| Cross-repository stream | Up to ten most recent available public `PushEvent`s by filan214, across repositories and branches. Each row is the exact head commit of one push, ordered by push time. This is not a full clone's `git log --all`, a release list, or every commit within a multi-commit push. Duplicate events are removed. Events from the profile repo and configured exclusions are omitted; public contributions to other repositories can appear. |
 | Language bars | GitHub Linguist byte counts on default branches of eligible projects. Percentages are code proportions, not proficiency. Push changes invalidate a repo's cache; the first successful run each Jakarta day refreshes all language bytes to pick up delayed Linguist analysis. |
 | Tagline | Rotates current account/project/language facts from the same snapshot. |
 | Portrait | The real photograph supplied by Filan. It is an identity asset, not fetched activity. |
@@ -57,9 +62,11 @@ The old mock process panel is removed. The thesis progress SVG is removed from t
 
 ## Interactions and appearance
 
-The featured card opens its repository. Links underneath open the exact commit, commit history, and project site when GitHub has a valid HTTP(S) homepage. Expand **Browse more recent projects** for the next three repositories and their links. Expand **Data sources & freshness** to inspect sync time and provenance.
+The featured card opens its repository. Links underneath open the exact commit, commit history, and project site when GitHub has a valid HTTP(S) homepage. The visible **ps --repos** table includes the four recent repositories and a sparkline column; click a sparkline to open its commit history. The scrolling stream sits immediately below the table. Expand **Read all … pushes & open commits** for a stationary, complete log with clickable commit hashes and branch names. Expand **Data sources & freshness** to inspect sync time and provenance.
 
-GitHub README images cannot run interactive JavaScript or embedded application controls. Interactions are native HTML links and `<details>` disclosures; all animation stays inside self-contained SVGs. Every SVG has a title, description, light fallback, dark color-scheme styles, and reduced-motion handling. All README images have alt text. The tagline loops; other reveals play once and freeze.
+The GitHub Events API exposes at most 300 events in a limited recent window (currently documented as 30 days), with delays of 30 seconds to six hours. The stream displays fewer than ten pushes when that is all GitHub provides; it does not invent entries or substitute current branch tips for missing pushes. If an event's exact commit is no longer accessible, its message is explicitly marked unavailable. Transient/API/rate-limit failures abort publication. Source data is in `data/commit-stream.json`.
+
+GitHub README images cannot run interactive JavaScript or embedded application controls. Interactions are native HTML links and `<details>` disclosures; all animation stays inside self-contained SVGs. Every SVG has a title, description, light fallback, dark color-scheme styles, and reduced-motion handling. All README images have alt text. The tagline and push stream loop; other reveals play once and freeze. Reduced motion stops the stream, and the disclosure below always exposes every row. `STATIC=1` expands the SVG stream to show all rows without scrolling.
 
 Preview with a local server:
 
@@ -106,4 +113,4 @@ git push origin main
 
 Inspect [the workflow](https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml) after publishing. Scheduled workflows may be disabled after prolonged repository inactivity; the Actions page shows failures or disabled scheduling. You can always request a manual run there.
 
-References: [repository API](https://docs.github.com/en/rest/repos/repos), [commit API](https://docs.github.com/en/rest/commits/commits), [API rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api), [scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [SVG image restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image).
+References: [repository API](https://docs.github.com/en/rest/repos/repos), [commit API](https://docs.github.com/en/rest/commits/commits), [public event window and latency](https://docs.github.com/en/rest/activity/events), [API rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api), [scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [SVG image restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image).

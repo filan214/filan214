@@ -81,6 +81,14 @@ def latest_commit(client, name, branch):
             "author": commit["commit"]["author"]["name"], "branch": branch}
 
 
+def repository_activity(client, project, as_of):
+    start = datetime.combine(as_of - timedelta(days=27), datetime.min.time(), JAKARTA)
+    end = datetime.combine(as_of + timedelta(days=1), datetime.min.time(), JAKARTA)
+    params = urlencode({"sha": project["commit"]["sha"], "since": start.isoformat(), "until": end.isoformat()})
+    history = [commit for page in client.pages(f"{API}/repos/{quote(project['full_name'], safe='/')}/commits?{params}") for commit in page]
+    return activity_days(history, as_of)
+
+
 def main():
     client, as_of = GitHub(), today()
     config = read_json(DATA / "profile-config.json")
@@ -103,14 +111,9 @@ def main():
                          "language": repo.get("language"), "topics": repo.get("topics", []),
                          "pushed_at": repo["pushed_at"], "default_branch": branch,
                          "stars": repo["stargazers_count"], "forks": repo["forks_count"], "commit": commit})
-    days = []
-    if projects:
-        project = projects[0]
-        start = datetime.combine(as_of - timedelta(days=27), datetime.min.time(), JAKARTA)
-        end = datetime.combine(as_of + timedelta(days=1), datetime.min.time(), JAKARTA)
-        params = urlencode({"sha": project["commit"]["sha"], "since": start.isoformat(), "until": end.isoformat()})
-        history = [commit for page in client.pages(f"{API}/repos/{quote(project['full_name'], safe='/')}/commits?{params}") for commit in page]
-        days = activity_days(history, as_of)
+    for project in projects:
+        project["activity_days"] = repository_activity(client, project, as_of)
+    days = projects[0]["activity_days"] if projects else []
     snapshot = {"username": USERNAME, "as_of": as_of.isoformat(),
                 "fetched_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
                 "source": source, "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",

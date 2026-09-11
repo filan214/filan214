@@ -33,6 +33,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Fetch current public projects and profile
         run: python scripts/fetch_builds.py
+      - name: Fetch cross-repository public push stream
+        run: python scripts/fetch_commit_stream.py
       - name: Refresh contributions
         run: |
           python scripts/fetch_contributions.py
@@ -48,13 +50,15 @@ jobs:
       - name: Render live project panels and navigation
         run: |
           python scripts/render_build_spotlight.py
+          python scripts/render_repo_sparklines.py
+          python scripts/render_commit_stream.py
           python scripts/make_info_card.py
           python scripts/make_tagline.py
           python scripts/render_readme.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: refresh profile art [skip ci]'
-          file_pattern: 'data/*.json README.md contrib-heatmap.svg commit-log.svg languages.svg recent-build.svg info-card.svg tagline.svg'
+          file_pattern: 'data/*.json README.md contrib-heatmap.svg commit-log.svg languages.svg recent-build.svg repo-activity-*.svg commit-stream.svg info-card.svg tagline.svg'
           commit_user_name: Valentinus Filan
           commit_user_email: valentinus.filan@gmail.com
           commit_author: Valentinus Filan <valentinus.filan@gmail.com>

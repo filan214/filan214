@@ -21,6 +21,8 @@ def main():
         from render_commit_log import render as commit
         from render_heatmap_svg import render as heatmap
         from render_languages_svg import render as languages
+        from render_repo_sparklines import outputs as sparklines
+        from render_commit_stream import render as stream
         builds = read_json(DATA / "builds.json")
         language_data = read_json(DATA / "languages.json")
         outputs = {
@@ -35,6 +37,8 @@ def main():
             "recent-build.svg": spotlight(builds, language_data),
             "languages.svg": languages(language_data),
             "tagline.svg": tagline(builds, language_data),
+            "commit-stream.svg": stream(read_json(DATA / "commit-stream.json")),
+            **sparklines(builds),
         }
         target = target / "static"
         target.mkdir(exist_ok=True)

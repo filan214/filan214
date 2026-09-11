@@ -46,14 +46,15 @@ class LivePanelTests(unittest.TestCase):
         self.assertTrue(importlib.util.find_spec("render_readme"), "Dynamic README renderer is missing")
         render = importlib.import_module("render_readme").render
         from bs4 import BeautifulSoup
-        page = BeautifulSoup(render(SNAPSHOT), "html.parser")
+        stream = {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}
+        page = BeautifulSoup(render(SNAPSHOT, stream), "html.parser")
         self.assertIsNone(page.find("script"))
         self.assertTrue(page.find("details"))
         self.assertTrue(page.find("a", href="https://github.com/filan214/new-project"))
         self.assertTrue(page.find("a", href="https://example.com/?x=1&y=2"))
         self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
         changed = {**BUILD, "name": "next-build", "url": "https://github.com/filan214/next-build", "homepage": "javascript:alert(1)"}
-        page = BeautifulSoup(render({**SNAPSHOT, "projects": [changed]}), "html.parser")
+        page = BeautifulSoup(render({**SNAPSHOT, "projects": [changed]}, stream), "html.parser")
         self.assertEqual(page.find("img", src="./recent-build.svg").parent["href"], "https://github.com/filan214/next-build")
         self.assertFalse(any(a["href"].startswith("javascript:") for a in page.find_all("a", href=True)))
 
