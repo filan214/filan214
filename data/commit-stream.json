@@ -2,9 +2,29 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-09-12",
-  "fetched_at": "2026-09-12T00:17:44Z",
+  "fetched_at": "2026-09-12T05:47:06Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/epl-season-forecast",
+      "sha": "fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+      "message": "feat: eplforecast predict — per-fixture match-market forecasts",
+      "created_at": "2026-09-12T05:38:27Z",
+      "url": "https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+      "event_id": "20878327997",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/F1---2026-Car-Details",
+      "sha": "71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
+      "message": "Merge new GitHub repository history",
+      "created_at": "2026-09-11T16:58:17Z",
+      "url": "https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
+      "event_id": "20859752792",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/POS",
       "sha": "c1358f06d57e7e43c039a59da7d6a1ceea8e1886",

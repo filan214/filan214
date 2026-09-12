@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -26,21 +26,21 @@
 
 <h3>filan214@github:~$ git portfolio --latest</h3>
 
-<a href="https://github.com/filan214/F1---2026-Car-Details"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: APEX — F1 2026 Exploded View, measured commit activity and language bytes. Open the repository."></a>
+<a href="https://github.com/filan214/epl-season-forecast"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: EPL Season Forecast (2026-27), measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/F1---2026-Car-Details">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/F1---2026-Car-Details/commits">↗ Commit history</a></p>
+<p><a href="https://github.com/filan214/epl-season-forecast">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/commits">↗ Commit history</a></p>
 
 <h3>filan214@github:~$ ps --repos</h3>
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/F1---2026-Car-Details">F1---2026-Car-Details</a></td><td>JavaScript</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commits"><img src="./repo-activity-1.svg" width="180" alt="F1---2026-Car-Details: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-11</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/epl-season-forecast">epl-season-forecast</a></td><td>Python</td><td><a href="https://github.com/filan214/epl-season-forecast/commits"><img src="./repo-activity-1.svg" width="180" alt="epl-season-forecast: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-12</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/POS">POS</a></td><td>PHP</td><td><a href="https://github.com/filan214/POS/commits"><img src="./repo-activity-2.svg" width="180" alt="POS: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-08-24</td><td><a href="https://github.com/filan214/POS/commit/c1358f06d57e7e43c039a59da7d6a1ceea8e1886">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/F1---2026-Car-Details">F1---2026-Car-Details</a></td><td>JavaScript</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commits"><img src="./repo-activity-2.svg" width="180" alt="F1---2026-Car-Details: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-11</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/Savor">Savor</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/Savor/commits"><img src="./repo-activity-3.svg" width="180" alt="Savor: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-08-11</td><td><a href="https://github.com/filan214/Savor/commit/d220dfaef13f0b4f6ac502e512708c349b8f8cf8">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/POS">POS</a></td><td>PHP</td><td><a href="https://github.com/filan214/POS/commits"><img src="./repo-activity-3.svg" width="180" alt="POS: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-08-24</td><td><a href="https://github.com/filan214/POS/commit/c1358f06d57e7e43c039a59da7d6a1ceea8e1886">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-4.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-08-11</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ff9a12cc066e6cfd7c47951671ef5358d73ddda9">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/Savor">Savor</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/Savor/commits"><img src="./repo-activity-4.svg" width="180" alt="Savor: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-08-11</td><td><a href="https://github.com/filan214/Savor/commit/d220dfaef13f0b4f6ac502e512708c349b8f8cf8">Commit</a></td></tr>
 
 </table>
 
@@ -52,11 +52,15 @@
 
 <details>
 
-<summary>Read all 4 pushes &amp; open commits</summary>
+<summary>Read all 6 pushes &amp; open commits</summary>
 
 <br>
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
+
+<tr><td>2026-09-12 05:38:27</td><td><a href="https://github.com/filan214/epl-season-forecast">filan214/epl-season-forecast</a><br>main</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">fa89369</a> feat: eplforecast predict — per-fixture match-market forecasts</td></tr>
+
+<tr><td>2026-09-11 16:58:17</td><td><a href="https://github.com/filan214/F1---2026-Car-Details">filan214/F1---2026-Car-Details</a><br>main</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">71fafa7</a> Merge new GitHub repository history</td></tr>
 
 <tr><td>2026-08-24 10:03:28</td><td><a href="https://github.com/filan214/POS">filan214/POS</a><br>main</td><td><a href="https://github.com/filan214/POS/commit/c1358f06d57e7e43c039a59da7d6a1ceea8e1886">c1358f0</a> Finalize session progress and handoff</td></tr>
 
@@ -70,7 +74,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 12 Sep 2026 · 07:17 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 12 Sep 2026 · 12:47 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -88,7 +92,7 @@
 
 <details><summary>Data sources &amp; freshness</summary>
 
-<p>Last successful sync: <strong>12 Sep 2026 · 07:17 WIB</strong>. Scheduled hourly, with manual refresh available. GitHub schedules, contribution processing, and image caches can delay updates.</p>
+<p>Last successful sync: <strong>12 Sep 2026 · 12:47 WIB</strong>. Scheduled hourly, with manual refresh available. GitHub schedules, contribution processing, and image caches can delay updates.</p>
 
 <p>Project selection and languages exclude this profile repository, configured exclusions, forks, and archives. The contribution calendar and account counts reflect the full public GitHub profile, including automation. Commit dates describe repository history; they do not prove a release or personal completion.</p>
 

@@ -3,42 +3,42 @@
   "as_of": "2026-09-12",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 14,
-  "total_bytes": 2941251,
+  "total_bytes": 2950759,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1476933,
-      "percent": 50.21
+      "percent": 50.05
     },
     {
       "name": "PHP",
       "bytes": 482850,
-      "percent": 16.42
+      "percent": 16.36
     },
     {
       "name": "Blade",
       "bytes": 325500,
-      "percent": 11.07
+      "percent": 11.03
     },
     {
       "name": "Python",
-      "bytes": 281599,
-      "percent": 9.57
+      "bytes": 291107,
+      "percent": 9.87
     },
     {
       "name": "JavaScript",
       "bytes": 200164,
-      "percent": 6.81
+      "percent": 6.78
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.25
+      "percent": 2.24
     },
     {
       "name": "CSS",
       "bytes": 46938,
-      "percent": 1.6
+      "percent": 1.59
     },
     {
       "name": "Shell",
@@ -57,6 +57,16 @@
     }
   ],
   "repos": {
+    "filan214/epl-season-forecast": {
+      "pushed_at": "2026-09-12T05:38:27Z",
+      "languages": {
+        "Python": 125484,
+        "TypeScript": 11351,
+        "PLpgSQL": 4411,
+        "CSS": 4168,
+        "JavaScript": 562
+      }
+    },
     "filan214/F1---2026-Car-Details": {
       "pushed_at": "2026-09-11T16:58:17Z",
       "languages": {
@@ -89,16 +99,6 @@
         "CSS": 2775,
         "PLpgSQL": 2264,
         "JavaScript": 81
-      }
-    },
-    "filan214/epl-season-forecast": {
-      "pushed_at": "2026-07-24T10:40:43Z",
-      "languages": {
-        "Python": 115976,
-        "TypeScript": 11351,
-        "PLpgSQL": 4411,
-        "CSS": 4168,
-        "JavaScript": 562
       }
     },
     "filan214/CaloriesTracker": {
