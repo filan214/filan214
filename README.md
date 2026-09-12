@@ -103,3 +103,11 @@
 </details>
 
 </div>
+
+### Sports Analytics & Forecasting
+
+I connect league-season forecasting in [epl-season-forecast](https://github.com/filan214/epl-season-forecast) (in development), World Cup final modeling in [WC-prediction](https://github.com/filan214/WC-prediction), and player-form analysis in [FormWAtch-Football](https://github.com/filan214/FormWAtch-Football). Across these three football datasets, I apply the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.
+
+### Building for a real business
+
+[JogjaRideSmart](https://github.com/filan214/JogjaRideSmart) is the frontend project for Jogja Ride Premium, my real weekend SUV transport business in Yogyakarta.

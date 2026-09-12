@@ -64,7 +64,11 @@ def render(data, stream):
               '<p>Project selection and languages exclude this profile repository, configured exclusions, forks, and archives. The contribution calendar and account counts reflect the full public GitHub profile, including automation. Commit dates describe repository history; they do not prove a release or personal completion.</p>',
               '<p>The photograph is supplied by Filan. All displayed activity and code statistics come from GitHub. Failed refreshes leave the previous successful snapshot and its timestamp visible.</p>',
               '<p>' + link("https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml", "Refresh workflow") + ' · ' + link("https://github.com/filan214/filan214/blob/main/data/builds.json", "Project snapshot") + ' · ' + link("https://github.com/filan214/filan214/blob/main/data/contributions.json", "Contribution data") + ' · ' + link("https://github.com/filan214/filan214/blob/main/data/languages.json", "Language data") + '</p>',
-              '</details>', '</div>']
+              '</details>', '</div>',
+              '### Sports Analytics & Forecasting',
+              'I connect league-season forecasting in [epl-season-forecast](https://github.com/filan214/epl-season-forecast) (in development), World Cup final modeling in [WC-prediction](https://github.com/filan214/WC-prediction), and player-form analysis in [FormWAtch-Football](https://github.com/filan214/FormWAtch-Football). Across these three football datasets, I apply the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.',
+              '### Building for a real business',
+              '[JogjaRideSmart](https://github.com/filan214/JogjaRideSmart) is the frontend project for Jogja Ride Premium, my real weekend SUV transport business in Yogyakarta.']
     return '\n\n'.join(parts) + '\n'
 
 
