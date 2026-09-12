@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250" role="img" aria-labelledby="title desc">
+<title id="title">Data sources and freshness — recorded sync times</title>
+<desc id="desc">Scheduled hourly at minute 17, plus pushes to main and manual refresh. 01 / PROJECTS fetched 2026-09-12T08:35:30Z; 02 / PUSH STREAM fetched 2026-09-12T08:35:31Z; 03 / SPOTLIGHTS fetched 2026-09-12T09:06:01Z. Contributions as of 2026-09-12; language snapshot 2026-09-12. These are recorded snapshot times, not a live connection. Schedules, GitHub processing, and image caches can delay updates. A failed workflow does not publish a new snapshot.</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="859" height="249" rx="12" class="bg" /><text x="22" y="27" class="accent bold" >$</text><text x="38" y="27" class="muted small" >sources --inspect</text><text x="838" y="27" class="muted tiny" text-anchor="end">DATA SOURCES &amp; FRESHNESS</text><path d="M20 42H840" class="line"/><text x="28" y="80" class="bold" style="font-size:22px" >Public data. Visible provenance.</text><rect x="663" y="57" width="169" height="30" rx="15" class="panel" /><text x="747" y="77" class="cyan bold" style="font-size:11px" text-anchor="middle">HOURLY · :17</text><g class="enter" style="animation-delay:0.0s"><rect x="28" y="104" width="256" height="64" rx="8" class="panel" /><text x="42" y="128" class="cyan bold" style="font-size:10px" >01 / PROJECTS</text><text x="42" y="151" class="" style="font-size:10px" >12 Sep 2026 · 15:35 WIB</text></g><g class="enter" style="animation-delay:0.12s"><rect x="302" y="104" width="256" height="64" rx="8" class="panel" /><text x="316" y="128" class="cyan bold" style="font-size:10px" >02 / PUSH STREAM</text><text x="316" y="151" class="" style="font-size:10px" >12 Sep 2026 · 15:35 WIB</text></g><g class="enter" style="animation-delay:0.24s"><rect x="576" y="104" width="256" height="64" rx="8" class="panel" /><text x="590" y="128" class="cyan bold" style="font-size:10px" >03 / SPOTLIGHTS</text><text x="590" y="151" class="" style="font-size:10px" >12 Sep 2026 · 16:06 WIB</text></g><text x="28" y="194" class="muted" style="font-size:10px" >Calendar as of 2026-09-12</text><text x="832" y="194" class="muted" style="font-size:10px" text-anchor="end">Languages snapshot 2026-09-12</text><path d="M28 208H832" class="line"/><text x="28" y="231" class="muted" style="font-size:10px" >GitHub → fetched snapshot → SVG + README</text><text x="832" y="231" class="cyan" style="font-size:10px" text-anchor="end">Sources &amp; refresh details below ↓</text>
+</svg>

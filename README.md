@@ -90,24 +90,66 @@
 
 <br>
 
-<details><summary>Data sources &amp; freshness</summary>
+<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
 
-<p>Last successful sync: <strong>12 Sep 2026 · 15:35 WIB</strong>. Scheduled hourly, with manual refresh available. GitHub schedules, contribution processing, and image caches can delay updates.</p>
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
 
-<p>Project selection and languages exclude this profile repository, configured exclusions, forks, and archives. The contribution calendar and account counts reflect the full public GitHub profile, including automation. Commit dates describe repository history; they do not prove a release or personal completion.</p>
+<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
 
-<p>The photograph is supplied by Filan. All displayed activity and code statistics come from GitHub. Failed refreshes leave the previous successful snapshot and its timestamp visible.</p>
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/ff9a12cc066e6cfd7c47951671ef5358d73ddda9">↗ Latest source commit</a></p>
 
-<p><a href="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml">Refresh workflow</a> · <a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Project snapshot</a> · <a href="https://github.com/filan214/filan214/blob/main/data/contributions.json">Contribution data</a> · <a href="https://github.com/filan214/filan214/blob/main/data/languages.json">Language data</a></p>
+<br>
+
+<h3>filan214@github:~$ showcase --football · Sports Analytics &amp; Forecasting</h3>
+
+<a href="https://github.com/filan214/epl-season-forecast"><img src="./epl-spotlight.svg" width="860" alt="EPL Season Forecast: observed data-to-model pipeline, season data and test-file counts, development status, and actual 90-day commit history"></a>
+
+<p><strong>One match is uncertain. A season is a range of possibilities.</strong><br>EPL Season Forecast explores that range through Bayesian goal modeling, XGBoost outcomes, and season simulations.</p>
+
+<p><a href="https://github.com/filan214/epl-season-forecast">↗ Explore EPL project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/tree/fa8936986fd197dd192b4f90e9afa38e61acf0cc/pipeline/src/eplforecast">↗ Inspect model pipeline</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">↗ Latest source commit</a></p>
+
+<details><summary>Follow the wider football analytics thread</summary>
+
+<p><a href="https://github.com/filan214/epl-season-forecast">EPL season forecasting</a> → <a href="https://github.com/filan214/WC-prediction">World Cup final modeling</a> → <a href="https://github.com/filan214/FormWAtch-Football">Player-form analysis</a></p>
+
+<p>Across league seasons, a World Cup final, and player form, I use the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.</p>
+
+</details>
+
+<br>
+
+<h3>filan214@github:~$ sources --inspect · Data sources &amp; freshness</h3>
+
+<a href="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml"><img src="./data-freshness.svg" width="860" alt="Recorded sync times for projects, public push events, and project spotlights, with calendar and language snapshot dates"></a>
+
+<p>Refreshed hourly at minute 17 · also on profile pushes and manual runs</p>
+
+<details><summary>Inspect sources, measurement scope &amp; refresh behavior</summary>
+
+<br>
+
+<table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 12 Sep 2026 · 15:35 WIB.</td></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 12 Sep 2026 · 15:35 WIB.</td></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/contributions.json">Contribution calendar</a></td><td>GitHub contribution HTML: full account totals, including automation.</td></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/languages.json">Language mix</a></td><td>GitHub Linguist byte counts from eligible public repositories. Code proportions, not proficiency.</td></tr>
+
+</table>
+
+<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and epl-season-forecast while they remain public and active.</p>
+
+<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The EPL card visualizes source structure and commit history. The finance app check only tests its public landing page, without accessing an account or financial data.</p>
+
+<p>GitHub schedules, event delivery, source analysis, and image caches can delay updates. A failed refresh keeps the last published snapshot and its recorded timestamps. The portrait is supplied by Filan.</p>
+
+<p><a href="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml">↗ Refresh workflow</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/filan214/tree/main/scripts">↗ Explore the generators</a></p>
 
 </details>
 
 </div>
-
-### Sports Analytics & Forecasting
-
-I connect league-season forecasting in [epl-season-forecast](https://github.com/filan214/epl-season-forecast) (in development), World Cup final modeling in [WC-prediction](https://github.com/filan214/WC-prediction), and player-form analysis in [FormWAtch-Football](https://github.com/filan214/FormWAtch-Football). Across these three football datasets, I apply the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.
-
-### Building for a real business
-
-[JogjaRideSmart](https://github.com/filan214/JogjaRideSmart) is the frontend project for Jogja Ride Premium, my real weekend SUV transport business in Yogyakarta.

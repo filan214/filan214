@@ -1,0 +1,942 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-09-12T09:06:01Z",
+  "as_of": "2026-09-12",
+  "projects": {
+    "finance": {
+      "name": "AIFinanceTracker",
+      "full_name": "filan214/AIFinanceTracker",
+      "url": "https://github.com/filan214/AIFinanceTracker",
+      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
+      "default_branch": "main",
+      "commit": {
+        "repo": "filan214/AIFinanceTracker",
+        "sha": "ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
+        "message": "docs: add handoff and progress notes for the session",
+        "created_at": "2026-08-11T05:06:26Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "stars": 0,
+      "forks": 0,
+      "inventory": {
+        "tools": [
+          "compareMonths",
+          "getBalance",
+          "getCategoryBreakdown",
+          "getMonthlySummary",
+          "getSpendingTrend",
+          "getTopExpenses",
+          "getTransactions"
+        ],
+        "routes": [
+          "src/app/(app)/chat/page.tsx",
+          "src/app/(app)/dashboard/page.tsx",
+          "src/app/(app)/reports/page.tsx",
+          "src/app/(app)/settings/page.tsx",
+          "src/app/(app)/transactions/page.tsx"
+        ],
+        "locales": [
+          "messages/en.json",
+          "messages/id.json"
+        ],
+        "features": [
+          {
+            "label": "AI advisor",
+            "path": "src/app/api/ai/chat/route.ts",
+            "present": true
+          },
+          {
+            "label": "Auto categories",
+            "path": "src/app/api/ai/categorize/route.ts",
+            "present": true
+          },
+          {
+            "label": "Spending alerts",
+            "path": "src/app/api/ai/anomaly/route.ts",
+            "present": true
+          },
+          {
+            "label": "Monthly reports",
+            "path": "src/app/api/ai/report/route.ts",
+            "present": true
+          }
+        ]
+      },
+      "activity_days": [
+        {
+          "date": "2026-06-15",
+          "count": 0
+        },
+        {
+          "date": "2026-06-16",
+          "count": 0
+        },
+        {
+          "date": "2026-06-17",
+          "count": 0
+        },
+        {
+          "date": "2026-06-18",
+          "count": 2
+        },
+        {
+          "date": "2026-06-19",
+          "count": 0
+        },
+        {
+          "date": "2026-06-20",
+          "count": 0
+        },
+        {
+          "date": "2026-06-21",
+          "count": 0
+        },
+        {
+          "date": "2026-06-22",
+          "count": 0
+        },
+        {
+          "date": "2026-06-23",
+          "count": 0
+        },
+        {
+          "date": "2026-06-24",
+          "count": 0
+        },
+        {
+          "date": "2026-06-25",
+          "count": 0
+        },
+        {
+          "date": "2026-06-26",
+          "count": 0
+        },
+        {
+          "date": "2026-06-27",
+          "count": 0
+        },
+        {
+          "date": "2026-06-28",
+          "count": 0
+        },
+        {
+          "date": "2026-06-29",
+          "count": 0
+        },
+        {
+          "date": "2026-06-30",
+          "count": 0
+        },
+        {
+          "date": "2026-07-01",
+          "count": 0
+        },
+        {
+          "date": "2026-07-02",
+          "count": 0
+        },
+        {
+          "date": "2026-07-03",
+          "count": 5
+        },
+        {
+          "date": "2026-07-04",
+          "count": 7
+        },
+        {
+          "date": "2026-07-05",
+          "count": 0
+        },
+        {
+          "date": "2026-07-06",
+          "count": 0
+        },
+        {
+          "date": "2026-07-07",
+          "count": 0
+        },
+        {
+          "date": "2026-07-08",
+          "count": 0
+        },
+        {
+          "date": "2026-07-09",
+          "count": 0
+        },
+        {
+          "date": "2026-07-10",
+          "count": 0
+        },
+        {
+          "date": "2026-07-11",
+          "count": 0
+        },
+        {
+          "date": "2026-07-12",
+          "count": 0
+        },
+        {
+          "date": "2026-07-13",
+          "count": 0
+        },
+        {
+          "date": "2026-07-14",
+          "count": 6
+        },
+        {
+          "date": "2026-07-15",
+          "count": 0
+        },
+        {
+          "date": "2026-07-16",
+          "count": 0
+        },
+        {
+          "date": "2026-07-17",
+          "count": 0
+        },
+        {
+          "date": "2026-07-18",
+          "count": 0
+        },
+        {
+          "date": "2026-07-19",
+          "count": 0
+        },
+        {
+          "date": "2026-07-20",
+          "count": 0
+        },
+        {
+          "date": "2026-07-21",
+          "count": 0
+        },
+        {
+          "date": "2026-07-22",
+          "count": 0
+        },
+        {
+          "date": "2026-07-23",
+          "count": 0
+        },
+        {
+          "date": "2026-07-24",
+          "count": 0
+        },
+        {
+          "date": "2026-07-25",
+          "count": 0
+        },
+        {
+          "date": "2026-07-26",
+          "count": 0
+        },
+        {
+          "date": "2026-07-27",
+          "count": 0
+        },
+        {
+          "date": "2026-07-28",
+          "count": 0
+        },
+        {
+          "date": "2026-07-29",
+          "count": 0
+        },
+        {
+          "date": "2026-07-30",
+          "count": 0
+        },
+        {
+          "date": "2026-07-31",
+          "count": 0
+        },
+        {
+          "date": "2026-08-01",
+          "count": 0
+        },
+        {
+          "date": "2026-08-02",
+          "count": 0
+        },
+        {
+          "date": "2026-08-03",
+          "count": 0
+        },
+        {
+          "date": "2026-08-04",
+          "count": 0
+        },
+        {
+          "date": "2026-08-05",
+          "count": 0
+        },
+        {
+          "date": "2026-08-06",
+          "count": 0
+        },
+        {
+          "date": "2026-08-07",
+          "count": 0
+        },
+        {
+          "date": "2026-08-08",
+          "count": 0
+        },
+        {
+          "date": "2026-08-09",
+          "count": 0
+        },
+        {
+          "date": "2026-08-10",
+          "count": 0
+        },
+        {
+          "date": "2026-08-11",
+          "count": 2
+        },
+        {
+          "date": "2026-08-12",
+          "count": 0
+        },
+        {
+          "date": "2026-08-13",
+          "count": 0
+        },
+        {
+          "date": "2026-08-14",
+          "count": 0
+        },
+        {
+          "date": "2026-08-15",
+          "count": 0
+        },
+        {
+          "date": "2026-08-16",
+          "count": 0
+        },
+        {
+          "date": "2026-08-17",
+          "count": 0
+        },
+        {
+          "date": "2026-08-18",
+          "count": 0
+        },
+        {
+          "date": "2026-08-19",
+          "count": 0
+        },
+        {
+          "date": "2026-08-20",
+          "count": 0
+        },
+        {
+          "date": "2026-08-21",
+          "count": 0
+        },
+        {
+          "date": "2026-08-22",
+          "count": 0
+        },
+        {
+          "date": "2026-08-23",
+          "count": 0
+        },
+        {
+          "date": "2026-08-24",
+          "count": 0
+        },
+        {
+          "date": "2026-08-25",
+          "count": 0
+        },
+        {
+          "date": "2026-08-26",
+          "count": 0
+        },
+        {
+          "date": "2026-08-27",
+          "count": 0
+        },
+        {
+          "date": "2026-08-28",
+          "count": 0
+        },
+        {
+          "date": "2026-08-29",
+          "count": 0
+        },
+        {
+          "date": "2026-08-30",
+          "count": 0
+        },
+        {
+          "date": "2026-08-31",
+          "count": 0
+        },
+        {
+          "date": "2026-09-01",
+          "count": 0
+        },
+        {
+          "date": "2026-09-02",
+          "count": 0
+        },
+        {
+          "date": "2026-09-03",
+          "count": 0
+        },
+        {
+          "date": "2026-09-04",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07",
+          "count": 0
+        },
+        {
+          "date": "2026-09-08",
+          "count": 0
+        },
+        {
+          "date": "2026-09-09",
+          "count": 0
+        },
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        }
+      ],
+      "languages": {
+        "TypeScript": 305208,
+        "HTML": 65343,
+        "CSS": 2775,
+        "PLpgSQL": 2264,
+        "JavaScript": 81
+      },
+      "workflow": {
+        "name": "Keep Supabase alive",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
+        "matches_tip": true,
+        "updated_at": "2026-09-10T13:26:48Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/34482605882"
+      }
+    },
+    "epl": {
+      "name": "epl-season-forecast",
+      "full_name": "filan214/epl-season-forecast",
+      "url": "https://github.com/filan214/epl-season-forecast",
+      "description": "Bayesian EPL season forecasting project using a hierarchical Poisson model and season simulations; in development.",
+      "default_branch": "main",
+      "commit": {
+        "repo": "filan214/epl-season-forecast",
+        "sha": "fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+        "message": "feat: eplforecast predict — per-fixture match-market forecasts",
+        "created_at": "2026-07-24T10:51:11Z",
+        "url": "https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "stars": 0,
+      "forks": 0,
+      "inventory": {
+        "stages": [
+          {
+            "label": "Ingest",
+            "path": "pipeline/src/eplforecast/ingest",
+            "files": [
+              "pipeline/src/eplforecast/ingest/football_data_csv.py",
+              "pipeline/src/eplforecast/ingest/live_results.py",
+              "pipeline/src/eplforecast/ingest/teams.py",
+              "pipeline/src/eplforecast/ingest/transfermarkt.py",
+              "pipeline/src/eplforecast/ingest/understat.py"
+            ]
+          },
+          {
+            "label": "Features",
+            "path": "pipeline/src/eplforecast/features",
+            "files": [
+              "pipeline/src/eplforecast/features/build.py",
+              "pipeline/src/eplforecast/features/elo.py",
+              "pipeline/src/eplforecast/features/rolling.py"
+            ]
+          },
+          {
+            "label": "Models",
+            "path": "pipeline/src/eplforecast/models",
+            "files": [
+              "pipeline/src/eplforecast/models/baseline.py",
+              "pipeline/src/eplforecast/models/bayes_goals.py",
+              "pipeline/src/eplforecast/models/blend.py",
+              "pipeline/src/eplforecast/models/xgb_outcome.py"
+            ]
+          },
+          {
+            "label": "Simulate",
+            "path": "pipeline/src/eplforecast/simulate",
+            "files": [
+              "pipeline/src/eplforecast/simulate/scorelines.py",
+              "pipeline/src/eplforecast/simulate/season.py"
+            ]
+          }
+        ],
+        "models": [
+          {
+            "label": "Bayesian goals",
+            "path": "pipeline/src/eplforecast/models/bayes_goals.py",
+            "present": true
+          },
+          {
+            "label": "XGBoost outcomes",
+            "path": "pipeline/src/eplforecast/models/xgb_outcome.py",
+            "present": true
+          },
+          {
+            "label": "Probability blend",
+            "path": "pipeline/src/eplforecast/models/blend.py",
+            "present": true
+          }
+        ],
+        "datasets": [
+          "pipeline/data/processed/fd_1516.parquet",
+          "pipeline/data/processed/fd_1617.parquet",
+          "pipeline/data/processed/fd_1718.parquet",
+          "pipeline/data/processed/fd_1819.parquet",
+          "pipeline/data/processed/fd_1920.parquet",
+          "pipeline/data/processed/fd_2021.parquet",
+          "pipeline/data/processed/fd_2122.parquet",
+          "pipeline/data/processed/fd_2223.parquet",
+          "pipeline/data/processed/fd_2324.parquet",
+          "pipeline/data/processed/fd_2425.parquet"
+        ],
+        "tests": [
+          "pipeline/tests/test_baseline.py",
+          "pipeline/tests/test_bayes_goals.py",
+          "pipeline/tests/test_blend.py",
+          "pipeline/tests/test_build.py",
+          "pipeline/tests/test_cli.py",
+          "pipeline/tests/test_compare.py",
+          "pipeline/tests/test_devig.py",
+          "pipeline/tests/test_elo.py",
+          "pipeline/tests/test_gate.py",
+          "pipeline/tests/test_halflife.py",
+          "pipeline/tests/test_ingest_football_data.py",
+          "pipeline/tests/test_metrics.py",
+          "pipeline/tests/test_predict.py",
+          "pipeline/tests/test_rolling.py",
+          "pipeline/tests/test_scaffold.py",
+          "pipeline/tests/test_scorelines.py",
+          "pipeline/tests/test_validation.py",
+          "pipeline/tests/test_xgb_outcome.py"
+        ],
+        "evaluation": [
+          "pipeline/src/eplforecast/evaluate/calibration.py",
+          "pipeline/src/eplforecast/evaluate/compare.py",
+          "pipeline/src/eplforecast/evaluate/devig.py",
+          "pipeline/src/eplforecast/evaluate/halflife.py",
+          "pipeline/src/eplforecast/evaluate/metrics.py",
+          "pipeline/src/eplforecast/evaluate/validation.py"
+        ],
+        "dashboard": "scaffold",
+        "automation": "scaffold"
+      },
+      "activity_days": [
+        {
+          "date": "2026-06-15",
+          "count": 0
+        },
+        {
+          "date": "2026-06-16",
+          "count": 0
+        },
+        {
+          "date": "2026-06-17",
+          "count": 0
+        },
+        {
+          "date": "2026-06-18",
+          "count": 0
+        },
+        {
+          "date": "2026-06-19",
+          "count": 0
+        },
+        {
+          "date": "2026-06-20",
+          "count": 0
+        },
+        {
+          "date": "2026-06-21",
+          "count": 0
+        },
+        {
+          "date": "2026-06-22",
+          "count": 0
+        },
+        {
+          "date": "2026-06-23",
+          "count": 0
+        },
+        {
+          "date": "2026-06-24",
+          "count": 0
+        },
+        {
+          "date": "2026-06-25",
+          "count": 0
+        },
+        {
+          "date": "2026-06-26",
+          "count": 0
+        },
+        {
+          "date": "2026-06-27",
+          "count": 0
+        },
+        {
+          "date": "2026-06-28",
+          "count": 0
+        },
+        {
+          "date": "2026-06-29",
+          "count": 0
+        },
+        {
+          "date": "2026-06-30",
+          "count": 0
+        },
+        {
+          "date": "2026-07-01",
+          "count": 0
+        },
+        {
+          "date": "2026-07-02",
+          "count": 0
+        },
+        {
+          "date": "2026-07-03",
+          "count": 0
+        },
+        {
+          "date": "2026-07-04",
+          "count": 0
+        },
+        {
+          "date": "2026-07-05",
+          "count": 0
+        },
+        {
+          "date": "2026-07-06",
+          "count": 0
+        },
+        {
+          "date": "2026-07-07",
+          "count": 0
+        },
+        {
+          "date": "2026-07-08",
+          "count": 0
+        },
+        {
+          "date": "2026-07-09",
+          "count": 0
+        },
+        {
+          "date": "2026-07-10",
+          "count": 0
+        },
+        {
+          "date": "2026-07-11",
+          "count": 0
+        },
+        {
+          "date": "2026-07-12",
+          "count": 0
+        },
+        {
+          "date": "2026-07-13",
+          "count": 0
+        },
+        {
+          "date": "2026-07-14",
+          "count": 0
+        },
+        {
+          "date": "2026-07-15",
+          "count": 0
+        },
+        {
+          "date": "2026-07-16",
+          "count": 0
+        },
+        {
+          "date": "2026-07-17",
+          "count": 0
+        },
+        {
+          "date": "2026-07-18",
+          "count": 0
+        },
+        {
+          "date": "2026-07-19",
+          "count": 0
+        },
+        {
+          "date": "2026-07-20",
+          "count": 0
+        },
+        {
+          "date": "2026-07-21",
+          "count": 0
+        },
+        {
+          "date": "2026-07-22",
+          "count": 0
+        },
+        {
+          "date": "2026-07-23",
+          "count": 1
+        },
+        {
+          "date": "2026-07-24",
+          "count": 11
+        },
+        {
+          "date": "2026-07-25",
+          "count": 0
+        },
+        {
+          "date": "2026-07-26",
+          "count": 0
+        },
+        {
+          "date": "2026-07-27",
+          "count": 0
+        },
+        {
+          "date": "2026-07-28",
+          "count": 0
+        },
+        {
+          "date": "2026-07-29",
+          "count": 0
+        },
+        {
+          "date": "2026-07-30",
+          "count": 0
+        },
+        {
+          "date": "2026-07-31",
+          "count": 0
+        },
+        {
+          "date": "2026-08-01",
+          "count": 0
+        },
+        {
+          "date": "2026-08-02",
+          "count": 0
+        },
+        {
+          "date": "2026-08-03",
+          "count": 0
+        },
+        {
+          "date": "2026-08-04",
+          "count": 0
+        },
+        {
+          "date": "2026-08-05",
+          "count": 0
+        },
+        {
+          "date": "2026-08-06",
+          "count": 0
+        },
+        {
+          "date": "2026-08-07",
+          "count": 0
+        },
+        {
+          "date": "2026-08-08",
+          "count": 0
+        },
+        {
+          "date": "2026-08-09",
+          "count": 0
+        },
+        {
+          "date": "2026-08-10",
+          "count": 0
+        },
+        {
+          "date": "2026-08-11",
+          "count": 0
+        },
+        {
+          "date": "2026-08-12",
+          "count": 0
+        },
+        {
+          "date": "2026-08-13",
+          "count": 0
+        },
+        {
+          "date": "2026-08-14",
+          "count": 0
+        },
+        {
+          "date": "2026-08-15",
+          "count": 0
+        },
+        {
+          "date": "2026-08-16",
+          "count": 0
+        },
+        {
+          "date": "2026-08-17",
+          "count": 0
+        },
+        {
+          "date": "2026-08-18",
+          "count": 0
+        },
+        {
+          "date": "2026-08-19",
+          "count": 0
+        },
+        {
+          "date": "2026-08-20",
+          "count": 0
+        },
+        {
+          "date": "2026-08-21",
+          "count": 0
+        },
+        {
+          "date": "2026-08-22",
+          "count": 0
+        },
+        {
+          "date": "2026-08-23",
+          "count": 0
+        },
+        {
+          "date": "2026-08-24",
+          "count": 0
+        },
+        {
+          "date": "2026-08-25",
+          "count": 0
+        },
+        {
+          "date": "2026-08-26",
+          "count": 0
+        },
+        {
+          "date": "2026-08-27",
+          "count": 0
+        },
+        {
+          "date": "2026-08-28",
+          "count": 0
+        },
+        {
+          "date": "2026-08-29",
+          "count": 0
+        },
+        {
+          "date": "2026-08-30",
+          "count": 0
+        },
+        {
+          "date": "2026-08-31",
+          "count": 0
+        },
+        {
+          "date": "2026-09-01",
+          "count": 0
+        },
+        {
+          "date": "2026-09-02",
+          "count": 0
+        },
+        {
+          "date": "2026-09-03",
+          "count": 0
+        },
+        {
+          "date": "2026-09-04",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07",
+          "count": 0
+        },
+        {
+          "date": "2026-09-08",
+          "count": 0
+        },
+        {
+          "date": "2026-09-09",
+          "count": 0
+        },
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        }
+      ],
+      "languages": {
+        "Python": 125484,
+        "TypeScript": 11351,
+        "PLpgSQL": 4411,
+        "CSS": 4168,
+        "JavaScript": 562
+      },
+      "workflow": null
+    }
+  },
+  "app": {
+    "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
+    "checked_at": "2026-09-12T09:06:01Z",
+    "http_status": 200,
+    "reachable": true
+  }
+}

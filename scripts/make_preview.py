@@ -23,6 +23,8 @@ def main():
         from render_languages_svg import render as languages
         from render_repo_sparklines import outputs as sparklines
         from render_commit_stream import render as stream
+        from render_highlights import outputs as highlights
+        from render_freshness import from_files as freshness
         builds = read_json(DATA / "builds.json")
         language_data = read_json(DATA / "languages.json")
         outputs = {
@@ -39,6 +41,8 @@ def main():
             "tagline.svg": tagline(builds, language_data),
             "commit-stream.svg": stream(read_json(DATA / "commit-stream.json")),
             **sparklines(builds),
+            **highlights(read_json(DATA / "highlights.json")),
+            "data-freshness.svg": freshness(),
         }
         target = target / "static"
         target.mkdir(exist_ok=True)

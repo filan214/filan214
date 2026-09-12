@@ -33,8 +33,8 @@ def select_repositories(repos, excluded):
     return sorted(selected, key=lambda repo: (repo["pushed_at"], repo["name"]), reverse=True)
 
 
-def activity_days(commits, as_of):
-    start = as_of - timedelta(days=27)
+def activity_days(commits, as_of, window_days=28):
+    start = as_of - timedelta(days=window_days-1)
     counts, seen = Counter(), set()
     for commit in commits:
         if commit["sha"] in seen:
@@ -43,7 +43,7 @@ def activity_days(commits, as_of):
         day = datetime.fromisoformat(commit["commit"]["committer"]["date"].replace("Z", "+00:00")).astimezone(JAKARTA).date()
         if start <= day <= as_of:
             counts[day] += 1
-    return [{"date": (start + timedelta(days=i)).isoformat(), "count": counts[start + timedelta(days=i)]} for i in range(28)]
+    return [{"date": (start + timedelta(days=i)).isoformat(), "count": counts[start + timedelta(days=i)]} for i in range(window_days)]
 
 
 def readme_title(markdown):
@@ -81,12 +81,12 @@ def latest_commit(client, name, branch):
             "author": commit["commit"]["author"]["name"], "branch": branch}
 
 
-def repository_activity(client, project, as_of):
-    start = datetime.combine(as_of - timedelta(days=27), datetime.min.time(), JAKARTA)
+def repository_activity(client, project, as_of, window_days=28):
+    start = datetime.combine(as_of - timedelta(days=window_days-1), datetime.min.time(), JAKARTA)
     end = datetime.combine(as_of + timedelta(days=1), datetime.min.time(), JAKARTA)
     params = urlencode({"sha": project["commit"]["sha"], "since": start.isoformat(), "until": end.isoformat()})
     history = [commit for page in client.pages(f"{API}/repos/{quote(project['full_name'], safe='/')}/commits?{params}") for commit in page]
-    return activity_days(history, as_of)
+    return activity_days(history, as_of, window_days)
 
 
 def main():

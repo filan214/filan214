@@ -21,6 +21,7 @@ Run in this order. Stop if any command fails; do not publish a partially refresh
 ```powershell
 python scripts/fetch_builds.py
 python scripts/fetch_commit_stream.py
+python scripts/fetch_highlights.py
 python scripts/fetch_contributions.py
 python scripts/render_heatmap_svg.py
 python scripts/fetch_last_event.py
@@ -32,6 +33,8 @@ python scripts/render_repo_sparklines.py
 python scripts/render_commit_stream.py
 python scripts/make_info_card.py
 python scripts/make_tagline.py
+python scripts/render_highlights.py
+python scripts/render_freshness.py
 python scripts/render_readme.py
 python -m unittest discover -s tests -v
 python scripts/make_preview.py
@@ -54,6 +57,9 @@ The workflow commits only after **all** fetch and render steps succeed. Its auto
 | Cross-repository stream | Up to ten most recent available public `PushEvent`s by filan214, across repositories and branches. Each row is the exact head commit of one push, ordered by push time. This is not a full clone's `git log --all`, a release list, or every commit within a multi-commit push. Duplicate events are removed. Events from the profile repo and configured exclusions are omitted; public contributions to other repositories can appear. |
 | Language bars | GitHub Linguist byte counts on default branches of eligible projects. Percentages are code proportions, not proficiency. Push changes invalidate a repo's cache; the first successful run each Jakarta day refreshes all language bytes to pick up delayed Linguist analysis. |
 | Tagline | Rotates current account/project/language facts from the same snapshot. |
+| Finance spotlight | AIFinanceTracker source files and registered AI tools at the exact displayed default-branch commit, 90-day activity, language bytes, and latest public workflow observation. The app check requests only its public landing page; it is not an authenticated feature-health or uptime test. No personal transactions or demo financial totals are used. |
+| EPL spotlight | The current source tree of epl-season-forecast: ingest, feature, model, and simulation module counts; season parquet files; test files; and 90-day commit history. File presence is not proof of successful execution. Dashboard and weekly forecast-job source markers distinguish scaffolds from other source. No forecast odds, model scores, or test-pass counts are inferred. |
+| Data freshness | Separate recorded fetch times for project selection, push events, and curated spotlights. Contribution and language snapshots currently record a date only and are labeled accordingly. |
 | Portrait | The real photograph supplied by Filan. It is an identity asset, not fetched activity. |
 
 The spotlight excludes this profile repo so its own automated pushes cannot take over the showcase. Forks, archives, disabled repos, private repos, and repositories listed in `data/profile-config.json` are also excluded from project selection and language totals. `TA_Filan_RealData` is currently excluded at your request. GitHub's account-wide counts and contribution calendar remain the actual account totals.
@@ -61,6 +67,10 @@ The spotlight excludes this profile repo so its own automated pushes cannot take
 The old mock process panel is removed. The thesis progress SVG is removed from the profile. Your hand-maintained `data/status.json` and `scripts/render_status_bar.py` are retained as unused local utilities, but the workflow no longer renders or displays thesis progress. Edit the exclusions file to change the project pool; never edit generated `builds.json` to manufacture a featured project.
 
 ## Interactions and appearance
+
+The curated finance card opens the public app, with separate repository and exact source-commit links below. The EPL card opens its repository, with a link to the pipeline pinned to the same commit as the displayed file inventory. Expand the football analytics thread to explore the related projects. The freshness panel displays separate collector timestamps and opens the refresh workflow; its disclosure contains a linked source table.
+
+`fetch_highlights.py` reads only the two explicitly selected public repositories. It reuses a source inventory only when the commit SHA and snapshot schema match; activity windows, workflow observations, app checks, and language bytes are refreshed each run. A truncated source tree or failed GitHub request aborts publication. App connection failures are shown as an unverified landing-page check. The latest Actions observation can refer to an earlier commit, so the card identifies that revision. API file counts are evidence about code structure, not completed features. If project folders or tool registration syntax change substantially, update the inventory rules in this collector. These cards do not query forecast results or financial accounts.
 
 The featured card opens its repository. Links underneath open the exact commit, commit history, and project site when GitHub has a valid HTTP(S) homepage. The visible **ps --repos** table includes the four recent repositories and a sparkline column; click a sparkline to open its commit history. The scrolling stream sits immediately below the table. Expand **Read all … pushes & open commits** for a stationary, complete log with clickable commit hashes and branch names. Expand **Data sources & freshness** to inspect sync time and provenance.
 
