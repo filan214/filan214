@@ -2,58 +2,58 @@
   "username": "filan214",
   "as_of": "2026-09-12",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 14,
-  "total_bytes": 2950759,
+  "repo_count": 11,
+  "total_bytes": 2336702,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1476933,
-      "percent": 50.05
+      "bytes": 1081599,
+      "percent": 46.29
     },
     {
       "name": "PHP",
-      "bytes": 482850,
-      "percent": 16.36
-    },
-    {
-      "name": "Blade",
-      "bytes": 325500,
-      "percent": 11.03
+      "bytes": 396522,
+      "percent": 16.97
     },
     {
       "name": "Python",
       "bytes": 291107,
-      "percent": 9.87
+      "percent": 12.46
+    },
+    {
+      "name": "Blade",
+      "bytes": 227461,
+      "percent": 9.73
     },
     {
       "name": "JavaScript",
-      "bytes": 200164,
-      "percent": 6.78
+      "bytes": 198029,
+      "percent": 8.47
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.24
+      "percent": 2.83
     },
     {
       "name": "CSS",
-      "bytes": 46938,
-      "percent": 1.59
+      "bytes": 43240,
+      "percent": 1.85
     },
     {
       "name": "Shell",
-      "bytes": 42202,
-      "percent": 1.43
-    },
-    {
-      "name": "Perl",
-      "bytes": 9452,
-      "percent": 0.32
+      "bytes": 21101,
+      "percent": 0.9
     },
     {
       "name": "PLpgSQL",
-      "bytes": 9371,
-      "percent": 0.32
+      "bytes": 6675,
+      "percent": 0.29
+    },
+    {
+      "name": "Perl",
+      "bytes": 4726,
+      "percent": 0.2
     }
   ],
   "repos": {
@@ -140,15 +140,6 @@
         "JavaScript": 282
       }
     },
-    "filan214/FinTrack": {
-      "pushed_at": "2026-05-15T14:37:57Z",
-      "languages": {
-        "TypeScript": 127597,
-        "PLpgSQL": 2696,
-        "CSS": 812,
-        "JavaScript": 559
-      }
-    },
     "filan214/Helpdeskfulldone": {
       "pushed_at": "2026-02-23T09:34:25Z",
       "languages": {
@@ -159,26 +150,6 @@
         "Perl": 4726,
         "CSS": 1638,
         "JavaScript": 1017
-      }
-    },
-    "filan214/FullHelpdeskl": {
-      "pushed_at": "2026-02-09T14:21:38Z",
-      "languages": {
-        "TypeScript": 177669,
-        "Blade": 98039,
-        "PHP": 86328,
-        "Shell": 21101,
-        "Perl": 4726,
-        "CSS": 1638,
-        "JavaScript": 1017
-      }
-    },
-    "filan214/Helpdesk-frntend": {
-      "pushed_at": "2026-02-03T03:11:28Z",
-      "languages": {
-        "TypeScript": 90068,
-        "CSS": 1248,
-        "JavaScript": 559
       }
     }
   }
