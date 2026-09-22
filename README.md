@@ -52,7 +52,7 @@
 
 <details>
 
-<summary>Read all 6 pushes &amp; open commits</summary>
+<summary>Read all 4 pushes &amp; open commits</summary>
 
 <br>
 
@@ -66,15 +66,11 @@
 
 <tr><td>2026-08-24 05:34:58</td><td><a href="https://github.com/filan214/POS">filan214/POS</a><br>main</td><td><a href="https://github.com/filan214/POS/commit/bc4d7dc56de652de28829e61a54260d56e80aa41">bc4d7dc</a> Add first-class product restock with audited movements</td></tr>
 
-<tr><td>2026-08-23 11:47:25</td><td><a href="https://github.com/filan214/POS">filan214/POS</a><br>main</td><td><a href="https://github.com/filan214/POS/commit/ab7f6523e1fb6c5dc1a469443f241dc9d6b85c43">ab7f652</a> Advance PRD handoff to restocking</td></tr>
-
-<tr><td>2026-08-23 10:42:31</td><td><a href="https://github.com/filan214/POS">filan214/POS</a><br>main</td><td><a href="https://github.com/filan214/POS/commit/871829cab1da08996e71b8f6fe640cf8f7b93ffc">871829c</a> Update PRD progress and handoff</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 22 Sep 2026 · 16:57 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 23 Sep 2026 · 05:08 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -130,9 +126,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 22 Sep 2026 · 16:57 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 23 Sep 2026 · 05:08 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 22 Sep 2026 · 16:57 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 23 Sep 2026 · 05:08 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
