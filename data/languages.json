@@ -3,60 +3,70 @@
   "as_of": "2026-09-27",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 11,
-  "total_bytes": 2336702,
+  "total_bytes": 2426933,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1081599,
-      "percent": 46.29
+      "bytes": 1148641,
+      "percent": 47.33
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 16.97
+      "percent": 16.34
     },
     {
       "name": "Python",
       "bytes": 291107,
-      "percent": 12.46
+      "percent": 11.99
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 9.73
+      "percent": 9.37
     },
     {
       "name": "JavaScript",
       "bytes": 198029,
-      "percent": 8.47
+      "percent": 8.16
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.83
+      "percent": 2.73
     },
     {
       "name": "CSS",
       "bytes": 43240,
-      "percent": 1.85
+      "percent": 1.78
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 29864,
+      "percent": 1.23
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.9
-    },
-    {
-      "name": "PLpgSQL",
-      "bytes": 6675,
-      "percent": 0.29
+      "percent": 0.87
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.2
+      "percent": 0.19
     }
   ],
   "repos": {
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-09-27T08:53:58Z",
+      "languages": {
+        "TypeScript": 372250,
+        "HTML": 65343,
+        "PLpgSQL": 25453,
+        "CSS": 2775,
+        "JavaScript": 81
+      }
+    },
     "filan214/epl-season-forecast": {
       "pushed_at": "2026-09-12T05:38:27Z",
       "languages": {
@@ -89,16 +99,6 @@
         "TypeScript": 83941,
         "JavaScript": 4725,
         "CSS": 429
-      }
-    },
-    "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-08-11T05:06:37Z",
-      "languages": {
-        "TypeScript": 305208,
-        "HTML": 65343,
-        "CSS": 2775,
-        "PLpgSQL": 2264,
-        "JavaScript": 81
       }
     },
     "filan214/CaloriesTracker": {

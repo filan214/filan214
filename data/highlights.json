@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-27T08:09:10Z",
+  "fetched_at": "2026-09-27T13:58:14Z",
   "as_of": "2026-09-27",
   "projects": {
     "finance": {
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
-        "message": "docs: add handoff and progress notes for the session",
-        "created_at": "2026-08-11T05:06:26Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
+        "sha": "8b399459bbaa936d4a0f58a6b4c2784e495062cd",
+        "message": "feat: add savings goals API",
+        "created_at": "2026-09-27T08:53:01Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/8b399459bbaa936d4a0f58a6b4c2784e495062cd",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -33,6 +33,7 @@
         "routes": [
           "src/app/(app)/chat/page.tsx",
           "src/app/(app)/dashboard/page.tsx",
+          "src/app/(app)/planning/page.tsx",
           "src/app/(app)/reports/page.tsx",
           "src/app/(app)/settings/page.tsx",
           "src/app/(app)/transactions/page.tsx"
@@ -423,24 +424,24 @@
         },
         {
           "date": "2026-09-27",
-          "count": 0
+          "count": 15
         }
       ],
       "languages": {
-        "TypeScript": 305208,
+        "TypeScript": 372250,
         "HTML": 65343,
+        "PLpgSQL": 25453,
         "CSS": 2775,
-        "PLpgSQL": 2264,
         "JavaScript": 81
       },
       "workflow": {
-        "name": "Keep Supabase alive",
+        "name": "CI",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "ff9a12cc066e6cfd7c47951671ef5358d73ddda9",
+        "head_sha": "8b399459bbaa936d4a0f58a6b4c2784e495062cd",
         "matches_tip": true,
-        "updated_at": "2026-09-27T07:18:17Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36302547244"
+        "updated_at": "2026-09-27T08:54:49Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36307650762"
       }
     },
     "epl": {
@@ -935,7 +936,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-09-27T08:09:10Z",
+    "checked_at": "2026-09-27T13:58:14Z",
     "http_status": 200,
     "reachable": true
   }

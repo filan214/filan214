@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-09-27",
-  "fetched_at": "2026-09-27T08:09:09Z",
+  "fetched_at": "2026-09-27T13:58:13Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -16,6 +16,148 @@
   },
   "eligible_repo_count": 11,
   "projects": [
+    {
+      "name": "AIFinanceTracker",
+      "full_name": "filan214/AIFinanceTracker",
+      "url": "https://github.com/filan214/AIFinanceTracker",
+      "title": "💸 Smart Finn Track",
+      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
+      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "fintech",
+        "nextjs",
+        "web-development"
+      ],
+      "pushed_at": "2026-09-27T08:53:58Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/AIFinanceTracker",
+        "sha": "8b399459bbaa936d4a0f58a6b4c2784e495062cd",
+        "message": "feat: add savings goals API",
+        "created_at": "2026-09-27T08:53:01Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/8b399459bbaa936d4a0f58a6b4c2784e495062cd",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-08-31",
+          "count": 0
+        },
+        {
+          "date": "2026-09-01",
+          "count": 0
+        },
+        {
+          "date": "2026-09-02",
+          "count": 0
+        },
+        {
+          "date": "2026-09-03",
+          "count": 0
+        },
+        {
+          "date": "2026-09-04",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07",
+          "count": 0
+        },
+        {
+          "date": "2026-09-08",
+          "count": 0
+        },
+        {
+          "date": "2026-09-09",
+          "count": 0
+        },
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13",
+          "count": 0
+        },
+        {
+          "date": "2026-09-14",
+          "count": 0
+        },
+        {
+          "date": "2026-09-15",
+          "count": 0
+        },
+        {
+          "date": "2026-09-16",
+          "count": 0
+        },
+        {
+          "date": "2026-09-17",
+          "count": 0
+        },
+        {
+          "date": "2026-09-18",
+          "count": 0
+        },
+        {
+          "date": "2026-09-19",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21",
+          "count": 0
+        },
+        {
+          "date": "2026-09-22",
+          "count": 0
+        },
+        {
+          "date": "2026-09-23",
+          "count": 0
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0
+        },
+        {
+          "date": "2026-09-25",
+          "count": 0
+        },
+        {
+          "date": "2026-09-26",
+          "count": 0
+        },
+        {
+          "date": "2026-09-27",
+          "count": 15
+        }
+      ]
+    },
     {
       "name": "epl-season-forecast",
       "full_name": "filan214/epl-season-forecast",
@@ -440,148 +582,6 @@
           "count": 0
         }
       ]
-    },
-    {
-      "name": "Savor",
-      "full_name": "filan214/Savor",
-      "url": "https://github.com/filan214/Savor",
-      "title": "Welcome to your Expo app 👋",
-      "description": "Mobile app for logging food consumption and tracking calories; in development.",
-      "homepage": "",
-      "language": "TypeScript",
-      "topics": [
-        "calorie-tracker",
-        "expo",
-        "health",
-        "typescript"
-      ],
-      "pushed_at": "2026-08-11T06:02:26Z",
-      "default_branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/Savor",
-        "sha": "d220dfaef13f0b4f6ac502e512708c349b8f8cf8",
-        "message": "Phase 1-2: conversational agent, USDA nutrition, keyless food images",
-        "created_at": "2026-08-11T05:57:33Z",
-        "url": "https://github.com/filan214/Savor/commit/d220dfaef13f0b4f6ac502e512708c349b8f8cf8",
-        "author": "Valentinus Filan",
-        "branch": "master"
-      },
-      "activity_days": [
-        {
-          "date": "2026-08-31",
-          "count": 0
-        },
-        {
-          "date": "2026-09-01",
-          "count": 0
-        },
-        {
-          "date": "2026-09-02",
-          "count": 0
-        },
-        {
-          "date": "2026-09-03",
-          "count": 0
-        },
-        {
-          "date": "2026-09-04",
-          "count": 0
-        },
-        {
-          "date": "2026-09-05",
-          "count": 0
-        },
-        {
-          "date": "2026-09-06",
-          "count": 0
-        },
-        {
-          "date": "2026-09-07",
-          "count": 0
-        },
-        {
-          "date": "2026-09-08",
-          "count": 0
-        },
-        {
-          "date": "2026-09-09",
-          "count": 0
-        },
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
-        {
-          "date": "2026-09-11",
-          "count": 0
-        },
-        {
-          "date": "2026-09-12",
-          "count": 0
-        },
-        {
-          "date": "2026-09-13",
-          "count": 0
-        },
-        {
-          "date": "2026-09-14",
-          "count": 0
-        },
-        {
-          "date": "2026-09-15",
-          "count": 0
-        },
-        {
-          "date": "2026-09-16",
-          "count": 0
-        },
-        {
-          "date": "2026-09-17",
-          "count": 0
-        },
-        {
-          "date": "2026-09-18",
-          "count": 0
-        },
-        {
-          "date": "2026-09-19",
-          "count": 0
-        },
-        {
-          "date": "2026-09-20",
-          "count": 0
-        },
-        {
-          "date": "2026-09-21",
-          "count": 0
-        },
-        {
-          "date": "2026-09-22",
-          "count": 0
-        },
-        {
-          "date": "2026-09-23",
-          "count": 0
-        },
-        {
-          "date": "2026-09-24",
-          "count": 0
-        },
-        {
-          "date": "2026-09-25",
-          "count": 0
-        },
-        {
-          "date": "2026-09-26",
-          "count": 0
-        },
-        {
-          "date": "2026-09-27",
-          "count": 0
-        }
-      ]
     }
   ],
   "activity_days": [
@@ -695,7 +695,7 @@
     },
     {
       "date": "2026-09-27",
-      "count": 0
+      "count": 15
     }
   ]
 }
