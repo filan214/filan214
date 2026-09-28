@@ -52,7 +52,7 @@
 
 <details>
 
-<summary>Read all 9 pushes &amp; open commits</summary>
+<summary>Read all 10 pushes &amp; open commits</summary>
 
 <br>
 
@@ -62,9 +62,15 @@
 
 <tr><td>2026-09-28 10:51:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/d2e7468881dbb76996da8e23645386c4bd219a5d">d2e7468</a> fix: anomaly alert no longer mixes transactions from other categories</td></tr>
 
+<tr><td>2026-09-28 10:29:35</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/aff6d0c2968472387ba1af11e3b5c049dc9f3569">aff6d0c</a> fix: chat retries longer on the free model, and never shows a raw SDK error</td></tr>
+
+<tr><td>2026-09-28 10:02:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ed77b7a8d45c01d693fd3beb5b4a7a360460200e">ed77b7a</a> fix: keyword category fallback for quick-add and CSV import</td></tr>
+
 <tr><td>2026-09-28 08:38:51</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ea3502bd4f255336806d890b8eac36e703f661b6">ea3502b</a> fix: keyword fallback when AI categorization fails</td></tr>
 
 <tr><td>2026-09-28 08:19:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2">ee071e6</a> fix: switch OpenRouter model to a free tier and fix a total-scaling bug it exposed</td></tr>
+
+<tr><td>2026-09-28 06:15:26</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/42ed430f55e293e08074d9a9bf5ef3edb1bd563e">42ed430</a> fix: dashboard alert overflows on phone width; sidebar scrolls away on tall pages</td></tr>
 
 <tr><td>2026-09-28 05:51:57</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/bd7281b55af174969ffbb69b458fdde15d87009d">bd7281b</a> docs: record final review fixes in handoff and progress</td></tr>
 
@@ -72,15 +78,11 @@
 
 <tr><td>2026-09-27 08:53:59</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/8b399459bbaa936d4a0f58a6b4c2784e495062cd">8b39945</a> feat: add savings goals API</td></tr>
 
-<tr><td>2026-09-12 05:38:27</td><td><a href="https://github.com/filan214/epl-season-forecast">filan214/epl-season-forecast</a><br>main</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">fa89369</a> feat: eplforecast predict — per-fixture match-market forecasts</td></tr>
-
-<tr><td>2026-09-11 16:58:17</td><td><a href="https://github.com/filan214/F1---2026-Car-Details">filan214/F1---2026-Car-Details</a><br>main</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">71fafa7</a> Merge new GitHub repository history</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 28 Sep 2026 · 22:27 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 29 Sep 2026 · 04:59 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -136,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 28 Sep 2026 · 22:27 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 29 Sep 2026 · 04:59 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 28 Sep 2026 · 22:27 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 29 Sep 2026 · 04:59 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
