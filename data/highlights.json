@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-28T00:45:35Z",
+  "fetched_at": "2026-09-28T06:53:00Z",
   "as_of": "2026-09-28",
   "projects": {
     "finance": {
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "8b399459bbaa936d4a0f58a6b4c2784e495062cd",
-        "message": "feat: add savings goals API",
-        "created_at": "2026-09-27T08:53:01Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/8b399459bbaa936d4a0f58a6b4c2784e495062cd",
+        "sha": "42ed430f55e293e08074d9a9bf5ef3edb1bd563e",
+        "message": "fix: dashboard alert overflows on phone width; sidebar scrolls away on tall pages",
+        "created_at": "2026-09-28T06:15:20Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/42ed430f55e293e08074d9a9bf5ef3edb1bd563e",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -24,7 +24,9 @@
         "tools": [
           "compareMonths",
           "getBalance",
+          "getBudgets",
           "getCategoryBreakdown",
+          "getGoals",
           "getMonthlySummary",
           "getSpendingTrend",
           "getTopExpenses",
@@ -420,15 +422,15 @@
         },
         {
           "date": "2026-09-27",
-          "count": 15
+          "count": 20
         },
         {
           "date": "2026-09-28",
-          "count": 0
+          "count": 10
         }
       ],
       "languages": {
-        "TypeScript": 372250,
+        "TypeScript": 458262,
         "HTML": 65343,
         "PLpgSQL": 25453,
         "CSS": 2775,
@@ -438,10 +440,10 @@
         "name": "CI",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "8b399459bbaa936d4a0f58a6b4c2784e495062cd",
+        "head_sha": "42ed430f55e293e08074d9a9bf5ef3edb1bd563e",
         "matches_tip": true,
-        "updated_at": "2026-09-27T08:54:49Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36307650762"
+        "updated_at": "2026-09-28T06:16:19Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36385555859"
       }
     },
     "epl": {
@@ -936,7 +938,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-09-28T00:45:35Z",
+    "checked_at": "2026-09-28T06:53:00Z",
     "http_status": 200,
     "reachable": true
   }

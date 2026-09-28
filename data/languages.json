@@ -3,52 +3,52 @@
   "as_of": "2026-09-28",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 11,
-  "total_bytes": 2426933,
+  "total_bytes": 2512945,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1148641,
-      "percent": 47.33
+      "bytes": 1234653,
+      "percent": 49.13
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 16.34
+      "percent": 15.78
     },
     {
       "name": "Python",
       "bytes": 291107,
-      "percent": 11.99
+      "percent": 11.58
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 9.37
+      "percent": 9.05
     },
     {
       "name": "JavaScript",
       "bytes": 198029,
-      "percent": 8.16
+      "percent": 7.88
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.73
+      "percent": 2.64
     },
     {
       "name": "CSS",
       "bytes": 43240,
-      "percent": 1.78
+      "percent": 1.72
     },
     {
       "name": "PLpgSQL",
       "bytes": 29864,
-      "percent": 1.23
+      "percent": 1.19
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.87
+      "percent": 0.84
     },
     {
       "name": "Perl",
@@ -58,9 +58,9 @@
   ],
   "repos": {
     "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-09-27T08:53:58Z",
+      "pushed_at": "2026-09-28T06:15:26Z",
       "languages": {
-        "TypeScript": 372250,
+        "TypeScript": 458262,
         "HTML": 65343,
         "PLpgSQL": 25453,
         "CSS": 2775,
