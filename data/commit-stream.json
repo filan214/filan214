@@ -2,9 +2,59 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-09-28",
-  "fetched_at": "2026-09-28T06:53:00Z",
+  "fetched_at": "2026-09-28T15:27:14Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "58985231524ea285c54f60658d0032be2553ae53",
+      "message": "docs: end-of-session handoff — mark completions, point to next step",
+      "created_at": "2026-09-28T13:11:11Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53",
+      "event_id": "22385777520",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "d2e7468881dbb76996da8e23645386c4bd219a5d",
+      "message": "fix: anomaly alert no longer mixes transactions from other categories",
+      "created_at": "2026-09-28T10:51:41Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/d2e7468881dbb76996da8e23645386c4bd219a5d",
+      "event_id": "22380811571",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "ea3502bd4f255336806d890b8eac36e703f661b6",
+      "message": "fix: keyword fallback when AI categorization fails",
+      "created_at": "2026-09-28T08:38:51Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/ea3502bd4f255336806d890b8eac36e703f661b6",
+      "event_id": "22369370741",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2",
+      "message": "fix: switch OpenRouter model to a free tier and fix a total-scaling bug it exposed",
+      "created_at": "2026-09-28T08:19:41Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2",
+      "event_id": "22365880768",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "bd7281b55af174969ffbb69b458fdde15d87009d",
+      "message": "docs: record final review fixes in handoff and progress",
+      "created_at": "2026-09-28T05:51:57Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/bd7281b55af174969ffbb69b458fdde15d87009d",
+      "event_id": "22393471188",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "ee0c1be21b4d1ba473cbda939a3b21a3ce1a09ea",
