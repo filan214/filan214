@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -28,13 +28,13 @@
 
 <a href="https://github.com/filan214/AIFinanceTracker"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: 💸 Smart Finn Track, measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
+<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
 
 <h3>filan214@github:~$ ps --repos</h3>
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-28</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-29</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/epl-season-forecast">epl-season-forecast</a></td><td>Python</td><td><a href="https://github.com/filan214/epl-season-forecast/commits"><img src="./repo-activity-2.svg" width="180" alt="epl-season-forecast: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-12</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">Commit</a></td></tr>
 
@@ -58,6 +58,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-09-29 10:22:45</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538">2b51c2d</a> docs: click-through verification done — all 5 UI fixes PASS on prod</td></tr>
+
 <tr><td>2026-09-28 13:11:11</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">5898523</a> docs: end-of-session handoff — mark completions, point to next step</td></tr>
 
 <tr><td>2026-09-28 12:39:28</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/6ed6e486a498dff0a5f792b0bf01b8660cd2c1d2">6ed6e48</a> fix: Planning tab stays in sync with ?tab= across same-route navigation</td></tr>
@@ -76,13 +78,11 @@
 
 <tr><td>2026-09-28 05:51:57</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/bd7281b55af174969ffbb69b458fdde15d87009d">bd7281b</a> docs: record final review fixes in handoff and progress</td></tr>
 
-<tr><td>2026-09-28 05:37:22</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ee0c1be21b4d1ba473cbda939a3b21a3ce1a09ea">ee0c1be</a> docs: update handoff and progress for planning and smart input</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 29 Sep 2026 · 15:29 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 29 Sep 2026 · 22:51 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -104,7 +104,7 @@
 
 <p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
 
-<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">↗ Latest source commit</a></p>
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538">↗ Latest source commit</a></p>
 
 <br>
 
@@ -138,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 29 Sep 2026 · 15:29 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 29 Sep 2026 · 22:51 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 29 Sep 2026 · 15:29 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 29 Sep 2026 · 22:51 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
