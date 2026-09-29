@@ -60,6 +60,8 @@
 
 <tr><td>2026-09-28 13:11:11</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">5898523</a> docs: end-of-session handoff — mark completions, point to next step</td></tr>
 
+<tr><td>2026-09-28 12:39:28</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/6ed6e486a498dff0a5f792b0bf01b8660cd2c1d2">6ed6e48</a> fix: Planning tab stays in sync with ?tab= across same-route navigation</td></tr>
+
 <tr><td>2026-09-28 10:51:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/d2e7468881dbb76996da8e23645386c4bd219a5d">d2e7468</a> fix: anomaly alert no longer mixes transactions from other categories</td></tr>
 
 <tr><td>2026-09-28 10:29:35</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/aff6d0c2968472387ba1af11e3b5c049dc9f3569">aff6d0c</a> fix: chat retries longer on the free model, and never shows a raw SDK error</td></tr>
@@ -76,13 +78,11 @@
 
 <tr><td>2026-09-28 05:37:22</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ee0c1be21b4d1ba473cbda939a3b21a3ce1a09ea">ee0c1be</a> docs: update handoff and progress for planning and smart input</td></tr>
 
-<tr><td>2026-09-27 08:53:59</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/8b399459bbaa936d4a0f58a6b4c2784e495062cd">8b39945</a> feat: add savings goals API</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 29 Sep 2026 · 08:56 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 29 Sep 2026 · 15:29 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -138,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 29 Sep 2026 · 08:56 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 29 Sep 2026 · 15:29 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 29 Sep 2026 · 08:56 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 29 Sep 2026 · 15:29 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
