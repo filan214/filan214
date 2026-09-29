@@ -1,10 +1,30 @@
 {
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
-  "as_of": "2026-09-29",
-  "fetched_at": "2026-09-29T15:51:08Z",
+  "as_of": "2026-09-30",
+  "fetched_at": "2026-09-29T20:46:31Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "40020aaca9d79014980e8f211bb2f3f330c6e6c2",
+      "message": "docs: mark all 2026-09-30 work pushed + deployed; correct quota claim (limit 20 is likely per-minute, not per-day)",
+      "created_at": "2026-09-29T18:54:18Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2",
+      "event_id": "22508424969",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "87f6fb6886f88739688aaace359493394aa30a4d",
+      "message": "feat: switch AI from OpenRouter free model to Gemini 3.5 Flash (Google AI Studio)",
+      "created_at": "2026-09-29T18:18:08Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/87f6fb6886f88739688aaace359493394aa30a4d",
+      "event_id": "22505821224",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "2b51c2d4efd51e1007669818b37c5e1810a99538",
@@ -82,26 +102,6 @@
       "created_at": "2026-09-28T08:19:41Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2",
       "event_id": "22365880768",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "42ed430f55e293e08074d9a9bf5ef3edb1bd563e",
-      "message": "fix: dashboard alert overflows on phone width; sidebar scrolls away on tall pages",
-      "created_at": "2026-09-28T06:15:26Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/42ed430f55e293e08074d9a9bf5ef3edb1bd563e",
-      "event_id": "22396180861",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "bd7281b55af174969ffbb69b458fdde15d87009d",
-      "message": "docs: record final review fixes in handoff and progress",
-      "created_at": "2026-09-28T05:51:57Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/bd7281b55af174969ffbb69b458fdde15d87009d",
-      "event_id": "22393471188",
       "branch": "main",
       "message_available": true
     }

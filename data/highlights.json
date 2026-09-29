@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-29T15:51:08Z",
-  "as_of": "2026-09-29",
+  "fetched_at": "2026-09-29T20:46:31Z",
+  "as_of": "2026-09-30",
   "projects": {
     "finance": {
       "name": "AIFinanceTracker",
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "2b51c2d4efd51e1007669818b37c5e1810a99538",
-        "message": "docs: click-through verification done — all 5 UI fixes PASS on prod",
-        "created_at": "2026-09-29T10:20:03Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538",
+        "sha": "40020aaca9d79014980e8f211bb2f3f330c6e6c2",
+        "message": "docs: mark all 2026-09-30 work pushed + deployed; correct quota claim (limit 20 is likely per-minute, not per-day)",
+        "created_at": "2026-09-29T18:48:19Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -68,10 +68,6 @@
         ]
       },
       "activity_days": [
-        {
-          "date": "2026-07-02",
-          "count": 0
-        },
         {
           "date": "2026-07-03",
           "count": 5
@@ -427,10 +423,14 @@
         {
           "date": "2026-09-29",
           "count": 1
+        },
+        {
+          "date": "2026-09-30",
+          "count": 6
         }
       ],
       "languages": {
-        "TypeScript": 471163,
+        "TypeScript": 480238,
         "HTML": 65343,
         "PLpgSQL": 25453,
         "CSS": 2775,
@@ -440,10 +440,10 @@
         "name": "CI",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "2b51c2d4efd51e1007669818b37c5e1810a99538",
+        "head_sha": "40020aaca9d79014980e8f211bb2f3f330c6e6c2",
         "matches_tip": true,
-        "updated_at": "2026-09-29T10:23:34Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36555196577"
+        "updated_at": "2026-09-29T18:54:59Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/36615385837"
       }
     },
     "epl": {
@@ -565,10 +565,6 @@
         "automation": "scaffold"
       },
       "activity_days": [
-        {
-          "date": "2026-07-02",
-          "count": 0
-        },
         {
           "date": "2026-07-03",
           "count": 0
@@ -924,6 +920,10 @@
         {
           "date": "2026-09-29",
           "count": 0
+        },
+        {
+          "date": "2026-09-30",
+          "count": 0
         }
       ],
       "languages": {
@@ -938,7 +938,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-09-29T15:51:08Z",
+    "checked_at": "2026-09-29T20:46:31Z",
     "http_status": 200,
     "reachable": true
   }
