@@ -2,9 +2,19 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-10-01",
-  "fetched_at": "2026-09-30T19:19:19Z",
+  "fetched_at": "2026-09-30T23:48:31Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/dealership-crosssell-propensity",
+      "sha": "56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
+      "message": "Add \"How it works\" section, dataset link and clean Tableau link",
+      "created_at": "2026-09-30T18:33:04Z",
+      "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
+      "event_id": "22619750877",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "40020aaca9d79014980e8f211bb2f3f330c6e6c2",
@@ -12,6 +22,16 @@
       "created_at": "2026-09-29T18:54:18Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2",
       "event_id": "22508424969",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "d4e863fe25ea3964c1244812e1a2a19b074da526",
+      "message": "docs: receipt busy/unreadable split done; refresh push + test counts",
+      "created_at": "2026-09-29T18:45:41Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/d4e863fe25ea3964c1244812e1a2a19b074da526",
+      "event_id": "22638006009",
       "branch": "main",
       "message_available": true
     },
@@ -82,26 +102,6 @@
       "created_at": "2026-09-28T10:02:41Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/ed77b7a8d45c01d693fd3beb5b4a7a360460200e",
       "event_id": "22423698363",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "ea3502bd4f255336806d890b8eac36e703f661b6",
-      "message": "fix: keyword fallback when AI categorization fails",
-      "created_at": "2026-09-28T08:38:51Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/ea3502bd4f255336806d890b8eac36e703f661b6",
-      "event_id": "22369370741",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2",
-      "message": "fix: switch OpenRouter model to a free tier and fix a total-scaling bug it exposed",
-      "created_at": "2026-09-28T08:19:41Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/ee071e6fc95a45a16dff9fe10a9ccd8b2fb24bb2",
-      "event_id": "22365880768",
       "branch": "main",
       "message_available": true
     }
