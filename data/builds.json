@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-09-30",
-  "fetched_at": "2026-09-30T13:42:44Z",
+  "as_of": "2026-10-01",
+  "fetched_at": "2026-09-30T19:19:15Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,13 +9,150 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 16,
+    "public_repos": 17,
     "followers": 3,
     "following": 6,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 11,
+  "eligible_repo_count": 12,
   "projects": [
+    {
+      "name": "dealership-crosssell-propensity",
+      "full_name": "filan214/dealership-crosssell-propensity",
+      "url": "https://github.com/filan214/dealership-crosssell-propensity",
+      "title": "Dealership Cross-Sell Propensity Model",
+      "description": "",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "pushed_at": "2026-09-30T18:33:03Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/dealership-crosssell-propensity",
+        "sha": "56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
+        "message": "Add \"How it works\" section, dataset link and clean Tableau link",
+        "created_at": "2026-09-30T18:32:46Z",
+        "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-09-04",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07",
+          "count": 0
+        },
+        {
+          "date": "2026-09-08",
+          "count": 0
+        },
+        {
+          "date": "2026-09-09",
+          "count": 0
+        },
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13",
+          "count": 0
+        },
+        {
+          "date": "2026-09-14",
+          "count": 0
+        },
+        {
+          "date": "2026-09-15",
+          "count": 0
+        },
+        {
+          "date": "2026-09-16",
+          "count": 0
+        },
+        {
+          "date": "2026-09-17",
+          "count": 0
+        },
+        {
+          "date": "2026-09-18",
+          "count": 0
+        },
+        {
+          "date": "2026-09-19",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21",
+          "count": 0
+        },
+        {
+          "date": "2026-09-22",
+          "count": 0
+        },
+        {
+          "date": "2026-09-23",
+          "count": 0
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0
+        },
+        {
+          "date": "2026-09-25",
+          "count": 0
+        },
+        {
+          "date": "2026-09-26",
+          "count": 0
+        },
+        {
+          "date": "2026-09-27",
+          "count": 0
+        },
+        {
+          "date": "2026-09-28",
+          "count": 0
+        },
+        {
+          "date": "2026-09-29",
+          "count": 0
+        },
+        {
+          "date": "2026-09-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-01",
+          "count": 3
+        }
+      ]
+    },
     {
       "name": "AIFinanceTracker",
       "full_name": "filan214/AIFinanceTracker",
@@ -44,10 +181,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-03",
-          "count": 0
-        },
         {
           "date": "2026-09-04",
           "count": 0
@@ -155,6 +288,10 @@
         {
           "date": "2026-09-30",
           "count": 6
+        },
+        {
+          "date": "2026-10-01",
+          "count": 0
         }
       ]
     },
@@ -185,10 +322,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-03",
-          "count": 0
-        },
         {
           "date": "2026-09-04",
           "count": 0
@@ -296,6 +429,10 @@
         {
           "date": "2026-09-30",
           "count": 0
+        },
+        {
+          "date": "2026-10-01",
+          "count": 0
         }
       ]
     },
@@ -327,10 +464,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-03",
-          "count": 0
-        },
         {
           "date": "2026-09-04",
           "count": 0
@@ -438,157 +571,15 @@
         {
           "date": "2026-09-30",
           "count": 0
-        }
-      ]
-    },
-    {
-      "name": "POS",
-      "full_name": "filan214/POS",
-      "url": "https://github.com/filan214/POS",
-      "title": "Lapak — Point of Sale",
-      "description": "Laravel point-of-sale system for retail businesses, with inventory, cashier shifts, and reporting.",
-      "homepage": "",
-      "language": "PHP",
-      "topics": [
-        "php",
-        "pos",
-        "retail",
-        "web-development"
-      ],
-      "pushed_at": "2026-08-24T10:04:56Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/POS",
-        "sha": "c1358f06d57e7e43c039a59da7d6a1ceea8e1886",
-        "message": "Finalize session progress and handoff",
-        "created_at": "2026-08-24T06:34:22Z",
-        "url": "https://github.com/filan214/POS/commit/c1358f06d57e7e43c039a59da7d6a1ceea8e1886",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-09-03",
-          "count": 0
         },
         {
-          "date": "2026-09-04",
-          "count": 0
-        },
-        {
-          "date": "2026-09-05",
-          "count": 0
-        },
-        {
-          "date": "2026-09-06",
-          "count": 0
-        },
-        {
-          "date": "2026-09-07",
-          "count": 0
-        },
-        {
-          "date": "2026-09-08",
-          "count": 0
-        },
-        {
-          "date": "2026-09-09",
-          "count": 0
-        },
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
-        {
-          "date": "2026-09-11",
-          "count": 0
-        },
-        {
-          "date": "2026-09-12",
-          "count": 0
-        },
-        {
-          "date": "2026-09-13",
-          "count": 0
-        },
-        {
-          "date": "2026-09-14",
-          "count": 0
-        },
-        {
-          "date": "2026-09-15",
-          "count": 0
-        },
-        {
-          "date": "2026-09-16",
-          "count": 0
-        },
-        {
-          "date": "2026-09-17",
-          "count": 0
-        },
-        {
-          "date": "2026-09-18",
-          "count": 0
-        },
-        {
-          "date": "2026-09-19",
-          "count": 0
-        },
-        {
-          "date": "2026-09-20",
-          "count": 0
-        },
-        {
-          "date": "2026-09-21",
-          "count": 0
-        },
-        {
-          "date": "2026-09-22",
-          "count": 0
-        },
-        {
-          "date": "2026-09-23",
-          "count": 0
-        },
-        {
-          "date": "2026-09-24",
-          "count": 0
-        },
-        {
-          "date": "2026-09-25",
-          "count": 0
-        },
-        {
-          "date": "2026-09-26",
-          "count": 0
-        },
-        {
-          "date": "2026-09-27",
-          "count": 0
-        },
-        {
-          "date": "2026-09-28",
-          "count": 0
-        },
-        {
-          "date": "2026-09-29",
-          "count": 0
-        },
-        {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-09-03",
-      "count": 0
-    },
     {
       "date": "2026-09-04",
       "count": 0
@@ -683,19 +674,23 @@
     },
     {
       "date": "2026-09-27",
-      "count": 20
+      "count": 0
     },
     {
       "date": "2026-09-28",
-      "count": 23
+      "count": 0
     },
     {
       "date": "2026-09-29",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-09-30",
-      "count": 6
+      "count": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 3
     }
   ]
 }

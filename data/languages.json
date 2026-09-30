@@ -1,62 +1,74 @@
 {
   "username": "filan214",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 11,
-  "total_bytes": 2534921,
+  "repo_count": 12,
+  "total_bytes": 2682503,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1256629,
-      "percent": 49.57
+      "percent": 46.85
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 15.64
+      "percent": 14.78
     },
     {
       "name": "Python",
-      "bytes": 291107,
-      "percent": 11.48
+      "bytes": 291496,
+      "percent": 10.87
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 8.97
+      "percent": 8.48
     },
     {
       "name": "JavaScript",
       "bytes": 198029,
-      "percent": 7.81
+      "percent": 7.38
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 147193,
+      "percent": 5.49
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.61
+      "percent": 2.47
     },
     {
       "name": "CSS",
       "bytes": 43240,
-      "percent": 1.71
+      "percent": 1.61
     },
     {
       "name": "PLpgSQL",
       "bytes": 29864,
-      "percent": 1.18
+      "percent": 1.11
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.83
+      "percent": 0.79
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.19
+      "percent": 0.18
     }
   ],
   "repos": {
+    "filan214/dealership-crosssell-propensity": {
+      "pushed_at": "2026-09-30T18:33:03Z",
+      "languages": {
+        "Jupyter Notebook": 147193,
+        "Python": 389
+      }
+    },
     "filan214/AIFinanceTracker": {
       "pushed_at": "2026-09-29T18:54:17Z",
       "languages": {
