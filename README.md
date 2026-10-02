@@ -60,6 +60,8 @@
 
 <tr><td>2026-09-30 18:33:04</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">56a1e0d</a> Add &quot;How it works&quot; section, dataset link and clean Tableau link</td></tr>
 
+<tr><td>2026-09-30 18:23:03</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/9e4d1471bd79ac90cfd36b9ca095071ec7ac6fd1">9e4d147</a> Add Tableau Public link to dashboard section</td></tr>
+
 <tr><td>2026-09-29 18:54:18</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2">40020aa</a> docs: mark all 2026-09-30 work pushed + deployed; correct quota claim (limit 20 is likely per-minute, not per-day)</td></tr>
 
 <tr><td>2026-09-29 18:45:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/d4e863fe25ea3964c1244812e1a2a19b074da526">d4e863f</a> docs: receipt busy/unreadable split done; refresh push + test counts</td></tr>
@@ -76,13 +78,11 @@
 
 <tr><td>2026-09-28 10:29:35</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/aff6d0c2968472387ba1af11e3b5c049dc9f3569">aff6d0c</a> fix: chat retries longer on the free model, and never shows a raw SDK error</td></tr>
 
-<tr><td>2026-09-28 10:02:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/ed77b7a8d45c01d693fd3beb5b4a7a360460200e">ed77b7a</a> fix: keyword category fallback for quick-add and CSV import</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 02 Oct 2026 · 09:15 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 02 Oct 2026 · 15:35 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -138,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 02 Oct 2026 · 09:15 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 02 Oct 2026 · 15:35 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 02 Oct 2026 · 09:15 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 02 Oct 2026 · 15:35 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
