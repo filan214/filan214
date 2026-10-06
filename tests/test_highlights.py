@@ -16,11 +16,31 @@ from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import fetch_highlights as fetch
 from render_freshness import render as freshness
+from render_contact import outputs as contact
 from render_highlights import outputs, workflow_label
 from render_readme import render as readme
 from test_live_panels import SNAPSHOT, BUILD
 
 NS = {"s": "http://www.w3.org/2000/svg"}
+CROSSSELL_README = """# Dealership Cross-Sell Propensity Model
+
+## Results
+Scored on a held-out test set of 76,222 customers (20% stratified split, never seen in training).
+
+| Metric | Result |
+|---|---|
+| LightGBM ROC-AUC | **0.857** (logistic regression baseline: 0.850) |
+| Overall response rate | 12.3% |
+| Top-decile lift | **3.2×**: the top 10% of customers capture 32.2% of responders |
+| Capture at 30% of customers called | **79.0%** of responders, **2.6× lift** |
+
+## Dashboard
+Tableau Public: [Dashboard](https://public.tableau.com/app/profile/demo/viz/Demo/Dashboard1)
+
+## Project status
+- [x] SQL EDA
+- [ ] Model
+"""
 
 
 def tree(*paths):
@@ -31,8 +51,8 @@ def fixture():
     project = {**copy.deepcopy(BUILD), "languages": {"TypeScript": 80, "CSS": 20},
                "activity_days": [{"date": "2026-09-11", "count": 0}, {"date": "2026-09-12", "count": 0}], "workflow": None}
     finance = {**project, "inventory": fetch.inventory(tree("src/app/api/ai/chat/route.ts", "messages/en.json"), "finance", {})}
-    epl = {**project, "inventory": fetch.inventory(tree("pipeline/src/eplforecast/models/bayes_goals.py"), "epl", {})}
-    return {"fetched_at": "2026-09-12T01:00:00Z", "projects": {"finance": finance, "epl": epl},
+    crosssell = {**project, "inventory": fetch.inventory(tree("sql/01_eda.sql"), "crosssell", {})}
+    return {"fetched_at": "2026-09-12T01:00:00Z", "projects": {"finance": finance, "crosssell": crosssell},
             "app": {"http_status": 200, "reachable": True, "checked_at": "2026-09-12T01:00:00Z"}}
 
 
@@ -50,17 +70,26 @@ class HighlightTests(unittest.TestCase):
         self.assertEqual(days[0], {"date": "2026-06-15", "count": 1})
         self.assertEqual(sum(day["count"] for day in days), 1)
 
-    def test_inventory_follows_source_and_ignores_nonfiles_and_init_modules(self):
-        data = tree("pipeline/src/eplforecast/models/bayes_goals.py", "pipeline/src/eplforecast/models/__init__.py",
-                    "pipeline/data/processed/fd_2425.parquet", "pipeline/data/processed/notes.txt", "pipeline/tests/test_example.py")
-        data["tree"].append({"type": "tree", "path": "pipeline/src/eplforecast/models/empty.py"})
-        result = fetch.inventory(data, "epl", {"web/app/page.tsx": "// PLACEHOLDER", ".github/workflows/weekly_forecast.yml": "name: Weekly"})
-        self.assertEqual(len(result["stages"][2]["files"]), 1)
-        self.assertEqual(len(result["datasets"]), 1)
-        self.assertEqual(len(result["tests"]), 1)
-        self.assertEqual([m["present"] for m in result["models"]], [True, False, False])
-        self.assertEqual(result["dashboard"], "scaffold")
-        self.assertEqual(result["automation"], "source present")
+    def test_crosssell_inventory_follows_source_and_quotes_readme_results(self):
+        data = tree("sql/01_eda.sql", "sql/.gitkeep", "notebooks/01_model.ipynb", "dashboard/customer_scores.csv", "dashboard/screenshot.png")
+        data["tree"].append({"type": "tree", "path": "sql/empty.sql"})
+        result = fetch.inventory(data, "crosssell", {"README.md": CROSSSELL_README})
+        self.assertEqual([len(stage["files"]) for stage in result["stages"]], [1, 1, 1])
+        self.assertEqual(result["results"], {"auc": "0.857", "top_decile_lift": "3.2×", "capture_share": "30%", "captured": "79.0%",
+                                             "capture_lift": "2.6×", "response_rate": "12.3%", "test_customers": "76,222"})
+        self.assertTrue(result["dashboard_url"].startswith("https://public.tableau.com/app/profile/"))
+        self.assertEqual([item["done"] for item in result["status"]], [True, False])
+        self.assertTrue(result["screenshot"])
+        self.assertFalse(result["shap"])
+
+    def test_missing_readme_results_stay_unknown_instead_of_invented(self):
+        result = fetch.inventory(tree("README.md"), "crosssell", {"README.md": None})
+        self.assertTrue(all(value is None for value in result["results"].values()))
+        self.assertEqual((result["dashboard_url"], result["status"]), ("", []))
+        content = " ".join(ET.fromstring(outputs({**fixture(), "projects": {**fixture()["projects"], "crosssell": {
+            **fixture()["projects"]["crosssell"], "inventory": result}}})["crosssell-spotlight.svg"]).itertext())
+        self.assertIn("not linked", content)
+        self.assertNotIn("0.857", content)
 
     def test_finance_tools_are_observed_and_missing_source_is_unknown(self):
         data = tree("src/app/(app)/chat/page.tsx", "src/app/api/ai/chat/route.ts", "messages/en.json", "messages/id.json")
@@ -74,7 +103,7 @@ class HighlightTests(unittest.TestCase):
 
     def test_partial_tree_is_rejected_instead_of_publishing_lower_counts(self):
         with self.assertRaises(ValueError):
-            fetch.inventory({"truncated": True, "tree": []}, "epl", {})
+            fetch.inventory({"truncated": True, "tree": []}, "crosssell", {})
 
     def test_absent_source_is_distinct_from_a_failed_request(self):
         class Client:
@@ -140,16 +169,33 @@ class HighlightTests(unittest.TestCase):
     def test_readme_preserves_project_links_and_replaces_old_business_paragraph(self):
         data = fixture()
         data["projects"]["finance"]["url"] = "https://github.com/filan214/AIFinanceTracker"
-        data["projects"]["epl"]["url"] = "https://github.com/filan214/epl-season-forecast"
+        data["projects"]["crosssell"]["url"] = "https://github.com/filan214/dealership-crosssell-propensity"
+        data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("notebooks/01_model.ipynb", "dashboard/screenshot.png"), "crosssell", {"README.md": CROSSSELL_README})
         page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data), "html.parser")
         self.assertNotIn("Building for a real business", page.text)
         self.assertNotIn("Jogja Ride", page.text)
         self.assertEqual(page.find("img", src="./finance-spotlight.svg").parent["href"], fetch.FINANCE_APP)
-        self.assertEqual(page.find("img", src="./epl-spotlight.svg").parent["href"], data["projects"]["epl"]["url"])
+        dashboard = data["projects"]["crosssell"]["inventory"]["dashboard_url"]
+        self.assertEqual(page.find("img", src="./crosssell-spotlight.svg").parent["href"], dashboard)
+        self.assertNotIn("EPL", page.text)
+        self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"]))
+        self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"] + "/blob/abcdef1234/notebooks/01_model.ipynb"))
+        self.assertTrue(page.find("img", src="https://raw.githubusercontent.com/filan214/new-project/abcdef1234/dashboard/screenshot.png"))
         self.assertTrue(page.find("img", src="./data-freshness.svg"))
-        self.assertTrue(page.find("a", href="https://github.com/filan214/WC-prediction"))
+        self.assertEqual(page.find("img", src="./contact-email.svg").parent["href"], "mailto:valentinus.filan@gmail.com")
+        self.assertEqual(page.find("img", src="./contact-linkedin.svg").parent["href"],
+                         "https://www.linkedin.com/in/valentinus-filan-gunawan-087538226")
         self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
         self.assertIsNone(page.find("script"))
+
+    def test_contact_buttons_are_accessible_themed_svgs(self):
+        for name, content in contact().items():
+            root = ET.fromstring(content)
+            self.assertTrue(root.find("s:title", NS).text)
+            self.assertTrue(root.find("s:desc", NS).text)
+            self.assertIsNone(root.find(".//s:script", NS))
+            self.assertIn("prefers-color-scheme: dark", root.find("s:style", NS).text)
+        self.assertIn("valentinus.filan@gmail.com", " ".join(ET.fromstring(contact()["contact-email.svg"]).itertext()))
 
     def test_freshness_displays_each_collector_time_and_date_only_sources(self):
         root = ET.fromstring(freshness({"fetched_at": "2026-09-12T00:00:00Z"}, {"fetched_at": "2026-09-12T01:00:00Z"},

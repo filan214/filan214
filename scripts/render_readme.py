@@ -2,6 +2,7 @@
 from common import DATA, ROOT, read_json, run
 from fetch_builds import safe_url
 from fetch_highlights import FINANCE_APP
+from render_contact import EMAIL, LINKEDIN
 from render_build_spotlight import sync_label
 from svg import esc, shorten
 
@@ -16,6 +17,13 @@ def image(name, alt, width=860, url=""):
     return f'<a href="{esc(safe_url(url))}">{markup}</a>' if safe_url(url) else markup
 
 
+def contact():
+    # mailto: is deliberately outside safe_url, which only admits fetched http(s) links.
+    email = f'<a href="mailto:{esc(EMAIL)}"><img src="./contact-email.svg" width="300" alt="Email Valentinus Filan at {esc(EMAIL)}"></a>'
+    return ['<h3>filan214@github:~$ contact --reach</h3>',
+            '<p>' + email + ' &nbsp; ' + image("contact-linkedin", "Valentinus Filan Gunawan on LinkedIn", 300, LINKEDIN) + '</p>']
+
+
 def render(data, stream, highlights=None):
     projects = data["projects"]
     project = projects[0] if projects else None
@@ -27,7 +35,7 @@ def render(data, stream, highlights=None):
              '<table align="center" width="860" cellpadding="0" cellspacing="0"><tr>',
              '<td width="43%" align="center">' + image("filan-ascii", "Animated ASCII portrait of Filan from the supplied photograph", 370) + '</td>',
              '<td width="57%" align="center">' + image("info-card", "GitHub profile, real repository counts, latest project, and code languages", 490, "https://github.com/filan214?tab=repositories") + '</td>',
-             '</tr></table>', '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
+             '</tr></table>', *contact(), '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
              image("recent-build", "Recent Build Spotlight: " + (project["title"] + ", measured commit activity and language bytes. Open the repository." if project else "No eligible public projects."), url=project["url"] if project else "")]
     if project:
         actions = [link(project["url"], "↗ Explore code"), link(project["commit"]["url"], "↗ Latest commit"), link(project["url"] + "/commits", "↗ Commit history")]
@@ -71,13 +79,13 @@ def render(data, stream, highlights=None):
     for name, label, detail in [
         ("builds", "Projects & activity", "Public repository metadata and 28-day default-branch commit history, all authors. Synced " + sync_label(data) + "."),
         ("commit-stream", "Cross-repo pushes", "Available public push events by filan214; one exact head commit per push. Synced " + sync_label(stream) + "."),
-        ("highlights", "Finance & EPL spotlights", "File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check."),
+        ("highlights", "Finance & cross-sell spotlights", "File inventories pinned to the displayed source commit, cross-sell results quoted from that project's README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check."),
         ("contributions", "Contribution calendar", "GitHub contribution HTML: full account totals, including automation."),
         ("languages", "Language mix", "GitHub Linguist byte counts from eligible public repositories. Code proportions, not proficiency.")]:
         parts.append('<tr><td>' + link("https://github.com/filan214/filan214/blob/main/data/" + name + ".json", label) + '</td><td>' + esc(detail) + '</td></tr>')
     parts += ['</table>',
-              '<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and epl-season-forecast while they remain public and active.</p>',
-              '<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The EPL card visualizes source structure and commit history. The finance app check only tests its public landing page, without accessing an account or financial data.</p>',
+              '<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and dealership-crosssell-propensity while they remain public and active.</p>',
+              '<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here. The finance app check only tests its public landing page, without accessing an account or financial data.</p>',
               '<p>GitHub schedules, event delivery, source analysis, and image caches can delay updates. A failed refresh keeps the last published snapshot and its recorded timestamps. The portrait is supplied by Filan.</p>',
               '<p>' + link("https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml", "↗ Refresh workflow") + ' &nbsp; · &nbsp; ' + link("https://github.com/filan214/filan214/tree/main/scripts", "↗ Explore the generators") + '</p>',
               '</details>', '</div>']
@@ -85,19 +93,30 @@ def render(data, stream, highlights=None):
 
 
 def showcase_sections(data):
-    finance, epl = data["projects"]["finance"], data["projects"]["epl"]
+    finance, crosssell = data["projects"]["finance"], data["projects"]["crosssell"]
+    inv, sha = crosssell["inventory"], crosssell["commit"]["sha"]
+    dashboard = safe_url(inv["dashboard_url"])
     parts = ['<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>',
              image("finance-spotlight", "Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability", url=FINANCE_APP),
              '<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>',
              '<p>' + ' &nbsp; · &nbsp; '.join([link(FINANCE_APP, "↗ Open app"), link(finance["url"], "↗ Explore AIFinanceTracker"), link(finance["commit"]["url"], "↗ Latest source commit")]) + '</p>', '<br>',
-             '<h3>filan214@github:~$ showcase --football · Sports Analytics &amp; Forecasting</h3>',
-             image("epl-spotlight", "EPL Season Forecast: observed data-to-model pipeline, season data and test-file counts, development status, and actual 90-day commit history", url=epl["url"]),
-             '<p><strong>One match is uncertain. A season is a range of possibilities.</strong><br>EPL Season Forecast explores that range through Bayesian goal modeling, XGBoost outcomes, and season simulations.</p>',
-             '<p>' + ' &nbsp; · &nbsp; '.join([link(epl["url"], "↗ Explore EPL project"), link(epl["url"] + "/tree/" + epl["commit"]["sha"] + "/pipeline/src/eplforecast", "↗ Inspect model pipeline"), link(epl["commit"]["url"], "↗ Latest source commit")]) + '</p>',
-             '<details><summary>Follow the wider football analytics thread</summary>',
-             '<p>' + link(epl["url"], "EPL season forecasting") + ' → ' + link("https://github.com/filan214/WC-prediction", "World Cup final modeling") + ' → ' + link("https://github.com/filan214/FormWAtch-Football", "Player-form analysis") + '</p>',
-             '<p>Across league seasons, a World Cup final, and player form, I use the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.</p>',
-             '</details>', '<br>']
+             '<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>',
+             image("crosssell-spotlight", "Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history", url=dashboard or crosssell["url"]),
+             '<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>']
+    actions = [link(dashboard, "↗ Open Tableau dashboard")] if dashboard else []
+    actions.append(link(crosssell["url"], "↗ Explore project"))
+    notebooks = inv["stages"][1]["files"]
+    if notebooks:
+        actions.append(link(crosssell["url"] + "/blob/" + sha + "/" + notebooks[0], "↗ Inspect model notebook"))
+    actions.append(link(crosssell["commit"]["url"], "↗ Latest source commit"))
+    parts.append('<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>')
+    if inv["screenshot"]:
+        shot = f"https://raw.githubusercontent.com/{crosssell['full_name']}/{sha}/dashboard/screenshot.png"
+        parts += ['<details><summary>Preview the targeting dashboard</summary>', '<br>',
+                  f'<a href="{esc(dashboard or crosssell["url"])}"><img src="{esc(shot)}" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>',
+                  '<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>',
+                  '</details>']
+    parts.append('<br>')
     return parts
 
 

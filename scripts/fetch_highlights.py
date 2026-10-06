@@ -9,7 +9,7 @@ from common import API, DATA, USERNAME, GitHub, read_json, run, today, write_jso
 from fetch_builds import latest_commit, repository_activity, safe_url
 
 FINANCE_APP = "https://ai-finance-tracker-delta-drab.vercel.app/"
-PROJECTS = {"finance": "AIFinanceTracker", "epl": "epl-season-forecast"}
+PROJECTS = {"finance": "AIFinanceTracker", "crosssell": "dealership-crosssell-propensity"}
 SCHEMA_VERSION = 1
 
 
@@ -42,27 +42,52 @@ def inventory(tree, kind, sources):
             ("Monthly reports", "src/app/api/ai/report/route.ts")]]
         locales = [p for p in files if re.fullmatch(r"(?:src/)?messages/[a-z]{2}\.json", p)]
         return {"tools": tool_names, "routes": routes, "locales": locales, "features": features}
-    root = "pipeline/src/eplforecast/"
-    stages = [{"label": label, "path": root + folder, "files": [p for p in files
-               if p.startswith(root + folder + "/") and p.endswith(".py") and not p.endswith("/__init__.py")]}
-              for label, folder in [("Ingest", "ingest"), ("Features", "features"), ("Models", "models"), ("Simulate", "simulate")]]
-    models = [{"label": label, "path": root + path, "present": root + path in files} for label, path in [
-        ("Bayesian goals", "models/bayes_goals.py"), ("XGBoost outcomes", "models/xgb_outcome.py"),
-        ("Probability blend", "models/blend.py")]]
-    return {"stages": stages, "models": models,
-            "datasets": [p for p in files if re.fullmatch(r"pipeline/data/processed/fd_\d{4}\.parquet", p)],
-            "tests": [p for p in files if p.startswith("pipeline/tests/test_") and p.endswith(".py")],
-            "evaluation": [p for p in files if p.startswith(root + "evaluate/") and p.endswith(".py") and not p.endswith("/__init__.py")],
-            "dashboard": source_state(sources.get("web/app/page.tsx")),
-            "automation": source_state(sources.get(".github/workflows/weekly_forecast.yml"))}
+    if kind == "crosssell":
+        return crosssell_inventory(files, sources.get("README.md") or "")
+    raise ValueError(f"Unknown curated project kind: {kind}")
 
 
-def source_state(content):
-    if content is None:
-        return "not found"
-    if re.search(r"placeholder|not yet implemented", content, re.IGNORECASE):
-        return "scaffold"
-    return "source present"  # Source alone cannot prove a deployment or a working model.
+def crosssell_inventory(files, readme):
+    stages = [{"label": label, "path": folder, "files": [p for p in files if p.startswith(folder + "/") and p.endswith(suffix)]}
+              for label, folder, suffix in [("SQL EDA", "sql", ".sql"), ("Model", "notebooks", ".ipynb"), ("Scores", "dashboard", ".csv")]]
+    tableau = re.search(r"https://public\.tableau\.com/[^\s)\]>\"']+", readme)
+    status = [{"label": " ".join(label.split()), "done": mark.lower() == "x"}
+              for mark, label in re.findall(r"^\s*[-*] \[([ xX])\] (.+)$", section(readme, "Project status"), re.MULTILINE)]
+    return {"stages": stages, "results": readme_results(readme), "status": status,
+            "dashboard_url": safe_url(tableau[0]) if tableau else "",
+            "screenshot": "dashboard/screenshot.png" in files, "shap": "notebooks/shap_summary.png" in files}
+
+
+def section(markdown, heading):
+    match = re.search(rf"^## {re.escape(heading)}\s*$(.*?)(?=^## |\Z)", markdown, re.MULTILINE | re.DOTALL)
+    return match[1] if match else ""
+
+
+def readme_results(readme):
+    # Quoted from the project's own README at the pinned commit; never recomputed or estimated here.
+    text = section(readme, "Results")
+    rows = {}
+    for line in text.splitlines():
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if line.strip().startswith("|") and len(cells) == 2 and not set(cells[1]) <= set("-: "):
+            rows[cells[0]] = cells[1]
+
+    def row(pattern):
+        return next(((label, value) for label, value in rows.items() if re.search(pattern, label, re.IGNORECASE)), ("", ""))
+
+    def bold(pattern):
+        return re.findall(r"\*\*(.+?)\*\*", row(pattern)[1])
+
+    auc, decile = bold(r"ROC-AUC"), bold(r"top-decile lift")
+    label, value = row(r"capture at \d+%")
+    capture = re.findall(r"\*\*(.+?)\*\*", value)
+    share = re.search(r"(\d+)%", label)
+    rate = re.search(r"[\d.]+%", row(r"overall response rate")[1])
+    size = re.search(r"test set of ([\d,]+) customers", text)
+    return {"auc": auc[0] if auc else None, "top_decile_lift": decile[0] if decile else None,
+            "capture_share": share[1] + "%" if share else None, "captured": capture[0] if capture else None,
+            "capture_lift": capture[1].removesuffix(" lift").strip() if len(capture) > 1 else None,
+            "response_rate": rate[0] if rate else None, "test_customers": size[1] if size else None}
 
 
 def latest_run(client, full_name, branch, sha):
@@ -111,7 +136,7 @@ def main():
             project["inventory"] = old["inventory"]
         else:
             tree = client.json(f"{API}/repos/{full_name}/git/trees/{commit['sha']}?recursive=1")
-            paths = ["src/lib/ai/tools.ts"] if kind == "finance" else ["web/app/page.tsx", ".github/workflows/weekly_forecast.yml"]
+            paths = ["src/lib/ai/tools.ts"] if kind == "finance" else ["README.md"]
             sources = {path: source_text(client, full_name, commit["sha"], path) for path in paths}
             project["inventory"] = inventory(tree, kind, sources)
         project["activity_days"] = repository_activity(client, project, as_of, window_days=90)
@@ -120,7 +145,7 @@ def main():
         projects[kind] = project
     write_json(cached_path, {"schema_version": SCHEMA_VERSION, "fetched_at": fetched_at, "as_of": as_of.isoformat(),
                             "projects": projects, "app": check_app(client, fetched_at)})
-    print("Fetched finance and EPL source inventories, activity, languages, and workflow observations")
+    print("Fetched finance and cross-sell source inventories, activity, languages, and workflow observations")
 
 
 if __name__ == "__main__":

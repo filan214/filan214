@@ -35,6 +35,7 @@ python scripts/make_info_card.py
 python scripts/make_tagline.py
 python scripts/render_highlights.py
 python scripts/render_freshness.py
+python scripts/render_contact.py
 python scripts/render_readme.py
 python -m unittest discover -s tests -v
 python scripts/make_preview.py
@@ -58,7 +59,8 @@ The workflow commits only after **all** fetch and render steps succeed. Its auto
 | Language bars | GitHub Linguist byte counts on default branches of eligible projects. Percentages are code proportions, not proficiency. Push changes invalidate a repo's cache; the first successful run each Jakarta day refreshes all language bytes to pick up delayed Linguist analysis. |
 | Tagline | Rotates current account/project/language facts from the same snapshot. |
 | Finance spotlight | AIFinanceTracker source files and registered AI tools at the exact displayed default-branch commit, 90-day activity, language bytes, and latest public workflow observation. The app check requests only its public landing page; it is not an authenticated feature-health or uptime test. No personal transactions or demo financial totals are used. |
-| EPL spotlight | The current source tree of epl-season-forecast: ingest, feature, model, and simulation module counts; season parquet files; test files; and 90-day commit history. File presence is not proof of successful execution. Dashboard and weekly forecast-job source markers distinguish scaffolds from other source. No forecast odds, model scores, or test-pass counts are inferred. |
+| Cross-sell spotlight | The current source tree of dealership-crosssell-propensity: SQL, notebook, and scored-export file counts; the Tableau Public link and project checklist from its README; and 90-day commit history. Model results (ROC-AUC, lift, responders reached) are quoted from the project README at the displayed commit, never recomputed or estimated. A missing README value shows as —. File presence is not proof of successful execution. |
+| Contact buttons | Static `contact-email.svg` and `contact-linkedin.svg` from `scripts/render_contact.py`. Each is its own README link, because one image cannot hold two links. Edit `EMAIL` / `LINKEDIN` there, then rerun the script and `render_readme.py`. |
 | Data freshness | Separate recorded fetch times for project selection, push events, and curated spotlights. Contribution and language snapshots currently record a date only and are labeled accordingly. |
 | Portrait | The real photograph supplied by Filan. It is an identity asset, not fetched activity. |
 
@@ -68,9 +70,9 @@ The old mock process panel is removed. The thesis progress SVG is removed from t
 
 ## Interactions and appearance
 
-The curated finance card opens the public app, with separate repository and exact source-commit links below. The EPL card opens its repository, with a link to the pipeline pinned to the same commit as the displayed file inventory. Expand the football analytics thread to explore the related projects. The freshness panel displays separate collector timestamps and opens the refresh workflow; its disclosure contains a linked source table.
+The curated finance card opens the public app, with separate repository and exact source-commit links below. The cross-sell card opens its Tableau Public dashboard (or the repository if no link is found), with links to the repository, the model notebook pinned to the displayed commit, and that commit. Expand **Preview the targeting dashboard** to see the project's dashboard screenshot, pinned to the same commit. The **contact --reach** buttons open an email to valentinus.filan@gmail.com and the LinkedIn profile. The freshness panel displays separate collector timestamps and opens the refresh workflow; its disclosure contains a linked source table.
 
-`fetch_highlights.py` reads only the two explicitly selected public repositories. It reuses a source inventory only when the commit SHA and snapshot schema match; activity windows, workflow observations, app checks, and language bytes are refreshed each run. A truncated source tree or failed GitHub request aborts publication. App connection failures are shown as an unverified landing-page check. The latest Actions observation can refer to an earlier commit, so the card identifies that revision. API file counts are evidence about code structure, not completed features. If project folders or tool registration syntax change substantially, update the inventory rules in this collector. These cards do not query forecast results or financial accounts.
+`fetch_highlights.py` reads only the two explicitly selected public repositories. It reuses a source inventory only when the commit SHA and snapshot schema match; activity windows, workflow observations, app checks, and language bytes are refreshed each run. A truncated source tree or failed GitHub request aborts publication. App connection failures are shown as an unverified landing-page check. The latest Actions observation can refer to an earlier commit, so the card identifies that revision. API file counts are evidence about code structure, not completed features. If project folders or tool registration syntax change substantially, update the inventory rules in this collector. These cards do not run models or query financial accounts.
 
 The featured card opens its repository. Links underneath open the exact commit, commit history, and project site when GitHub has a valid HTTP(S) homepage. The visible **ps --repos** table includes the four recent repositories and a sparkline column; click a sparkline to open its commit history. The scrolling stream sits immediately below the table. Expand **Read all … pushes & open commits** for a stationary, complete log with clickable commit hashes and branch names. Expand **Data sources & freshness** to inspect sync time and provenance.
 

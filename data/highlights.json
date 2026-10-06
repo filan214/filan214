@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-06T07:34:07Z",
+  "fetched_at": "2026-10-06T07:41:57Z",
   "as_of": "2026-10-06",
   "projects": {
     "finance": {
@@ -446,18 +446,18 @@
         "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/37430215191"
       }
     },
-    "epl": {
-      "name": "epl-season-forecast",
-      "full_name": "filan214/epl-season-forecast",
-      "url": "https://github.com/filan214/epl-season-forecast",
-      "description": "Bayesian EPL season forecasting project using a hierarchical Poisson model and season simulations; in development.",
+    "crosssell": {
+      "name": "dealership-crosssell-propensity",
+      "full_name": "filan214/dealership-crosssell-propensity",
+      "url": "https://github.com/filan214/dealership-crosssell-propensity",
+      "description": "",
       "default_branch": "main",
       "commit": {
-        "repo": "filan214/epl-season-forecast",
-        "sha": "fa8936986fd197dd192b4f90e9afa38e61acf0cc",
-        "message": "feat: eplforecast predict — per-fixture match-market forecasts",
-        "created_at": "2026-07-24T10:51:11Z",
-        "url": "https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+        "repo": "filan214/dealership-crosssell-propensity",
+        "sha": "56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
+        "message": "Add \"How it works\" section, dataset link and clean Tableau link",
+        "created_at": "2026-09-30T18:32:46Z",
+        "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -466,103 +466,57 @@
       "inventory": {
         "stages": [
           {
-            "label": "Ingest",
-            "path": "pipeline/src/eplforecast/ingest",
+            "label": "SQL EDA",
+            "path": "sql",
             "files": [
-              "pipeline/src/eplforecast/ingest/football_data_csv.py",
-              "pipeline/src/eplforecast/ingest/live_results.py",
-              "pipeline/src/eplforecast/ingest/teams.py",
-              "pipeline/src/eplforecast/ingest/transfermarkt.py",
-              "pipeline/src/eplforecast/ingest/understat.py"
+              "sql/01_eda.sql"
             ]
           },
           {
-            "label": "Features",
-            "path": "pipeline/src/eplforecast/features",
+            "label": "Model",
+            "path": "notebooks",
             "files": [
-              "pipeline/src/eplforecast/features/build.py",
-              "pipeline/src/eplforecast/features/elo.py",
-              "pipeline/src/eplforecast/features/rolling.py"
+              "notebooks/01_model.ipynb"
             ]
           },
           {
-            "label": "Models",
-            "path": "pipeline/src/eplforecast/models",
+            "label": "Scores",
+            "path": "dashboard",
             "files": [
-              "pipeline/src/eplforecast/models/baseline.py",
-              "pipeline/src/eplforecast/models/bayes_goals.py",
-              "pipeline/src/eplforecast/models/blend.py",
-              "pipeline/src/eplforecast/models/xgb_outcome.py"
-            ]
-          },
-          {
-            "label": "Simulate",
-            "path": "pipeline/src/eplforecast/simulate",
-            "files": [
-              "pipeline/src/eplforecast/simulate/scorelines.py",
-              "pipeline/src/eplforecast/simulate/season.py"
+              "dashboard/customer_scores.csv"
             ]
           }
         ],
-        "models": [
+        "results": {
+          "auc": "0.857",
+          "top_decile_lift": "3.2×",
+          "capture_share": "30%",
+          "captured": "79.0%",
+          "capture_lift": "2.6×",
+          "response_rate": "12.3%",
+          "test_customers": "76,222"
+        },
+        "status": [
           {
-            "label": "Bayesian goals",
-            "path": "pipeline/src/eplforecast/models/bayes_goals.py",
-            "present": true
+            "label": "SQL EDA",
+            "done": true
           },
           {
-            "label": "XGBoost outcomes",
-            "path": "pipeline/src/eplforecast/models/xgb_outcome.py",
-            "present": true
+            "label": "Model",
+            "done": true
           },
           {
-            "label": "Probability blend",
-            "path": "pipeline/src/eplforecast/models/blend.py",
-            "present": true
+            "label": "Tableau dashboard",
+            "done": true
+          },
+          {
+            "label": "Results and business impact",
+            "done": true
           }
         ],
-        "datasets": [
-          "pipeline/data/processed/fd_1516.parquet",
-          "pipeline/data/processed/fd_1617.parquet",
-          "pipeline/data/processed/fd_1718.parquet",
-          "pipeline/data/processed/fd_1819.parquet",
-          "pipeline/data/processed/fd_1920.parquet",
-          "pipeline/data/processed/fd_2021.parquet",
-          "pipeline/data/processed/fd_2122.parquet",
-          "pipeline/data/processed/fd_2223.parquet",
-          "pipeline/data/processed/fd_2324.parquet",
-          "pipeline/data/processed/fd_2425.parquet"
-        ],
-        "tests": [
-          "pipeline/tests/test_baseline.py",
-          "pipeline/tests/test_bayes_goals.py",
-          "pipeline/tests/test_blend.py",
-          "pipeline/tests/test_build.py",
-          "pipeline/tests/test_cli.py",
-          "pipeline/tests/test_compare.py",
-          "pipeline/tests/test_devig.py",
-          "pipeline/tests/test_elo.py",
-          "pipeline/tests/test_gate.py",
-          "pipeline/tests/test_halflife.py",
-          "pipeline/tests/test_ingest_football_data.py",
-          "pipeline/tests/test_metrics.py",
-          "pipeline/tests/test_predict.py",
-          "pipeline/tests/test_rolling.py",
-          "pipeline/tests/test_scaffold.py",
-          "pipeline/tests/test_scorelines.py",
-          "pipeline/tests/test_validation.py",
-          "pipeline/tests/test_xgb_outcome.py"
-        ],
-        "evaluation": [
-          "pipeline/src/eplforecast/evaluate/calibration.py",
-          "pipeline/src/eplforecast/evaluate/compare.py",
-          "pipeline/src/eplforecast/evaluate/devig.py",
-          "pipeline/src/eplforecast/evaluate/halflife.py",
-          "pipeline/src/eplforecast/evaluate/metrics.py",
-          "pipeline/src/eplforecast/evaluate/validation.py"
-        ],
-        "dashboard": "scaffold",
-        "automation": "scaffold"
+        "dashboard_url": "https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1",
+        "screenshot": true,
+        "shap": true
       },
       "activity_days": [
         {
@@ -623,11 +577,11 @@
         },
         {
           "date": "2026-07-23",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-07-24",
-          "count": 11
+          "count": 0
         },
         {
           "date": "2026-07-25",
@@ -903,7 +857,7 @@
         },
         {
           "date": "2026-10-01",
-          "count": 0
+          "count": 3
         },
         {
           "date": "2026-10-02",
@@ -927,18 +881,15 @@
         }
       ],
       "languages": {
-        "Python": 125484,
-        "TypeScript": 11351,
-        "PLpgSQL": 4411,
-        "CSS": 4168,
-        "JavaScript": 562
+        "Jupyter Notebook": 147193,
+        "Python": 389
       },
       "workflow": null
     }
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-06T07:34:07Z",
+    "checked_at": "2026-10-06T07:41:57Z",
     "http_status": 200,
     "reachable": true
   }

@@ -22,6 +22,10 @@
 
 </tr></table>
 
+<h3>filan214@github:~$ contact --reach</h3>
+
+<p><a href="mailto:valentinus.filan@gmail.com"><img src="./contact-email.svg" width="300" alt="Email Valentinus Filan at valentinus.filan@gmail.com"></a> &nbsp; <a href="https://www.linkedin.com/in/valentinus-filan-gunawan-087538226"><img src="./contact-linkedin.svg" width="300" alt="Valentinus Filan Gunawan on LinkedIn"></a></p>
+
 <br>
 
 <h3>filan214@github:~$ git portfolio --latest</h3>
@@ -108,19 +112,21 @@
 
 <br>
 
-<h3>filan214@github:~$ showcase --football · Sports Analytics &amp; Forecasting</h3>
+<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
-<a href="https://github.com/filan214/epl-season-forecast"><img src="./epl-spotlight.svg" width="860" alt="EPL Season Forecast: observed data-to-model pipeline, season data and test-file counts, development status, and actual 90-day commit history"></a>
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
 
-<p><strong>One match is uncertain. A season is a range of possibilities.</strong><br>EPL Season Forecast explores that range through Bayesian goal modeling, XGBoost outcomes, and season simulations.</p>
+<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>
 
-<p><a href="https://github.com/filan214/epl-season-forecast">↗ Explore EPL project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/tree/fa8936986fd197dd192b4f90e9afa38e61acf0cc/pipeline/src/eplforecast">↗ Inspect model pipeline</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">↗ Latest source commit</a></p>
+<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest source commit</a></p>
 
-<details><summary>Follow the wider football analytics thread</summary>
+<details><summary>Preview the targeting dashboard</summary>
 
-<p><a href="https://github.com/filan214/epl-season-forecast">EPL season forecasting</a> → <a href="https://github.com/filan214/WC-prediction">World Cup final modeling</a> → <a href="https://github.com/filan214/FormWAtch-Football">Player-form analysis</a></p>
+<br>
 
-<p>Across league seasons, a World Cup final, and player form, I use the same predictive-modeling mindset: measure uncertainty, separate signal from noise, and make results understandable.</p>
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
+
+<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>
 
 </details>
 
@@ -142,7 +148,7 @@
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 06 Oct 2026 · 14:34 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/contributions.json">Contribution calendar</a></td><td>GitHub contribution HTML: full account totals, including automation.</td></tr>
 
@@ -150,9 +156,9 @@
 
 </table>
 
-<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and epl-season-forecast while they remain public and active.</p>
+<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and dealership-crosssell-propensity while they remain public and active.</p>
 
-<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The EPL card visualizes source structure and commit history. The finance app check only tests its public landing page, without accessing an account or financial data.</p>
+<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here. The finance app check only tests its public landing page, without accessing an account or financial data.</p>
 
 <p>GitHub schedules, event delivery, source analysis, and image caches can delay updates. A failed refresh keeps the last published snapshot and its recorded timestamps. The portrait is supplied by Filan.</p>
 

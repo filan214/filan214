@@ -25,6 +25,7 @@ def main():
         from render_commit_stream import render as stream
         from render_highlights import outputs as highlights
         from render_freshness import from_files as freshness
+        from render_contact import outputs as contact
         builds = read_json(DATA / "builds.json")
         language_data = read_json(DATA / "languages.json")
         outputs = {
@@ -43,6 +44,7 @@ def main():
             **sparklines(builds),
             **highlights(read_json(DATA / "highlights.json")),
             "data-freshness.svg": freshness(),
+            **contact(),
         }
         target = target / "static"
         target.mkdir(exist_ok=True)

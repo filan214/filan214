@@ -10,7 +10,7 @@ STYLES = '''
 .display{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:-.7px}
 .outline{fill:none;stroke:var(--line)}
 .trace{fill:none;stroke:var(--accent);stroke-width:2.3;stroke-linejoin:round;stroke-linecap:round}
-.epl .trace{stroke:var(--violet)} .epl .area{fill:var(--violet)}
+.xsell .trace{stroke:var(--violet)} .xsell .area{fill:var(--violet)}
 .area{fill:var(--accent);opacity:.08} .guide{fill:none;stroke:var(--line);stroke-dasharray:3 5}
 .connector{fill:none;stroke:var(--line);stroke-width:1.5}
 '''
@@ -106,54 +106,65 @@ def finance(data):
     return svg(860, 462, "Smart Finn Track — project spotlight", desc, body, styles=STYLES)
 
 
-def epl(data):
-    project = data["projects"]["epl"]
+def crosssell(data):
+    project = data["projects"]["crosssell"]
     inv = project["inventory"]
-    body = chrome(860, 530, "showcase --project epl-season-forecast", "02 / SPORTS ANALYTICS")
-    body += '<g class="epl">'
-    body += text(28, 75, "FOOTBALL × PROBABILISTIC MODELING", "violet bold", 10)
-    body += text(28, 112, "EPL Season Forecast", "display", 31)
-    body += text(28, 138, "From match history to a distribution of possible seasons.", "muted", 12)
+    results = inv["results"]
+    body = chrome(860, 530, "showcase --project dealership-crosssell-propensity", "02 / DATA SCIENCE")
+    body += '<g class="xsell">'
+    body += text(28, 75, "SQL × MACHINE LEARNING × BI", "violet bold", 10)
+    body += text(28, 112, "Dealership Cross-Sell Propensity", "display", 30)
+    body += text(28, 138, "Too many customers, too few calls. Who goes first?", "muted", 12)
     body += rect(675, 67, 157, 29, "v-wash", 14)
-    body += text(753, 86, "SOURCE EXPLORER", "violet bold", 9, extra='text-anchor="middle"')
-    # This diagram visualizes observed source structure, not a running forecast.
-    for i, stage in enumerate(inv["stages"]):
+    body += text(753, 86, "PROPENSITY MODEL", "violet bold", 9, extra='text-anchor="middle"')
+    # Stage counts come from the source tree at the shown commit, not from a running pipeline.
+    stages = [(stage["label"], str(len(stage["files"])), unit, bool(stage["files"]))
+              for stage, unit in zip(inv["stages"], ("query files", "notebooks", "scored exports"))]
+    stages.append(("Tableau", "↗" if inv["dashboard_url"] else "—", "public dashboard" if inv["dashboard_url"] else "not linked", bool(inv["dashboard_url"])))
+    for i, (label, value, unit, present) in enumerate(stages):
         x, y = 28+i*207, 166
-        body += rect(x, y, 183, 78, "v-wash" if stage["files"] else "panel", 8)
-        body += text(x+14, y+22, f"0{i+1} / {stage['label'].upper()}", "violet bold", 10)
-        body += text(x+14, y+54, str(len(stage["files"])), "display", 25)
-        body += text(x+45, y+54, "source modules", "muted", 10)
+        body += rect(x, y, 183, 78, "v-wash" if present else "panel", 8)
+        body += text(x+14, y+22, f"0{i+1} / {label.upper()}", "violet bold", 10)
+        body += text(x+14, y+54, value, "display", 25)
+        body += text(x+45, y+54, unit, "muted", 10)
         if i < 3:
             body += wipe(f"stage-{i}", x+184, y+30, 22, 20,
                          f'<path d="M{x+188} {y+39}h13l-4 -4m4 4l-4 4" class="connector"/>', delay=.15*i)
     body += text(28, 264, "Repository structure at the shown commit · file presence does not certify execution", "muted", 9)
-    body += text(28, 295, "MODEL WORKBENCH", "violet bold", 10)
-    for i, model in enumerate(inv["models"]):
-        y = 321+i*26
-        body += text(28, y, "●" if model["present"] else "○", "violet" if model["present"] else "muted", 10)
-        body += text(49, y, model["label"], "", 12)
-        body += text(446, y, "source present" if model["present"] else "not found", "muted tiny", extra='text-anchor="end"')
-    body += text(28, 404, f"{len(inv['datasets'])} season data files  ·  {len(inv['tests'])} test files", "bold", 11)
-    body += text(28, 425, f"{len(inv['evaluation'])} evaluation modules · counts from source", "muted", 10)
+    body += text(28, 295, "REPORTED RESULTS", "violet bold", 10)
+    share = results["capture_share"] or "—"
+    tiles = [("ROC-AUC", results["auc"]), ("TOP-DECILE LIFT", results["top_decile_lift"]),
+             (f"REACHED · TOP {share} CALLED", results["captured"]), (f"LIFT · TOP {share} CALLED", results["capture_lift"])]
+    for i, (label, value) in enumerate(tiles):
+        x, y = 28 + (i % 2)*225, 306+(i//2)*58
+        body += rect(x, y, 209, 50, "panel", 6)
+        body += text(x+12, y+18, label, "muted tiny")
+        body += text(x+12, y+41, shorten(value or "—", 12), "display violet", 20)
+    held_out = f"{results['test_customers']} held-out customers" if results["test_customers"] else "held-out test set"
+    body += text(28, 434, f"Quoted from the project README at this commit · {held_out}", "muted", 9)
     body += rect(486, 281, 346, 153, "panel", 10)
     body += activity(project, 505, 304, 308, 100)
     body += text(505, 423, "Default branch · all authors · Jakarta dates", "muted", 8.5)
     body += '<path d="M28 450H832" class="line"/>'
-    body += text(28, 473, f"Dashboard: {inv['dashboard']}  ·  Weekly forecast job: {inv['automation']}", "amber", 10)
+    done = [item for item in inv["status"] if item["done"]]
+    status = (f"Project checklist: {len(done)}/{len(inv['status'])} done · " + " · ".join(item["label"] for item in done)
+              if inv["status"] else "Project checklist: not found in README")
+    body += text(28, 473, shorten(status, 112), "amber", 10)
     body += text(28, 492, shorten("Latest workflow observation: " + workflow_label(project), 115), "muted", 9)
     body += footer(project, data, 514) + '</g>'
-    desc = (f"EPL Season Forecast. Source inventory at {project['commit']['sha']}. "
-            + "; ".join(f"{s['label']}: {len(s['files'])} modules" for s in inv["stages"])
-            + f". {len(inv['datasets'])} season parquet files; {len(inv['tests'])} test files, not tests passed. "
-            + f"Dashboard: {inv['dashboard']}; weekly forecast job: {inv['automation']}. "
-            + "This is a code and build-activity visualization, not published match odds or model accuracy. "
+    reported = "; ".join(f"{label.title()}: {value}" for label, value in tiles if value)
+    desc = (f"Dealership Cross-Sell Propensity. Source inventory at {project['commit']['sha']}. "
+            + "; ".join(f"{s['label']}: {len(s['files'])} files" for s in inv["stages"])
+            + (". Tableau Public dashboard linked. " if inv["dashboard_url"] else ". No Tableau dashboard link found. ")
+            + (f"Results quoted from the project README, not recomputed: {reported}. " if reported else "No results table found in the project README. ")
+            + f"{status}. "
             + f"Daily commits, default branch, all authors: {[d['count'] for d in project['activity_days']]}. "
             + f"Fetched {data['fetched_at']}.")
-    return svg(860, 530, "EPL Season Forecast — source and activity explorer", desc, body, styles=STYLES)
+    return svg(860, 530, "Dealership Cross-Sell Propensity — model results and source explorer", desc, body, styles=STYLES)
 
 
 def outputs(data):
-    return {"finance-spotlight.svg": finance(data), "epl-spotlight.svg": epl(data)}
+    return {"finance-spotlight.svg": finance(data), "crosssell-spotlight.svg": crosssell(data)}
 
 
 if __name__ == "__main__":
