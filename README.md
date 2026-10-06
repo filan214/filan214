@@ -34,6 +34,48 @@
 
 <p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
 
+<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
+
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
+
+<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>
+
+<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest source commit</a></p>
+
+<details open><summary>Preview the targeting dashboard</summary>
+
+<br>
+
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
+
+<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>
+
+</details>
+
+<br>
+
+<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
+
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-dashboard-dark.png"><img src="./screens/finance-dashboard-light.png" width="860" alt="Smart Finn Track dashboard: income, expenses, balance, spending by category, daily trend, budgets, and savings goal"></picture></a>
+
+<table width="860"><tr><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-chat-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-chat-dark.png"><img src="./screens/finance-chat-light.png" width="280" alt="Smart Finn Track chat advisor answering a question about the last three months with a spending-by-category chart"></picture></a><br><sub><b>AI advisor</b><br>Answers from your own rows, chart included</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-transactions-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-transactions-dark.png"><img src="./screens/finance-transactions-light.png" width="280" alt="Smart Finn Track transactions list with categories and amounts"></picture></a><br><sub><b>Transactions</b><br>Auto-categorized history with search and filters</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-planning-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-planning-dark.png"><img src="./screens/finance-planning-light.png" width="280" alt="Smart Finn Track monthly budgets with progress bars per category"></picture></a><br><sub><b>Planning</b><br>Monthly budgets with live progress</sub></td></tr></table>
+
+<p><sub>Screens from the live demo's sample account · captured 06 Oct 2026</sub></p>
+
+<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Try the live demo in one click, then follow the code behind it.</p>
+
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
+
+<details><summary>Inspect source evidence</summary>
+
+<br>
+
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
+
+</details>
+
+<br>
+
 <h3>filan214@github:~$ ps --repos</h3>
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
@@ -99,48 +141,6 @@
 <br>
 
 <img src="./tagline.svg" width="860" alt="Rotating facts derived from the current GitHub profile and project snapshot">
-
-<br>
-
-<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
-
-<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
-
-<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>
-
-<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest source commit</a></p>
-
-<details open><summary>Preview the targeting dashboard</summary>
-
-<br>
-
-<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
-
-<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>
-
-</details>
-
-<br>
-
-<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
-
-<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-dashboard-dark.png"><img src="./screens/finance-dashboard-light.png" width="860" alt="Smart Finn Track dashboard: income, expenses, balance, spending by category, daily trend, budgets, and savings goal"></picture></a>
-
-<table width="860"><tr><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-chat-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-chat-dark.png"><img src="./screens/finance-chat-light.png" width="280" alt="Smart Finn Track chat advisor answering a question about the last three months with a spending-by-category chart"></picture></a><br><sub><b>AI advisor</b><br>Answers from your own rows, chart included</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-transactions-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-transactions-dark.png"><img src="./screens/finance-transactions-light.png" width="280" alt="Smart Finn Track transactions list with categories and amounts"></picture></a><br><sub><b>Transactions</b><br>Auto-categorized history with search and filters</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-planning-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-planning-dark.png"><img src="./screens/finance-planning-light.png" width="280" alt="Smart Finn Track monthly budgets with progress bars per category"></picture></a><br><sub><b>Planning</b><br>Monthly budgets with live progress</sub></td></tr></table>
-
-<p><sub>Screens from the live demo's sample account · captured 06 Oct 2026</sub></p>
-
-<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Try the live demo in one click, then follow the code behind it.</p>
-
-<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
-
-<details><summary>Inspect source evidence</summary>
-
-<br>
-
-<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
-
-</details>
 
 <br>
 

@@ -62,6 +62,9 @@ def render(data, stream, highlights=None, screens=None):
         if safe_url(project["homepage"]):
             actions.append(link(project["homepage"], "↗ Open project site"))
         parts.append('<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>')
+    if highlights:
+        # Curated showcases lead the live activity panels.
+        parts += showcase_sections(highlights, screens)
     parts += ['<h3>filan214@github:~$ ps --repos</h3>',
               '<table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>']
     for index, other in enumerate(projects):
@@ -88,8 +91,6 @@ def render(data, stream, highlights=None, screens=None):
               '<h3>filan214@github:~$ languages --bytes</h3>',
               image("languages", "Actual language bytes across eligible public projects; code proportions, not proficiency", url="https://github.com/filan214?tab=repositories"), '<br>',
               image("tagline", "Rotating facts derived from the current GitHub profile and project snapshot"), '<br>']
-    if highlights:
-        parts += showcase_sections(highlights, screens)
     parts += ['<h3>filan214@github:~$ sources --inspect · Data sources &amp; freshness</h3>']
     if highlights:
         parts.append(image("data-freshness", "Recorded sync times for projects, public push events, and project spotlights, with calendar and language snapshot dates", url="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml"))

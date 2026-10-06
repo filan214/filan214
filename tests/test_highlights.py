@@ -181,6 +181,9 @@ class HighlightTests(unittest.TestCase):
         headings = [h.text for h in page.find_all("h3") if "showcase" in h.text]
         self.assertIn("--data-science", headings[0])
         self.assertIn("--finance", headings[1])
+        order = [h.text for h in page.find_all("h3")]
+        self.assertLess(order.index(headings[1]), next(i for i, h in enumerate(order) if "ps --repos" in h))
+        self.assertLess(order.index(headings[1]), next(i for i, h in enumerate(order) if "languages --bytes" in h))
         self.assertTrue(page.find("img", src="https://raw.githubusercontent.com/filan214/new-project/abcdef1234/dashboard/screenshot.png").find_parent("details").has_attr("open"))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"]))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"] + "/blob/abcdef1234/notebooks/01_model.ipynb"))
