@@ -1,49 +1,49 @@
 {
   "username": "filan214",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 12,
-  "total_bytes": 2682503,
+  "total_bytes": 2701393,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1256629,
-      "percent": 46.85
+      "bytes": 1274402,
+      "percent": 47.18
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 14.78
+      "percent": 14.68
     },
     {
       "name": "Python",
       "bytes": 291496,
-      "percent": 10.87
+      "percent": 10.79
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 8.48
+      "percent": 8.42
     },
     {
       "name": "JavaScript",
       "bytes": 198029,
-      "percent": 7.38
+      "percent": 7.33
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 147193,
-      "percent": 5.49
+      "percent": 5.45
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.47
+      "percent": 2.45
     },
     {
       "name": "CSS",
-      "bytes": 43240,
-      "percent": 1.61
+      "bytes": 44357,
+      "percent": 1.64
     },
     {
       "name": "PLpgSQL",
@@ -53,30 +53,30 @@
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.79
+      "percent": 0.78
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.18
+      "percent": 0.17
     }
   ],
   "repos": {
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-10-05T18:48:53Z",
+      "languages": {
+        "TypeScript": 498011,
+        "HTML": 65343,
+        "PLpgSQL": 25453,
+        "CSS": 3892,
+        "JavaScript": 81
+      }
+    },
     "filan214/dealership-crosssell-propensity": {
       "pushed_at": "2026-09-30T18:33:03Z",
       "languages": {
         "Jupyter Notebook": 147193,
         "Python": 389
-      }
-    },
-    "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-09-29T18:54:17Z",
-      "languages": {
-        "TypeScript": 480238,
-        "HTML": 65343,
-        "PLpgSQL": 25453,
-        "CSS": 2775,
-        "JavaScript": 81
       }
     },
     "filan214/epl-season-forecast": {

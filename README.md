@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -26,17 +26,17 @@
 
 <h3>filan214@github:~$ git portfolio --latest</h3>
 
-<a href="https://github.com/filan214/dealership-crosssell-propensity"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: Dealership Cross-Sell Propensity Model, measured commit activity and language bytes. Open the repository."></a>
+<a href="https://github.com/filan214/AIFinanceTracker"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: 💸 Smart Finn Track, measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commits">↗ Commit history</a></p>
+<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
 
 <h3>filan214@github:~$ ps --repos</h3>
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-1.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-05</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-2.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-29</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-2.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/epl-season-forecast">epl-season-forecast</a></td><td>Python</td><td><a href="https://github.com/filan214/epl-season-forecast/commits"><img src="./repo-activity-3.svg" width="180" alt="epl-season-forecast: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-12</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">Commit</a></td></tr>
 
@@ -58,6 +58,10 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-10-05 18:48:53</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">db9e9c3</a> fix(pdf): align report table headers with their columns; keep Saved&#x27;s minus</td></tr>
+
+<tr><td>2026-10-05 18:04:55</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1a858b556ad8d5724acba2f02a4a5238c359c643">1a858b5</a> docs: handoff + progress for the 2026-10-06 UI/UX refinement pass</td></tr>
+
 <tr><td>2026-09-30 18:33:04</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">56a1e0d</a> Add &quot;How it works&quot; section, dataset link and clean Tableau link</td></tr>
 
 <tr><td>2026-09-30 18:23:03</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/9e4d1471bd79ac90cfd36b9ca095071ec7ac6fd1">9e4d147</a> Add Tableau Public link to dashboard section</td></tr>
@@ -74,15 +78,11 @@
 
 <tr><td>2026-09-28 12:39:28</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/6ed6e486a498dff0a5f792b0bf01b8660cd2c1d2">6ed6e48</a> fix: Planning tab stays in sync with ?tab= across same-route navigation</td></tr>
 
-<tr><td>2026-09-28 10:51:41</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/d2e7468881dbb76996da8e23645386c4bd219a5d">d2e7468</a> fix: anomaly alert no longer mixes transactions from other categories</td></tr>
-
-<tr><td>2026-09-28 10:29:35</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/aff6d0c2968472387ba1af11e3b5c049dc9f3569">aff6d0c</a> fix: chat retries longer on the free model, and never shows a raw SDK error</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 05 Oct 2026 · 16:03 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 06 Oct 2026 · 07:48 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -104,7 +104,7 @@
 
 <p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
 
-<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/40020aaca9d79014980e8f211bb2f3f330c6e6c2">↗ Latest source commit</a></p>
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">↗ Latest source commit</a></p>
 
 <br>
 
@@ -138,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 05 Oct 2026 · 16:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 06 Oct 2026 · 07:48 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 05 Oct 2026 · 16:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 06 Oct 2026 · 07:48 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
