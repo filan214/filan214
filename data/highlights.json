@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-10-06T00:48:49Z",
+  "fetched_at": "2026-10-06T07:34:07Z",
   "as_of": "2026-10-06",
   "projects": {
     "finance": {
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
-        "message": "fix(pdf): align report table headers with their columns; keep Saved's minus",
-        "created_at": "2026-10-05T18:43:26Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
+        "sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
+        "message": "chore: stop tracking PRD.md (kept locally, now gitignored)",
+        "created_at": "2026-10-06T07:31:19Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -426,7 +426,7 @@
         },
         {
           "date": "2026-10-06",
-          "count": 4
+          "count": 6
         }
       ],
       "languages": {
@@ -440,10 +440,10 @@
         "name": "CI",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
+        "head_sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
         "matches_tip": true,
-        "updated_at": "2026-10-05T18:49:42Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/37358790116"
+        "updated_at": "2026-10-06T07:32:28Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/37430215191"
       }
     },
     "epl": {
@@ -938,7 +938,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-06T00:48:49Z",
+    "checked_at": "2026-10-06T07:34:07Z",
     "http_status": 200,
     "reachable": true
   }

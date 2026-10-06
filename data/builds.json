@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-10-06",
-  "fetched_at": "2026-10-06T00:48:47Z",
+  "fetched_at": "2026-10-06T07:34:04Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -20,7 +20,7 @@
       "name": "AIFinanceTracker",
       "full_name": "filan214/AIFinanceTracker",
       "url": "https://github.com/filan214/AIFinanceTracker",
-      "title": "💸 Smart Finn Track",
+      "title": "Smart Finn Track",
       "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
       "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
       "language": "TypeScript",
@@ -30,16 +30,16 @@
         "nextjs",
         "web-development"
       ],
-      "pushed_at": "2026-10-05T18:48:53Z",
+      "pushed_at": "2026-10-06T07:31:39Z",
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
-        "message": "fix(pdf): align report table headers with their columns; keep Saved's minus",
-        "created_at": "2026-10-05T18:43:26Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
+        "sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
+        "message": "chore: stop tracking PRD.md (kept locally, now gitignored)",
+        "created_at": "2026-10-06T07:31:19Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -154,7 +154,7 @@
         },
         {
           "date": "2026-10-06",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -690,7 +690,7 @@
     },
     {
       "date": "2026-10-06",
-      "count": 4
+      "count": 6
     }
   ]
 }

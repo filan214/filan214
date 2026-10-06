@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -26,15 +26,15 @@
 
 <h3>filan214@github:~$ git portfolio --latest</h3>
 
-<a href="https://github.com/filan214/AIFinanceTracker"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: 💸 Smart Finn Track, measured commit activity and language bytes. Open the repository."></a>
+<a href="https://github.com/filan214/AIFinanceTracker"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: Smart Finn Track, measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
+<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
 
 <h3>filan214@github:~$ ps --repos</h3>
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-05</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-06</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-2.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
 
@@ -82,7 +82,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 06 Oct 2026 · 07:48 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 06 Oct 2026 · 14:34 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -104,7 +104,7 @@
 
 <p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
 
-<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">↗ Latest source commit</a></p>
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
 
 <br>
 
@@ -138,9 +138,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 06 Oct 2026 · 07:48 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 06 Oct 2026 · 14:34 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 06 Oct 2026 · 07:48 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 06 Oct 2026 · 14:34 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; EPL spotlights</a></td><td>File inventories pinned to the displayed source commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
