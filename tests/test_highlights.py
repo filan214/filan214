@@ -192,6 +192,27 @@ class HighlightTests(unittest.TestCase):
         self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
         self.assertIsNone(page.find("script"))
 
+    def test_finance_screenshots_follow_theme_and_keep_evidence_card(self):
+        data = fixture()
+        data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": CROSSSELL_README})
+        screens = {"captured_at": "2026-10-06T08:09:46Z", "month": "August 2026"}
+        page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data, screens), "html.parser")
+        hero = page.find("img", src="./screens/finance-dashboard-light.png")
+        self.assertEqual(hero.find_parent("a")["href"], fetch.FINANCE_APP)
+        self.assertEqual(hero.find_previous_sibling("source")["srcset"], "./screens/finance-dashboard-dark.png")
+        self.assertEqual(hero.find_previous_sibling("source")["media"], "(prefers-color-scheme: dark)")
+        for name in ("finance-chat", "finance-transactions", "finance-planning"):
+            self.assertTrue(page.find("source", srcset=f"./screens/{name}-dark.png"))
+        card = page.find("img", src="./finance-spotlight.svg")
+        self.assertFalse(card.find_parent("details").has_attr("open"))
+        self.assertIn("captured 06 Oct 2026", page.text)
+        self.assertIn("August 2026 data", page.text)
+        self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
+        # Without a capture manifest the measured card stays the visible showcase.
+        page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data), "html.parser")
+        self.assertIsNone(page.find("picture"))
+        self.assertIsNone(page.find("img", src="./finance-spotlight.svg").find_parent("details"))
+
     def test_contact_buttons_are_accessible_themed_svgs(self):
         for name, content in contact().items():
             root = ET.fromstring(content)

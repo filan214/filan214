@@ -124,11 +124,23 @@
 
 <h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
 
-<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-dashboard-dark.png"><img src="./screens/finance-dashboard-light.png" width="860" alt="Smart Finn Track dashboard: income, expenses, balance, spending by category, daily trend, budgets, and savings goal"></picture></a>
 
-<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
+<table width="860"><tr><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-chat-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-chat-dark.png"><img src="./screens/finance-chat-light.png" width="280" alt="Smart Finn Track chat advisor answering a question about the last three months with a spending-by-category chart"></picture></a><br><sub><b>AI advisor</b><br>Answers from your own rows, chart included</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-transactions-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-transactions-dark.png"><img src="./screens/finance-transactions-light.png" width="280" alt="Smart Finn Track transactions list with categories and amounts"></picture></a><br><sub><b>Transactions</b><br>Auto-categorized history with search and filters</sub></td><td width="33%" align="center" valign="top"><a href="https://github.com/filan214/filan214/blob/main/screens/finance-planning-light.png"><picture><source media="(prefers-color-scheme: dark)" srcset="./screens/finance-planning-dark.png"><img src="./screens/finance-planning-light.png" width="280" alt="Smart Finn Track monthly budgets with progress bars per category"></picture></a><br><sub><b>Planning</b><br>Monthly budgets with live progress</sub></td></tr></table>
+
+<p><sub>Screens from the live demo's sample account · captured 06 Oct 2026</sub></p>
+
+<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Try the live demo in one click, then follow the code behind it.</p>
 
 <p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
+
+<details><summary>Inspect source evidence</summary>
+
+<br>
+
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
+
+</details>
 
 <br>
 
@@ -153,6 +165,8 @@
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/contributions.json">Contribution calendar</a></td><td>GitHub contribution HTML: full account totals, including automation.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/languages.json">Language mix</a></td><td>GitHub Linguist byte counts from eligible public repositories. Code proportions, not proficiency.</td></tr>
+
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/screens/manifest.json">Finance screenshots</a></td><td>Static captures of the public demo account (August 2026 data), taken 06 Oct 2026 by scripts/capture_finance_screens.js. Not refreshed hourly.</td></tr>
 
 </table>
 

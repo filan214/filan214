@@ -70,7 +70,7 @@ The old mock process panel is removed. The thesis progress SVG is removed from t
 
 ## Interactions and appearance
 
-The curated finance card opens the public app, with separate repository and exact source-commit links below. The cross-sell card opens its Tableau Public dashboard (or the repository if no link is found), with links to the repository, the model notebook pinned to the displayed commit, and that commit. Expand **Preview the targeting dashboard** to see the project's dashboard screenshot, pinned to the same commit. The **contact --reach** buttons open an email to valentinus.filan@gmail.com and the LinkedIn profile. The freshness panel displays separate collector timestamps and opens the refresh workflow; its disclosure contains a linked source table.
+The finance showcase leads with app screenshots: a dashboard hero that opens the public app, and a gallery of the AI advisor, transactions, and planning pages that open full-size images. Each screenshot has light and dark versions, and GitHub shows the one matching the viewer's theme. The measured finance card sits under **Inspect source evidence**, with repository and exact source-commit links above it. The cross-sell card opens its Tableau Public dashboard (or the repository if no link is found), with links to the repository, the model notebook pinned to the displayed commit, and that commit. Expand **Preview the targeting dashboard** to see the project's dashboard screenshot, pinned to the same commit. The **contact --reach** buttons open an email to valentinus.filan@gmail.com and the LinkedIn profile. The freshness panel displays separate collector timestamps and opens the refresh workflow; its disclosure contains a linked source table.
 
 `fetch_highlights.py` reads only the two explicitly selected public repositories. It reuses a source inventory only when the commit SHA and snapshot schema match; activity windows, workflow observations, app checks, and language bytes are refreshed each run. A truncated source tree or failed GitHub request aborts publication. App connection failures are shown as an unverified landing-page check. The latest Actions observation can refer to an earlier commit, so the card identifies that revision. API file counts are evidence about code structure, not completed features. If project folders or tool registration syntax change substantially, update the inventory rules in this collector. These cards do not run models or query financial accounts.
 
@@ -100,6 +100,18 @@ python scripts/make_info_card.py
 Remove-Item Env:STATIC
 python scripts/make_info_card.py
 ```
+
+## Retake the finance screenshots
+
+The images in `screens/` are static captures of the public demo account, not live data; the hourly workflow never logs in. `screens/manifest.json` records the capture time and demo month shown on the profile. Retake them after the app's UI changes:
+
+```powershell
+npm install --no-save puppeteer-core@23
+node scripts/capture_finance_screens.js
+python scripts/render_readme.py
+```
+
+The script uses your installed Chrome with a temporary profile, presses the app's **Try the demo** button, switches to the month set in `MONTH`, and opens the saved conversation named in `CHAT`. It never sends chat messages or edits demo data. If the demo data or layout changes, adjust `MONTH`, `CHAT`, or the `CONTENT` crop, then check every image before committing. Without `screens/manifest.json`, the README falls back to showing the measured finance card.
 
 ## Replace the portrait later
 

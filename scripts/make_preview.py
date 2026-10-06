@@ -51,7 +51,11 @@ def main():
         for name, content in outputs.items():
             (target / name).write_text(content, encoding="utf-8")
         prefix = "./"
-    readme = (ROOT / "README.md").read_text(encoding="utf-8").replace('src="./', f'src="{prefix}')
+    # Screenshots stay in screens/, so they need the path back to the repository root.
+    root = "../../" if args.static else "../"
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    readme = readme.replace('src="./screens/', f'src="{root}screens/').replace('srcset="./screens/', f'srcset="{root}screens/')
+    readme = readme.replace('src="./', f'src="{prefix}')
     css = '''body{margin:36px auto;padding:0 12px;max-width:900px;background:#fff;color:#24292f;font:13px Consolas,monospace;color-scheme:light}h3{font-size:13px;font-weight:400;margin:22px 0 14px}img{display:block;max-width:100%;height:auto}table{border-collapse:collapse;table-layout:fixed;max-width:100%}td{padding:0;overflow-wrap:anywhere}th{padding:8px 0}br{line-height:12px}a{color:#0969da;text-decoration:none}a:hover{text-decoration:underline}summary{cursor:pointer}details{max-width:860px}p{line-height:1.7}@media(prefers-color-scheme:dark){body{background:#0d1117;color:#919ba7;color-scheme:dark}a{color:#79c0ff}}'''
     page = f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>filan214 profile preview</title><style>{css}</style><body>{readme}</body></html>'
     (target / "index.html").write_text(page, encoding="utf-8")
