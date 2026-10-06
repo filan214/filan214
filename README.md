@@ -104,6 +104,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-10-06 07:29:49</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/7735701a462ac76f3507172da76528e8c73d2a51">7735701</a> docs(readme): rewrite for portfolio: demo walkthrough, engineering highlights, current stack</td></tr>
+
 <tr><td>2026-10-05 18:48:53</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda">db9e9c3</a> fix(pdf): align report table headers with their columns; keep Saved&#x27;s minus</td></tr>
 
 <tr><td>2026-10-05 18:04:55</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1a858b556ad8d5724acba2f02a4a5238c359c643">1a858b5</a> docs: handoff + progress for the 2026-10-06 UI/UX refinement pass</td></tr>
@@ -122,13 +124,11 @@
 
 <tr><td>2026-09-28 13:11:11</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">5898523</a> docs: end-of-session handoff — mark completions, point to next step</td></tr>
 
-<tr><td>2026-09-28 12:39:28</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/6ed6e486a498dff0a5f792b0bf01b8660cd2c1d2">6ed6e48</a> fix: Planning tab stays in sync with ?tab= across same-route navigation</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 06 Oct 2026 · 22:11 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 07 Oct 2026 · 03:19 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -156,9 +156,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 06 Oct 2026 · 22:11 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 07 Oct 2026 · 03:19 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 06 Oct 2026 · 22:11 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 07 Oct 2026 · 03:19 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
