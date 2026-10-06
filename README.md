@@ -102,16 +102,6 @@
 
 <br>
 
-<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
-
-<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
-
-<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
-
-<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
-
-<br>
-
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
 <a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
@@ -120,7 +110,7 @@
 
 <p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest source commit</a></p>
 
-<details><summary>Preview the targeting dashboard</summary>
+<details open><summary>Preview the targeting dashboard</summary>
 
 <br>
 
@@ -129,6 +119,16 @@
 <p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>
 
 </details>
+
+<br>
+
+<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>
+
+<a href="https://ai-finance-tracker-delta-drab.vercel.app/"><img src="./finance-spotlight.svg" width="860" alt="Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability"></a>
+
+<p><strong>Smart Finn Track</strong> brings an AI advisor, spending insights, and monthly reports into a personal finance app.<br>Explore the product, then follow the code behind it.</p>
+
+<p><a href="https://ai-finance-tracker-delta-drab.vercel.app/">↗ Open app</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker">↗ Explore AIFinanceTracker</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest source commit</a></p>
 
 <br>
 

@@ -68,7 +68,7 @@ def footer(project, data, y):
 def finance(data):
     project = data["projects"]["finance"]
     inv, app = project["inventory"], data["app"]
-    body = chrome(860, 462, "showcase --project AIFinanceTracker", "01 / PRODUCT SPOTLIGHT")
+    body = chrome(860, 462, "showcase --project AIFinanceTracker", "02 / PRODUCT SPOTLIGHT")
     body += text(28, 75, "AI + PERSONAL FINANCE", "accent bold", 10)
     body += text(28, 113, "Smart Finn Track", "display", 32)
     body += text(28, 137, "Ask your money better questions.", "muted", 13)
@@ -110,7 +110,7 @@ def crosssell(data):
     project = data["projects"]["crosssell"]
     inv = project["inventory"]
     results = inv["results"]
-    body = chrome(860, 530, "showcase --project dealership-crosssell-propensity", "02 / DATA SCIENCE")
+    body = chrome(860, 530, "showcase --project dealership-crosssell-propensity", "01 / DATA SCIENCE")
     body += '<g class="xsell">'
     body += text(28, 75, "SQL × MACHINE LEARNING × BI", "violet bold", 10)
     body += text(28, 112, "Dealership Cross-Sell Propensity", "display", 30)

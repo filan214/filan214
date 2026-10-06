@@ -178,6 +178,10 @@ class HighlightTests(unittest.TestCase):
         dashboard = data["projects"]["crosssell"]["inventory"]["dashboard_url"]
         self.assertEqual(page.find("img", src="./crosssell-spotlight.svg").parent["href"], dashboard)
         self.assertNotIn("EPL", page.text)
+        headings = [h.text for h in page.find_all("h3") if "showcase" in h.text]
+        self.assertIn("--data-science", headings[0])
+        self.assertIn("--finance", headings[1])
+        self.assertTrue(page.find("img", src="https://raw.githubusercontent.com/filan214/new-project/abcdef1234/dashboard/screenshot.png").find_parent("details").has_attr("open"))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"]))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"] + "/blob/abcdef1234/notebooks/01_model.ipynb"))
         self.assertTrue(page.find("img", src="https://raw.githubusercontent.com/filan214/new-project/abcdef1234/dashboard/screenshot.png"))
