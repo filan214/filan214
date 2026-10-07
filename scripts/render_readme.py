@@ -51,11 +51,8 @@ def render(data, stream, highlights=None, screens=None):
              '<h3>filan214@github:~$ git contributions --calendar</h3>',
              image("contrib-heatmap", "GitHub contribution calendar with streaks, peak day, and monthly totals", url="https://github.com/filan214?tab=overview"), '<br>',
              image("commit-log", "The featured repository's actual default-branch tip commit", url=project["commit"]["url"] if project else ""), '<br>',
-             '<h3>filan214@github:~$ neofetch --github</h3>',
-             '<table align="center" width="860" cellpadding="0" cellspacing="0"><tr>',
-             '<td width="43%" align="center">' + image("filan-ascii", "Animated ASCII portrait of Filan from the supplied photograph", 370) + '</td>',
-             '<td width="57%" align="center">' + image("info-card", "GitHub profile, real repository counts, latest project, and code languages", 490, "https://github.com/filan214?tab=repositories") + '</td>',
-             '</tr></table>', *contact(), '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
+             # The neofetch portrait and info card are hidden; their SVGs are still generated.
+             *contact(), '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
              image("recent-build", "Recent Build Spotlight: " + (project["title"] + ", measured commit activity and language bytes. Open the repository." if project else "No eligible public projects."), url=project["url"] if project else "")]
     if project:
         actions = [link(project["url"], "↗ Explore code"), link(project["commit"]["url"], "↗ Latest commit"), link(project["url"] + "/commits", "↗ Commit history")]

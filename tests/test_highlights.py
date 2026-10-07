@@ -178,6 +178,9 @@ class HighlightTests(unittest.TestCase):
         dashboard = data["projects"]["crosssell"]["inventory"]["dashboard_url"]
         self.assertEqual(page.find("img", src="./crosssell-spotlight.svg").parent["href"], dashboard)
         self.assertNotIn("EPL", page.text)
+        self.assertNotIn("neofetch", page.text)
+        self.assertIsNone(page.find("img", src="./info-card.svg"))
+        self.assertIsNone(page.find("img", src="./filan-ascii.svg"))
         headings = [h.text for h in page.find_all("h3") if "showcase" in h.text]
         self.assertIn("--data-science", headings[0])
         self.assertIn("--finance", headings[1])

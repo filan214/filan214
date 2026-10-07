@@ -12,16 +12,6 @@
 
 <br>
 
-<h3>filan214@github:~$ neofetch --github</h3>
-
-<table align="center" width="860" cellpadding="0" cellspacing="0"><tr>
-
-<td width="43%" align="center"><img src="./filan-ascii.svg" width="370" alt="Animated ASCII portrait of Filan from the supplied photograph"></td>
-
-<td width="57%" align="center"><a href="https://github.com/filan214?tab=repositories"><img src="./info-card.svg" width="490" alt="GitHub profile, real repository counts, latest project, and code languages"></a></td>
-
-</tr></table>
-
 <h3>filan214@github:~$ contact --reach</h3>
 
 <p><a href="mailto:valentinus.filan@gmail.com"><img src="./contact-email.svg" width="300" alt="Email Valentinus Filan at valentinus.filan@gmail.com"></a> &nbsp; <a href="https://www.linkedin.com/in/valentinus-filan-gunawan-087538226"><img src="./contact-linkedin.svg" width="300" alt="Valentinus Filan Gunawan on LinkedIn"></a></p>
