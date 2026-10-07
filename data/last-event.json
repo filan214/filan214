@@ -1,15 +1,15 @@
 {
   "username": "filan214",
   "as_of": "2026-10-08",
-  "fetched_at": "2026-10-07T18:33:32Z",
-  "source": "https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f",
+  "fetched_at": "2026-10-07T18:44:29Z",
+  "source": "https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b",
   "scope": "Featured repository default-branch tip",
   "event": {
     "repo": "filan214/netflix-gap-analysis",
-    "sha": "8785e21a14973faed3285eaa315ce52e1d8a5f1f",
-    "message": "Phase 1: clean Netflix titles, build bridge tables",
-    "created_at": "2026-10-07T08:07:41Z",
-    "url": "https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f",
+    "sha": "fb68d12504ef3b1308d06f1b8e708e4464f8d37b",
+    "message": "Phase 2: model and load Netflix and IMDb data in PostgreSQL",
+    "created_at": "2026-10-07T18:35:35Z",
+    "url": "https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b",
     "author": "Valentinus Filan",
     "branch": "main"
   }
