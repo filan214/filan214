@@ -33,6 +33,7 @@ Scored on a held-out test set of 76,222 customers (20% stratified split, never s
 | Overall response rate | 12.3% |
 | Top-decile lift | **3.2×**: the top 10% of customers capture 32.2% of responders |
 | Capture at 30% of customers called | **79.0%** of responders, **2.6× lift** |
+| Strongest driver (SHAP and SQL EDA agree) | Vehicle damage + not previously insured: **25.1%** response rate vs 12.3% overall |
 
 ## Dashboard
 Tableau Public: [Dashboard](https://public.tableau.com/app/profile/demo/viz/Demo/Dashboard1)
@@ -76,7 +77,8 @@ class HighlightTests(unittest.TestCase):
         result = fetch.inventory(data, "crosssell", {"README.md": CROSSSELL_README})
         self.assertEqual([len(stage["files"]) for stage in result["stages"]], [1, 1, 1])
         self.assertEqual(result["results"], {"auc": "0.857", "top_decile_lift": "3.2×", "capture_share": "30%", "captured": "79.0%",
-                                             "capture_lift": "2.6×", "response_rate": "12.3%", "test_customers": "76,222"})
+                                             "capture_lift": "2.6×", "response_rate": "12.3%", "test_customers": "76,222",
+                                             "segment": "Vehicle damage + not previously insured", "segment_rate": "25.1%"})
         self.assertTrue(result["dashboard_url"].startswith("https://public.tableau.com/app/profile/"))
         self.assertEqual([item["done"] for item in result["status"]], [True, False])
         self.assertTrue(result["screenshot"])
@@ -146,7 +148,7 @@ class HighlightTests(unittest.TestCase):
         self.assertEqual(workflow_label(project), "Checks: success · abcdef1")
 
     def test_empty_commit_history_is_flat_and_titles_are_accessible(self):
-        for content in outputs(fixture()).values():
+        for name, content in outputs(fixture()).items():
             root = ET.fromstring(content)
             self.assertEqual(root.get("width"), "860")
             self.assertTrue(root.find("s:title", NS).text)
@@ -154,6 +156,8 @@ class HighlightTests(unittest.TestCase):
             self.assertIsNone(root.find(".//s:script", NS))
             self.assertIn("prefers-color-scheme: dark", root.find("s:style", NS).text)
             self.assertIn("prefers-reduced-motion", root.find("s:style", NS).text)
+            if name == "crosssell-story.svg":
+                continue  # The story card has no activity chart.
             points = root.find('.//s:polyline[@class="trace"]', NS).get("points").split()
             self.assertEqual(len({p.split(",")[1] for p in points}), 1)
             self.assertIn("0 commits", " ".join(root.itertext()))
@@ -176,7 +180,8 @@ class HighlightTests(unittest.TestCase):
         self.assertNotIn("Jogja Ride", page.text)
         self.assertEqual(page.find("img", src="./finance-spotlight.svg").parent["href"], fetch.FINANCE_APP)
         dashboard = data["projects"]["crosssell"]["inventory"]["dashboard_url"]
-        self.assertEqual(page.find("img", src="./crosssell-spotlight.svg").parent["href"], dashboard)
+        self.assertEqual(page.find("img", src="./crosssell-story.svg").parent["href"], dashboard)
+        self.assertFalse(page.find("img", src="./crosssell-spotlight.svg").find_parent("details").has_attr("open"))
         self.assertNotIn("EPL", page.text)
         self.assertNotIn("neofetch", page.text)
         self.assertIsNone(page.find("img", src="./info-card.svg"))
@@ -218,6 +223,17 @@ class HighlightTests(unittest.TestCase):
         page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data), "html.parser")
         self.assertIsNone(page.find("picture"))
         self.assertIsNone(page.find("img", src="./finance-spotlight.svg").find_parent("details"))
+
+    def test_story_quotes_readme_figures_and_marks_missing_ones(self):
+        data = fixture()
+        data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": CROSSSELL_README})
+        content = " ".join(ET.fromstring(outputs(data)["crosssell-story.svg"]).itertext())
+        for figure in ("12.3%", "25.1%", "76,222", "79.0%", "top 30%", "2.6×"):
+            self.assertIn(figure, content)
+        data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": None})
+        content = " ".join(ET.fromstring(outputs(data)["crosssell-story.svg"]).itertext())
+        self.assertNotIn("25.1%", content)
+        self.assertIn("—", content)
 
     def test_contact_buttons_are_accessible_themed_svgs(self):
         for name, content in contact().items():

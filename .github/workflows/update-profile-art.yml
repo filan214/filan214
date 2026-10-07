@@ -62,7 +62,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: refresh profile art [skip ci]'
-          file_pattern: 'data/*.json README.md contrib-heatmap.svg commit-log.svg languages.svg recent-build.svg repo-activity-*.svg commit-stream.svg info-card.svg tagline.svg finance-spotlight.svg crosssell-spotlight.svg data-freshness.svg'
+          file_pattern: 'data/*.json README.md contrib-heatmap.svg commit-log.svg languages.svg recent-build.svg repo-activity-*.svg commit-stream.svg info-card.svg tagline.svg finance-spotlight.svg crosssell-spotlight.svg crosssell-story.svg data-freshness.svg'
           commit_user_name: Valentinus Filan
           commit_user_email: valentinus.filan@gmail.com
           commit_author: Valentinus Filan <valentinus.filan@gmail.com>

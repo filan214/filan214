@@ -28,19 +28,25 @@
 
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
-<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-story.svg" width="860" alt="Who should sales call first? Problem, insight, model, and impact of the dealership cross-sell project, with figures quoted from its README"></a>
 
-<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>
-
-<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">↗ Latest source commit</a></p>
-
-<details open><summary>Preview the targeting dashboard</summary>
+<details open><summary>See the call list in Tableau</summary>
 
 <br>
 
 <a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
 
-<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>
+</details>
+
+<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a></p>
+
+<p><sub>Public Kaggle data reframed as a dealership case, not client data</sub></p>
+
+<details><summary>Inspect source evidence</summary>
+
+<br>
+
+<a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
 
 </details>
 

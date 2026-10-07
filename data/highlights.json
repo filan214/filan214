@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "fetched_at": "2026-10-07T18:33:34Z",
+  "schema_version": 2,
+  "fetched_at": "2026-10-07T18:38:20Z",
   "as_of": "2026-10-08",
   "projects": {
     "finance": {
@@ -494,7 +494,9 @@
           "captured": "79.0%",
           "capture_lift": "2.6×",
           "response_rate": "12.3%",
-          "test_customers": "76,222"
+          "test_customers": "76,222",
+          "segment": "Vehicle damage + not previously insured",
+          "segment_rate": "25.1%"
         },
         "status": [
           {
@@ -889,7 +891,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-07T18:33:34Z",
+    "checked_at": "2026-10-07T18:38:20Z",
     "http_status": 200,
     "reachable": true
   }

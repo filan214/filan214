@@ -10,7 +10,7 @@ from fetch_builds import latest_commit, repository_activity, safe_url
 
 FINANCE_APP = "https://ai-finance-tracker-delta-drab.vercel.app/"
 PROJECTS = {"finance": "AIFinanceTracker", "crosssell": "dealership-crosssell-propensity"}
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2  # 2: cross-sell results include the strongest segment
 
 
 def source_text(client, full_name, sha, path):
@@ -84,10 +84,13 @@ def readme_results(readme):
     share = re.search(r"(\d+)%", label)
     rate = re.search(r"[\d.]+%", row(r"overall response rate")[1])
     size = re.search(r"test set of ([\d,]+) customers", text)
+    driver = row(r"strongest driver")[1]
+    segment, segment_rate = driver.split(":")[0].strip(), re.findall(r"\*\*(.+?)\*\*", driver)
     return {"auc": auc[0] if auc else None, "top_decile_lift": decile[0] if decile else None,
             "capture_share": share[1] + "%" if share else None, "captured": capture[0] if capture else None,
             "capture_lift": capture[1].removesuffix(" lift").strip() if len(capture) > 1 else None,
-            "response_rate": rate[0] if rate else None, "test_customers": size[1] if size else None}
+            "response_rate": rate[0] if rate else None, "test_customers": size[1] if size else None,
+            "segment": segment if segment and segment_rate else None, "segment_rate": segment_rate[0] if segment_rate else None}
 
 
 def latest_run(client, full_name, branch, sha):

@@ -123,22 +123,23 @@ def showcase_sections(data, screens=None):
     inv, sha = crosssell["inventory"], crosssell["commit"]["sha"]
     dashboard = safe_url(inv["dashboard_url"])
     parts = ['<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>',
-             image("crosssell-spotlight", "Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history", url=dashboard or crosssell["url"]),
-             '<p><strong>A dealership has more customers than its sales team can call.</strong><br>This propensity model ranks who to call first, turning SQL analysis, LightGBM, and SHAP into a Tableau call list.</p>']
+             image("crosssell-story", "Who should sales call first? Problem, insight, model, and impact of the dealership cross-sell project, with figures quoted from its README", url=dashboard or crosssell["url"])]
+    if inv["screenshot"]:
+        shot = f"https://raw.githubusercontent.com/{crosssell['full_name']}/{sha}/dashboard/screenshot.png"
+        # Open by default so the dashboard is visible without a click; it can still be collapsed.
+        parts += ['<details open><summary>See the call list in Tableau</summary>', '<br>',
+                  f'<a href="{esc(dashboard or crosssell["url"])}"><img src="{esc(shot)}" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>',
+                  '</details>']
     actions = [link(dashboard, "↗ Open Tableau dashboard")] if dashboard else []
     actions.append(link(crosssell["url"], "↗ Explore project"))
     notebooks = inv["stages"][1]["files"]
     if notebooks:
         actions.append(link(crosssell["url"] + "/blob/" + sha + "/" + notebooks[0], "↗ Inspect model notebook"))
-    actions.append(link(crosssell["commit"]["url"], "↗ Latest source commit"))
-    parts.append('<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>')
-    if inv["screenshot"]:
-        shot = f"https://raw.githubusercontent.com/{crosssell['full_name']}/{sha}/dashboard/screenshot.png"
-        # Open by default so the dashboard is visible without a click; it can still be collapsed.
-        parts += ['<details open><summary>Preview the targeting dashboard</summary>', '<br>',
-                  f'<a href="{esc(dashboard or crosssell["url"])}"><img src="{esc(shot)}" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>',
-                  '<p>Built on a public Kaggle dataset reframed as a dealership cross-sell case, not client data. Results come from a held-out test set, as reported in the project README.</p>',
-                  '</details>']
+    parts += ['<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>',
+              '<p><sub>Public Kaggle data reframed as a dealership case, not client data</sub></p>',
+              '<details><summary>Inspect source evidence</summary>', '<br>',
+              image("crosssell-spotlight", "Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history", url=crosssell["commit"]["url"]),
+              '</details>']
     parts += ['<br>', '<h3>filan214@github:~$ showcase --finance · AI for everyday money</h3>']
     card = image("finance-spotlight", "Smart Finn Track: AI finance features observed in source, app page and tool counts, 90-day commit activity, and public landing-page availability", url=FINANCE_APP)
     if screens:

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" role="img" aria-labelledby="title desc">
+<title id="title">Who should sales call first? — Dealership cross-sell story</title>
+<desc id="desc">Problem: only 12.3% of customers respond, and sales cannot call everyone. Insight: SQL analysis found Vehicle damage + not previously insured customers respond at 25.1%. Model: 76,222 unseen customers were scored and ranked by likelihood to buy. Impact: calling the top 30% reaches 79.0% of interested customers, 2.6× better than random. Delivered as a Tableau call list. Figures quoted from the project README at commit 56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25.</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+:root{--violet:#6f42c1;--wash:#eef8f2;--v-wash:#f5f0fc}
+@media(prefers-color-scheme:dark){:root{--violet:#c8a5ff;--wash:#11251c;--v-wash:#211a30}}
+.violet{fill:var(--violet)} .wash{fill:var(--wash)} .v-wash{fill:var(--v-wash)}
+.display{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:-.7px}
+.outline{fill:none;stroke:var(--line)}
+.trace{fill:none;stroke:var(--accent);stroke-width:2.3;stroke-linejoin:round;stroke-linecap:round}
+.xsell .trace{stroke:var(--violet)} .xsell .area{fill:var(--violet)}
+.area{fill:var(--accent);opacity:.08} .guide{fill:none;stroke:var(--line);stroke-dasharray:3 5}
+.connector{fill:none;stroke:var(--line);stroke-width:1.5}
+.sans{font-family:Arial,Helvetica,sans-serif}
+
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="859" height="339" rx="12" class="bg" /><text x="22" y="27" class="accent bold" >$</text><text x="38" y="27" class="muted small" >story --project dealership-crosssell-propensity</text><text x="838" y="27" class="muted tiny" text-anchor="end">01 / DATA SCIENCE</text><path d="M20 42H840" class="line"/><g class="xsell"><text x="28" y="82" class="display" style="font-size:28px" >Who should sales call first?</text><text x="28" y="106" class="muted" style="font-size:12px" >A dealership cross-sell case, from question to call list.</text><g class="enter" style="animation-delay:0.15s"><rect x="28" y="126" width="183" height="156" rx="10" class="panel" /><text x="44" y="150" class="violet bold" style="font-size:10px" >01 · PROBLEM</text><text x="44" y="192" class="display violet" style="font-size:30px" >12.3%</text><text x="44" y="218" class="sans" style="font-size:11px" >of customers say yes.</text><text x="44" y="235" class="sans" style="font-size:11px" >Too many to call them all;</text><text x="44" y="252" class="sans" style="font-size:11px" >random calls mostly miss.</text></g><path d="M216 204h13l-4 -4m4 4l-4 4" class="connector"/><g class="enter" style="animation-delay:0.33s"><rect x="235" y="126" width="183" height="156" rx="10" class="panel" /><text x="251" y="150" class="violet bold" style="font-size:10px" >02 · INSIGHT</text><text x="251" y="192" class="display violet" style="font-size:30px" >25.1%</text><text x="251" y="218" class="sans" style="font-size:11px" >respond when the car was</text><text x="251" y="235" class="sans" style="font-size:11px" >damaged and uninsured.</text><text x="251" y="252" class="sans" style="font-size:11px" >SQL showed where to look.</text></g><path d="M423 204h13l-4 -4m4 4l-4 4" class="connector"/><g class="enter" style="animation-delay:0.51s"><rect x="442" y="126" width="183" height="156" rx="10" class="panel" /><text x="458" y="150" class="violet bold" style="font-size:10px" >03 · MODEL</text><text x="458" y="192" class="display violet" style="font-size:30px" >76,222</text><text x="458" y="218" class="sans" style="font-size:11px" >unseen customers scored</text><text x="458" y="235" class="sans" style="font-size:11px" >on how likely each is to</text><text x="458" y="252" class="sans" style="font-size:11px" >buy, then ranked.</text></g><path d="M630 204h13l-4 -4m4 4l-4 4" class="connector"/><g class="enter" style="animation-delay:0.69s"><rect x="649" y="126" width="183" height="156" rx="10" class="v-wash" /><text x="665" y="150" class="violet bold" style="font-size:10px" >04 · IMPACT</text><text x="665" y="192" class="display violet" style="font-size:30px" >79.0%</text><text x="665" y="218" class="sans" style="font-size:11px" >of interested customers</text><text x="665" y="235" class="sans" style="font-size:11px" >reached via the top 30%,</text><text x="665" y="252" class="sans" style="font-size:11px" >2.6× better than random.</text></g><text x="28" y="310" class="sans" style="font-size:12px" >Delivered as a Tableau call list with a “top % to call” slider for the sales team.</text><text x="832" y="328" class="muted tiny" text-anchor="end">Figures from the project README · 56a1e0d</text></g>
+</svg>
