@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-10-07",
-  "fetched_at": "2026-10-07T14:31:18Z",
+  "as_of": "2026-10-08",
+  "fetched_at": "2026-10-07T18:20:36Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,12 +9,12 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 18,
+    "public_repos": 16,
     "followers": 3,
-    "following": 6,
+    "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 13,
+  "eligible_repo_count": 11,
   "projects": [
     {
       "name": "netflix-gap-analysis",
@@ -39,10 +39,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
         {
           "date": "2026-09-11",
           "count": 0
@@ -150,6 +146,10 @@
         {
           "date": "2026-10-07",
           "count": 1
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
         }
       ]
     },
@@ -181,10 +181,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
         {
           "date": "2026-09-11",
           "count": 0
@@ -292,6 +288,10 @@
         {
           "date": "2026-10-07",
           "count": 0
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
         }
       ]
     },
@@ -318,10 +318,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
         {
           "date": "2026-09-11",
           "count": 0
@@ -429,43 +425,44 @@
         {
           "date": "2026-10-07",
           "count": 0
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
         }
       ]
     },
     {
-      "name": "epl-season-forecast",
-      "full_name": "filan214/epl-season-forecast",
-      "url": "https://github.com/filan214/epl-season-forecast",
-      "title": "EPL Season Forecast (2026-27)",
-      "description": "Bayesian EPL season forecasting project using a hierarchical Poisson model and season simulations; in development.",
+      "name": "F1---2026-Car-Details",
+      "full_name": "filan214/F1---2026-Car-Details",
+      "url": "https://github.com/filan214/F1---2026-Car-Details",
+      "title": "APEX — F1 2026 Exploded View",
+      "description": "Interactive 3D explorer of a 2026 Formula One concept car, with selectable components and an animated exploded view.",
       "homepage": "",
-      "language": "Python",
+      "language": "JavaScript",
       "topics": [
-        "forecasting",
-        "python",
-        "sports-analytics"
+        "formula1",
+        "javascript",
+        "threejs",
+        "webgl"
       ],
-      "pushed_at": "2026-09-12T05:38:27Z",
+      "pushed_at": "2026-09-11T16:58:17Z",
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
       "commit": {
-        "repo": "filan214/epl-season-forecast",
-        "sha": "fa8936986fd197dd192b4f90e9afa38e61acf0cc",
-        "message": "feat: eplforecast predict — per-fixture match-market forecasts",
-        "created_at": "2026-07-24T10:51:11Z",
-        "url": "https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc",
+        "repo": "filan214/F1---2026-Car-Details",
+        "sha": "71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
+        "message": "Merge new GitHub repository history",
+        "created_at": "2026-09-11T16:57:04Z",
+        "url": "https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
         "author": "Valentinus Filan",
         "branch": "main"
       },
       "activity_days": [
         {
-          "date": "2026-09-10",
-          "count": 0
-        },
-        {
           "date": "2026-09-11",
-          "count": 0
+          "count": 3
         },
         {
           "date": "2026-09-12",
@@ -570,15 +567,15 @@
         {
           "date": "2026-10-07",
           "count": 0
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-09-10",
-      "count": 0
-    },
     {
       "date": "2026-09-11",
       "count": 0
@@ -686,6 +683,10 @@
     {
       "date": "2026-10-07",
       "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 0
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
   "username": "filan214",
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-08",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 13,
-  "total_bytes": 2756630,
+  "repo_count": 11,
+  "total_bytes": 2573818,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1274402,
-      "percent": 46.23
+      "bytes": 1263051,
+      "percent": 49.07
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 14.38
-    },
-    {
-      "name": "Python",
-      "bytes": 291496,
-      "percent": 10.57
+      "percent": 15.41
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 8.25
+      "percent": 8.84
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 202430,
-      "percent": 7.34
+      "percent": 7.86
     },
     {
       "name": "JavaScript",
-      "bytes": 198029,
-      "percent": 7.18
+      "bytes": 197467,
+      "percent": 7.67
+    },
+    {
+      "name": "Python",
+      "bytes": 129176,
+      "percent": 5.02
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.4
+      "percent": 2.57
     },
     {
       "name": "CSS",
-      "bytes": 44357,
-      "percent": 1.61
+      "bytes": 40189,
+      "percent": 1.56
     },
     {
       "name": "PLpgSQL",
-      "bytes": 29864,
-      "percent": 1.08
+      "bytes": 25453,
+      "percent": 0.99
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.77
+      "percent": 0.82
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.17
+      "percent": 0.18
     }
   ],
   "repos": {
@@ -83,16 +83,6 @@
       "languages": {
         "Jupyter Notebook": 147193,
         "Python": 389
-      }
-    },
-    "filan214/epl-season-forecast": {
-      "pushed_at": "2026-09-12T05:38:27Z",
-      "languages": {
-        "Python": 125484,
-        "TypeScript": 11351,
-        "PLpgSQL": 4411,
-        "CSS": 4168,
-        "JavaScript": 562
       }
     },
     "filan214/F1---2026-Car-Details": {
@@ -133,12 +123,6 @@
         "TypeScript": 63616,
         "CSS": 3084,
         "JavaScript": 605
-      }
-    },
-    "filan214/WC-prediction": {
-      "pushed_at": "2026-07-14T06:58:57Z",
-      "languages": {
-        "Python": 36836
       }
     },
     "filan214/FormWAtch-Football": {
