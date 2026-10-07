@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -30,9 +30,9 @@
 
 <h3>filan214@github:~$ git portfolio --latest</h3>
 
-<a href="https://github.com/filan214/AIFinanceTracker"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: Smart Finn Track, measured commit activity and language bytes. Open the repository."></a>
+<a href="https://github.com/filan214/netflix-gap-analysis"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: netflix-gap-analysis, measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/AIFinanceTracker">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/AIFinanceTracker/commits">↗ Commit history</a> &nbsp; · &nbsp; <a href="https://ai-finance-tracker-delta-drab.vercel.app">↗ Open project site</a></p>
+<p><a href="https://github.com/filan214/netflix-gap-analysis">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commits">↗ Commit history</a></p>
 
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
@@ -80,13 +80,13 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-1.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-06</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-1.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-07</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-2.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-2.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-06</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/epl-season-forecast">epl-season-forecast</a></td><td>Python</td><td><a href="https://github.com/filan214/epl-season-forecast/commits"><img src="./repo-activity-3.svg" width="180" alt="epl-season-forecast: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-12</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-3.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/F1---2026-Car-Details">F1---2026-Car-Details</a></td><td>JavaScript</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commits"><img src="./repo-activity-4.svg" width="180" alt="F1---2026-Car-Details: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-11</td><td><a href="https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/epl-season-forecast">epl-season-forecast</a></td><td>Python</td><td><a href="https://github.com/filan214/epl-season-forecast/commits"><img src="./repo-activity-4.svg" width="180" alt="epl-season-forecast: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-12</td><td><a href="https://github.com/filan214/epl-season-forecast/commit/fa8936986fd197dd192b4f90e9afa38e61acf0cc">Commit</a></td></tr>
 
 </table>
 
@@ -103,6 +103,8 @@
 <br>
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
+
+<tr><td>2026-10-06 07:31:39</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">552a0f4</a> chore: stop tracking PRD.md (kept locally, now gitignored)</td></tr>
 
 <tr><td>2026-10-06 07:29:49</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/7735701a462ac76f3507172da76528e8c73d2a51">7735701</a> docs(readme): rewrite for portfolio: demo walkthrough, engineering highlights, current stack</td></tr>
 
@@ -122,13 +124,11 @@
 
 <tr><td>2026-09-29 10:22:45</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538">2b51c2d</a> docs: click-through verification done — all 5 UI fixes PASS on prod</td></tr>
 
-<tr><td>2026-09-28 13:11:11</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/58985231524ea285c54f60658d0032be2553ae53">5898523</a> docs: end-of-session handoff — mark completions, point to next step</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 07 Oct 2026 · 07:42 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 07 Oct 2026 · 21:31 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -156,9 +156,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 07 Oct 2026 · 07:41 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 07 Oct 2026 · 21:31 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 07 Oct 2026 · 07:42 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 07 Oct 2026 · 21:31 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 

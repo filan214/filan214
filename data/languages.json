@@ -2,58 +2,58 @@
   "username": "filan214",
   "as_of": "2026-10-07",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 12,
-  "total_bytes": 2701393,
+  "repo_count": 13,
+  "total_bytes": 2756630,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1274402,
-      "percent": 47.18
+      "percent": 46.23
     },
     {
       "name": "PHP",
       "bytes": 396522,
-      "percent": 14.68
+      "percent": 14.38
     },
     {
       "name": "Python",
       "bytes": 291496,
-      "percent": 10.79
+      "percent": 10.57
     },
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 8.42
+      "percent": 8.25
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 202430,
+      "percent": 7.34
     },
     {
       "name": "JavaScript",
       "bytes": 198029,
-      "percent": 7.33
-    },
-    {
-      "name": "Jupyter Notebook",
-      "bytes": 147193,
-      "percent": 5.45
+      "percent": 7.18
     },
     {
       "name": "HTML",
       "bytes": 66242,
-      "percent": 2.45
+      "percent": 2.4
     },
     {
       "name": "CSS",
       "bytes": 44357,
-      "percent": 1.64
+      "percent": 1.61
     },
     {
       "name": "PLpgSQL",
       "bytes": 29864,
-      "percent": 1.11
+      "percent": 1.08
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.78
+      "percent": 0.77
     },
     {
       "name": "Perl",
@@ -62,6 +62,12 @@
     }
   ],
   "repos": {
+    "filan214/netflix-gap-analysis": {
+      "pushed_at": "2026-10-07T08:10:08Z",
+      "languages": {
+        "Jupyter Notebook": 55237
+      }
+    },
     "filan214/AIFinanceTracker": {
       "pushed_at": "2026-10-06T07:31:39Z",
       "languages": {

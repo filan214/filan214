@@ -1,15 +1,15 @@
 {
   "username": "filan214",
   "as_of": "2026-10-07",
-  "fetched_at": "2026-10-07T00:41:58Z",
-  "source": "https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033",
+  "fetched_at": "2026-10-07T14:31:18Z",
+  "source": "https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f",
   "scope": "Featured repository default-branch tip",
   "event": {
-    "repo": "filan214/AIFinanceTracker",
-    "sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
-    "message": "chore: stop tracking PRD.md (kept locally, now gitignored)",
-    "created_at": "2026-10-06T07:31:19Z",
-    "url": "https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033",
+    "repo": "filan214/netflix-gap-analysis",
+    "sha": "8785e21a14973faed3285eaa315ce52e1d8a5f1f",
+    "message": "Phase 1: clean Netflix titles, build bridge tables",
+    "created_at": "2026-10-07T08:07:41Z",
+    "url": "https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f",
     "author": "Valentinus Filan",
     "branch": "main"
   }

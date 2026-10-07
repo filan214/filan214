@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-10-07",
-  "fetched_at": "2026-10-07T00:41:58Z",
+  "fetched_at": "2026-10-07T14:31:18Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,13 +9,150 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 17,
+    "public_repos": 18,
     "followers": 3,
     "following": 6,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 12,
+  "eligible_repo_count": 13,
   "projects": [
+    {
+      "name": "netflix-gap-analysis",
+      "full_name": "filan214/netflix-gap-analysis",
+      "url": "https://github.com/filan214/netflix-gap-analysis",
+      "title": "netflix-gap-analysis",
+      "description": "",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "pushed_at": "2026-10-07T08:10:08Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/netflix-gap-analysis",
+        "sha": "8785e21a14973faed3285eaa315ce52e1d8a5f1f",
+        "message": "Phase 1: clean Netflix titles, build bridge tables",
+        "created_at": "2026-10-07T08:07:41Z",
+        "url": "https://github.com/filan214/netflix-gap-analysis/commit/8785e21a14973faed3285eaa315ce52e1d8a5f1f",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13",
+          "count": 0
+        },
+        {
+          "date": "2026-09-14",
+          "count": 0
+        },
+        {
+          "date": "2026-09-15",
+          "count": 0
+        },
+        {
+          "date": "2026-09-16",
+          "count": 0
+        },
+        {
+          "date": "2026-09-17",
+          "count": 0
+        },
+        {
+          "date": "2026-09-18",
+          "count": 0
+        },
+        {
+          "date": "2026-09-19",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21",
+          "count": 0
+        },
+        {
+          "date": "2026-09-22",
+          "count": 0
+        },
+        {
+          "date": "2026-09-23",
+          "count": 0
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0
+        },
+        {
+          "date": "2026-09-25",
+          "count": 0
+        },
+        {
+          "date": "2026-09-26",
+          "count": 0
+        },
+        {
+          "date": "2026-09-27",
+          "count": 0
+        },
+        {
+          "date": "2026-09-28",
+          "count": 0
+        },
+        {
+          "date": "2026-09-29",
+          "count": 0
+        },
+        {
+          "date": "2026-09-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-01",
+          "count": 0
+        },
+        {
+          "date": "2026-10-02",
+          "count": 0
+        },
+        {
+          "date": "2026-10-03",
+          "count": 0
+        },
+        {
+          "date": "2026-10-04",
+          "count": 0
+        },
+        {
+          "date": "2026-10-05",
+          "count": 0
+        },
+        {
+          "date": "2026-10-06",
+          "count": 0
+        },
+        {
+          "date": "2026-10-07",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "AIFinanceTracker",
       "full_name": "filan214/AIFinanceTracker",
@@ -435,148 +572,6 @@
           "count": 0
         }
       ]
-    },
-    {
-      "name": "F1---2026-Car-Details",
-      "full_name": "filan214/F1---2026-Car-Details",
-      "url": "https://github.com/filan214/F1---2026-Car-Details",
-      "title": "APEX — F1 2026 Exploded View",
-      "description": "Interactive 3D explorer of a 2026 Formula One concept car, with selectable components and an animated exploded view.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [
-        "formula1",
-        "javascript",
-        "threejs",
-        "webgl"
-      ],
-      "pushed_at": "2026-09-11T16:58:17Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/F1---2026-Car-Details",
-        "sha": "71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
-        "message": "Merge new GitHub repository history",
-        "created_at": "2026-09-11T16:57:04Z",
-        "url": "https://github.com/filan214/F1---2026-Car-Details/commit/71fafa72b34bfbed07a01d8bc93b969246e7b4e2",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-09-10",
-          "count": 0
-        },
-        {
-          "date": "2026-09-11",
-          "count": 3
-        },
-        {
-          "date": "2026-09-12",
-          "count": 0
-        },
-        {
-          "date": "2026-09-13",
-          "count": 0
-        },
-        {
-          "date": "2026-09-14",
-          "count": 0
-        },
-        {
-          "date": "2026-09-15",
-          "count": 0
-        },
-        {
-          "date": "2026-09-16",
-          "count": 0
-        },
-        {
-          "date": "2026-09-17",
-          "count": 0
-        },
-        {
-          "date": "2026-09-18",
-          "count": 0
-        },
-        {
-          "date": "2026-09-19",
-          "count": 0
-        },
-        {
-          "date": "2026-09-20",
-          "count": 0
-        },
-        {
-          "date": "2026-09-21",
-          "count": 0
-        },
-        {
-          "date": "2026-09-22",
-          "count": 0
-        },
-        {
-          "date": "2026-09-23",
-          "count": 0
-        },
-        {
-          "date": "2026-09-24",
-          "count": 0
-        },
-        {
-          "date": "2026-09-25",
-          "count": 0
-        },
-        {
-          "date": "2026-09-26",
-          "count": 0
-        },
-        {
-          "date": "2026-09-27",
-          "count": 0
-        },
-        {
-          "date": "2026-09-28",
-          "count": 0
-        },
-        {
-          "date": "2026-09-29",
-          "count": 0
-        },
-        {
-          "date": "2026-09-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-01",
-          "count": 0
-        },
-        {
-          "date": "2026-10-02",
-          "count": 0
-        },
-        {
-          "date": "2026-10-03",
-          "count": 0
-        },
-        {
-          "date": "2026-10-04",
-          "count": 0
-        },
-        {
-          "date": "2026-10-05",
-          "count": 0
-        },
-        {
-          "date": "2026-10-06",
-          "count": 0
-        },
-        {
-          "date": "2026-10-07",
-          "count": 0
-        }
-      ]
     }
   ],
   "activity_days": [
@@ -650,19 +645,19 @@
     },
     {
       "date": "2026-09-27",
-      "count": 20
+      "count": 0
     },
     {
       "date": "2026-09-28",
-      "count": 23
+      "count": 0
     },
     {
       "date": "2026-09-29",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-09-30",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-10-01",
@@ -686,11 +681,11 @@
     },
     {
       "date": "2026-10-06",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-10-07",
-      "count": 0
+      "count": 1
     }
   ]
 }
