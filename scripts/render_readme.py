@@ -39,9 +39,10 @@ def screenshot(name, alt, width, url):
 
 def contact():
     # mailto: is deliberately outside safe_url, which only admits fetched http(s) links.
-    email = f'<a href="mailto:{esc(EMAIL)}"><img src="./contact-email.svg" width="300" alt="Email Valentinus Filan at {esc(EMAIL)}"></a>'
+    email = f'<a href="mailto:{esc(EMAIL)}"><img src="./contact-email.svg" width="420" alt="Email Valentinus Filan at {esc(EMAIL)}"></a>'
     return ['<h3>filan214@github:~$ contact --reach</h3>',
-            '<p>' + email + ' &nbsp; ' + image("contact-linkedin", "Valentinus Filan Gunawan on LinkedIn", 300, LINKEDIN) + '</p>']
+            '<p>Got a project, a role, or a data question? Pick a channel.</p>',
+            '<p>' + email + ' ' + image("contact-linkedin", "Valentinus Filan Gunawan on LinkedIn", 420, LINKEDIN) + '</p>']
 
 
 def render(data, stream, highlights=None, screens=None):

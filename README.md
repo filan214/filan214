@@ -14,7 +14,9 @@
 
 <h3>filan214@github:~$ contact --reach</h3>
 
-<p><a href="mailto:valentinus.filan@gmail.com"><img src="./contact-email.svg" width="300" alt="Email Valentinus Filan at valentinus.filan@gmail.com"></a> &nbsp; <a href="https://www.linkedin.com/in/valentinus-filan-gunawan-087538226"><img src="./contact-linkedin.svg" width="300" alt="Valentinus Filan Gunawan on LinkedIn"></a></p>
+<p>Got a project, a role, or a data question? Pick a channel.</p>
+
+<p><a href="mailto:valentinus.filan@gmail.com"><img src="./contact-email.svg" width="420" alt="Email Valentinus Filan at valentinus.filan@gmail.com"></a> <a href="https://www.linkedin.com/in/valentinus-filan-gunawan-087538226"><img src="./contact-linkedin.svg" width="420" alt="Valentinus Filan Gunawan on LinkedIn"></a></p>
 
 <br>
 
