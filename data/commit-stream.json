@@ -1,10 +1,20 @@
 {
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
-  "as_of": "2026-10-08",
-  "fetched_at": "2026-10-08T15:36:20Z",
+  "as_of": "2026-10-09",
+  "fetched_at": "2026-10-08T21:19:38Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/netflix-gap-analysis",
+      "sha": "64e3d30ca154f78c21bb1fee8f4e29a025afbdca",
+      "message": "Ignore title-level audit sample",
+      "created_at": "2026-10-08T07:30:01Z",
+      "url": "https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca",
+      "event_id": "23403071429",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
@@ -92,16 +102,6 @@
       "created_at": "2026-09-29T18:18:08Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/87f6fb6886f88739688aaace359493394aa30a4d",
       "event_id": "22505821224",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "2b51c2d4efd51e1007669818b37c5e1810a99538",
-      "message": "docs: click-through verification done — all 5 UI fixes PASS on prod",
-      "created_at": "2026-09-29T10:22:45Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/2b51c2d4efd51e1007669818b37c5e1810a99538",
-      "event_id": "22470473996",
       "branch": "main",
       "message_available": true
     }
