@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -24,7 +24,7 @@
 
 <a href="https://github.com/filan214/netflix-gap-analysis"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: Netflix Catalog Gap Analysis (Global + Indonesia), measured commit activity and language bytes. Open the repository."></a>
 
-<p><a href="https://github.com/filan214/netflix-gap-analysis">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commits">↗ Commit history</a></p>
+<p><a href="https://github.com/filan214/netflix-gap-analysis">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/netflix-gap-analysis/commits">↗ Commit history</a></p>
 
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
@@ -78,7 +78,7 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-1.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-07</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-1.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-08</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca">Commit</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-2.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-06</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
@@ -126,7 +126,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 08 Oct 2026 · 14:24 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 08 Oct 2026 · 22:36 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -154,9 +154,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 08 Oct 2026 · 14:24 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 08 Oct 2026 · 22:36 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 08 Oct 2026 · 14:24 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 08 Oct 2026 · 22:36 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
