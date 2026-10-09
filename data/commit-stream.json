@@ -2,7 +2,7 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-10-09",
-  "fetched_at": "2026-10-08T21:19:38Z",
+  "fetched_at": "2026-10-09T09:03:05Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
     {
@@ -12,6 +12,16 @@
       "created_at": "2026-10-08T07:30:01Z",
       "url": "https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca",
       "event_id": "23403071429",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/netflix-gap-analysis",
+      "sha": "fb68d12504ef3b1308d06f1b8e708e4464f8d37b",
+      "message": "Phase 2: model and load Netflix and IMDb data in PostgreSQL",
+      "created_at": "2026-10-07T18:39:20Z",
+      "url": "https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b",
+      "event_id": "23439427281",
       "branch": "main",
       "message_available": true
     },
@@ -92,16 +102,6 @@
       "created_at": "2026-09-29T18:45:41Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/d4e863fe25ea3964c1244812e1a2a19b074da526",
       "event_id": "22638006009",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "87f6fb6886f88739688aaace359493394aa30a4d",
-      "message": "feat: switch AI from OpenRouter free model to Gemini 3.5 Flash (Google AI Studio)",
-      "created_at": "2026-09-29T18:18:08Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/87f6fb6886f88739688aaace359493394aa30a4d",
-      "event_id": "22505821224",
       "branch": "main",
       "message_available": true
     }
