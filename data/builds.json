@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-10-11",
-  "fetched_at": "2026-10-11T01:52:53Z",
+  "fetched_at": "2026-10-11T08:49:28Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -25,16 +25,16 @@
       "homepage": "",
       "language": "Jupyter Notebook",
       "topics": [],
-      "pushed_at": "2026-10-08T07:30:01Z",
+      "pushed_at": "2026-10-11T08:43:40Z",
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
       "commit": {
         "repo": "filan214/netflix-gap-analysis",
-        "sha": "64e3d30ca154f78c21bb1fee8f4e29a025afbdca",
-        "message": "Ignore title-level audit sample",
-        "created_at": "2026-10-08T07:29:01Z",
-        "url": "https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca",
+        "sha": "340ef5d3ff7b57aff868a59c24d9819d95f13d35",
+        "message": "country_votes_context: rename rated column, add visibility_penalty",
+        "created_at": "2026-10-11T08:41:02Z",
+        "url": "https://github.com/filan214/netflix-gap-analysis/commit/340ef5d3ff7b57aff868a59c24d9819d95f13d35",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -137,7 +137,7 @@
         },
         {
           "date": "2026-10-08",
-          "count": 3
+          "count": 5
         },
         {
           "date": "2026-10-09",
@@ -149,7 +149,7 @@
         },
         {
           "date": "2026-10-11",
-          "count": 0
+          "count": 3
         }
       ]
     },
@@ -674,7 +674,7 @@
     },
     {
       "date": "2026-10-08",
-      "count": 3
+      "count": 5
     },
     {
       "date": "2026-10-09",
@@ -686,7 +686,7 @@
     },
     {
       "date": "2026-10-11",
-      "count": 0
+      "count": 3
     }
   ]
 }
