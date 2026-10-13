@@ -102,6 +102,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-10-12 08:48:58</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/7cf534283885fac5e1c0773c49faa728fd420a0c">7cf5342</a> Clear notebook execution count</td></tr>
+
 <tr><td>2026-10-12 08:44:09</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/900c7e5c6008b0ca3390df7e730ed25111308944">900c7e5</a> Growth mart counts full catalog, add country match rate</td></tr>
 
 <tr><td>2026-10-11 08:43:40</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/340ef5d3ff7b57aff868a59c24d9819d95f13d35">340ef5d</a> country_votes_context: rename rated column, add visibility_penalty</td></tr>
@@ -120,13 +122,11 @@
 
 <tr><td>2026-09-30 18:33:04</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">56a1e0d</a> Add &quot;How it works&quot; section, dataset link and clean Tableau link</td></tr>
 
-<tr><td>2026-09-30 18:23:03</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/9e4d1471bd79ac90cfd36b9ca095071ec7ac6fd1">9e4d147</a> Add Tableau Public link to dashboard section</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 13 Oct 2026 · 10:33 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 14 Oct 2026 · 02:16 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -154,9 +154,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 13 Oct 2026 · 10:33 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 14 Oct 2026 · 02:16 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 13 Oct 2026 · 10:33 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 14 Oct 2026 · 02:16 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 

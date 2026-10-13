@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-10-13T03:33:30Z",
-  "as_of": "2026-10-13",
+  "fetched_at": "2026-10-13T19:16:42Z",
+  "as_of": "2026-10-14",
   "projects": {
     "finance": {
       "name": "AIFinanceTracker",
@@ -68,10 +68,6 @@
         ]
       },
       "activity_days": [
-        {
-          "date": "2026-07-16",
-          "count": 0
-        },
         {
           "date": "2026-07-17",
           "count": 0
@@ -427,6 +423,10 @@
         {
           "date": "2026-10-13",
           "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
         }
       ],
       "languages": {
@@ -442,8 +442,8 @@
         "conclusion": "success",
         "head_sha": "552a0f442c668188bf9ab5d2dc307b2a69b93033",
         "matches_tip": true,
-        "updated_at": "2026-10-10T15:06:58Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/38062294448"
+        "updated_at": "2026-10-13T16:47:46Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/38433396745"
       }
     },
     "crosssell": {
@@ -521,10 +521,6 @@
         "shap": true
       },
       "activity_days": [
-        {
-          "date": "2026-07-16",
-          "count": 0
-        },
         {
           "date": "2026-07-17",
           "count": 0
@@ -880,6 +876,10 @@
         {
           "date": "2026-10-13",
           "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
         }
       ],
       "languages": {
@@ -891,7 +891,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-13T03:33:30Z",
+    "checked_at": "2026-10-13T19:16:42Z",
     "http_status": 200,
     "reachable": true
   }
