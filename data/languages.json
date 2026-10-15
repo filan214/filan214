@@ -1,14 +1,14 @@
 {
   "username": "filan214",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 11,
-  "total_bytes": 2646329,
+  "total_bytes": 2647093,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1263051,
-      "percent": 47.73
+      "bytes": 1263815,
+      "percent": 47.74
     },
     {
       "name": "PHP",
@@ -18,7 +18,7 @@
     {
       "name": "Blade",
       "bytes": 227461,
-      "percent": 8.6
+      "percent": 8.59
     },
     {
       "name": "Jupyter Notebook",
@@ -33,7 +33,7 @@
     {
       "name": "Python",
       "bytes": 184882,
-      "percent": 6.99
+      "percent": 6.98
     },
     {
       "name": "HTML",
@@ -62,22 +62,22 @@
     }
   ],
   "repos": {
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-10-15T17:36:42Z",
+      "languages": {
+        "TypeScript": 498775,
+        "HTML": 65343,
+        "PLpgSQL": 25453,
+        "CSS": 3892,
+        "JavaScript": 81
+      }
+    },
     "filan214/netflix-gap-analysis": {
       "pushed_at": "2026-10-14T17:10:51Z",
       "languages": {
         "Python": 55706,
         "Jupyter Notebook": 55240,
         "PLpgSQL": 16802
-      }
-    },
-    "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-10-06T07:31:39Z",
-      "languages": {
-        "TypeScript": 498011,
-        "HTML": 65343,
-        "PLpgSQL": 25453,
-        "CSS": 3892,
-        "JavaScript": 81
       }
     },
     "filan214/dealership-crosssell-propensity": {
