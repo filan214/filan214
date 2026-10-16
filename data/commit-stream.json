@@ -2,9 +2,19 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-10-16",
-  "fetched_at": "2026-10-16T00:27:33Z",
+  "fetched_at": "2026-10-16T05:51:47Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00",
+      "message": "fix(login): drop the input placeholders and link labels to their fields",
+      "created_at": "2026-10-15T17:36:42Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00",
+      "event_id": "24162802024",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/netflix-gap-analysis",
       "sha": "ff74c6a542ea726d83ce3ceb651d89632a9fd12b",
@@ -12,6 +22,16 @@
       "created_at": "2026-10-14T17:10:52Z",
       "url": "https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b",
       "event_id": "24001746745",
+      "branch": "main",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/netflix-gap-analysis",
+      "sha": "0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b",
+      "message": "Remove PRD, implementation guide and prompts",
+      "created_at": "2026-10-14T17:03:25Z",
+      "url": "https://github.com/filan214/netflix-gap-analysis/commit/0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b",
+      "event_id": "24164352381",
       "branch": "main",
       "message_available": true
     },
@@ -82,26 +102,6 @@
       "created_at": "2026-10-06T07:29:49Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/7735701a462ac76f3507172da76528e8c73d2a51",
       "event_id": "23176926026",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
-      "message": "fix(pdf): align report table headers with their columns; keep Saved's minus",
-      "created_at": "2026-10-05T18:48:53Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/db9e9c33455aa6ba5b12c99bbd7c78d99f065cda",
-      "event_id": "23089278512",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "1a858b556ad8d5724acba2f02a4a5238c359c643",
-      "message": "docs: handoff + progress for the 2026-10-06 UI/UX refinement pass",
-      "created_at": "2026-10-05T18:04:55Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/1a858b556ad8d5724acba2f02a4a5238c359c643",
-      "event_id": "23085896859",
       "branch": "main",
       "message_available": true
     }
