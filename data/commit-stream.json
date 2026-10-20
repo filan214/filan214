@@ -2,9 +2,19 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-10-20",
-  "fetched_at": "2026-10-20T04:49:33Z",
+  "fetched_at": "2026-10-20T10:03:57Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/FormWAtch-Football",
+      "sha": "e8854a739c3458d05e41386c2311f63a924cf998",
+      "message": "Switch AI narratives from OpenRouter to ZenMux",
+      "created_at": "2026-10-20T09:59:39Z",
+      "url": "https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998",
+      "event_id": "24610120242",
+      "branch": "master",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00",
@@ -92,16 +102,6 @@
       "created_at": "2026-10-06T07:31:39Z",
       "url": "https://github.com/filan214/AIFinanceTracker/commit/552a0f442c668188bf9ab5d2dc307b2a69b93033",
       "event_id": "23254263714",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/AIFinanceTracker",
-      "sha": "7735701a462ac76f3507172da76528e8c73d2a51",
-      "message": "docs(readme): rewrite for portfolio: demo walkthrough, engineering highlights, current stack",
-      "created_at": "2026-10-06T07:29:49Z",
-      "url": "https://github.com/filan214/AIFinanceTracker/commit/7735701a462ac76f3507172da76528e8c73d2a51",
-      "event_id": "23176926026",
       "branch": "main",
       "message_available": true
     }
