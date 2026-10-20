@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -19,12 +19,6 @@
 <p><a href="mailto:valentinus.filan@gmail.com"><img src="./contact-email.svg" width="420" alt="Email Valentinus Filan at valentinus.filan@gmail.com"></a> <a href="https://www.linkedin.com/in/valentinus-filan-gunawan-087538226"><img src="./contact-linkedin.svg" width="420" alt="Valentinus Filan Gunawan on LinkedIn"></a></p>
 
 <br>
-
-<h3>filan214@github:~$ git portfolio --latest</h3>
-
-<a href="https://github.com/filan214/FormWAtch-Football"><img src="./recent-build.svg" width="860" alt="Recent Build Spotlight: FormWatch, measured commit activity and language bytes. Open the repository."></a>
-
-<p><a href="https://github.com/filan214/FormWAtch-Football">↗ Explore code</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998">↗ Latest commit</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/FormWAtch-Football/commits">↗ Commit history</a></p>
 
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
@@ -78,7 +72,7 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-1.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-20</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-1.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-20</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177">Commit</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-2.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-15</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
@@ -142,6 +136,28 @@
 
 <br>
 
+<h3>filan214@github:~$ git portfolio --latest</h3>
+
+<table width="860"><tr><th align="left" width="27%">Repository</th><th align="left" width="48%">About</th><th align="left" width="14%">Code</th><th align="left" width="11%">Created</th></tr>
+
+<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>—</td><td>Python</td><td>2026-10-07</td></tr>
+
+<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>—</td><td>Jupyter Notebook</td><td>2026-09-30</td></tr>
+
+<tr><td><a href="https://github.com/filan214/F1---2026-Car-Details">F1---2026-Car-Details</a></td><td>Interactive 3D explorer of a 2026 Formula One concept car, with selectable components and an animated exploded view.</td><td>JavaScript</td><td>2026-09-11</td></tr>
+
+<tr><td><a href="https://github.com/filan214/Savor">Savor</a></td><td>Mobile app for logging food consumption and tracking calories; in development.</td><td>TypeScript</td><td>2026-07-19</td></tr>
+
+<tr><td><a href="https://github.com/filan214/CaloriesTracker">CaloriesTracker</a></td><td>Calorie and nutrition tracking web app.</td><td>JavaScript</td><td>2026-07-18</td></tr>
+
+<tr><td><a href="https://github.com/filan214/Transfer-Globe">Transfer-Globe</a> · <a href="https://transfer-globe.vercel.app">Site</a></td><td>Interactive 3D football-transfer globe with animated fee-encoded arcs, transfer-window and league filters, and club spending insights.</td><td>TypeScript</td><td>2026-07-17</td></tr>
+
+</table>
+
+<p>Newest public repositories by creation date · forks, archives, this profile repo and configured exclusions omitted · <a href="https://github.com/filan214?tab=repositories">all repositories</a></p>
+
+<br>
+
 <h3>filan214@github:~$ sources --inspect · Data sources &amp; freshness</h3>
 
 <a href="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml"><img src="./data-freshness.svg" width="860" alt="Recorded sync times for projects, public push events, and project spotlights, with calendar and language snapshot dates"></a>
@@ -154,7 +170,7 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata and 28-day default-branch commit history, all authors. Synced 20 Oct 2026 · 22:05 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 20 Oct 2026 · 22:43 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 20 Oct 2026 · 22:05 WIB.</td></tr>
 

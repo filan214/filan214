@@ -228,7 +228,7 @@ class HighlightTests(unittest.TestCase):
         data = fixture()
         data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": CROSSSELL_README})
         content = " ".join(ET.fromstring(outputs(data)["crosssell-story.svg"]).itertext())
-        for figure in ("12.3%", "25.1%", "76,222", "79.0%", "top 30%", "2.6×"):
+        for figure in ("12.3%", "25.1%", "76,222", "79.0%", "30%", "2.6×"):
             self.assertIn(figure, content)
         data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": None})
         content = " ".join(ET.fromstring(outputs(data)["crosssell-story.svg"]).itertext())

@@ -10,6 +10,8 @@ import requests
 
 from common import API, DATA, JAKARTA, USERNAME, GitHub, read_json, run, today, write_json
 
+RECENT_COUNT = 6  # Newest repositories listed under git portfolio --latest.
+
 
 def safe_url(value):
     value = value or ""
@@ -113,12 +115,16 @@ def main():
                          "stars": repo["stargazers_count"], "forks": repo["forks_count"], "commit": commit})
     for project in projects:
         project["activity_days"] = repository_activity(client, project, as_of)
+    newest = sorted(eligible, key=lambda repo: (repo["created_at"], repo["name"]), reverse=True)[:RECENT_COUNT]
+    recent = [{"name": repo["name"], "url": safe_url(repo["html_url"]), "description": repo.get("description") or "",
+               "homepage": safe_url(repo.get("homepage")), "language": repo.get("language"), "created_at": repo["created_at"]}
+              for repo in newest]
     days = projects[0]["activity_days"] if projects else []
     snapshot = {"username": USERNAME, "as_of": as_of.isoformat(),
                 "fetched_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
                 "source": source, "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
                 "profile": {key: profile.get(key) for key in ("login", "name", "bio", "location", "public_repos", "followers", "following", "created_at")},
-                "eligible_repo_count": len(eligible), "projects": projects, "activity_days": days}
+                "eligible_repo_count": len(eligible), "projects": projects, "activity_days": days, "recent": recent}
     write_json(DATA / "builds.json", snapshot)
     print(f"Fetched {len(projects)} recent builds; featured: {projects[0]['name'] if projects else 'none'}")
 

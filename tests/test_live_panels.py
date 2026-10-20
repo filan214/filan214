@@ -53,9 +53,20 @@ class LivePanelTests(unittest.TestCase):
         self.assertTrue(page.find("a", href="https://github.com/filan214/new-project"))
         self.assertTrue(page.find("a", href="https://example.com/?x=1&y=2"))
         self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
-        changed = {**BUILD, "name": "next-build", "url": "https://github.com/filan214/next-build", "homepage": "javascript:alert(1)"}
-        page = BeautifulSoup(render({**SNAPSHOT, "projects": [changed]}, stream), "html.parser")
-        self.assertEqual(page.find("img", src="./recent-build.svg").parent["href"], "https://github.com/filan214/next-build")
+        self.assertIsNone(page.find("img", src="./recent-build.svg"))
+        recent = [{"name": "newest-repo", "url": "https://github.com/filan214/newest-repo", "description": "Fresh <b>idea</b>",
+                   "homepage": "javascript:alert(1)", "language": None, "created_at": "2026-10-07T00:00:00Z"},
+                  {"name": "older-repo", "url": "https://github.com/filan214/older-repo", "description": "",
+                   "homepage": "https://older.example.com", "language": "Python", "created_at": "2026-09-30T00:00:00Z"}]
+        page = BeautifulSoup(render({**SNAPSHOT, "recent": recent}, stream), "html.parser")
+        headings = [h.text for h in page.find_all("h3")]
+        latest = next(i for i, h in enumerate(headings) if "git portfolio --latest" in h)
+        self.assertEqual(latest, len(headings) - 2, "Newest repositories sit just above the sources footer")
+        rows = page.find("a", href="https://github.com/filan214/newest-repo").find_parent("table").find_all("tr")[1:]
+        self.assertEqual([row.find("a").text for row in rows], ["newest-repo", "older-repo"])
+        self.assertIn("Fresh <b>idea</b>", rows[0].text)
+        self.assertEqual(rows[0].find_all("td")[3].text, "2026-10-07")
+        self.assertTrue(page.find("a", href="https://older.example.com"))
         self.assertFalse(any(a["href"].startswith("javascript:") for a in page.find_all("a", href=True)))
 
     def test_biography_and_tagline_follow_fetched_profile_and_projects(self):

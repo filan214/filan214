@@ -53,13 +53,7 @@ def render(data, stream, highlights=None, screens=None):
              image("contrib-heatmap", "GitHub contribution calendar with streaks, peak day, and monthly totals", url="https://github.com/filan214?tab=overview"), '<br>',
              image("commit-log", "The featured repository's actual default-branch tip commit", url=project["commit"]["url"] if project else ""), '<br>',
              # The neofetch portrait and info card are hidden; their SVGs are still generated.
-             *contact(), '<br>', '<h3>filan214@github:~$ git portfolio --latest</h3>',
-             image("recent-build", "Recent Build Spotlight: " + (project["title"] + ", measured commit activity and language bytes. Open the repository." if project else "No eligible public projects."), url=project["url"] if project else "")]
-    if project:
-        actions = [link(project["url"], "↗ Explore code"), link(project["commit"]["url"], "↗ Latest commit"), link(project["url"] + "/commits", "↗ Commit history")]
-        if safe_url(project["homepage"]):
-            actions.append(link(project["homepage"], "↗ Open project site"))
-        parts.append('<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>')
+             *contact(), '<br>']
     if highlights:
         # Curated showcases lead the live activity panels.
         parts += showcase_sections(highlights, screens)
@@ -89,6 +83,7 @@ def render(data, stream, highlights=None, screens=None):
               '<h3>filan214@github:~$ languages --bytes</h3>',
               image("languages", "Actual language bytes across eligible public projects; code proportions, not proficiency", url="https://github.com/filan214?tab=repositories"), '<br>',
               image("tagline", "Rotating facts derived from the current GitHub profile and project snapshot"), '<br>']
+    parts += newest_repositories(data.get("recent", []))
     parts += ['<h3>filan214@github:~$ sources --inspect · Data sources &amp; freshness</h3>']
     if highlights:
         parts.append(image("data-freshness", "Recorded sync times for projects, public push events, and project spotlights, with calendar and language snapshot dates", url="https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml"))
@@ -96,7 +91,7 @@ def render(data, stream, highlights=None, screens=None):
               '<details><summary>Inspect sources, measurement scope &amp; refresh behavior</summary>', '<br>',
               '<table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>']
     for name, label, detail in [
-        ("builds", "Projects & activity", "Public repository metadata and 28-day default-branch commit history, all authors. Synced " + sync_label(data) + "."),
+        ("builds", "Projects & activity", "Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced " + sync_label(data) + "."),
         ("commit-stream", "Cross-repo pushes", "Available public push events by filan214; one exact head commit per push. Synced " + sync_label(stream) + "."),
         ("highlights", "Finance & cross-sell spotlights", "File inventories pinned to the displayed source commit, cross-sell results quoted from that project's README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check."),
         ("contributions", "Contribution calendar", "GitHub contribution HTML: full account totals, including automation."),
@@ -116,6 +111,21 @@ def render(data, stream, highlights=None, screens=None):
 
 def captured(screens):
     return datetime.fromisoformat(screens["captured_at"].replace("Z", "+00:00")).astimezone(JAKARTA).strftime("%d %b %Y")
+
+
+def newest_repositories(recent):
+    parts = ['<h3>filan214@github:~$ git portfolio --latest</h3>',
+             '<table width="860"><tr><th align="left" width="27%">Repository</th><th align="left" width="48%">About</th>'
+             '<th align="left" width="14%">Code</th><th align="left" width="11%">Created</th></tr>']
+    for repo in recent:
+        name = link(repo["url"], repo["name"]) + (' · ' + link(repo["homepage"], "Site") if safe_url(repo["homepage"]) else "")
+        parts.append('<tr><td>' + name + '</td><td>' + esc(repo["description"] or "—") + '</td><td>'
+                     + esc(repo["language"] or "—") + '</td><td>' + esc(repo["created_at"][:10]) + '</td></tr>')
+    if not recent:
+        parts.append('<tr><td colspan="4">No eligible public repositories.</td></tr>')
+    parts += ['</table>', '<p>Newest public repositories by creation date · forks, archives, this profile repo and configured exclusions omitted · '
+              + link("https://github.com/filan214?tab=repositories", "all repositories") + '</p>', '<br>']
+    return parts
 
 
 def showcase_sections(data, screens=None):

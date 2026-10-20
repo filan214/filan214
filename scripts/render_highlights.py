@@ -1,7 +1,7 @@
 """Animated project evidence cards. Counts describe public source, never user finances."""
 from common import DATA, read_json, run
 from render_build_spotlight import sync_label
-from svg import chrome, rect, save, shorten, svg, text, wipe
+from svg import chrome, esc, rect, save, shorten, svg, text, wipe
 
 STYLES = '''
 :root{--violet:#6f42c1;--wash:#eef8f2;--v-wash:#f5f0fc}
@@ -14,6 +14,7 @@ STYLES = '''
 .area{fill:var(--accent);opacity:.08} .guide{fill:none;stroke:var(--line);stroke-dasharray:3 5}
 .connector{fill:none;stroke:var(--line);stroke-width:1.5}
 .sans{font-family:Arial,Helvetica,sans-serif}
+.rail{fill:none;stroke:var(--line);stroke-width:2} .dot{fill:var(--bg);stroke:var(--violet);stroke-width:2}
 '''
 
 
@@ -164,39 +165,43 @@ def crosssell(data):
     return svg(860, 530, "Dealership Cross-Sell Propensity — model results and source explorer", desc, body, styles=STYLES)
 
 
+def narrative(x, y, segments):
+    # One line of story text; (text, True) segments are figures and get highlighted.
+    spans = "".join(f'<tspan class="violet bold">{esc(part)}</tspan>' if figure else esc(part) for part, figure in segments)
+    return f'<text x="{x}" y="{y}" class="sans" style="font-size:13.5px">{spans}</text>'
+
+
 def story(data):
-    # Plain-language case study: every number is quoted from the project README at the shown commit.
+    # A short case-study narrative; every figure is quoted from the project README at the shown commit.
     project = data["projects"]["crosssell"]
-    r = project["inventory"]["results"]
-    share, lift = r["capture_share"] or "top slice", r["capture_lift"] or "—"
-    beats = [("PROBLEM", r["response_rate"], ["of customers say yes.", "Too many to call them all;", "random calls mostly miss."]),
-             ("INSIGHT", r["segment_rate"], ["respond when the car was", "damaged and uninsured.", "SQL showed where to look."]),
-             ("MODEL", r["test_customers"], ["unseen customers scored", "on how likely each is to", "buy, then ranked."]),
-             ("IMPACT", r["captured"], ["of interested customers", f"reached via the top {share},", f"{lift} better than random."])]
-    body = chrome(860, 340, "story --project dealership-crosssell-propensity", "01 / DATA SCIENCE")
+    r = {key: value or "—" for key, value in project["inventory"]["results"].items()}
+    chapters = [
+        ("THE PROBLEM", [[("A dealership had more customers than its sales team could ever call, and only ", False), (r["response_rate"], True), (" were interested.", False)],
+                         [("Working down the list at random meant most calls went nowhere.", False)]]),
+        ("THE CLUE", [[("So I started with the data. Grouping customers in SQL, one group stood out: drivers with a damaged car", False)],
+                      [("and no insurance said yes ", False), (r["segment_rate"], True), (" of the time, against ", False), (r["response_rate"], True), (" overall.", False)]]),
+        ("THE MODEL", [[("A pattern isn't a plan, so I trained a model to score every customer on how likely they were to buy,", False)],
+                       [("and tested it on ", False), (r["test_customers"], True), (" customers it had never seen.", False)]]),
+        ("THE PAYOFF", [[("Ranked by that score, calling only the top ", False), (r["capture_share"], True), (" reached ", False), (r["captured"], True),
+                         (" of interested customers, ", False), (r["capture_lift"], True), (" better than random.", False)],
+                        [("Sales got it as a Tableau call list, with a slider to choose how far down to go.", False)]])]
+    body = chrome(860, 424, "story --project dealership-crosssell-propensity", "01 / DATA SCIENCE")
     body += '<g class="xsell">'
     body += text(28, 82, "Who should sales call first?", "display", 28)
-    body += text(28, 106, "A dealership cross-sell case, from question to call list.", "muted", 12)
-    for i, (label, value, lines) in enumerate(beats):
-        x = 28+i*207
-        body += f'<g class="enter" style="animation-delay:{.15+i*.18:.2f}s">'
-        body += rect(x, 126, 183, 156, "v-wash" if i == 3 else "panel", 10)
-        body += text(x+16, 150, f"0{i+1} · {label}", "violet bold", 10)
-        body += text(x+16, 192, shorten(value or "—", 9), "display violet", 30)
-        for j, line in enumerate(lines):
-            body += text(x+16, 218+j*17, line, "sans", 11)
+    body += text(28, 106, "The story behind a dealership's call list.", "muted", 12)
+    body += '<path d="M40 142V336" class="rail"/>'
+    for i, (label, lines) in enumerate(chapters):
+        y = 146 + i*64
+        body += f'<g class="enter" style="animation-delay:{.15+i*.2:.2f}s">'
+        body += f'<circle cx="40" cy="{y-4}" r="6" class="{"violet" if i == 3 else "dot"}"/>'
+        body += text(64, y, label, "violet bold", 10)
+        body += "".join(narrative(64, y+22+j*19, line) for j, line in enumerate(lines))
         body += '</g>'
-        if i < 3:
-            body += f'<path d="M{x+188} {204}h13l-4 -4m4 4l-4 4" class="connector"/>'
-    body += text(28, 310, "Delivered as a Tableau call list with a “top % to call” slider for the sales team.", "sans", 12)
-    body += text(832, 328, "Figures from the project README · " + project["commit"]["sha"][:7], "muted tiny", extra='text-anchor="end"')
+    body += text(832, 410, "Figures from the project README · " + project["commit"]["sha"][:7], "muted tiny", extra='text-anchor="end"')
     body += '</g>'
-    desc = (f"Problem: only {r['response_rate']} of customers respond, and sales cannot call everyone. "
-            f"Insight: SQL analysis found {r['segment']} customers respond at {r['segment_rate']}. "
-            f"Model: {r['test_customers']} unseen customers were scored and ranked by likelihood to buy. "
-            f"Impact: calling the top {share} reaches {r['captured']} of interested customers, {lift} better than random. "
-            "Delivered as a Tableau call list. Figures quoted from the project README at commit " + project["commit"]["sha"] + ".")
-    return svg(860, 340, "Who should sales call first? — Dealership cross-sell story", desc, body, styles=STYLES)
+    desc = " ".join(label.title() + ": " + " ".join("".join(part for part, _ in line) for line in lines) for label, lines in chapters)
+    desc += " Figures quoted from the project README at commit " + project["commit"]["sha"] + "."
+    return svg(860, 424, "Who should sales call first? — Dealership cross-sell story", desc, body, styles=STYLES)
 
 
 def outputs(data):
