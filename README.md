@@ -100,6 +100,8 @@
 
 <tr><td>2026-10-20 09:59:39</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998">e8854a7</a> Switch AI narratives from OpenRouter to ZenMux</td></tr>
 
+<tr><td>2026-10-20 08:10:33</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/37d1f37936cf7e1b0f33bc29643b0a304a750944">37d1f37</a> Fix silent season rollover: refresh cached Understat season catalog</td></tr>
+
 <tr><td>2026-10-15 17:36:42</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00">f99b0df</a> fix(login): drop the input placeholders and link labels to their fields</td></tr>
 
 <tr><td>2026-10-14 17:10:52</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b">ff74c6a</a> Simplify README</td></tr>
@@ -114,13 +116,11 @@
 
 <tr><td>2026-10-08 07:30:01</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca">64e3d30</a> Ignore title-level audit sample</td></tr>
 
-<tr><td>2026-10-07 18:39:20</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/fb68d12504ef3b1308d06f1b8e708e4464f8d37b">fb68d12</a> Phase 2: model and load Netflix and IMDb data in PostgreSQL</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 21 Oct 2026 · 05:20 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 21 Oct 2026 · 08:35 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -170,9 +170,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 21 Oct 2026 · 05:20 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 21 Oct 2026 · 08:35 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 21 Oct 2026 · 05:20 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 21 Oct 2026 · 08:35 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
