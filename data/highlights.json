@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-10-22T18:32:17Z",
+  "fetched_at": "2026-10-22T22:20:08Z",
   "as_of": "2026-10-23",
   "projects": {
     "finance": {
@@ -891,7 +891,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-22T18:32:17Z",
+    "checked_at": "2026-10-22T22:20:08Z",
     "http_status": 200,
     "reachable": true
   }
