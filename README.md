@@ -96,6 +96,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-10-24 07:05:47</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d">358d87e</a> update 2</td></tr>
+
 <tr><td>2026-10-20 15:28:24</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177">9d1e8f1</a> Remove PRD documents from the repository</td></tr>
 
 <tr><td>2026-10-20 09:59:39</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/e8854a739c3458d05e41386c2311f63a924cf998">e8854a7</a> Switch AI narratives from OpenRouter to ZenMux</td></tr>
@@ -114,13 +116,11 @@
 
 <tr><td>2026-10-11 08:43:40</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/340ef5d3ff7b57aff868a59c24d9819d95f13d35">340ef5d</a> country_votes_context: rename rated column, add visibility_penalty</td></tr>
 
-<tr><td>2026-10-08 07:30:01</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/64e3d30ca154f78c21bb1fee8f4e29a025afbdca">64e3d30</a> Ignore title-level audit sample</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 24 Oct 2026 · 17:58 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 24 Oct 2026 · 21:32 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -170,9 +170,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 24 Oct 2026 · 17:58 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 24 Oct 2026 · 21:31 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 24 Oct 2026 · 17:58 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 24 Oct 2026 · 21:32 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
