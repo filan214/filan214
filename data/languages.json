@@ -62,6 +62,13 @@
     }
   ],
   "repos": {
+    "filan214/dealership-crosssell-propensity": {
+      "pushed_at": "2026-10-24T07:05:47Z",
+      "languages": {
+        "Jupyter Notebook": 147193,
+        "Python": 389
+      }
+    },
     "filan214/FormWAtch-Football": {
       "pushed_at": "2026-10-20T15:28:24Z",
       "languages": {
@@ -87,13 +94,6 @@
         "Python": 55706,
         "Jupyter Notebook": 55240,
         "PLpgSQL": 16802
-      }
-    },
-    "filan214/dealership-crosssell-propensity": {
-      "pushed_at": "2026-09-30T18:33:03Z",
-      "languages": {
-        "Jupyter Notebook": 147193,
-        "Python": 389
       }
     },
     "filan214/F1---2026-Car-Details": {

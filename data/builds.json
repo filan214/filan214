@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-10-24",
-  "fetched_at": "2026-10-24T05:52:19Z",
+  "fetched_at": "2026-10-24T10:58:51Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -16,6 +16,143 @@
   },
   "eligible_repo_count": 11,
   "projects": [
+    {
+      "name": "dealership-crosssell-propensity",
+      "full_name": "filan214/dealership-crosssell-propensity",
+      "url": "https://github.com/filan214/dealership-crosssell-propensity",
+      "title": "Dealership Cross-Sell Propensity Model",
+      "description": "",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "pushed_at": "2026-10-24T07:05:47Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/dealership-crosssell-propensity",
+        "sha": "358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
+        "message": "update 2",
+        "created_at": "2026-10-24T07:05:06Z",
+        "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-09-27",
+          "count": 0
+        },
+        {
+          "date": "2026-09-28",
+          "count": 0
+        },
+        {
+          "date": "2026-09-29",
+          "count": 0
+        },
+        {
+          "date": "2026-09-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-01",
+          "count": 3
+        },
+        {
+          "date": "2026-10-02",
+          "count": 0
+        },
+        {
+          "date": "2026-10-03",
+          "count": 0
+        },
+        {
+          "date": "2026-10-04",
+          "count": 0
+        },
+        {
+          "date": "2026-10-05",
+          "count": 0
+        },
+        {
+          "date": "2026-10-06",
+          "count": 0
+        },
+        {
+          "date": "2026-10-07",
+          "count": 0
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
+        },
+        {
+          "date": "2026-10-09",
+          "count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "count": 0
+        },
+        {
+          "date": "2026-10-11",
+          "count": 0
+        },
+        {
+          "date": "2026-10-12",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15",
+          "count": 0
+        },
+        {
+          "date": "2026-10-16",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "FormWAtch-Football",
       "full_name": "filan214/FormWAtch-Football",
@@ -435,143 +572,6 @@
           "count": 0
         }
       ]
-    },
-    {
-      "name": "dealership-crosssell-propensity",
-      "full_name": "filan214/dealership-crosssell-propensity",
-      "url": "https://github.com/filan214/dealership-crosssell-propensity",
-      "title": "Dealership Cross-Sell Propensity Model",
-      "description": "",
-      "homepage": "",
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "pushed_at": "2026-09-30T18:33:03Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/dealership-crosssell-propensity",
-        "sha": "56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
-        "message": "Add \"How it works\" section, dataset link and clean Tableau link",
-        "created_at": "2026-09-30T18:32:46Z",
-        "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-09-27",
-          "count": 0
-        },
-        {
-          "date": "2026-09-28",
-          "count": 0
-        },
-        {
-          "date": "2026-09-29",
-          "count": 0
-        },
-        {
-          "date": "2026-09-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-01",
-          "count": 3
-        },
-        {
-          "date": "2026-10-02",
-          "count": 0
-        },
-        {
-          "date": "2026-10-03",
-          "count": 0
-        },
-        {
-          "date": "2026-10-04",
-          "count": 0
-        },
-        {
-          "date": "2026-10-05",
-          "count": 0
-        },
-        {
-          "date": "2026-10-06",
-          "count": 0
-        },
-        {
-          "date": "2026-10-07",
-          "count": 0
-        },
-        {
-          "date": "2026-10-08",
-          "count": 0
-        },
-        {
-          "date": "2026-10-09",
-          "count": 0
-        },
-        {
-          "date": "2026-10-10",
-          "count": 0
-        },
-        {
-          "date": "2026-10-11",
-          "count": 0
-        },
-        {
-          "date": "2026-10-12",
-          "count": 0
-        },
-        {
-          "date": "2026-10-13",
-          "count": 0
-        },
-        {
-          "date": "2026-10-14",
-          "count": 0
-        },
-        {
-          "date": "2026-10-15",
-          "count": 0
-        },
-        {
-          "date": "2026-10-16",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19",
-          "count": 0
-        },
-        {
-          "date": "2026-10-20",
-          "count": 0
-        },
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        }
-      ]
     }
   ],
   "activity_days": [
@@ -593,7 +593,7 @@
     },
     {
       "date": "2026-10-01",
-      "count": 0
+      "count": 3
     },
     {
       "date": "2026-10-02",
@@ -669,7 +669,7 @@
     },
     {
       "date": "2026-10-20",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-10-21",
@@ -685,7 +685,7 @@
     },
     {
       "date": "2026-10-24",
-      "count": 0
+      "count": 1
     }
   ],
   "recent": [

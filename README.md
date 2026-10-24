@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
+<a href="https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d"><img src="./commit-log.svg" width="860" alt="The featured repository&#x27;s actual default-branch tip commit"></a>
 
 <br>
 
@@ -28,11 +28,11 @@
 
 <br>
 
-<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
+<a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="https://raw.githubusercontent.com/filan214/dealership-crosssell-propensity/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d/dashboard/screenshot.png" width="860" alt="Tableau dashboard: targeting simulator, gain curve, response rate by priority tier, segment heatmap, and ranked call list"></a>
 
 </details>
 
-<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25/notebooks/01_model.ipynb">↗ Inspect model notebook</a></p>
+<p><a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1">↗ Open Tableau dashboard</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/dealership-crosssell-propensity/blob/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d/notebooks/01_model.ipynb">↗ Inspect model notebook</a></p>
 
 <p><sub>Public Kaggle data reframed as a dealership case, not client data</sub></p>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-<a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
+<a href="https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d"><img src="./crosssell-spotlight.svg" width="860" alt="Dealership Cross-Sell Propensity: SQL, model, scoring and Tableau stages observed in source, model results quoted from the project README, and actual 90-day commit history"></a>
 
 </details>
 
@@ -72,13 +72,13 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-1.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-20</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-1.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-24</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-2.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-15</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-2.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-20</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Python</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-3.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-14</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-3.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-15</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/dealership-crosssell-propensity">dealership-crosssell-propensity</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commits"><img src="./repo-activity-4.svg" width="180" alt="dealership-crosssell-propensity: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-09-30</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/56a1e0d6f569fe9a93ae5c1c0b1087f1724a8a25">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Python</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-4.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-10-14</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b">Commit</a></td></tr>
 
 </table>
 
@@ -120,7 +120,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 24 Oct 2026 · 12:52 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 24 Oct 2026 · 17:58 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -170,9 +170,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 24 Oct 2026 · 12:52 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 24 Oct 2026 · 17:58 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 24 Oct 2026 · 12:52 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 24 Oct 2026 · 17:58 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
