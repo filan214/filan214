@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-10-28T16:01:15Z",
-  "as_of": "2026-10-28",
+  "fetched_at": "2026-10-28T21:03:18Z",
+  "as_of": "2026-10-29",
   "projects": {
     "finance": {
       "name": "AIFinanceTracker",
@@ -68,10 +68,6 @@
         ]
       },
       "activity_days": [
-        {
-          "date": "2026-07-31",
-          "count": 0
-        },
         {
           "date": "2026-08-01",
           "count": 0
@@ -427,6 +423,10 @@
         {
           "date": "2026-10-28",
           "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
         }
       ],
       "languages": {
@@ -521,10 +521,6 @@
         "shap": true
       },
       "activity_days": [
-        {
-          "date": "2026-07-31",
-          "count": 0
-        },
         {
           "date": "2026-08-01",
           "count": 0
@@ -880,6 +876,10 @@
         {
           "date": "2026-10-28",
           "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
         }
       ],
       "languages": {
@@ -891,7 +891,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-10-28T16:01:15Z",
+    "checked_at": "2026-10-28T21:03:18Z",
     "http_status": 200,
     "reachable": true
   }
