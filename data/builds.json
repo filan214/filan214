@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-03",
-  "fetched_at": "2026-11-03T02:54:47Z",
+  "as_of": "2026-11-04",
+  "fetched_at": "2026-11-03T18:26:22Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,13 +9,150 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 16,
+    "public_repos": 13,
     "followers": 1,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 11,
+  "eligible_repo_count": 10,
   "projects": [
+    {
+      "name": "F1-tyre-degradation",
+      "full_name": "filan214/F1-tyre-degradation",
+      "url": "https://github.com/filan214/F1-tyre-degradation",
+      "title": "F1 Race Pace Forecasting",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "pushed_at": "2026-11-03T15:45:20Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/F1-tyre-degradation",
+        "sha": "c69283170336b52981d53df0b205c6c0a0ffa0a8",
+        "message": "add streamlit",
+        "created_at": "2026-11-03T14:59:28Z",
+        "url": "https://github.com/filan214/F1-tyre-degradation/commit/c69283170336b52981d53df0b205c6c0a0ffa0a8",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-08",
+          "count": 0
+        },
+        {
+          "date": "2026-10-09",
+          "count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "count": 0
+        },
+        {
+          "date": "2026-10-11",
+          "count": 0
+        },
+        {
+          "date": "2026-10-12",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15",
+          "count": 0
+        },
+        {
+          "date": "2026-10-16",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 3
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        }
+      ]
+    },
     {
       "name": "dealership-crosssell-propensity",
       "full_name": "filan214/dealership-crosssell-propensity",
@@ -39,10 +176,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-07",
-          "count": 0
-        },
         {
           "date": "2026-10-08",
           "count": 0
@@ -150,6 +283,10 @@
         {
           "date": "2026-11-03",
           "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
         }
       ]
     },
@@ -180,10 +317,6 @@
         "branch": "master"
       },
       "activity_days": [
-        {
-          "date": "2026-10-07",
-          "count": 0
-        },
         {
           "date": "2026-10-08",
           "count": 0
@@ -290,6 +423,10 @@
         },
         {
           "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
           "count": 0
         }
       ]
@@ -323,10 +460,6 @@
       },
       "activity_days": [
         {
-          "date": "2026-10-07",
-          "count": 0
-        },
-        {
           "date": "2026-10-08",
           "count": 0
         },
@@ -433,152 +566,15 @@
         {
           "date": "2026-11-03",
           "count": 0
-        }
-      ]
-    },
-    {
-      "name": "netflix-gap-analysis",
-      "full_name": "filan214/netflix-gap-analysis",
-      "url": "https://github.com/filan214/netflix-gap-analysis",
-      "title": "Netflix Catalog Gap Analysis (Global + Indonesia)",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "pushed_at": "2026-10-14T17:10:51Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/netflix-gap-analysis",
-        "sha": "ff74c6a542ea726d83ce3ceb651d89632a9fd12b",
-        "message": "Simplify README",
-        "created_at": "2026-10-14T17:10:32Z",
-        "url": "https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-07",
-          "count": 1
         },
         {
-          "date": "2026-10-08",
-          "count": 5
-        },
-        {
-          "date": "2026-10-09",
-          "count": 0
-        },
-        {
-          "date": "2026-10-10",
-          "count": 0
-        },
-        {
-          "date": "2026-10-11",
-          "count": 4
-        },
-        {
-          "date": "2026-10-12",
-          "count": 2
-        },
-        {
-          "date": "2026-10-13",
-          "count": 0
-        },
-        {
-          "date": "2026-10-14",
-          "count": 0
-        },
-        {
-          "date": "2026-10-15",
-          "count": 2
-        },
-        {
-          "date": "2026-10-16",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19",
-          "count": 0
-        },
-        {
-          "date": "2026-10-20",
-          "count": 0
-        },
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
+          "date": "2026-11-04",
           "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-10-07",
-      "count": 0
-    },
     {
       "date": "2026-10-08",
       "count": 0
@@ -645,7 +641,7 @@
     },
     {
       "date": "2026-10-24",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-10-25",
@@ -685,10 +681,22 @@
     },
     {
       "date": "2026-11-03",
+      "count": 3
+    },
+    {
+      "date": "2026-11-04",
       "count": 0
     }
   ],
   "recent": [
+    {
+      "name": "F1-tyre-degradation",
+      "url": "https://github.com/filan214/F1-tyre-degradation",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-03T09:46:54Z"
+    },
     {
       "name": "netflix-gap-analysis",
       "url": "https://github.com/filan214/netflix-gap-analysis",
@@ -720,14 +728,6 @@
       "homepage": "",
       "language": "TypeScript",
       "created_at": "2026-07-19T10:44:46Z"
-    },
-    {
-      "name": "CaloriesTracker",
-      "url": "https://github.com/filan214/CaloriesTracker",
-      "description": "Calorie and nutrition tracking web app.",
-      "homepage": "",
-      "language": "JavaScript",
-      "created_at": "2026-07-18T05:36:17Z"
     },
     {
       "name": "Transfer-Globe",
