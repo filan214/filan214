@@ -1,6 +1,6 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 10,
   "total_bytes": 2308405,
@@ -62,6 +62,16 @@
     }
   ],
   "repos": {
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-11-04T08:52:20Z",
+      "languages": {
+        "TypeScript": 498775,
+        "HTML": 65343,
+        "PLpgSQL": 25453,
+        "CSS": 3892,
+        "JavaScript": 81
+      }
+    },
     "filan214/F1-tyre-degradation": {
       "pushed_at": "2026-11-03T15:45:20Z",
       "languages": {
@@ -82,16 +92,6 @@
         "Python": 130607,
         "CSS": 6610,
         "JavaScript": 559
-      }
-    },
-    "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-10-15T17:36:42Z",
-      "languages": {
-        "TypeScript": 498775,
-        "HTML": 65343,
-        "PLpgSQL": 25453,
-        "CSS": 3892,
-        "JavaScript": 81
       }
     },
     "filan214/netflix-gap-analysis": {
