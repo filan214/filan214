@@ -1,73 +1,67 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 10,
-  "total_bytes": 2308405,
+  "total_bytes": 2248753,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1264048,
-      "percent": 54.76
+      "bytes": 1269745,
+      "percent": 56.46
     },
     {
       "name": "Python",
       "bytes": 470148,
-      "percent": 20.37
+      "percent": 20.91
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 202433,
-      "percent": 8.77
+      "percent": 9.0
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 4.25
+      "percent": 4.36
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 3.85
-    },
-    {
-      "name": "HTML",
-      "bytes": 65343,
-      "percent": 2.83
+      "percent": 3.95
     },
     {
       "name": "PLpgSQL",
-      "bytes": 42255,
-      "percent": 1.83
+      "bytes": 42249,
+      "percent": 1.88
     },
     {
       "name": "JavaScript",
       "bytes": 33941,
-      "percent": 1.47
+      "percent": 1.51
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.91
+      "percent": 0.94
     },
     {
       "name": "CSS",
       "bytes": 17477,
-      "percent": 0.76
+      "percent": 0.78
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.2
+      "percent": 0.21
     }
   ],
   "repos": {
     "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-11-04T08:52:20Z",
+      "pushed_at": "2026-11-05T16:39:39Z",
       "languages": {
-        "TypeScript": 498775,
-        "HTML": 65343,
-        "PLpgSQL": 25453,
+        "TypeScript": 504472,
+        "PLpgSQL": 25447,
         "CSS": 3892,
         "JavaScript": 81
       }

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-11-05T10:54:36Z",
-  "as_of": "2026-11-05",
+  "fetched_at": "2026-11-05T18:45:18Z",
+  "as_of": "2026-11-06",
   "projects": {
     "finance": {
       "name": "AIFinanceTracker",
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "6c8a6f99b41408eb3a1923d170fe3805e5cde3d8",
-        "message": "fix(ci): ping Supabase three times a day and only report OK on success",
-        "created_at": "2026-11-04T08:51:21Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/6c8a6f99b41408eb3a1923d170fe3805e5cde3d8",
+        "sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
+        "message": "chore: stop tracking internal working files (kept locally, now gitignored)",
+        "created_at": "2026-11-05T16:08:07Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -68,10 +68,6 @@
         ]
       },
       "activity_days": [
-        {
-          "date": "2026-08-08",
-          "count": 0
-        },
         {
           "date": "2026-08-09",
           "count": 0
@@ -422,28 +418,31 @@
         },
         {
           "date": "2026-11-04",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-05",
+          "count": 8
+        },
+        {
+          "date": "2026-11-06",
           "count": 0
         }
       ],
       "languages": {
-        "TypeScript": 498775,
-        "HTML": 65343,
-        "PLpgSQL": 25453,
+        "TypeScript": 504472,
+        "PLpgSQL": 25447,
         "CSS": 3892,
         "JavaScript": 81
       },
       "workflow": {
-        "name": "Keep Supabase alive",
+        "name": "CI",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "6c8a6f99b41408eb3a1923d170fe3805e5cde3d8",
+        "head_sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
         "matches_tip": true,
-        "updated_at": "2026-11-05T05:57:05Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/41977183214"
+        "updated_at": "2026-11-05T16:40:39Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/42066715097"
       }
     },
     "crosssell": {
@@ -521,10 +520,6 @@
         "shap": true
       },
       "activity_days": [
-        {
-          "date": "2026-08-08",
-          "count": 0
-        },
         {
           "date": "2026-08-09",
           "count": 0
@@ -880,6 +875,10 @@
         {
           "date": "2026-11-05",
           "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
         }
       ],
       "languages": {
@@ -891,7 +890,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-11-05T10:54:36Z",
+    "checked_at": "2026-11-05T18:45:18Z",
     "http_status": 200,
     "reachable": true
   }
