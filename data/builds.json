@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-06",
-  "fetched_at": "2026-11-06T15:02:00Z",
+  "as_of": "2026-11-07",
+  "fetched_at": "2026-11-06T20:53:39Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,13 +9,150 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 13,
+    "public_repos": 15,
     "followers": 1,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 10,
+  "eligible_repo_count": 12,
   "projects": [
+    {
+      "name": "smartphone-dss-notebooks",
+      "full_name": "filan214/smartphone-dss-notebooks",
+      "url": "https://github.com/filan214/smartphone-dss-notebooks",
+      "title": "Smartphone Demand Forecasting & Inventory DSS",
+      "description": "Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "pushed_at": "2026-11-06T19:13:22Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/smartphone-dss-notebooks",
+        "sha": "d661ad0cad2e27ddd9e583b722abbd899280ba72",
+        "message": "Initial commit: notebook-format smartphone demand forecasting and inventory DSS",
+        "created_at": "2026-11-06T19:11:23Z",
+        "url": "https://github.com/filan214/smartphone-dss-notebooks/commit/d661ad0cad2e27ddd9e583b722abbd899280ba72",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-11",
+          "count": 0
+        },
+        {
+          "date": "2026-10-12",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15",
+          "count": 0
+        },
+        {
+          "date": "2026-10-16",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "AIFinanceTracker",
       "full_name": "filan214/AIFinanceTracker",
@@ -44,10 +181,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-10",
-          "count": 0
-        },
         {
           "date": "2026-10-11",
           "count": 0
@@ -155,6 +288,10 @@
         {
           "date": "2026-11-06",
           "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
         }
       ]
     },
@@ -181,10 +318,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-10",
-          "count": 0
-        },
         {
           "date": "2026-10-11",
           "count": 0
@@ -292,6 +425,10 @@
         {
           "date": "2026-11-06",
           "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
         }
       ]
     },
@@ -318,10 +455,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-10",
-          "count": 0
-        },
         {
           "date": "2026-10-11",
           "count": 0
@@ -429,156 +562,15 @@
         {
           "date": "2026-11-06",
           "count": 0
-        }
-      ]
-    },
-    {
-      "name": "FormWAtch-Football",
-      "full_name": "filan214/FormWAtch-Football",
-      "url": "https://github.com/filan214/FormWAtch-Football",
-      "title": "FormWatch",
-      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
-      "homepage": "",
-      "language": "TypeScript",
-      "topics": [
-        "anomaly-detection",
-        "sports-analytics",
-        "typescript"
-      ],
-      "pushed_at": "2026-10-20T15:28:24Z",
-      "default_branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/FormWAtch-Football",
-        "sha": "9d1e8f14fbd1ee3ca18f3eff740295b9bff97177",
-        "message": "Remove PRD documents from the repository",
-        "created_at": "2026-10-20T15:27:23Z",
-        "url": "https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177",
-        "author": "Valentinus Filan",
-        "branch": "master"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-10",
-          "count": 0
         },
         {
-          "date": "2026-10-11",
-          "count": 0
-        },
-        {
-          "date": "2026-10-12",
-          "count": 0
-        },
-        {
-          "date": "2026-10-13",
-          "count": 0
-        },
-        {
-          "date": "2026-10-14",
-          "count": 0
-        },
-        {
-          "date": "2026-10-15",
-          "count": 0
-        },
-        {
-          "date": "2026-10-16",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19",
-          "count": 0
-        },
-        {
-          "date": "2026-10-20",
-          "count": 4
-        },
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
+          "date": "2026-11-07",
           "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-10-10",
-      "count": 0
-    },
     {
       "date": "2026-10-11",
       "count": 0
@@ -601,7 +593,7 @@
     },
     {
       "date": "2026-10-16",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-10-17",
@@ -677,18 +669,38 @@
     },
     {
       "date": "2026-11-04",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-11-05",
-      "count": 8
+      "count": 0
     },
     {
       "date": "2026-11-06",
       "count": 0
+    },
+    {
+      "date": "2026-11-07",
+      "count": 1
     }
   ],
   "recent": [
+    {
+      "name": "smartphone-dss-notebooks",
+      "url": "https://github.com/filan214/smartphone-dss-notebooks",
+      "description": "Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)",
+      "homepage": "",
+      "language": "Jupyter Notebook",
+      "created_at": "2026-11-06T19:13:13Z"
+    },
+    {
+      "name": "smartphone-demand-forecasting-dss",
+      "url": "https://github.com/filan214/smartphone-demand-forecasting-dss",
+      "description": "",
+      "homepage": "",
+      "language": null,
+      "created_at": "2026-11-06T17:08:25Z"
+    },
     {
       "name": "F1-tyre-degradation",
       "url": "https://github.com/filan214/F1-tyre-degradation",
@@ -720,22 +732,6 @@
       "homepage": "",
       "language": "JavaScript",
       "created_at": "2026-09-11T16:53:51Z"
-    },
-    {
-      "name": "Savor",
-      "url": "https://github.com/filan214/Savor",
-      "description": "Mobile app for logging food consumption and tracking calories; in development.",
-      "homepage": "",
-      "language": "TypeScript",
-      "created_at": "2026-07-19T10:44:46Z"
-    },
-    {
-      "name": "Transfer-Globe",
-      "url": "https://github.com/filan214/Transfer-Globe",
-      "description": "Interactive 3D football-transfer globe with animated fee-encoded arcs, transfer-window and league filters, and club spending insights.",
-      "homepage": "https://transfer-globe.vercel.app",
-      "language": "TypeScript",
-      "created_at": "2026-07-17T07:35:53Z"
     }
   ]
 }

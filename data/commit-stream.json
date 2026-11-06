@@ -1,10 +1,20 @@
 {
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
-  "as_of": "2026-11-06",
-  "fetched_at": "2026-11-06T15:02:04Z",
+  "as_of": "2026-11-07",
+  "fetched_at": "2026-11-06T20:53:42Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "1319d97cbca2756cf7ef9c492e4c904dd5273f5f",
+      "message": "chore: stop tracking docs/superpowers (kept locally, now gitignored)",
+      "created_at": "2026-11-05T15:48:18Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/1319d97cbca2756cf7ef9c492e4c904dd5273f5f",
+      "event_id": "26364593070",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "c83241d43df19e32075cc774f248c29fb3e4cc2d",
@@ -92,16 +102,6 @@
       "created_at": "2026-10-14T17:03:25Z",
       "url": "https://github.com/filan214/netflix-gap-analysis/commit/0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b",
       "event_id": "24164352381",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/netflix-gap-analysis",
-      "sha": "7cf534283885fac5e1c0773c49faa728fd420a0c",
-      "message": "Clear notebook execution count",
-      "created_at": "2026-10-12T08:48:58Z",
-      "url": "https://github.com/filan214/netflix-gap-analysis/commit/7cf534283885fac5e1c0773c49faa728fd420a0c",
-      "event_id": "23883091429",
       "branch": "main",
       "message_available": true
     }
