@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-11-07T18:47:35Z",
+  "fetched_at": "2026-11-07T22:45:06Z",
   "as_of": "2026-11-08",
   "projects": {
     "finance": {
@@ -441,8 +441,8 @@
         "conclusion": "success",
         "head_sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
         "matches_tip": true,
-        "updated_at": "2026-11-07T14:47:37Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/42383241798"
+        "updated_at": "2026-11-07T20:01:52Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/42409030827"
       }
     },
     "crosssell": {
@@ -890,7 +890,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-11-07T18:47:35Z",
+    "checked_at": "2026-11-07T22:45:06Z",
     "http_status": 200,
     "reachable": true
   }

@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-11-08",
-  "fetched_at": "2026-11-07T18:47:32Z",
+  "fetched_at": "2026-11-07T22:45:03Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,13 +9,150 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 14,
+    "public_repos": 15,
     "followers": 1,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 12,
+  "eligible_repo_count": 13,
   "projects": [
+    {
+      "name": "Jogja-_House-_Valuation",
+      "full_name": "filan214/Jogja-_House-_Valuation",
+      "url": "https://github.com/filan214/Jogja-_House-_Valuation",
+      "title": "Jogja House Valuation",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "pushed_at": "2026-11-07T19:33:56Z",
+      "default_branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/Jogja-_House-_Valuation",
+        "sha": "483188f8bab71341185abd13df1eb30792150001",
+        "message": "initial commit",
+        "created_at": "2026-11-07T19:33:47Z",
+        "url": "https://github.com/filan214/Jogja-_House-_Valuation/commit/483188f8bab71341185abd13df1eb30792150001",
+        "author": "Valentinus Filan",
+        "branch": "master"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-12",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15",
+          "count": 0
+        },
+        {
+          "date": "2026-10-16",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "smartphone-dss-notebooks",
       "full_name": "filan214/smartphone-dss-notebooks",
@@ -431,143 +568,6 @@
           "count": 0
         }
       ]
-    },
-    {
-      "name": "dealership-crosssell-propensity",
-      "full_name": "filan214/dealership-crosssell-propensity",
-      "url": "https://github.com/filan214/dealership-crosssell-propensity",
-      "title": "Dealership Cross-Sell Propensity Model",
-      "description": "",
-      "homepage": "",
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "pushed_at": "2026-10-24T07:05:47Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/dealership-crosssell-propensity",
-        "sha": "358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
-        "message": "update 2",
-        "created_at": "2026-10-24T07:05:06Z",
-        "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-12",
-          "count": 0
-        },
-        {
-          "date": "2026-10-13",
-          "count": 0
-        },
-        {
-          "date": "2026-10-14",
-          "count": 0
-        },
-        {
-          "date": "2026-10-15",
-          "count": 0
-        },
-        {
-          "date": "2026-10-16",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19",
-          "count": 0
-        },
-        {
-          "date": "2026-10-20",
-          "count": 0
-        },
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 1
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08",
-          "count": 0
-        }
-      ]
     }
   ],
   "activity_days": [
@@ -677,14 +677,22 @@
     },
     {
       "date": "2026-11-07",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-08",
-      "count": 0
+      "count": 1
     }
   ],
   "recent": [
+    {
+      "name": "Jogja-_House-_Valuation",
+      "url": "https://github.com/filan214/Jogja-_House-_Valuation",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-07T19:30:36Z"
+    },
     {
       "name": "smartphone-dss-notebooks",
       "url": "https://github.com/filan214/smartphone-dss-notebooks",
@@ -724,14 +732,6 @@
       "homepage": "",
       "language": "Jupyter Notebook",
       "created_at": "2026-09-30T18:18:41Z"
-    },
-    {
-      "name": "F1---2026-Car-Details",
-      "url": "https://github.com/filan214/F1---2026-Car-Details",
-      "description": "Interactive 3D explorer of a 2026 Formula One concept car, with selectable components and an animated exploded view.",
-      "homepage": "",
-      "language": "JavaScript",
-      "created_at": "2026-09-11T16:53:51Z"
     }
   ]
 }
