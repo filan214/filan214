@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-11-07",
-  "fetched_at": "2026-11-07T07:09:31Z",
+  "fetched_at": "2026-11-07T14:01:17Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,7 +9,7 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 15,
+    "public_repos": 14,
     "followers": 1,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"

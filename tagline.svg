@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="50" viewBox="0 0 860 50" role="img" aria-labelledby="title desc">
 <title id="title">Current public projects</title>
-<desc id="desc">15 public repositories; latest: smartphone-dss-notebooks; code: Jupyter Notebook, TypeScript, Python; 12 projects in the showcase pool; synced 2026-11-07T07:09:31Z</desc>
+<desc id="desc">14 public repositories; latest: smartphone-dss-notebooks; code: Jupyter Notebook, TypeScript, Python; 12 projects in the showcase pool; synced 2026-11-07T14:01:17Z</desc>
 <style>
 :root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
 @media (prefers-color-scheme: dark) {
@@ -23,5 +23,5 @@ text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',m
  .tag-cycle {display:none} .tag-static {display:inline}
 }
 </style>
-<rect x="0.5" y="0.5" width="859" height="49" rx="10" class="bg" /><text x="22" y="30" class="accent" style="font-size:11px" >$ now</text><g class="tag-cycle"><text x="115" y="30" class="tag-word word0" style="font-size:12px" >15 public repositories_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word1" style="font-size:12px" >latest: smartphone-dss-notebooks_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word2" style="font-size:12px" >code: Jupyter Notebook, TypeScript, Python_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word3" style="font-size:12px" >12 projects in the showcase pool_</text></g><text x="115" y="30" class="tag-static" style="font-size:10px" >latest: smartphone-dss-notebooks · 15 public repositories</text><text x="838" y="30" class="muted small" text-anchor="end">from GitHub</text>
+<rect x="0.5" y="0.5" width="859" height="49" rx="10" class="bg" /><text x="22" y="30" class="accent" style="font-size:11px" >$ now</text><g class="tag-cycle"><text x="115" y="30" class="tag-word word0" style="font-size:12px" >14 public repositories_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word1" style="font-size:12px" >latest: smartphone-dss-notebooks_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word2" style="font-size:12px" >code: Jupyter Notebook, TypeScript, Python_</text></g><g class="tag-cycle"><text x="115" y="30" class="tag-word word3" style="font-size:12px" >12 projects in the showcase pool_</text></g><text x="115" y="30" class="tag-static" style="font-size:10px" >latest: smartphone-dss-notebooks · 14 public repositories</text><text x="838" y="30" class="muted small" text-anchor="end">from GitHub</text>
 </svg>
