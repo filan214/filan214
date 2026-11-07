@@ -2,9 +2,19 @@
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
   "as_of": "2026-11-07",
-  "fetched_at": "2026-11-07T00:56:04Z",
+  "fetched_at": "2026-11-07T07:09:34Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
+      "message": "chore: stop tracking internal working files (kept locally, now gitignored)",
+      "created_at": "2026-11-05T16:39:39Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78",
+      "event_id": "26383266947",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/AIFinanceTracker",
       "sha": "1319d97cbca2756cf7ef9c492e4c904dd5273f5f",
@@ -92,16 +102,6 @@
       "created_at": "2026-10-14T17:10:52Z",
       "url": "https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b",
       "event_id": "24001746745",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/netflix-gap-analysis",
-      "sha": "0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b",
-      "message": "Remove PRD, implementation guide and prompts",
-      "created_at": "2026-10-14T17:03:25Z",
-      "url": "https://github.com/filan214/netflix-gap-analysis/commit/0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b",
-      "event_id": "24164352381",
       "branch": "main",
       "message_available": true
     }

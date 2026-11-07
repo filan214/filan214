@@ -96,6 +96,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-11-05 16:39:39</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78">370149a</a> chore: stop tracking internal working files (kept locally, now gitignored)</td></tr>
+
 <tr><td>2026-11-05 15:48:18</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1319d97cbca2756cf7ef9c492e4c904dd5273f5f">1319d97</a> chore: stop tracking docs/superpowers (kept locally, now gitignored)</td></tr>
 
 <tr><td>2026-11-05 15:25:13</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/c83241d43df19e32075cc774f248c29fb3e4cc2d">c83241d</a> docs: handoff + progress for chat formatting, focus ring and register fixes</td></tr>
@@ -114,13 +116,11 @@
 
 <tr><td>2026-10-14 17:10:52</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b">ff74c6a</a> Simplify README</td></tr>
 
-<tr><td>2026-10-14 17:03:25</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/0fa95d08c69d2ca0d96738a6a13cb15dc3f8db5b">0fa95d0</a> Remove PRD, implementation guide and prompts</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 07 Nov 2026 · 07:56 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 07 Nov 2026 · 14:09 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -170,9 +170,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 07 Nov 2026 · 07:56 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced 07 Nov 2026 · 14:09 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 07 Nov 2026 · 07:56 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 07 Nov 2026 · 14:09 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
