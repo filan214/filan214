@@ -66,7 +66,6 @@ class LivePanelTests(unittest.TestCase):
         page = BeautifulSoup(render({**SNAPSHOT, "repositories": repositories}, stream), "html.parser")
         self.assertNotIn("git portfolio", page.text)
         headings = [h.text for h in page.find_all("h3")]
-        self.assertEqual(headings.index("Recent repositories"), len(headings) - 2, "Recent repositories sit just above the sources footer")
         links = [img.parent["href"] for img in page.find_all("img") if img["src"].startswith("./repo-card-")]
         self.assertEqual(links, [f"https://github.com/filan214/{name}" for name in ("latest-push", "older-push", "third-push")])
         self.assertIn("Fresh <b>idea</b>", page.find("img", src="./repo-card-1.svg")["alt"])
@@ -90,27 +89,17 @@ class LivePanelTests(unittest.TestCase):
         self.assertIn("var(--muted)", odd.find("s:style", NS).text)
         self.assertEqual(len(cards(SNAPSHOT)), 6)
 
-    def test_repo_overview_shows_public_total_and_measured_stats(self):
-        from render_repo_overview import render as overview
-        root = ET.fromstring(overview(SNAPSHOT))
-        content = list(root.itertext())
-        self.assertIn("9", content)
-        self.assertIn("public repositories", content)
-        self.assertIn("8", content, "A repository pushed months ago is not counted as recent")
-        self.assertIn("Python", content)
-        self.assertFalse(any(t.startswith("repo-") for t in content), "Repository names live in the README cards")
-        empty = list(ET.fromstring(overview({**SNAPSHOT, "repositories": []})).itertext())
-        self.assertIn("no language reported", empty)
-
-    def test_readme_replaces_git_log_strip_with_repo_overview(self):
+    def test_recent_repositories_follow_calendar_without_overview_or_git_log(self):
         from bs4 import BeautifulSoup
         render = importlib.import_module("render_readme").render
         page = BeautifulSoup(render(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}), "html.parser")
         self.assertIsNone(page.find("img", src="./commit-log.svg"))
-        self.assertEqual(page.find("img", src="./repo-overview.svg").parent["href"], "https://github.com/filan214?tab=repositories")
+        self.assertIsNone(page.find("img", src="./repo-overview.svg"))
+        self.assertNotIn("repos --overview", page.text)
+        self.assertEqual(page.find("a", string="See all repositories")["href"], "https://github.com/filan214?tab=repositories")
         headings = [h.text for h in page.find_all("h3")]
         self.assertIn("calendar", headings[0])
-        self.assertIn("repos --overview", headings[1])
+        self.assertEqual(headings[1], "Recent repositories")
         self.assertIn("contact --reach", headings[2])
 
     def test_biography_and_tagline_follow_fetched_profile_and_projects(self):

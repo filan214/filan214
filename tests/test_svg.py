@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from make_info_card import render as info
 from render_build_spotlight import render as spotlight
 from make_tagline import render as tagline
-from render_repo_overview import render as overview
+from render_repo_cards import card
 from render_heatmap_svg import calendar_days, render as heatmap
 from render_languages_svg import render as languages
 from render_status_bar import render as status
@@ -26,7 +26,7 @@ STATUS = {"objectives_done": 5, "objectives_total": 5, "defense_status": "pendin
 
 class SvgTests(unittest.TestCase):
     def renders(self):
-        return [info(SNAPSHOT, LIVE_LANGUAGES), spotlight(SNAPSHOT, LIVE_LANGUAGES), tagline(SNAPSHOT, LIVE_LANGUAGES), overview(SNAPSHOT), overview({**SNAPSHOT, "repositories": []}), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
+        return [info(SNAPSHOT, LIVE_LANGUAGES), spotlight(SNAPSHOT, LIVE_LANGUAGES), tagline(SNAPSHOT, LIVE_LANGUAGES), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
 
     def test_all_panels_have_accessible_self_contained_theme_markup(self):
         for source in self.renders():
@@ -53,7 +53,7 @@ class SvgTests(unittest.TestCase):
     def test_repository_language_cannot_inject_svg_markup(self):
         hostile = 'demo <script>alert("x")</script> & co\x00'
         repo = {**SNAPSHOT["repositories"][0], "language": hostile}
-        root = ET.fromstring(overview({**SNAPSHOT, "repositories": [repo]}))
+        root = ET.fromstring(card(repo))
         self.assertIsNone(root.find(".//s:script", NS))
         self.assertIn('demo <script>alert("x")</script> & co', root.find("s:desc", NS).text)
 

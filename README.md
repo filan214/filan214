@@ -8,9 +8,15 @@
 
 <br>
 
-<h3>filan214@github:~$ repos --overview</h3>
+<h3 align="left">Recent repositories</h3>
 
-<a href="https://github.com/filan214?tab=repositories"><img src="./repo-overview.svg" width="860" alt="Total public repositories, how many were pushed in the last 30 days, and the most common language"></a>
+<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-1.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-2.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a></p>
+
+<p><a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-3.svg" width="420" alt="smartphone-demand-forecasting-dss"></a> <a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-4.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a></p>
+
+<p><a href="https://github.com/filan214/F1-tyre-degradation"><img src="./repo-card-5.svg" width="420" alt="F1-tyre-degradation"></a> <a href="https://github.com/filan214/dealership-crosssell-propensity"><img src="./repo-card-6.svg" width="420" alt="dealership-crosssell-propensity"></a></p>
+
+<p align="left"><a href="https://github.com/filan214?tab=repositories">See all repositories</a></p>
 
 <br>
 
@@ -147,18 +153,6 @@
 <br>
 
 <img src="./tagline.svg" width="860" alt="Rotating facts derived from the current GitHub profile and project snapshot">
-
-<br>
-
-<h3 align="left">Recent repositories</h3>
-
-<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-1.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-2.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a></p>
-
-<p><a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-3.svg" width="420" alt="smartphone-demand-forecasting-dss"></a> <a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-4.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a></p>
-
-<p><a href="https://github.com/filan214/F1-tyre-degradation"><img src="./repo-card-5.svg" width="420" alt="F1-tyre-degradation"></a> <a href="https://github.com/filan214/dealership-crosssell-propensity"><img src="./repo-card-6.svg" width="420" alt="dealership-crosssell-propensity"></a></p>
-
-<p align="left"><a href="https://github.com/filan214?tab=repositories">See all repositories</a></p>
 
 <br>
 
