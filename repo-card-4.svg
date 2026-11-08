@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" role="img" aria-labelledby="title desc">
+<title id="title">AIFinanceTracker</title>
+<desc id="desc">AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support. Primary language: TypeScript.</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.pill{fill:none;stroke:var(--line)}
+.lang{fill:#3178c6}
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="419" height="119" rx="6" class="bg" /><text x="16" y="31" class="cyan bold sans" style="font-size:14px" >AIFinanceTracker</text><rect x="355" y="15" width="49" height="21" rx="10.5" class="pill" /><text x="379.5" y="29" class="muted sans" style="font-size:11px" text-anchor="middle">Public</text><text x="16" y="58" class="muted sans" style="font-size:12px" >AI-assisted personal finance tracker with transaction insights,</text><text x="16" y="76" class="muted sans" style="font-size:12px" >charts, and English/Indonesian support.</text><circle cx="22" cy="99" r="6" class="lang"/><text x="34" y="103" class="muted sans" style="font-size:12px" >TypeScript</text>
+</svg>

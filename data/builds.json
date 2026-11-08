@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-11-08",
-  "fetched_at": "2026-11-08T02:29:03Z",
+  "fetched_at": "2026-11-08T12:12:09Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -17,9 +17,9 @@
   "eligible_repo_count": 13,
   "projects": [
     {
-      "name": "Jogja-_House-_Valuation",
-      "full_name": "filan214/Jogja-_House-_Valuation",
-      "url": "https://github.com/filan214/Jogja-_House-_Valuation",
+      "name": "Jogja-House-Valuation",
+      "full_name": "filan214/Jogja-House-Valuation",
+      "url": "https://github.com/filan214/Jogja-House-Valuation",
       "title": "Jogja House Valuation",
       "description": "",
       "homepage": "",
@@ -30,11 +30,11 @@
       "stars": 0,
       "forks": 0,
       "commit": {
-        "repo": "filan214/Jogja-_House-_Valuation",
+        "repo": "filan214/Jogja-House-Valuation",
         "sha": "483188f8bab71341185abd13df1eb30792150001",
         "message": "initial commit",
         "created_at": "2026-11-07T19:33:47Z",
-        "url": "https://github.com/filan214/Jogja-_House-_Valuation/commit/483188f8bab71341185abd13df1eb30792150001",
+        "url": "https://github.com/filan214/Jogja-House-Valuation/commit/483188f8bab71341185abd13df1eb30792150001",
         "author": "Valentinus Filan",
         "branch": "master"
       },
@@ -684,14 +684,15 @@
       "count": 1
     }
   ],
-  "recent": [
+  "repositories": [
     {
-      "name": "Jogja-_House-_Valuation",
-      "url": "https://github.com/filan214/Jogja-_House-_Valuation",
+      "name": "Jogja-House-Valuation",
+      "url": "https://github.com/filan214/Jogja-House-Valuation",
       "description": "",
       "homepage": "",
       "language": "Python",
-      "created_at": "2026-11-07T19:30:36Z"
+      "created_at": "2026-11-07T19:30:36Z",
+      "pushed_at": "2026-11-07T19:33:56Z"
     },
     {
       "name": "smartphone-dss-notebooks",
@@ -699,7 +700,8 @@
       "description": "Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)",
       "homepage": "",
       "language": "Jupyter Notebook",
-      "created_at": "2026-11-06T19:13:13Z"
+      "created_at": "2026-11-06T19:13:13Z",
+      "pushed_at": "2026-11-06T19:13:22Z"
     },
     {
       "name": "smartphone-demand-forecasting-dss",
@@ -707,7 +709,17 @@
       "description": "",
       "homepage": "",
       "language": null,
-      "created_at": "2026-11-06T17:08:25Z"
+      "created_at": "2026-11-06T17:08:25Z",
+      "pushed_at": "2026-11-06T17:08:27Z"
+    },
+    {
+      "name": "AIFinanceTracker",
+      "url": "https://github.com/filan214/AIFinanceTracker",
+      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
+      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
+      "language": "TypeScript",
+      "created_at": "2026-05-26T08:02:38Z",
+      "pushed_at": "2026-11-05T16:39:39Z"
     },
     {
       "name": "F1-tyre-degradation",
@@ -715,15 +727,8 @@
       "description": "",
       "homepage": "",
       "language": "Python",
-      "created_at": "2026-11-03T09:46:54Z"
-    },
-    {
-      "name": "netflix-gap-analysis",
-      "url": "https://github.com/filan214/netflix-gap-analysis",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "created_at": "2026-10-07T08:03:52Z"
+      "created_at": "2026-11-03T09:46:54Z",
+      "pushed_at": "2026-11-03T15:45:20Z"
     },
     {
       "name": "dealership-crosssell-propensity",
@@ -731,7 +736,71 @@
       "description": "",
       "homepage": "",
       "language": "Jupyter Notebook",
-      "created_at": "2026-09-30T18:18:41Z"
+      "created_at": "2026-09-30T18:18:41Z",
+      "pushed_at": "2026-10-24T07:05:47Z"
+    },
+    {
+      "name": "FormWAtch-Football",
+      "url": "https://github.com/filan214/FormWAtch-Football",
+      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-06-10T17:29:25Z",
+      "pushed_at": "2026-10-20T15:28:24Z"
+    },
+    {
+      "name": "netflix-gap-analysis",
+      "url": "https://github.com/filan214/netflix-gap-analysis",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-10-07T08:03:52Z",
+      "pushed_at": "2026-10-14T17:10:51Z"
+    },
+    {
+      "name": "F1---2026-Car-Details",
+      "url": "https://github.com/filan214/F1---2026-Car-Details",
+      "description": "Interactive 3D explorer of a 2026 Formula One concept car, with selectable components and an animated exploded view.",
+      "homepage": "",
+      "language": "JavaScript",
+      "created_at": "2026-09-11T16:53:51Z",
+      "pushed_at": "2026-09-11T16:58:17Z"
+    },
+    {
+      "name": "Savor",
+      "url": "https://github.com/filan214/Savor",
+      "description": "Mobile app for logging food consumption and tracking calories; in development.",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-07-19T10:44:46Z",
+      "pushed_at": "2026-08-11T06:02:26Z"
+    },
+    {
+      "name": "Transfer-Globe",
+      "url": "https://github.com/filan214/Transfer-Globe",
+      "description": "Interactive 3D football-transfer globe with animated fee-encoded arcs, transfer-window and league filters, and club spending insights.",
+      "homepage": "https://transfer-globe.vercel.app",
+      "language": "TypeScript",
+      "created_at": "2026-07-17T07:35:53Z",
+      "pushed_at": "2026-07-17T18:07:47Z"
+    },
+    {
+      "name": "JogjaRideSmart",
+      "url": "https://github.com/filan214/JogjaRideSmart",
+      "description": "Next.js frontend for Jogja Ride Premium, a weekend SUV transport business in Yogyakarta, with a trip-advisor interface.",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-05-19T16:04:18Z",
+      "pushed_at": "2026-05-19T16:16:46Z"
+    },
+    {
+      "name": "Helpdeskfulldone",
+      "url": "https://github.com/filan214/Helpdeskfulldone",
+      "description": "Public IT-service complaint management system with ticket tracking, an admin dashboard, and reporting.",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-02-23T09:06:52Z",
+      "pushed_at": "2026-02-23T09:34:25Z"
     }
   ]
 }

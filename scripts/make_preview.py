@@ -18,7 +18,8 @@ def main():
         from make_info_card import render as info
         from render_build_spotlight import render as spotlight
         from make_tagline import render as tagline
-        from render_commit_log import render as commit
+        from render_repo_overview import render as overview
+        from render_repo_cards import outputs as repo_cards
         from render_heatmap_svg import render as heatmap
         from render_languages_svg import render as languages
         from render_repo_sparklines import outputs as sparklines
@@ -30,7 +31,8 @@ def main():
         language_data = read_json(DATA / "languages.json")
         outputs = {
             "contrib-heatmap.svg": heatmap(read_json(DATA / "contributions.json")),
-            "commit-log.svg": commit(read_json(DATA / "last-event.json")),
+            "repo-overview.svg": overview(builds),
+            **repo_cards(builds),
             "filan-ascii.svg": portrait(
                 ROOT / "assets" / "portrait-gray.png"
                 if (ROOT / "assets" / "portrait-gray.png").exists()

@@ -18,6 +18,9 @@ BUILD = {"name": "new-project", "full_name": "filan214/new-project", "title": 'P
 SNAPSHOT = {"username": "filan214", "as_of": "2026-09-12", "fetched_at": "2026-09-12T00:01:00Z",
             "profile": {"name": "Filan", "login": "filan214", "bio": None, "location": None, "public_repos": 9, "followers": 3, "following": 2},
             "eligible_repo_count": 7, "projects": [BUILD],
+            "repositories": [{"name": f"repo-{i}", "url": f"https://github.com/filan214/repo-{i}", "description": "", "language": None if i == 1 else "Python",
+                              "pushed_at": f"2026-09-{12-i:02d}T00:00:00Z"} for i in range(8)]
+                            + [{"name": "old-repo", "url": "https://github.com/filan214/old-repo", "description": "", "language": "HTML", "pushed_at": "2026-01-01T00:00:00Z"}],
             "activity_days": [{"date": "2026-09-11", "count": 3}, {"date": "2026-09-12", "count": 0}]}
 LANGUAGES = {"as_of": "2026-09-12", "repo_count": 7, "total_bytes": 400, "languages": [{"name": "Python", "bytes": 400, "percent": 100}],
              "repos": {"filan214/new-project": {"languages": {"Python": 300, "HTML": 100}}}}
@@ -54,20 +57,61 @@ class LivePanelTests(unittest.TestCase):
         self.assertTrue(page.find("a", href="https://example.com/?x=1&y=2"))
         self.assertTrue(all(img.get("alt") for img in page.find_all("img")))
         self.assertIsNone(page.find("img", src="./recent-build.svg"))
-        recent = [{"name": "newest-repo", "url": "https://github.com/filan214/newest-repo", "description": "Fresh <b>idea</b>",
-                   "homepage": "javascript:alert(1)", "language": None, "created_at": "2026-10-07T00:00:00Z"},
-                  {"name": "older-repo", "url": "https://github.com/filan214/older-repo", "description": "",
-                   "homepage": "https://older.example.com", "language": "Python", "created_at": "2026-09-30T00:00:00Z"}]
-        page = BeautifulSoup(render({**SNAPSHOT, "recent": recent}, stream), "html.parser")
+        repositories = [{"name": "latest-push", "url": "https://github.com/filan214/latest-push", "description": "Fresh <b>idea</b>",
+                         "language": None, "pushed_at": "2026-10-07T00:00:00Z"},
+                        {"name": "older-push", "url": "https://github.com/filan214/older-push", "description": "",
+                         "language": "Python", "pushed_at": "2026-09-30T00:00:00Z"},
+                        {"name": "third-push", "url": "https://github.com/filan214/third-push", "description": "",
+                         "language": "HTML", "pushed_at": "2026-09-29T00:00:00Z"}]
+        page = BeautifulSoup(render({**SNAPSHOT, "repositories": repositories}, stream), "html.parser")
+        self.assertNotIn("git portfolio", page.text)
         headings = [h.text for h in page.find_all("h3")]
-        latest = next(i for i, h in enumerate(headings) if "git portfolio --latest" in h)
-        self.assertEqual(latest, len(headings) - 2, "Newest repositories sit just above the sources footer")
-        rows = page.find("a", href="https://github.com/filan214/newest-repo").find_parent("table").find_all("tr")[1:]
-        self.assertEqual([row.find("a").text for row in rows], ["newest-repo", "older-repo"])
-        self.assertIn("Fresh <b>idea</b>", rows[0].text)
-        self.assertEqual(rows[0].find_all("td")[3].text, "2026-10-07")
-        self.assertTrue(page.find("a", href="https://older.example.com"))
-        self.assertFalse(any(a["href"].startswith("javascript:") for a in page.find_all("a", href=True)))
+        self.assertEqual(headings.index("Recent repositories"), len(headings) - 2, "Recent repositories sit just above the sources footer")
+        links = [img.parent["href"] for img in page.find_all("img") if img["src"].startswith("./repo-card-")]
+        self.assertEqual(links, [f"https://github.com/filan214/{name}" for name in ("latest-push", "older-push", "third-push")])
+        self.assertIn("Fresh <b>idea</b>", page.find("img", src="./repo-card-1.svg")["alt"])
+        self.assertTrue(page.find("a", string="See all repositories"))
+        self.assertIn("No eligible public repositories.", render({**SNAPSHOT, "repositories": []}, stream))
+
+    def test_repo_cards_follow_snapshot_and_omit_missing_fields(self):
+        from render_repo_cards import outputs as cards
+        repos = [{"name": "first", "description": 'Fresh <script>x</script> & idea', "language": "Python", "pushed_at": "2026-10-07T00:00:00Z"},
+                 {"name": "bare", "description": "", "language": None, "pushed_at": "2026-10-06T00:00:00Z"},
+                 {"name": "odd", "description": "", "language": "Brainfuck", "pushed_at": "2026-10-05T00:00:00Z"}]
+        result = cards({**SNAPSHOT, "repositories": repos})
+        self.assertEqual(list(result), ["repo-card-1.svg", "repo-card-2.svg", "repo-card-3.svg"])
+        first, bare, odd = (ET.fromstring(result[f"repo-card-{i}.svg"]) for i in (1, 2, 3))
+        self.assertEqual(first.get("width"), "420")
+        self.assertIn("first", list(first.itertext()))
+        self.assertIn("Public", list(first.itertext()))
+        self.assertIsNone(first.find(".//s:script", NS))
+        self.assertIn("#3572A5", first.find("s:style", NS).text)
+        self.assertIsNone(bare.find(".//s:circle", NS), "No language means no language dot")
+        self.assertIn("var(--muted)", odd.find("s:style", NS).text)
+        self.assertEqual(len(cards(SNAPSHOT)), 6)
+
+    def test_repo_overview_shows_public_total_and_measured_stats(self):
+        from render_repo_overview import render as overview
+        root = ET.fromstring(overview(SNAPSHOT))
+        content = list(root.itertext())
+        self.assertIn("9", content)
+        self.assertIn("public repositories", content)
+        self.assertIn("8", content, "A repository pushed months ago is not counted as recent")
+        self.assertIn("Python", content)
+        self.assertFalse(any(t.startswith("repo-") for t in content), "Repository names live in the README cards")
+        empty = list(ET.fromstring(overview({**SNAPSHOT, "repositories": []})).itertext())
+        self.assertIn("no language reported", empty)
+
+    def test_readme_replaces_git_log_strip_with_repo_overview(self):
+        from bs4 import BeautifulSoup
+        render = importlib.import_module("render_readme").render
+        page = BeautifulSoup(render(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}), "html.parser")
+        self.assertIsNone(page.find("img", src="./commit-log.svg"))
+        self.assertEqual(page.find("img", src="./repo-overview.svg").parent["href"], "https://github.com/filan214?tab=repositories")
+        headings = [h.text for h in page.find_all("h3")]
+        self.assertIn("calendar", headings[0])
+        self.assertIn("repos --overview", headings[1])
+        self.assertIn("contact --reach", headings[2])
 
     def test_biography_and_tagline_follow_fetched_profile_and_projects(self):
         from make_info_card import render as info

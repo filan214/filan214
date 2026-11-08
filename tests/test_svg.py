@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from make_info_card import render as info
 from render_build_spotlight import render as spotlight
 from make_tagline import render as tagline
-from render_commit_log import render as commit
+from render_repo_overview import render as overview
 from render_heatmap_svg import calendar_days, render as heatmap
 from render_languages_svg import render as languages
 from render_status_bar import render as status
@@ -26,7 +26,7 @@ STATUS = {"objectives_done": 5, "objectives_total": 5, "defense_status": "pendin
 
 class SvgTests(unittest.TestCase):
     def renders(self):
-        return [info(SNAPSHOT, LIVE_LANGUAGES), spotlight(SNAPSHOT, LIVE_LANGUAGES), tagline(SNAPSHOT, LIVE_LANGUAGES), commit({"event": None}), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
+        return [info(SNAPSHOT, LIVE_LANGUAGES), spotlight(SNAPSHOT, LIVE_LANGUAGES), tagline(SNAPSHOT, LIVE_LANGUAGES), overview(SNAPSHOT), overview({**SNAPSHOT, "repositories": []}), heatmap(CALENDAR), languages(LANGUAGES), status(STATUS)]
 
     def test_all_panels_have_accessible_self_contained_theme_markup(self):
         for source in self.renders():
@@ -50,12 +50,12 @@ class SvgTests(unittest.TestCase):
                 self.assertIsNone(root.find(".//s:animateTransform", NS))
                 self.assertNotIn("@keyframes", root.find("s:style", NS).text)
 
-    def test_commit_message_cannot_inject_svg_markup(self):
-        hostile = 'fix <script>alert("x")</script> & totals\x00'
-        source = commit({"event": {"repo": "filan214/demo", "sha": "abc12345", "message": hostile, "created_at": "2026-09-12"}})
-        root = ET.fromstring(source)
+    def test_repository_language_cannot_inject_svg_markup(self):
+        hostile = 'demo <script>alert("x")</script> & co\x00'
+        repo = {**SNAPSHOT["repositories"][0], "language": hostile}
+        root = ET.fromstring(overview({**SNAPSHOT, "repositories": [repo]}))
         self.assertIsNone(root.find(".//s:script", NS))
-        self.assertIn('fix <script>alert("x")</script> & totals', root.find("s:desc", NS).text)
+        self.assertIn('demo <script>alert("x")</script> & co', root.find("s:desc", NS).text)
 
     def test_calendar_has_53_sunday_first_weeks_across_leap_year(self):
         days = calendar_days(date(2024, 3, 1))

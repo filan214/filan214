@@ -1,7 +1,7 @@
-"""Write the featured repo's current tip; retain the exact-event parser for tools."""
+"""Resolve the newest public push event to its exact head commit."""
 from urllib.parse import quote
 
-from common import API, DATA, USERNAME, read_json, run, write_json
+from common import API
 
 
 def latest_push(events, get_json):
@@ -22,15 +22,3 @@ def latest_push(events, get_json):
         commit = get_json(f"{API}/repos/{quote(repo, safe='/')}/commits/{quote(sha, safe='')}")
         message = commit["commit"]["message"]
     return {"repo": repo, "sha": sha, "message": message.splitlines()[0] if message else "(empty commit message)", "created_at": event["created_at"], "url": f"https://github.com/{repo}/commit/{sha}"}
-
-
-def main():
-    builds = read_json(DATA / "builds.json")
-    commit = builds["projects"][0]["commit"] if builds["projects"] else None
-    write_json(DATA / "last-event.json", {"username": USERNAME, "as_of": builds["as_of"], "fetched_at": builds["fetched_at"],
-               "source": commit["url"] if commit else builds["source"], "scope": "Featured repository default-branch tip", "event": commit})
-    print("Resolved featured repository tip" if commit else "No eligible project commit available")
-
-
-if __name__ == "__main__":
-    run(main)
