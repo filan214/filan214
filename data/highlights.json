@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-11-08T02:29:06Z",
+  "fetched_at": "2026-11-08T11:10:34Z",
   "as_of": "2026-11-08",
   "projects": {
     "finance": {
@@ -441,8 +441,8 @@
         "conclusion": "success",
         "head_sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
         "matches_tip": true,
-        "updated_at": "2026-11-07T20:01:52Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/42409030827"
+        "updated_at": "2026-11-08T05:24:44Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/42450664600"
       }
     },
     "crosssell": {
@@ -886,11 +886,409 @@
         "Python": 389
       },
       "workflow": null
+    },
+    "valuation": {
+      "name": "Jogja-House-Valuation",
+      "full_name": "filan214/Jogja-House-Valuation",
+      "url": "https://github.com/filan214/Jogja-House-Valuation",
+      "description": "",
+      "default_branch": "master",
+      "commit": {
+        "repo": "filan214/Jogja-House-Valuation",
+        "sha": "483188f8bab71341185abd13df1eb30792150001",
+        "message": "initial commit",
+        "created_at": "2026-11-07T19:33:47Z",
+        "url": "https://github.com/filan214/Jogja-House-Valuation/commit/483188f8bab71341185abd13df1eb30792150001",
+        "author": "Valentinus Filan",
+        "branch": "master"
+      },
+      "stars": 0,
+      "forks": 0,
+      "inventory": {
+        "results": {
+          "raw_listings": "2,020",
+          "clean_listings": "1,180",
+          "reposts": "474",
+          "baseline_mape": "46.1%",
+          "mape": "25.6%",
+          "range_coverage": "79.9%",
+          "drift_listings": "30"
+        },
+        "demo": true,
+        "market_map": true,
+        "report": true
+      },
+      "activity_days": [
+        {
+          "date": "2026-08-11",
+          "count": 0
+        },
+        {
+          "date": "2026-08-12",
+          "count": 0
+        },
+        {
+          "date": "2026-08-13",
+          "count": 0
+        },
+        {
+          "date": "2026-08-14",
+          "count": 0
+        },
+        {
+          "date": "2026-08-15",
+          "count": 0
+        },
+        {
+          "date": "2026-08-16",
+          "count": 0
+        },
+        {
+          "date": "2026-08-17",
+          "count": 0
+        },
+        {
+          "date": "2026-08-18",
+          "count": 0
+        },
+        {
+          "date": "2026-08-19",
+          "count": 0
+        },
+        {
+          "date": "2026-08-20",
+          "count": 0
+        },
+        {
+          "date": "2026-08-21",
+          "count": 0
+        },
+        {
+          "date": "2026-08-22",
+          "count": 0
+        },
+        {
+          "date": "2026-08-23",
+          "count": 0
+        },
+        {
+          "date": "2026-08-24",
+          "count": 0
+        },
+        {
+          "date": "2026-08-25",
+          "count": 0
+        },
+        {
+          "date": "2026-08-26",
+          "count": 0
+        },
+        {
+          "date": "2026-08-27",
+          "count": 0
+        },
+        {
+          "date": "2026-08-28",
+          "count": 0
+        },
+        {
+          "date": "2026-08-29",
+          "count": 0
+        },
+        {
+          "date": "2026-08-30",
+          "count": 0
+        },
+        {
+          "date": "2026-08-31",
+          "count": 0
+        },
+        {
+          "date": "2026-09-01",
+          "count": 0
+        },
+        {
+          "date": "2026-09-02",
+          "count": 0
+        },
+        {
+          "date": "2026-09-03",
+          "count": 0
+        },
+        {
+          "date": "2026-09-04",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07",
+          "count": 0
+        },
+        {
+          "date": "2026-09-08",
+          "count": 0
+        },
+        {
+          "date": "2026-09-09",
+          "count": 0
+        },
+        {
+          "date": "2026-09-10",
+          "count": 0
+        },
+        {
+          "date": "2026-09-11",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13",
+          "count": 0
+        },
+        {
+          "date": "2026-09-14",
+          "count": 0
+        },
+        {
+          "date": "2026-09-15",
+          "count": 0
+        },
+        {
+          "date": "2026-09-16",
+          "count": 0
+        },
+        {
+          "date": "2026-09-17",
+          "count": 0
+        },
+        {
+          "date": "2026-09-18",
+          "count": 0
+        },
+        {
+          "date": "2026-09-19",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21",
+          "count": 0
+        },
+        {
+          "date": "2026-09-22",
+          "count": 0
+        },
+        {
+          "date": "2026-09-23",
+          "count": 0
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0
+        },
+        {
+          "date": "2026-09-25",
+          "count": 0
+        },
+        {
+          "date": "2026-09-26",
+          "count": 0
+        },
+        {
+          "date": "2026-09-27",
+          "count": 0
+        },
+        {
+          "date": "2026-09-28",
+          "count": 0
+        },
+        {
+          "date": "2026-09-29",
+          "count": 0
+        },
+        {
+          "date": "2026-09-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-01",
+          "count": 0
+        },
+        {
+          "date": "2026-10-02",
+          "count": 0
+        },
+        {
+          "date": "2026-10-03",
+          "count": 0
+        },
+        {
+          "date": "2026-10-04",
+          "count": 0
+        },
+        {
+          "date": "2026-10-05",
+          "count": 0
+        },
+        {
+          "date": "2026-10-06",
+          "count": 0
+        },
+        {
+          "date": "2026-10-07",
+          "count": 0
+        },
+        {
+          "date": "2026-10-08",
+          "count": 0
+        },
+        {
+          "date": "2026-10-09",
+          "count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "count": 0
+        },
+        {
+          "date": "2026-10-11",
+          "count": 0
+        },
+        {
+          "date": "2026-10-12",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15",
+          "count": 0
+        },
+        {
+          "date": "2026-10-16",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 1
+        }
+      ],
+      "languages": {
+        "Python": 282150
+      },
+      "workflow": null
     }
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-11-08T02:29:06Z",
+    "checked_at": "2026-11-08T11:10:34Z",
     "http_status": 200,
     "reachable": true
   }

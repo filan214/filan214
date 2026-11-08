@@ -1,4 +1,4 @@
-"""Fetch two curated public projects, anchored to exact default-branch commits."""
+"""Fetch curated public projects, anchored to exact default-branch commits."""
 import re
 from datetime import datetime, timezone
 from urllib.parse import quote, urlencode
@@ -9,7 +9,7 @@ from common import API, DATA, USERNAME, GitHub, read_json, run, today, write_jso
 from fetch_builds import latest_commit, repository_activity, safe_url
 
 FINANCE_APP = "https://ai-finance-tracker-delta-drab.vercel.app/"
-PROJECTS = {"finance": "AIFinanceTracker", "crosssell": "dealership-crosssell-propensity"}
+PROJECTS = {"finance": "AIFinanceTracker", "crosssell": "dealership-crosssell-propensity", "valuation": "Jogja-House-Valuation"}
 SCHEMA_VERSION = 2  # 2: cross-sell results include the strongest segment
 
 
@@ -44,6 +44,9 @@ def inventory(tree, kind, sources):
         return {"tools": tool_names, "routes": routes, "locales": locales, "features": features}
     if kind == "crosssell":
         return crosssell_inventory(files, sources.get("README.md") or "")
+    if kind == "valuation":
+        return {"results": valuation_results(sources.get("README.md") or ""), "demo": "docs/app_demo.gif" in files,
+                "market_map": "docs/app_market_map.png" in files, "report": "reports/metrics.md" in files}
     raise ValueError(f"Unknown curated project kind: {kind}")
 
 
@@ -91,6 +94,29 @@ def readme_results(readme):
             "capture_lift": capture[1].removesuffix(" lift").strip() if len(capture) > 1 else None,
             "response_rate": rate[0] if rate else None, "test_customers": size[1] if size else None,
             "segment": segment if segment and segment_rate else None, "segment_rate": segment_rate[0] if segment_rate else None}
+
+
+def percent_cell(text, label, index=1):
+    # Takes the first percentage in one cell of the first Markdown table row whose label matches.
+    for line in text.splitlines():
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if line.strip().startswith("|") and re.search(label, cells[0], re.IGNORECASE):
+            found = re.search(r"[\d.]+%", cells[index]) if len(cells) > index else None
+            return found[0] if found else None
+    return None
+
+
+def valuation_results(readme):
+    # Quoted from the project's own README at the pinned commit; never recomputed or estimated here.
+    results = section(readme, "Results")
+    cleaning = re.search(r"^### Cleaning \(([\d,]+) → ([\d,]+) listings", readme, re.MULTILINE)
+    reposts = re.search(r"^\|\s*Repost[^|]*\|\s*([\d,]+)\s*\|", readme, re.MULTILINE)
+    honest = re.search(r"^\|\s*\*\*Per-kabupaten.*?honest nested check: ([\d.]+)", results, re.MULTILINE)
+    drift = re.search(r"(\d+) current Rumah123 listings", section(readme, "Staleness and drift"))
+    return {"raw_listings": cleaning[1] if cleaning else None, "clean_listings": cleaning[2] if cleaning else None,
+            "reposts": reposts[1] if reposts else None, "baseline_mape": percent_cell(results, r"baseline"),
+            "mape": percent_cell(results, r"LightGBM"), "range_coverage": honest[1] + "%" if honest else None,
+            "drift_listings": drift[1] if drift else None}
 
 
 def latest_run(client, full_name, branch, sha):
@@ -148,7 +174,7 @@ def main():
         projects[kind] = project
     write_json(cached_path, {"schema_version": SCHEMA_VERSION, "fetched_at": fetched_at, "as_of": as_of.isoformat(),
                             "projects": projects, "app": check_app(client, fetched_at)})
-    print("Fetched finance and cross-sell source inventories, activity, languages, and workflow observations")
+    print("Fetched curated source inventories, activity, languages, and workflow observations")
 
 
 if __name__ == "__main__":

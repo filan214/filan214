@@ -93,7 +93,7 @@ def render(data, stream, highlights=None, screens=None):
     for name, label, detail in [
         ("builds", "Projects & activity", "Public repository metadata, newest repositories by creation date, and 28-day default-branch commit history, all authors. Synced " + sync_label(data) + "."),
         ("commit-stream", "Cross-repo pushes", "Available public push events by filan214; one exact head commit per push. Synced " + sync_label(stream) + "."),
-        ("highlights", "Finance & cross-sell spotlights", "File inventories pinned to the displayed source commit, cross-sell results quoted from that project's README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check."),
+        ("highlights", "Project spotlights", "File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project's README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check."),
         ("contributions", "Contribution calendar", "GitHub contribution HTML: full account totals, including automation."),
         ("languages", "Language mix", "GitHub Linguist byte counts from eligible public repositories. Code proportions, not proficiency.")]:
         parts.append('<tr><td>' + link("https://github.com/filan214/filan214/blob/main/data/" + name + ".json", label) + '</td><td>' + esc(detail) + '</td></tr>')
@@ -101,8 +101,8 @@ def render(data, stream, highlights=None, screens=None):
         parts.append('<tr><td>' + link(SCREENS_URL + "manifest.json", "Finance screenshots") + '</td><td>'
                      + esc(f"Static captures of the public demo account ({screens['month']} data), taken {captured(screens)} by scripts/capture_finance_screens.js. Not refreshed hourly.") + '</td></tr>')
     parts += ['</table>',
-              '<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and dealership-crosssell-propensity while they remain public and active.</p>',
-              '<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here. The finance app check only tests its public landing page, without accessing an account or financial data.</p>',
+              '<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The three curated spotlights follow Jogja-House-Valuation, dealership-crosssell-propensity and AIFinanceTracker while they remain public and active.</p>',
+              '<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here, and the valuation story quotes its figures the same way. The finance app check only tests its public landing page, without accessing an account or financial data.</p>',
               '<p>GitHub schedules, event delivery, source analysis, and image caches can delay updates. A failed refresh keeps the last published snapshot and its recorded timestamps. The portrait is supplied by Filan.</p>',
               '<p>' + link("https://github.com/filan214/filan214/actions/workflows/update-profile-art.yml", "↗ Refresh workflow") + ' &nbsp; · &nbsp; ' + link("https://github.com/filan214/filan214/tree/main/scripts", "↗ Explore the generators") + '</p>',
               '</details>', '</div>']
@@ -128,11 +128,32 @@ def newest_repositories(recent):
     return parts
 
 
+def valuation_section(project):
+    inv, sha, url = project["inventory"], project["commit"]["sha"], project["url"]
+    views = [(inv["demo"], "docs/app_demo.gif", "Value a house", "Estimate, likely range, verdict, and the reasons",
+              "Demo of the valuation app: enter a house in Depok, Sleman, with an asking price, then get the estimate, likely range, verdict, top factors, and similar listings"),
+             (inv["market_map"], "docs/app_market_map.png", "Market map", "Median price per land m² by kecamatan",
+              "Choropleth map of median price per land square metre for each kecamatan in Yogyakarta")]
+    cells = ''.join(f'<td width="50%" align="center" valign="top"><a href="{esc(url)}/blob/{sha}/{path}">'
+                    f'<img src="https://raw.githubusercontent.com/{esc(project["full_name"])}/{sha}/{path}" width="420" alt="{esc(alt)}"></a>'
+                    f'<br><sub><b>{esc(title)}</b><br>{esc(caption)}</sub></td>' for shown, path, title, caption, alt in views if shown)
+    actions = [link(url, "↗ Explore project"), link(url + "#how-to-run-locally", "↗ Run it locally")]
+    if inv["report"]:
+        actions.append(link(f"{url}/blob/{sha}/reports/metrics.md", "↗ Read model metrics"))
+    return ['<h3>filan214@github:~$ showcase --data-science · Jogja House Valuation</h3>',
+            image("valuation-story", "Is this house priced fairly? Problem, data clean-up, test, and answer of the Jogja house valuation project, with figures quoted from its README", url=url),
+            *(['<table width="860"><tr>' + cells + '</tr></table>'] if cells else []),
+            '<p>' + ' &nbsp; · &nbsp; '.join(actions) + '</p>',
+            '<p><sub>Public Kaggle data by Pramudya Dika (CC BY-NC 4.0), scraped from Rumah123 in 2024 · asking prices, not sale prices · app runs locally, not deployed</sub></p>',
+            '<br>']
+
+
 def showcase_sections(data, screens=None):
     finance, crosssell = data["projects"]["finance"], data["projects"]["crosssell"]
     inv, sha = crosssell["inventory"], crosssell["commit"]["sha"]
     dashboard = safe_url(inv["dashboard_url"])
-    parts = ['<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>',
+    parts = [*valuation_section(data["projects"]["valuation"]),
+             '<h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>',
              image("crosssell-story", "Who should sales call first? Problem, insight, model, and impact of the dealership cross-sell project, with figures quoted from its README", url=dashboard or crosssell["url"])]
     if inv["screenshot"]:
         shot = f"https://raw.githubusercontent.com/{crosssell['full_name']}/{sha}/dashboard/screenshot.png"

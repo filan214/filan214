@@ -42,6 +42,33 @@ Tableau Public: [Dashboard](https://public.tableau.com/app/profile/demo/viz/Demo
 - [x] SQL EDA
 - [ ] Model
 """
+VALUATION_README = """# Jogja House Valuation
+
+## Data
+### Cleaning (2,020 → 1,180 listings, 58%)
+
+| Reason dropped | Rows | % of raw |
+|---|---|---|
+| Repost of the same house (near-duplicate) | 474 | 23.5% |
+| Boarding house (kos) | 147 | 7.3% |
+
+## Results
+5-fold cross-validation on 1,180 listings in 43 kecamatan (mean across folds):
+
+| Model | Spatial MAPE | Spatial MdAPE |
+|---|---|---|
+| B0 baseline (median price per land m² × land) | 46.1% ± 6.7 | 36.3% |
+| Ridge (alpha = 10) | 28.9% ± 2.7 | 21.4% |
+| **LightGBM** (7 leaves, min 10 per leaf), used by the app | **25.6% ± 3.2** | **19.5%** |
+
+| | Coverage | Mean width |
+|---|---|---|
+| Raw quantile models | 68.7% | 65% of estimate |
+| **Per-kabupaten widening (used)** | **80.6%** (honest nested check: 79.9 ± 9.8%) | 91% (median 83%) |
+
+## Staleness and drift
+**Drift check**: 30 current Rumah123 listings, 2026-11-08, scored with the model.
+"""
 
 
 def tree(*paths):
@@ -53,7 +80,8 @@ def fixture():
                "activity_days": [{"date": "2026-09-11", "count": 0}, {"date": "2026-09-12", "count": 0}], "workflow": None}
     finance = {**project, "inventory": fetch.inventory(tree("src/app/api/ai/chat/route.ts", "messages/en.json"), "finance", {})}
     crosssell = {**project, "inventory": fetch.inventory(tree("sql/01_eda.sql"), "crosssell", {})}
-    return {"fetched_at": "2026-09-12T01:00:00Z", "projects": {"finance": finance, "crosssell": crosssell},
+    valuation = {**project, "inventory": fetch.inventory(tree("README.md"), "valuation", {"README.md": None})}
+    return {"fetched_at": "2026-09-12T01:00:00Z", "projects": {"finance": finance, "crosssell": crosssell, "valuation": valuation},
             "app": {"http_status": 200, "reachable": True, "checked_at": "2026-09-12T01:00:00Z"}}
 
 
@@ -156,8 +184,8 @@ class HighlightTests(unittest.TestCase):
             self.assertIsNone(root.find(".//s:script", NS))
             self.assertIn("prefers-color-scheme: dark", root.find("s:style", NS).text)
             self.assertIn("prefers-reduced-motion", root.find("s:style", NS).text)
-            if name == "crosssell-story.svg":
-                continue  # The story card has no activity chart.
+            if name.endswith("-story.svg"):
+                continue  # Story cards have no activity chart.
             points = root.find('.//s:polyline[@class="trace"]', NS).get("points").split()
             self.assertEqual(len({p.split(",")[1] for p in points}), 1)
             self.assertIn("0 commits", " ".join(root.itertext()))
@@ -187,11 +215,12 @@ class HighlightTests(unittest.TestCase):
         self.assertIsNone(page.find("img", src="./info-card.svg"))
         self.assertIsNone(page.find("img", src="./filan-ascii.svg"))
         headings = [h.text for h in page.find_all("h3") if "showcase" in h.text]
-        self.assertIn("--data-science", headings[0])
-        self.assertIn("--finance", headings[1])
+        self.assertIn("Jogja House Valuation", headings[0])
+        self.assertIn("Customer Propensity", headings[1])
+        self.assertIn("--finance", headings[2])
         order = [h.text for h in page.find_all("h3")]
-        self.assertLess(order.index(headings[1]), next(i for i, h in enumerate(order) if "ps --repos" in h))
-        self.assertLess(order.index(headings[1]), next(i for i, h in enumerate(order) if "languages --bytes" in h))
+        self.assertLess(order.index(headings[2]), next(i for i, h in enumerate(order) if "ps --repos" in h))
+        self.assertLess(order.index(headings[2]), next(i for i, h in enumerate(order) if "languages --bytes" in h))
         self.assertTrue(page.find("img", src="https://raw.githubusercontent.com/filan214/new-project/abcdef1234/dashboard/screenshot.png").find_parent("details").has_attr("open"))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"]))
         self.assertTrue(page.find("a", href=data["projects"]["crosssell"]["url"] + "/blob/abcdef1234/notebooks/01_model.ipynb"))
@@ -234,6 +263,40 @@ class HighlightTests(unittest.TestCase):
         content = " ".join(ET.fromstring(outputs(data)["crosssell-story.svg"]).itertext())
         self.assertNotIn("25.1%", content)
         self.assertIn("—", content)
+
+    def test_valuation_inventory_quotes_readme_and_missing_values_stay_unknown(self):
+        result = fetch.inventory(tree("docs/app_demo.gif", "docs/app_market_map.png", "reports/metrics.md"), "valuation", {"README.md": VALUATION_README})
+        self.assertEqual(result, {"results": {"raw_listings": "2,020", "clean_listings": "1,180", "reposts": "474", "baseline_mape": "46.1%", "mape": "25.6%",
+                                              "range_coverage": "79.9%", "drift_listings": "30"},
+                                  "demo": True, "market_map": True, "report": True})
+        data = fixture()
+        data["projects"]["valuation"]["inventory"] = result
+        content = " ".join(ET.fromstring(outputs(data)["valuation-story.svg"]).itertext())
+        for figure in ("2,020", "1,180", "474", "46.1%", "25.6%", "79.9%"):
+            self.assertIn(figure, content)
+        empty = " ".join(ET.fromstring(outputs(fixture())["valuation-story.svg"]).itertext())
+        self.assertNotIn("25.6%", empty)
+        self.assertIn("—", empty)
+
+    def test_valuation_showcase_leads_with_pinned_visuals_and_honest_caveats(self):
+        data = fixture()
+        project = data["projects"]["valuation"]
+        project["url"] = "https://github.com/filan214/Jogja-House-Valuation"
+        project["inventory"] = fetch.inventory(tree("docs/app_demo.gif", "docs/app_market_map.png", "reports/metrics.md"), "valuation", {"README.md": VALUATION_README})
+        data["projects"]["crosssell"]["inventory"] = fetch.inventory(tree("README.md"), "crosssell", {"README.md": CROSSSELL_README})
+        page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data), "html.parser")
+        self.assertEqual(page.find("img", src="./valuation-story.svg").parent["href"], project["url"])
+        sha = project["commit"]["sha"]
+        demo = page.find("img", src=f"https://raw.githubusercontent.com/{project['full_name']}/{sha}/docs/app_demo.gif")
+        self.assertEqual(demo.parent["href"], f"{project['url']}/blob/{sha}/docs/app_demo.gif")
+        self.assertTrue(page.find("a", href=project["url"] + "#how-to-run-locally"))
+        self.assertTrue(page.find("a", href=f"{project['url']}/blob/{sha}/reports/metrics.md"))
+        for caveat in ("asking prices, not sale prices", "not deployed", "CC BY-NC 4.0"):
+            self.assertIn(caveat, page.text)
+        # Visuals missing from the source tree are left out rather than linked broken.
+        project["inventory"] = fetch.inventory(tree("README.md"), "valuation", {"README.md": VALUATION_README})
+        page = BeautifulSoup(readme(SNAPSHOT, {"pushes": [], "fetched_at": SNAPSHOT["fetched_at"]}, data), "html.parser")
+        self.assertIsNone(page.find("img", alt=lambda alt: alt and alt.startswith("Demo of the valuation app")))
 
     def test_contact_buttons_are_accessible_themed_svgs(self):
         for name, content in contact().items():

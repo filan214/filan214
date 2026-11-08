@@ -20,6 +20,18 @@
 
 <br>
 
+<h3>filan214@github:~$ showcase --data-science · Jogja House Valuation</h3>
+
+<a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./valuation-story.svg" width="860" alt="Is this house priced fairly? Problem, data clean-up, test, and answer of the Jogja house valuation project, with figures quoted from its README"></a>
+
+<table width="860"><tr><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/docs/app_demo.gif"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/483188f8bab71341185abd13df1eb30792150001/docs/app_demo.gif" width="420" alt="Demo of the valuation app: enter a house in Depok, Sleman, with an asking price, then get the estimate, likely range, verdict, top factors, and similar listings"></a><br><sub><b>Value a house</b><br>Estimate, likely range, verdict, and the reasons</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/docs/app_market_map.png"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/483188f8bab71341185abd13df1eb30792150001/docs/app_market_map.png" width="420" alt="Choropleth map of median price per land square metre for each kecamatan in Yogyakarta"></a><br><sub><b>Market map</b><br>Median price per land m² by kecamatan</sub></td></tr></table>
+
+<p><a href="https://github.com/filan214/Jogja-House-Valuation">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation#how-to-run-locally">↗ Run it locally</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/reports/metrics.md">↗ Read model metrics</a></p>
+
+<p><sub>Public Kaggle data by Pramudya Dika (CC BY-NC 4.0), scraped from Rumah123 in 2024 · asking prices, not sale prices · app runs locally, not deployed</sub></p>
+
+<br>
+
 <h3>filan214@github:~$ showcase --data-science · Customer Propensity &amp; Targeting</h3>
 
 <a href="https://public.tableau.com/app/profile/valentinus.gunawan/viz/DealershipCross-SellPropensityDashboard/Dashboard1"><img src="./crosssell-story.svg" width="860" alt="Who should sales call first? Problem, insight, model, and impact of the dealership cross-sell project, with figures quoted from its README"></a>
@@ -174,7 +186,7 @@
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 08 Nov 2026 · 09:29 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Finance &amp; cross-sell spotlights</a></td><td>File inventories pinned to the displayed source commit, cross-sell results quoted from that project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/contributions.json">Contribution calendar</a></td><td>GitHub contribution HTML: full account totals, including automation.</td></tr>
 
@@ -184,9 +196,9 @@
 
 </table>
 
-<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The two curated spotlights follow AIFinanceTracker and dealership-crosssell-propensity while they remain public and active.</p>
+<p>Project selection and aggregate languages exclude this profile repository, configured exclusions, forks, and archives. The three curated spotlights follow Jogja-House-Valuation, dealership-crosssell-propensity and AIFinanceTracker while they remain public and active.</p>
 
-<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here. The finance app check only tests its public landing page, without accessing an account or financial data.</p>
+<p>Source counts show files and registered tools, not passed tests or feature-health checks. Workflow results identify their commit. The cross-sell card shows source structure and commit history; its model results are quoted from the project README, not recomputed here, and the valuation story quotes its figures the same way. The finance app check only tests its public landing page, without accessing an account or financial data.</p>
 
 <p>GitHub schedules, event delivery, source analysis, and image caches can delay updates. A failed refresh keeps the last published snapshot and its recorded timestamps. The portrait is supplied by Filan.</p>
 

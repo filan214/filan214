@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="424" viewBox="0 0 860 424" role="img" aria-labelledby="title desc">
+<title id="title">Is this house priced fairly? — Jogja-House-Valuation story</title>
+<desc id="desc">The Problem: House prices in Jogja are hard to judge. Buyers can&#x27;t tell if a listing is fair, sellers don&#x27;t know what to ask, and agents price mostly by experience. The Mess: The data was 2,020 scraped listings, and 474 were reposts of the same house. After clearing out reposts, boarding houses and land ads, 1,180 homes remained, each drop logged. The Test: The usual rule of thumb, price per m² times land size, missed by 46.1% on average. My model cut that to 25.6%, scored on whole districts it had never seen in training. The Answer: One number would overpromise, so the app gives a likely range, the reasons behind it, and similar listings. The range held 79.9% of prices in testing. On 30 listings from 2026, cheap homes ran high and pricey ones low. Figures quoted from the project README at commit 483188f8bab71341185abd13df1eb30792150001.</desc>
+<style>
+:root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
+@media (prefers-color-scheme: dark) {
+ :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#919ba7; --line:#30363d; --accent:#69f0a0; --cyan:#79c0ff; --amber:#e3b341; --portrait:#c9d1d9; --track:#21262d; --p0:#161b22; --p1:#0e4429; --p2:#006d32; --p3:#26a641; --p4:#39d353; --p5:#69f0a0; }
+}
+text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size:12px; fill:var(--ink); }
+.bg {fill:var(--bg);stroke:var(--line)} .panel {fill:var(--panel)}
+.ink {fill:var(--ink)} .muted {fill:var(--muted)} .accent {fill:var(--accent)} .cyan {fill:var(--cyan)} .amber {fill:var(--amber)} .portrait {fill:var(--portrait)}
+.line {stroke:var(--line)} .track {fill:var(--track)} .small {font-size:10px} .tiny {font-size:9px} .large {font-size:22px;font-weight:600} .bold {font-weight:600}
+.p0 {fill:var(--p0)} .p1 {fill:var(--p1)} .p2 {fill:var(--p2)} .p3 {fill:var(--p3)} .p4 {fill:var(--p4)} .p5 {fill:var(--p5)}
+.unknown {fill:var(--bg);stroke:var(--line);stroke-dasharray:2 2}
+
+:root{--violet:#6f42c1;--wash:#eef8f2;--v-wash:#f5f0fc}
+@media(prefers-color-scheme:dark){:root{--violet:#c8a5ff;--wash:#11251c;--v-wash:#211a30}}
+.violet{fill:var(--violet)} .wash{fill:var(--wash)} .v-wash{fill:var(--v-wash)}
+.display{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:-.7px}
+.outline{fill:none;stroke:var(--line)}
+.trace{fill:none;stroke:var(--accent);stroke-width:2.3;stroke-linejoin:round;stroke-linecap:round}
+.xsell .trace{stroke:var(--violet)} .xsell .area{fill:var(--violet)}
+.area{fill:var(--accent);opacity:.08} .guide{fill:none;stroke:var(--line);stroke-dasharray:3 5}
+.connector{fill:none;stroke:var(--line);stroke-width:1.5}
+.sans{font-family:Arial,Helvetica,sans-serif}
+.rail{fill:none;stroke:var(--line);stroke-width:2} .dot{fill:var(--bg);stroke:var(--violet);stroke-width:2}
+.house .violet{fill:var(--cyan)} .house .dot{stroke:var(--cyan)}
+
+@keyframes enter {from {opacity:0;transform:translateY(7px)} to {opacity:1;transform:translateY(0)}}
+@keyframes drop {from {opacity:0;transform:translateY(-12px)} to {opacity:1;transform:translateY(0)}}
+.enter {animation:enter .55s ease-out both}
+.drop {animation:drop .35s ease-out both}
+
+@media (prefers-reduced-motion: reduce) {
+ * {animation:none !important} .wipe {clip-path:none !important}
+ .tag-cycle {display:none} .tag-static {display:inline}
+}
+</style>
+<rect x="0.5" y="0.5" width="859" height="423" rx="12" class="bg" /><text x="22" y="27" class="accent bold" >$</text><text x="38" y="27" class="muted small" >story --project Jogja-House-Valuation</text><text x="838" y="27" class="muted tiny" text-anchor="end">01 / DATA SCIENCE</text><path d="M20 42H840" class="line"/><g class="house"><text x="28" y="82" class="display" style="font-size:28px" >Is this house priced fairly?</text><text x="28" y="106" class="muted" style="font-size:12px" >The story behind a valuation app for Yogyakarta.</text><path d="M40 142V336" class="rail"/><g class="enter" style="animation-delay:0.15s"><circle cx="40" cy="142" r="6" class="dot"/><text x="64" y="146" class="violet bold" style="font-size:10px" >THE PROBLEM</text><text x="64" y="168" class="sans" style="font-size:13.5px">House prices in Jogja are hard to judge. Buyers can&#x27;t tell if a listing is fair, sellers don&#x27;t know</text><text x="64" y="187" class="sans" style="font-size:13.5px">what to ask, and agents price mostly by experience.</text></g><g class="enter" style="animation-delay:0.35s"><circle cx="40" cy="206" r="6" class="dot"/><text x="64" y="210" class="violet bold" style="font-size:10px" >THE MESS</text><text x="64" y="232" class="sans" style="font-size:13.5px">The data was <tspan class="violet bold">2,020</tspan> scraped listings, and <tspan class="violet bold">474</tspan> were reposts of the same house.</text><text x="64" y="251" class="sans" style="font-size:13.5px">After clearing out reposts, boarding houses and land ads, <tspan class="violet bold">1,180</tspan> homes remained, each drop logged.</text></g><g class="enter" style="animation-delay:0.55s"><circle cx="40" cy="270" r="6" class="dot"/><text x="64" y="274" class="violet bold" style="font-size:10px" >THE TEST</text><text x="64" y="296" class="sans" style="font-size:13.5px">The usual rule of thumb, price per m² times land size, missed by <tspan class="violet bold">46.1%</tspan> on average. My model cut that</text><text x="64" y="315" class="sans" style="font-size:13.5px">to <tspan class="violet bold">25.6%</tspan>, scored on whole districts it had never seen in training.</text></g><g class="enter" style="animation-delay:0.75s"><circle cx="40" cy="334" r="6" class="violet"/><text x="64" y="338" class="violet bold" style="font-size:10px" >THE ANSWER</text><text x="64" y="360" class="sans" style="font-size:13.5px">One number would overpromise, so the app gives a likely range, the reasons behind it, and similar listings.</text><text x="64" y="379" class="sans" style="font-size:13.5px">The range held <tspan class="violet bold">79.9%</tspan> of prices in testing. On <tspan class="violet bold">30</tspan> listings from 2026, cheap homes ran high and pricey ones low.</text></g><text x="832" y="410" class="muted tiny" text-anchor="end">Figures from the project README · 483188f</text></g>
+</svg>

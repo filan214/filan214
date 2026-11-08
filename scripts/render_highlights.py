@@ -15,6 +15,7 @@ STYLES = '''
 .connector{fill:none;stroke:var(--line);stroke-width:1.5}
 .sans{font-family:Arial,Helvetica,sans-serif}
 .rail{fill:none;stroke:var(--line);stroke-width:2} .dot{fill:var(--bg);stroke:var(--violet);stroke-width:2}
+.house .violet{fill:var(--cyan)} .house .dot{stroke:var(--cyan)}
 '''
 
 
@@ -70,7 +71,7 @@ def footer(project, data, y):
 def finance(data):
     project = data["projects"]["finance"]
     inv, app = project["inventory"], data["app"]
-    body = chrome(860, 462, "showcase --project AIFinanceTracker", "02 / PRODUCT SPOTLIGHT")
+    body = chrome(860, 462, "showcase --project AIFinanceTracker", "03 / PRODUCT SPOTLIGHT")
     body += text(28, 75, "AI + PERSONAL FINANCE", "accent bold", 10)
     body += text(28, 113, "Smart Finn Track", "display", 32)
     body += text(28, 137, "Ask your money better questions.", "muted", 13)
@@ -112,7 +113,7 @@ def crosssell(data):
     project = data["projects"]["crosssell"]
     inv = project["inventory"]
     results = inv["results"]
-    body = chrome(860, 530, "showcase --project dealership-crosssell-propensity", "01 / DATA SCIENCE")
+    body = chrome(860, 530, "showcase --project dealership-crosssell-propensity", "02 / DATA SCIENCE")
     body += '<g class="xsell">'
     body += text(28, 75, "SQL × MACHINE LEARNING × BI", "violet bold", 10)
     body += text(28, 112, "Dealership Cross-Sell Propensity", "display", 30)
@@ -171,24 +172,12 @@ def narrative(x, y, segments):
     return f'<text x="{x}" y="{y}" class="sans" style="font-size:13.5px">{spans}</text>'
 
 
-def story(data):
+def story_card(project, tag, tone, title, subtitle, chapters):
     # A short case-study narrative; every figure is quoted from the project README at the shown commit.
-    project = data["projects"]["crosssell"]
-    r = {key: value or "—" for key, value in project["inventory"]["results"].items()}
-    chapters = [
-        ("THE PROBLEM", [[("A dealership had more customers than its sales team could ever call, and only ", False), (r["response_rate"], True), (" were interested.", False)],
-                         [("Working down the list at random meant most calls went nowhere.", False)]]),
-        ("THE CLUE", [[("So I started with the data. Grouping customers in SQL, one group stood out: drivers with a damaged car", False)],
-                      [("and no insurance said yes ", False), (r["segment_rate"], True), (" of the time, against ", False), (r["response_rate"], True), (" overall.", False)]]),
-        ("THE MODEL", [[("A pattern isn't a plan, so I trained a model to score every customer on how likely they were to buy,", False)],
-                       [("and tested it on ", False), (r["test_customers"], True), (" customers it had never seen.", False)]]),
-        ("THE PAYOFF", [[("Ranked by that score, calling only the top ", False), (r["capture_share"], True), (" reached ", False), (r["captured"], True),
-                         (" of interested customers, ", False), (r["capture_lift"], True), (" better than random.", False)],
-                        [("Sales got it as a Tableau call list, with a slider to choose how far down to go.", False)]])]
-    body = chrome(860, 424, "story --project dealership-crosssell-propensity", "01 / DATA SCIENCE")
-    body += '<g class="xsell">'
-    body += text(28, 82, "Who should sales call first?", "display", 28)
-    body += text(28, 106, "The story behind a dealership's call list.", "muted", 12)
+    body = chrome(860, 424, "story --project " + project["name"], tag)
+    body += f'<g class="{tone}">'
+    body += text(28, 82, title, "display", 28)
+    body += text(28, 106, subtitle, "muted", 12)
     body += '<path d="M40 142V336" class="rail"/>'
     for i, (label, lines) in enumerate(chapters):
         y = 146 + i*64
@@ -201,11 +190,44 @@ def story(data):
     body += '</g>'
     desc = " ".join(label.title() + ": " + " ".join("".join(part for part, _ in line) for line in lines) for label, lines in chapters)
     desc += " Figures quoted from the project README at commit " + project["commit"]["sha"] + "."
-    return svg(860, 424, "Who should sales call first? — Dealership cross-sell story", desc, body, styles=STYLES)
+    return svg(860, 424, f"{title} — {project['name']} story", desc, body, styles=STYLES)
+
+
+def story(data):
+    project = data["projects"]["crosssell"]
+    r = {key: value or "—" for key, value in project["inventory"]["results"].items()}
+    chapters = [
+        ("THE PROBLEM", [[("A dealership had more customers than its sales team could ever call, and only ", False), (r["response_rate"], True), (" were interested.", False)],
+                         [("Working down the list at random meant most calls went nowhere.", False)]]),
+        ("THE CLUE", [[("So I started with the data. Grouping customers in SQL, one group stood out: drivers with a damaged car", False)],
+                      [("and no insurance said yes ", False), (r["segment_rate"], True), (" of the time, against ", False), (r["response_rate"], True), (" overall.", False)]]),
+        ("THE MODEL", [[("A pattern isn't a plan, so I trained a model to score every customer on how likely they were to buy,", False)],
+                       [("and tested it on ", False), (r["test_customers"], True), (" customers it had never seen.", False)]]),
+        ("THE PAYOFF", [[("Ranked by that score, calling only the top ", False), (r["capture_share"], True), (" reached ", False), (r["captured"], True),
+                         (" of interested customers, ", False), (r["capture_lift"], True), (" better than random.", False)],
+                        [("Sales got it as a Tableau call list, with a slider to choose how far down to go.", False)]])]
+    return story_card(project, "02 / DATA SCIENCE", "xsell", "Who should sales call first?", "The story behind a dealership's call list.", chapters)
+
+
+def valuation_story(data):
+    project = data["projects"]["valuation"]
+    r = {key: value or "—" for key, value in project["inventory"]["results"].items()}
+    chapters = [
+        ("THE PROBLEM", [[("House prices in Jogja are hard to judge. Buyers can't tell if a listing is fair, sellers don't know", False)],
+                         [("what to ask, and agents price mostly by experience.", False)]]),
+        ("THE MESS", [[("The data was ", False), (r["raw_listings"], True), (" scraped listings, and ", False), (r["reposts"], True), (" were reposts of the same house.", False)],
+                      [("After clearing out reposts, boarding houses and land ads, ", False), (r["clean_listings"], True), (" homes remained, each drop logged.", False)]]),
+        ("THE TEST", [[("The usual rule of thumb, price per m² times land size, missed by ", False), (r["baseline_mape"], True), (" on average. My model cut that", False)],
+                      [("to ", False), (r["mape"], True), (", scored on whole districts it had never seen in training.", False)]]),
+        ("THE ANSWER", [[("One number would overpromise, so the app gives a likely range, the reasons behind it, and similar listings.", False)],
+                        [("The range held ", False), (r["range_coverage"], True), (" of prices in testing. On ", False), (r["drift_listings"], True),
+                         (" listings from 2026, cheap homes ran high and pricey ones low.", False)]])]
+    return story_card(project, "01 / DATA SCIENCE", "house", "Is this house priced fairly?", "The story behind a valuation app for Yogyakarta.", chapters)
 
 
 def outputs(data):
-    return {"finance-spotlight.svg": finance(data), "crosssell-spotlight.svg": crosssell(data), "crosssell-story.svg": story(data)}
+    return {"finance-spotlight.svg": finance(data), "crosssell-spotlight.svg": crosssell(data), "crosssell-story.svg": story(data),
+            "valuation-story.svg": valuation_story(data)}
 
 
 if __name__ == "__main__":
