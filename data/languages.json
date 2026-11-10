@@ -2,53 +2,53 @@
   "username": "filan214",
   "as_of": "2026-11-10",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 13,
-  "total_bytes": 4978947,
+  "repo_count": 14,
+  "total_bytes": 5303458,
   "languages": [
     {
       "name": "Jupyter Notebook",
       "bytes": 2470365,
-      "percent": 49.62
+      "percent": 46.58
     },
     {
       "name": "TypeScript",
       "bytes": 1269745,
-      "percent": 25.5
+      "percent": 23.94
     },
     {
       "name": "Python",
-      "bytes": 932410,
-      "percent": 18.73
+      "bytes": 1256921,
+      "percent": 23.7
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 1.97
+      "percent": 1.85
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 1.79
+      "percent": 1.68
     },
     {
       "name": "PLpgSQL",
       "bytes": 42249,
-      "percent": 0.85
+      "percent": 0.8
     },
     {
       "name": "JavaScript",
       "bytes": 33941,
-      "percent": 0.68
+      "percent": 0.64
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.42
+      "percent": 0.4
     },
     {
       "name": "CSS",
       "bytes": 17477,
-      "percent": 0.35
+      "percent": 0.33
     },
     {
       "name": "Perl",
@@ -57,6 +57,12 @@
     }
   ],
   "repos": {
+    "filan214/ai_scout_football": {
+      "pushed_at": "2026-11-10T09:29:16Z",
+      "languages": {
+        "Python": 324511
+      }
+    },
     "filan214/Jogja-House-Valuation": {
       "pushed_at": "2026-11-07T19:33:56Z",
       "languages": {

@@ -10,11 +10,11 @@
 
 <h3 align="left">Recent repositories</h3>
 
-<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-1.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-2.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a></p>
+<p><a href="https://github.com/filan214/ai_scout_football"><img src="./repo-card-1.svg" width="420" alt="ai_scout_football"></a> <a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-2.svg" width="420" alt="Jogja-House-Valuation"></a></p>
 
-<p><a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-3.svg" width="420" alt="smartphone-demand-forecasting-dss"></a> <a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-4.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a></p>
+<p><a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-3.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a> <a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-4.svg" width="420" alt="smartphone-demand-forecasting-dss"></a></p>
 
-<p><a href="https://github.com/filan214/F1-tyre-degradation"><img src="./repo-card-5.svg" width="420" alt="F1-tyre-degradation"></a> <a href="https://github.com/filan214/dealership-crosssell-propensity"><img src="./repo-card-6.svg" width="420" alt="dealership-crosssell-propensity"></a></p>
+<p><a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-5.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a> <a href="https://github.com/filan214/F1-tyre-degradation"><img src="./repo-card-6.svg" width="420" alt="F1-tyre-degradation"></a></p>
 
 <p align="left"><a href="https://github.com/filan214?tab=repositories">See all repositories</a></p>
 
@@ -92,13 +92,13 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/Jogja-House-Valuation">Jogja-House-Valuation</a></td><td>Python</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commits"><img src="./repo-activity-1.svg" width="180" alt="Jogja-House-Valuation: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-07</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commit/483188f8bab71341185abd13df1eb30792150001">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/ai_scout_football">ai_scout_football</a></td><td>Python</td><td><a href="https://github.com/filan214/ai_scout_football/commits"><img src="./repo-activity-1.svg" width="180" alt="ai_scout_football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-10</td><td><a href="https://github.com/filan214/ai_scout_football/commit/12e5c82ea8df2618fca0a6065cae0c0ed54b4743">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/smartphone-dss-notebooks">smartphone-dss-notebooks</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commits"><img src="./repo-activity-2.svg" width="180" alt="smartphone-dss-notebooks: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-06</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commit/d661ad0cad2e27ddd9e583b722abbd899280ba72">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/Jogja-House-Valuation">Jogja-House-Valuation</a></td><td>Python</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commits"><img src="./repo-activity-2.svg" width="180" alt="Jogja-House-Valuation: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-07</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commit/483188f8bab71341185abd13df1eb30792150001">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-3.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-05</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/smartphone-dss-notebooks">smartphone-dss-notebooks</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commits"><img src="./repo-activity-3.svg" width="180" alt="smartphone-dss-notebooks: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-06</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commit/d661ad0cad2e27ddd9e583b722abbd899280ba72">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/F1-tyre-degradation">F1-tyre-degradation</a></td><td>Python</td><td><a href="https://github.com/filan214/F1-tyre-degradation/commits"><img src="./repo-activity-4.svg" width="180" alt="F1-tyre-degradation: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-03</td><td><a href="https://github.com/filan214/F1-tyre-degradation/commit/c69283170336b52981d53df0b205c6c0a0ffa0a8">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-4.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-05</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
 </table>
 
@@ -140,7 +140,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 10 Nov 2026 · 09:07 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 10 Nov 2026 · 16:48 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 10 Nov 2026 · 09:07 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 10 Nov 2026 · 16:48 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 10 Nov 2026 · 09:07 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 10 Nov 2026 · 16:48 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
