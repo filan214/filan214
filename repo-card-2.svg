@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" role="img" aria-labelledby="title desc">
-<title id="title">Jogja-House-Valuation</title>
+<title id="title">ai_scout_football</title>
 <desc id="desc">Primary language: Python.</desc>
 <style>
 :root { color-scheme: light dark; --bg:#ffffff; --panel:#f6f8fa; --ink:#24292f; --muted:#59636e; --line:#d1d9e0; --accent:#16733c; --cyan:#0969da; --amber:#8a5700; --portrait:#353b43; --track:#e5e9ee; --p0:#ebedf0; --p1:#c6e8cb; --p2:#9bd7a4; --p3:#58b96b; --p4:#2a9345; --p5:#167036; }
@@ -26,5 +26,5 @@ text { font-family:'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',m
  .tag-cycle {display:none} .tag-static {display:inline}
 }
 </style>
-<rect x="0.5" y="0.5" width="419" height="119" rx="6" class="bg" /><text x="16" y="31" class="cyan bold sans" style="font-size:14px" >Jogja-House-Valuation</text><rect x="355" y="15" width="49" height="21" rx="10.5" class="pill" /><text x="379.5" y="29" class="muted sans" style="font-size:11px" text-anchor="middle">Public</text><circle cx="22" cy="99" r="6" class="lang"/><text x="34" y="103" class="muted sans" style="font-size:12px" >Python</text>
+<rect x="0.5" y="0.5" width="419" height="119" rx="6" class="bg" /><text x="16" y="31" class="cyan bold sans" style="font-size:14px" >ai_scout_football</text><rect x="355" y="15" width="49" height="21" rx="10.5" class="pill" /><text x="379.5" y="29" class="muted sans" style="font-size:11px" text-anchor="middle">Public</text><circle cx="22" cy="99" r="6" class="lang"/><text x="34" y="103" class="muted sans" style="font-size:12px" >Python</text>
 </svg>

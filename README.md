@@ -10,7 +10,7 @@
 
 <h3 align="left">Recent repositories</h3>
 
-<p><a href="https://github.com/filan214/ai_scout_football"><img src="./repo-card-1.svg" width="420" alt="ai_scout_football"></a> <a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-2.svg" width="420" alt="Jogja-House-Valuation"></a></p>
+<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-1.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/ai_scout_football"><img src="./repo-card-2.svg" width="420" alt="ai_scout_football"></a></p>
 
 <p><a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-3.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a> <a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-4.svg" width="420" alt="smartphone-demand-forecasting-dss"></a></p>
 
@@ -32,9 +32,9 @@
 
 <a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./valuation-story.svg" width="860" alt="Is this house priced fairly? Problem, data clean-up, test, and answer of the Jogja house valuation project, with figures quoted from its README"></a>
 
-<table width="860"><tr><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/docs/app_demo.gif"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/483188f8bab71341185abd13df1eb30792150001/docs/app_demo.gif" width="420" alt="Demo of the valuation app: enter a house in Depok, Sleman, with an asking price, then get the estimate, likely range, verdict, top factors, and similar listings"></a><br><sub><b>Value a house</b><br>Estimate, likely range, verdict, and the reasons</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/docs/app_market_map.png"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/483188f8bab71341185abd13df1eb30792150001/docs/app_market_map.png" width="420" alt="Choropleth map of median price per land square metre for each kecamatan in Yogyakarta"></a><br><sub><b>Market map</b><br>Median price per land m² by kecamatan</sub></td></tr></table>
+<table width="860"><tr><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/a09da84c02976d77aca1a93094dc8d0b978bd1ce/docs/app_demo.gif"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/a09da84c02976d77aca1a93094dc8d0b978bd1ce/docs/app_demo.gif" width="420" alt="Demo of the valuation app: enter a house in Depok, Sleman, with an asking price, then get the estimate, likely range, verdict, top factors, and similar listings"></a><br><sub><b>Value a house</b><br>Estimate, likely range, verdict, and the reasons</sub></td><td width="50%" align="center" valign="top"><a href="https://github.com/filan214/Jogja-House-Valuation/blob/a09da84c02976d77aca1a93094dc8d0b978bd1ce/docs/app_market_map.png"><img src="https://raw.githubusercontent.com/filan214/Jogja-House-Valuation/a09da84c02976d77aca1a93094dc8d0b978bd1ce/docs/app_market_map.png" width="420" alt="Choropleth map of median price per land square metre for each kecamatan in Yogyakarta"></a><br><sub><b>Market map</b><br>Median price per land m² by kecamatan</sub></td></tr></table>
 
-<p><a href="https://github.com/filan214/Jogja-House-Valuation">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation#how-to-run-locally">↗ Run it locally</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation/blob/483188f8bab71341185abd13df1eb30792150001/reports/metrics.md">↗ Read model metrics</a></p>
+<p><a href="https://github.com/filan214/Jogja-House-Valuation">↗ Explore project</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation#how-to-run-locally">↗ Run it locally</a> &nbsp; · &nbsp; <a href="https://github.com/filan214/Jogja-House-Valuation/blob/a09da84c02976d77aca1a93094dc8d0b978bd1ce/reports/metrics.md">↗ Read model metrics</a></p>
 
 <p><sub>Public Kaggle data by Pramudya Dika (CC BY-NC 4.0), scraped from Rumah123 in 2024 · asking prices, not sale prices · app runs locally, not deployed</sub></p>
 
@@ -92,9 +92,9 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/ai_scout_football">ai_scout_football</a></td><td>Python</td><td><a href="https://github.com/filan214/ai_scout_football/commits"><img src="./repo-activity-1.svg" width="180" alt="ai_scout_football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-10</td><td><a href="https://github.com/filan214/ai_scout_football/commit/12e5c82ea8df2618fca0a6065cae0c0ed54b4743">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/Jogja-House-Valuation">Jogja-House-Valuation</a></td><td>Python</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commits"><img src="./repo-activity-1.svg" width="180" alt="Jogja-House-Valuation: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-10</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commit/a09da84c02976d77aca1a93094dc8d0b978bd1ce">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/Jogja-House-Valuation">Jogja-House-Valuation</a></td><td>Python</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commits"><img src="./repo-activity-2.svg" width="180" alt="Jogja-House-Valuation: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-07</td><td><a href="https://github.com/filan214/Jogja-House-Valuation/commit/483188f8bab71341185abd13df1eb30792150001">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/ai_scout_football">ai_scout_football</a></td><td>Python</td><td><a href="https://github.com/filan214/ai_scout_football/commits"><img src="./repo-activity-2.svg" width="180" alt="ai_scout_football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-10</td><td><a href="https://github.com/filan214/ai_scout_football/commit/4ee96238ca76f33cdd888bf1f3611780757826c9">Commit</a></td></tr>
 
 <tr><td><a href="https://github.com/filan214/smartphone-dss-notebooks">smartphone-dss-notebooks</a></td><td>Jupyter Notebook</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commits"><img src="./repo-activity-3.svg" width="180" alt="smartphone-dss-notebooks: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-06</td><td><a href="https://github.com/filan214/smartphone-dss-notebooks/commit/d661ad0cad2e27ddd9e583b722abbd899280ba72">Commit</a></td></tr>
 
@@ -140,7 +140,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 10 Nov 2026 · 16:48 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 11 Nov 2026 · 06:19 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 10 Nov 2026 · 16:48 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 11 Nov 2026 · 06:19 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 10 Nov 2026 · 16:48 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 11 Nov 2026 · 06:19 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
