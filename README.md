@@ -116,6 +116,10 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-11-10 12:19:28</td><td><a href="https://github.com/filan214/ai_scout_football">filan214/ai_scout_football</a><br>main</td><td><a href="https://github.com/filan214/ai_scout_football/commit/08068cc5831c568583033276b36f7bceccbc08e2">08068cc</a> Add weekly live squads, clubs and market values from FotMob</td></tr>
+
+<tr><td>2026-11-10 10:05:57</td><td><a href="https://github.com/filan214/ai_scout_football">filan214/ai_scout_football</a><br>main</td><td><a href="https://github.com/filan214/ai_scout_football/commit/d356e0604e5340712e3be127421603ce16d7bf9c">d356e06</a> Add weekly Transfermarkt snapshot freshness check</td></tr>
+
 <tr><td>2026-11-05 16:39:39</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78">370149a</a> chore: stop tracking internal working files (kept locally, now gitignored)</td></tr>
 
 <tr><td>2026-11-05 15:48:18</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1319d97cbca2756cf7ef9c492e4c904dd5273f5f">1319d97</a> chore: stop tracking docs/superpowers (kept locally, now gitignored)</td></tr>
@@ -132,15 +136,11 @@
 
 <tr><td>2026-10-20 08:10:33</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/37d1f37936cf7e1b0f33bc29643b0a304a750944">37d1f37</a> Fix silent season rollover: refresh cached Understat season catalog</td></tr>
 
-<tr><td>2026-10-15 17:36:42</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f99b0df26ad67f1d6baec3fc8f8ada5fac53fc00">f99b0df</a> fix(login): drop the input placeholders and link labels to their fields</td></tr>
-
-<tr><td>2026-10-14 17:10:52</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/ff74c6a542ea726d83ce3ceb651d89632a9fd12b">ff74c6a</a> Simplify README</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 11 Nov 2026 · 06:19 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 11 Nov 2026 · 13:16 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 11 Nov 2026 · 06:19 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 11 Nov 2026 · 13:16 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 11 Nov 2026 · 06:19 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 11 Nov 2026 · 13:16 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
