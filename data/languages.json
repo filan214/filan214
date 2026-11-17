@@ -1,24 +1,24 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 14,
-  "total_bytes": 5335919,
+  "total_bytes": 5340003,
   "languages": [
     {
       "name": "Jupyter Notebook",
       "bytes": 2470365,
-      "percent": 46.3
+      "percent": 46.26
     },
     {
       "name": "Python",
-      "bytes": 1289382,
-      "percent": 24.16
+      "bytes": 1293466,
+      "percent": 24.22
     },
     {
       "name": "TypeScript",
       "bytes": 1269745,
-      "percent": 23.8
+      "percent": 23.78
     },
     {
       "name": "Blade",
@@ -28,7 +28,7 @@
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 1.67
+      "percent": 1.66
     },
     {
       "name": "PLpgSQL",
@@ -57,6 +57,14 @@
     }
   ],
   "repos": {
+    "filan214/netflix-gap-analysis": {
+      "pushed_at": "2026-11-17T19:41:05Z",
+      "languages": {
+        "Python": 59790,
+        "Jupyter Notebook": 55240,
+        "PLpgSQL": 16802
+      }
+    },
     "filan214/ai_scout_football": {
       "pushed_at": "2026-11-16T13:54:20Z",
       "languages": {
@@ -109,14 +117,6 @@
         "Python": 130607,
         "CSS": 6610,
         "JavaScript": 559
-      }
-    },
-    "filan214/netflix-gap-analysis": {
-      "pushed_at": "2026-10-14T17:10:51Z",
-      "languages": {
-        "Python": 55706,
-        "Jupyter Notebook": 55240,
-        "PLpgSQL": 16802
       }
     },
     "filan214/F1---2026-Car-Details": {

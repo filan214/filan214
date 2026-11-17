@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-17",
-  "fetched_at": "2026-11-17T13:24:17Z",
+  "as_of": "2026-11-18",
+  "fetched_at": "2026-11-17T22:22:08Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -16,6 +16,143 @@
   },
   "eligible_repo_count": 14,
   "projects": [
+    {
+      "name": "netflix-gap-analysis",
+      "full_name": "filan214/netflix-gap-analysis",
+      "url": "https://github.com/filan214/netflix-gap-analysis",
+      "title": "Netflix Catalog vs IMDb Ratings",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "pushed_at": "2026-11-17T19:41:05Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/netflix-gap-analysis",
+        "sha": "665ade1e8f7f1de8c7779ffead4bfe59f16ba609",
+        "message": "Polish README with STAR structure; add Excel dashboard and screenshots",
+        "created_at": "2026-11-17T19:40:58Z",
+        "url": "https://github.com/filan214/netflix-gap-analysis/commit/665ade1e8f7f1de8c7779ffead4bfe59f16ba609",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-22",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
+        },
+        {
+          "date": "2026-11-11",
+          "count": 0
+        },
+        {
+          "date": "2026-11-12",
+          "count": 0
+        },
+        {
+          "date": "2026-11-13",
+          "count": 0
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 0
+        },
+        {
+          "date": "2026-11-17",
+          "count": 1
+        },
+        {
+          "date": "2026-11-18",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "ai_scout_football",
       "full_name": "filan214/ai_scout_football",
@@ -39,10 +176,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
         {
           "date": "2026-10-22",
           "count": 0
@@ -150,6 +283,10 @@
         {
           "date": "2026-11-17",
           "count": 0
+        },
+        {
+          "date": "2026-11-18",
+          "count": 0
         }
       ]
     },
@@ -176,10 +313,6 @@
         "branch": "master"
       },
       "activity_days": [
-        {
-          "date": "2026-10-21",
-          "count": 0
-        },
         {
           "date": "2026-10-22",
           "count": 0
@@ -286,6 +419,10 @@
         },
         {
           "date": "2026-11-17",
+          "count": 0
+        },
+        {
+          "date": "2026-11-18",
           "count": 0
         }
       ]
@@ -314,10 +451,6 @@
       },
       "activity_days": [
         {
-          "date": "2026-10-21",
-          "count": 0
-        },
-        {
           "date": "2026-10-22",
           "count": 0
         },
@@ -424,157 +557,15 @@
         {
           "date": "2026-11-17",
           "count": 0
-        }
-      ]
-    },
-    {
-      "name": "AIFinanceTracker",
-      "full_name": "filan214/AIFinanceTracker",
-      "url": "https://github.com/filan214/AIFinanceTracker",
-      "title": "Smart Finn Track",
-      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
-      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "fintech",
-        "nextjs",
-        "web-development"
-      ],
-      "pushed_at": "2026-11-05T16:39:39Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/AIFinanceTracker",
-        "sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
-        "message": "chore: stop tracking internal working files (kept locally, now gitignored)",
-        "created_at": "2026-11-05T16:08:07Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-21",
-          "count": 0
         },
         {
-          "date": "2026-10-22",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 2
-        },
-        {
-          "date": "2026-11-05",
-          "count": 8
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08",
-          "count": 0
-        },
-        {
-          "date": "2026-11-09",
-          "count": 0
-        },
-        {
-          "date": "2026-11-10",
-          "count": 0
-        },
-        {
-          "date": "2026-11-11",
-          "count": 0
-        },
-        {
-          "date": "2026-11-12",
-          "count": 0
-        },
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
-        {
-          "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
-          "count": 0
-        },
-        {
-          "date": "2026-11-17",
+          "date": "2026-11-18",
           "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-10-21",
-      "count": 0
-    },
     {
       "date": "2026-10-22",
       "count": 0
@@ -609,11 +600,11 @@
     },
     {
       "date": "2026-10-30",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-10-31",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-11-01",
@@ -653,7 +644,7 @@
     },
     {
       "date": "2026-11-10",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-11-11",
@@ -677,14 +668,27 @@
     },
     {
       "date": "2026-11-16",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-17",
-      "count": 0
+      "count": 1
+    },
+    {
+      "date": "2026-11-18",
+      "count": 1
     }
   ],
   "repositories": [
+    {
+      "name": "netflix-gap-analysis",
+      "url": "https://github.com/filan214/netflix-gap-analysis",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-10-07T08:03:52Z",
+      "pushed_at": "2026-11-17T19:41:05Z"
+    },
     {
       "name": "ai_scout_football",
       "url": "https://github.com/filan214/ai_scout_football",
@@ -756,15 +760,6 @@
       "language": "TypeScript",
       "created_at": "2026-06-10T17:29:25Z",
       "pushed_at": "2026-10-20T15:28:24Z"
-    },
-    {
-      "name": "netflix-gap-analysis",
-      "url": "https://github.com/filan214/netflix-gap-analysis",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "created_at": "2026-10-07T08:03:52Z",
-      "pushed_at": "2026-10-14T17:10:51Z"
     },
     {
       "name": "F1---2026-Car-Details",
