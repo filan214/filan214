@@ -1,59 +1,59 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 14,
-  "total_bytes": 5352770,
+  "repo_count": 13,
+  "total_bytes": 2904726,
   "languages": [
-    {
-      "name": "Jupyter Notebook",
-      "bytes": 2470365,
-      "percent": 46.15
-    },
-    {
-      "name": "Python",
-      "bytes": 1301396,
-      "percent": 24.31
-    },
     {
       "name": "TypeScript",
       "bytes": 1274582,
-      "percent": 23.81
+      "percent": 43.88
+    },
+    {
+      "name": "Python",
+      "bytes": 1121284,
+      "percent": 38.6
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 202433,
+      "percent": 6.97
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 1.83
+      "percent": 3.38
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 1.66
+      "percent": 3.06
     },
     {
       "name": "PLpgSQL",
       "bytes": 42249,
-      "percent": 0.79
+      "percent": 1.45
     },
     {
       "name": "JavaScript",
       "bytes": 33941,
-      "percent": 0.63
+      "percent": 1.17
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.39
+      "percent": 0.73
     },
     {
       "name": "CSS",
       "bytes": 17477,
-      "percent": 0.33
+      "percent": 0.6
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.09
+      "percent": 0.16
     }
   ],
   "repos": {
@@ -93,13 +93,6 @@
       "pushed_at": "2026-11-10T15:31:44Z",
       "languages": {
         "Python": 282150
-      }
-    },
-    "filan214/smartphone-dss-notebooks": {
-      "pushed_at": "2026-11-06T19:13:22Z",
-      "languages": {
-        "Jupyter Notebook": 2267932,
-        "Python": 180112
       }
     },
     "filan214/smartphone-demand-forecasting-dss": {

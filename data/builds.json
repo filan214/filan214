@@ -1,7 +1,7 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-19",
-  "fetched_at": "2026-11-19T13:03:38Z",
+  "as_of": "2026-11-20",
+  "fetched_at": "2026-11-19T21:32:04Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,12 +9,12 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 16,
+    "public_repos": 15,
     "followers": 2,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 14,
+  "eligible_repo_count": 13,
   "projects": [
     {
       "name": "ai_scout_football",
@@ -39,10 +39,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
         {
           "date": "2026-10-24",
           "count": 0
@@ -150,6 +146,10 @@
         {
           "date": "2026-11-19",
           "count": 3
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -180,10 +180,6 @@
         "branch": "master"
       },
       "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
         {
           "date": "2026-10-24",
           "count": 0
@@ -291,6 +287,10 @@
         {
           "date": "2026-11-19",
           "count": 3
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -322,10 +322,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
         {
           "date": "2026-10-24",
           "count": 0
@@ -433,6 +429,10 @@
         {
           "date": "2026-11-19",
           "count": 1
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -459,10 +459,6 @@
         "branch": "main"
       },
       "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
         {
           "date": "2026-10-24",
           "count": 0
@@ -570,15 +566,15 @@
         {
           "date": "2026-11-19",
           "count": 0
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     }
   ],
   "activity_days": [
-    {
-      "date": "2026-10-23",
-      "count": 0
-    },
     {
       "date": "2026-10-24",
       "count": 0
@@ -686,6 +682,10 @@
     {
       "date": "2026-11-19",
       "count": 3
+    },
+    {
+      "date": "2026-11-20",
+      "count": 0
     }
   ],
   "repositories": [
@@ -733,15 +733,6 @@
       "language": "Python",
       "created_at": "2026-11-07T19:30:36Z",
       "pushed_at": "2026-11-10T15:31:44Z"
-    },
-    {
-      "name": "smartphone-dss-notebooks",
-      "url": "https://github.com/filan214/smartphone-dss-notebooks",
-      "description": "Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)",
-      "homepage": "",
-      "language": "Jupyter Notebook",
-      "created_at": "2026-11-06T19:13:13Z",
-      "pushed_at": "2026-11-06T19:13:22Z"
     },
     {
       "name": "smartphone-demand-forecasting-dss",

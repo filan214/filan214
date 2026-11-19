@@ -14,7 +14,7 @@
 
 <p><a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-3.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a> <a href="https://github.com/filan214/netflix-gap-analysis"><img src="./repo-card-4.svg" width="420" alt="netflix-gap-analysis"></a></p>
 
-<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-5.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-dss-notebooks"><img src="./repo-card-6.svg" width="420" alt="smartphone-dss-notebooks: Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)"></a></p>
+<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-5.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-6.svg" width="420" alt="smartphone-demand-forecasting-dss"></a></p>
 
 <p align="left"><a href="https://github.com/filan214?tab=repositories">See all repositories</a></p>
 
@@ -140,7 +140,7 @@
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 19 Nov 2026 · 20:03 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 20 Nov 2026 · 04:32 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 19 Nov 2026 · 20:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 20 Nov 2026 · 04:32 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 19 Nov 2026 · 20:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 20 Nov 2026 · 04:32 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
