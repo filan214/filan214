@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-11-19",
-  "fetched_at": "2026-11-19T03:25:46Z",
+  "fetched_at": "2026-11-19T13:03:38Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -16,6 +16,426 @@
   },
   "eligible_repo_count": 14,
   "projects": [
+    {
+      "name": "ai_scout_football",
+      "full_name": "filan214/ai_scout_football",
+      "url": "https://github.com/filan214/ai_scout_football",
+      "title": "AI Scout — explainable football recruitment",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "pushed_at": "2026-11-19T05:38:46Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/ai_scout_football",
+        "sha": "f55b75e98fd245e057a330c4fb1d8cf474ec1d24",
+        "message": "Simplify README demo section",
+        "created_at": "2026-11-19T04:36:02Z",
+        "url": "https://github.com/filan214/ai_scout_football/commit/f55b75e98fd245e057a330c4fb1d8cf474ec1d24",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 3
+        },
+        {
+          "date": "2026-10-31",
+          "count": 2
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 7
+        },
+        {
+          "date": "2026-11-11",
+          "count": 0
+        },
+        {
+          "date": "2026-11-12",
+          "count": 0
+        },
+        {
+          "date": "2026-11-13",
+          "count": 0
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 1
+        },
+        {
+          "date": "2026-11-17",
+          "count": 0
+        },
+        {
+          "date": "2026-11-18",
+          "count": 0
+        },
+        {
+          "date": "2026-11-19",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "FormWAtch-Football",
+      "full_name": "filan214/FormWAtch-Football",
+      "url": "https://github.com/filan214/FormWAtch-Football",
+      "title": "FormWatch",
+      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [
+        "anomaly-detection",
+        "sports-analytics",
+        "typescript"
+      ],
+      "pushed_at": "2026-11-19T05:11:39Z",
+      "default_branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/FormWAtch-Football",
+        "sha": "7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a",
+        "message": "Switch AI narratives to free OpenRouter models",
+        "created_at": "2026-11-19T05:11:09Z",
+        "url": "https://github.com/filan214/FormWAtch-Football/commit/7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a",
+        "author": "Valentinus Filan",
+        "branch": "master"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
+        },
+        {
+          "date": "2026-11-11",
+          "count": 0
+        },
+        {
+          "date": "2026-11-12",
+          "count": 0
+        },
+        {
+          "date": "2026-11-13",
+          "count": 0
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 0
+        },
+        {
+          "date": "2026-11-17",
+          "count": 0
+        },
+        {
+          "date": "2026-11-18",
+          "count": 0
+        },
+        {
+          "date": "2026-11-19",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "AIFinanceTracker",
+      "full_name": "filan214/AIFinanceTracker",
+      "url": "https://github.com/filan214/AIFinanceTracker",
+      "title": "Smart Finn Track",
+      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
+      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "fintech",
+        "nextjs",
+        "web-development"
+      ],
+      "pushed_at": "2026-11-19T04:35:42Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/AIFinanceTracker",
+        "sha": "f63c303704793d137198c8db2eeda04f91a1c5f8",
+        "message": "fix(ai): fall back to Flash-Lite when 3.5 Flash is overloaded",
+        "created_at": "2026-11-19T04:25:14Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-23",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26",
+          "count": 0
+        },
+        {
+          "date": "2026-10-27",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 2
+        },
+        {
+          "date": "2026-11-05",
+          "count": 8
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
+        },
+        {
+          "date": "2026-11-11",
+          "count": 0
+        },
+        {
+          "date": "2026-11-12",
+          "count": 0
+        },
+        {
+          "date": "2026-11-13",
+          "count": 0
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 0
+        },
+        {
+          "date": "2026-11-17",
+          "count": 0
+        },
+        {
+          "date": "2026-11-18",
+          "count": 0
+        },
+        {
+          "date": "2026-11-19",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "netflix-gap-analysis",
       "full_name": "filan214/netflix-gap-analysis",
@@ -152,417 +572,6 @@
           "count": 0
         }
       ]
-    },
-    {
-      "name": "ai_scout_football",
-      "full_name": "filan214/ai_scout_football",
-      "url": "https://github.com/filan214/ai_scout_football",
-      "title": "AI Scout — explainable football recruitment",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "pushed_at": "2026-11-16T13:54:20Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/ai_scout_football",
-        "sha": "5a33898b2e9d2bfb719ae2b3b386e3fa90a7d681",
-        "message": "Refresh live squads and values (2026-11-16)",
-        "created_at": "2026-11-16T13:54:19Z",
-        "url": "https://github.com/filan214/ai_scout_football/commit/5a33898b2e9d2bfb719ae2b3b386e3fa90a7d681",
-        "author": "github-actions[bot]",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 3
-        },
-        {
-          "date": "2026-10-31",
-          "count": 2
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08",
-          "count": 0
-        },
-        {
-          "date": "2026-11-09",
-          "count": 0
-        },
-        {
-          "date": "2026-11-10",
-          "count": 7
-        },
-        {
-          "date": "2026-11-11",
-          "count": 0
-        },
-        {
-          "date": "2026-11-12",
-          "count": 0
-        },
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
-        {
-          "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
-          "count": 1
-        },
-        {
-          "date": "2026-11-17",
-          "count": 0
-        },
-        {
-          "date": "2026-11-18",
-          "count": 0
-        },
-        {
-          "date": "2026-11-19",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "Jogja-House-Valuation",
-      "full_name": "filan214/Jogja-House-Valuation",
-      "url": "https://github.com/filan214/Jogja-House-Valuation",
-      "title": "Jogja House Valuation",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "pushed_at": "2026-11-10T15:31:44Z",
-      "default_branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/Jogja-House-Valuation",
-        "sha": "a09da84c02976d77aca1a93094dc8d0b978bd1ce",
-        "message": "Rewrite project story as narrative",
-        "created_at": "2026-11-10T15:30:28Z",
-        "url": "https://github.com/filan214/Jogja-House-Valuation/commit/a09da84c02976d77aca1a93094dc8d0b978bd1ce",
-        "author": "Valentinus Filan",
-        "branch": "master"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08",
-          "count": 1
-        },
-        {
-          "date": "2026-11-09",
-          "count": 0
-        },
-        {
-          "date": "2026-11-10",
-          "count": 2
-        },
-        {
-          "date": "2026-11-11",
-          "count": 0
-        },
-        {
-          "date": "2026-11-12",
-          "count": 0
-        },
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
-        {
-          "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
-          "count": 0
-        },
-        {
-          "date": "2026-11-17",
-          "count": 0
-        },
-        {
-          "date": "2026-11-18",
-          "count": 0
-        },
-        {
-          "date": "2026-11-19",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "smartphone-dss-notebooks",
-      "full_name": "filan214/smartphone-dss-notebooks",
-      "url": "https://github.com/filan214/smartphone-dss-notebooks",
-      "title": "Smartphone Demand Forecasting & Inventory DSS",
-      "description": "Smartphone demand forecasting + inventory DSS as nine self-verifying Jupyter notebooks (SARIMAX, RF, LSTM)",
-      "homepage": "",
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "pushed_at": "2026-11-06T19:13:22Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/smartphone-dss-notebooks",
-        "sha": "d661ad0cad2e27ddd9e583b722abbd899280ba72",
-        "message": "Initial commit: notebook-format smartphone demand forecasting and inventory DSS",
-        "created_at": "2026-11-06T19:11:23Z",
-        "url": "https://github.com/filan214/smartphone-dss-notebooks/commit/d661ad0cad2e27ddd9e583b722abbd899280ba72",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-23",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26",
-          "count": 0
-        },
-        {
-          "date": "2026-10-27",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 1
-        },
-        {
-          "date": "2026-11-08",
-          "count": 0
-        },
-        {
-          "date": "2026-11-09",
-          "count": 0
-        },
-        {
-          "date": "2026-11-10",
-          "count": 0
-        },
-        {
-          "date": "2026-11-11",
-          "count": 0
-        },
-        {
-          "date": "2026-11-12",
-          "count": 0
-        },
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
-        {
-          "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
-          "count": 0
-        },
-        {
-          "date": "2026-11-17",
-          "count": 0
-        },
-        {
-          "date": "2026-11-18",
-          "count": 0
-        },
-        {
-          "date": "2026-11-19",
-          "count": 0
-        }
-      ]
     }
   ],
   "activity_days": [
@@ -596,11 +605,11 @@
     },
     {
       "date": "2026-10-30",
-      "count": 0
+      "count": 3
     },
     {
       "date": "2026-10-31",
-      "count": 0
+      "count": 2
     },
     {
       "date": "2026-11-01",
@@ -640,7 +649,7 @@
     },
     {
       "date": "2026-11-10",
-      "count": 0
+      "count": 7
     },
     {
       "date": "2026-11-11",
@@ -664,22 +673,49 @@
     },
     {
       "date": "2026-11-16",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-11-17",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-18",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-19",
-      "count": 0
+      "count": 3
     }
   ],
   "repositories": [
+    {
+      "name": "ai_scout_football",
+      "url": "https://github.com/filan214/ai_scout_football",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-10T09:28:40Z",
+      "pushed_at": "2026-11-19T05:38:46Z"
+    },
+    {
+      "name": "FormWAtch-Football",
+      "url": "https://github.com/filan214/FormWAtch-Football",
+      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-06-10T17:29:25Z",
+      "pushed_at": "2026-11-19T05:11:39Z"
+    },
+    {
+      "name": "AIFinanceTracker",
+      "url": "https://github.com/filan214/AIFinanceTracker",
+      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
+      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
+      "language": "TypeScript",
+      "created_at": "2026-05-26T08:02:38Z",
+      "pushed_at": "2026-11-19T04:35:42Z"
+    },
     {
       "name": "netflix-gap-analysis",
       "url": "https://github.com/filan214/netflix-gap-analysis",
@@ -688,15 +724,6 @@
       "language": "Python",
       "created_at": "2026-10-07T08:03:52Z",
       "pushed_at": "2026-11-17T19:41:05Z"
-    },
-    {
-      "name": "ai_scout_football",
-      "url": "https://github.com/filan214/ai_scout_football",
-      "description": "",
-      "homepage": "",
-      "language": "Python",
-      "created_at": "2026-11-10T09:28:40Z",
-      "pushed_at": "2026-11-16T13:54:20Z"
     },
     {
       "name": "Jogja-House-Valuation",
@@ -726,15 +753,6 @@
       "pushed_at": "2026-11-06T17:08:27Z"
     },
     {
-      "name": "AIFinanceTracker",
-      "url": "https://github.com/filan214/AIFinanceTracker",
-      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
-      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
-      "language": "TypeScript",
-      "created_at": "2026-05-26T08:02:38Z",
-      "pushed_at": "2026-11-05T16:39:39Z"
-    },
-    {
       "name": "F1-tyre-degradation",
       "url": "https://github.com/filan214/F1-tyre-degradation",
       "description": "",
@@ -751,15 +769,6 @@
       "language": "Jupyter Notebook",
       "created_at": "2026-09-30T18:18:41Z",
       "pushed_at": "2026-10-24T07:05:47Z"
-    },
-    {
-      "name": "FormWAtch-Football",
-      "url": "https://github.com/filan214/FormWAtch-Football",
-      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
-      "homepage": "",
-      "language": "TypeScript",
-      "created_at": "2026-06-10T17:29:25Z",
-      "pushed_at": "2026-10-20T15:28:24Z"
     },
     {
       "name": "F1---2026-Car-Details",

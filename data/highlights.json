@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "fetched_at": "2026-11-19T03:25:50Z",
+  "fetched_at": "2026-11-19T13:03:42Z",
   "as_of": "2026-11-19",
   "projects": {
     "finance": {
@@ -11,10 +11,10 @@
       "default_branch": "main",
       "commit": {
         "repo": "filan214/AIFinanceTracker",
-        "sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
-        "message": "chore: stop tracking internal working files (kept locally, now gitignored)",
-        "created_at": "2026-11-05T16:08:07Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78",
+        "sha": "f63c303704793d137198c8db2eeda04f91a1c5f8",
+        "message": "fix(ai): fall back to Flash-Lite when 3.5 Flash is overloaded",
+        "created_at": "2026-11-19T04:25:14Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8",
         "author": "Valentinus Filan",
         "branch": "main"
       },
@@ -426,11 +426,11 @@
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 1
         }
       ],
       "languages": {
-        "TypeScript": 504472,
+        "TypeScript": 508973,
         "PLpgSQL": 25447,
         "CSS": 3892,
         "JavaScript": 81
@@ -439,10 +439,10 @@
         "name": "Keep Supabase alive",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "370149aaaf24c72afe9142e6f0021b1e74a47c78",
+        "head_sha": "f63c303704793d137198c8db2eeda04f91a1c5f8",
         "matches_tip": true,
-        "updated_at": "2026-11-18T17:04:25Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/44354468055"
+        "updated_at": "2026-11-19T06:47:22Z",
+        "url": "https://github.com/filan214/AIFinanceTracker/actions/runs/44474721220"
       }
     },
     "crosssell": {
@@ -1288,7 +1288,7 @@
   },
   "app": {
     "url": "https://ai-finance-tracker-delta-drab.vercel.app/",
-    "checked_at": "2026-11-19T03:25:50Z",
+    "checked_at": "2026-11-19T13:03:42Z",
     "http_status": 200,
     "reachable": true
   }

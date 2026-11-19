@@ -3,27 +3,27 @@
   "as_of": "2026-11-19",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 14,
-  "total_bytes": 5340003,
+  "total_bytes": 5352770,
   "languages": [
     {
       "name": "Jupyter Notebook",
       "bytes": 2470365,
-      "percent": 46.26
+      "percent": 46.15
     },
     {
       "name": "Python",
-      "bytes": 1293466,
-      "percent": 24.22
+      "bytes": 1301396,
+      "percent": 24.31
     },
     {
       "name": "TypeScript",
-      "bytes": 1269745,
-      "percent": 23.78
+      "bytes": 1274582,
+      "percent": 23.81
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 1.84
+      "percent": 1.83
     },
     {
       "name": "PHP",
@@ -38,12 +38,12 @@
     {
       "name": "JavaScript",
       "bytes": 33941,
-      "percent": 0.64
+      "percent": 0.63
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.4
+      "percent": 0.39
     },
     {
       "name": "CSS",
@@ -57,18 +57,36 @@
     }
   ],
   "repos": {
+    "filan214/ai_scout_football": {
+      "pushed_at": "2026-11-19T05:38:46Z",
+      "languages": {
+        "Python": 356972
+      }
+    },
+    "filan214/FormWAtch-Football": {
+      "pushed_at": "2026-11-19T05:11:39Z",
+      "languages": {
+        "TypeScript": 185175,
+        "Python": 138537,
+        "CSS": 6610,
+        "JavaScript": 559
+      }
+    },
+    "filan214/AIFinanceTracker": {
+      "pushed_at": "2026-11-19T04:35:42Z",
+      "languages": {
+        "TypeScript": 508973,
+        "PLpgSQL": 25447,
+        "CSS": 3892,
+        "JavaScript": 81
+      }
+    },
     "filan214/netflix-gap-analysis": {
       "pushed_at": "2026-11-17T19:41:05Z",
       "languages": {
         "Python": 59790,
         "Jupyter Notebook": 55240,
         "PLpgSQL": 16802
-      }
-    },
-    "filan214/ai_scout_football": {
-      "pushed_at": "2026-11-16T13:54:20Z",
-      "languages": {
-        "Python": 356972
       }
     },
     "filan214/Jogja-House-Valuation": {
@@ -88,15 +106,6 @@
       "pushed_at": "2026-11-06T17:08:27Z",
       "languages": {}
     },
-    "filan214/AIFinanceTracker": {
-      "pushed_at": "2026-11-05T16:39:39Z",
-      "languages": {
-        "TypeScript": 504472,
-        "PLpgSQL": 25447,
-        "CSS": 3892,
-        "JavaScript": 81
-      }
-    },
     "filan214/F1-tyre-degradation": {
       "pushed_at": "2026-11-03T15:45:20Z",
       "languages": {
@@ -108,15 +117,6 @@
       "languages": {
         "Jupyter Notebook": 147193,
         "Python": 389
-      }
-    },
-    "filan214/FormWAtch-Football": {
-      "pushed_at": "2026-10-20T15:28:24Z",
-      "languages": {
-        "TypeScript": 184839,
-        "Python": 130607,
-        "CSS": 6610,
-        "JavaScript": 559
       }
     },
     "filan214/F1---2026-Car-Details": {
