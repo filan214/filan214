@@ -134,13 +134,13 @@
 
 <tr><td>2026-10-24 07:05:47</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity">filan214/dealership-crosssell-propensity</a><br>main</td><td><a href="https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d">358d87e</a> update 2</td></tr>
 
-<tr><td>2026-10-20 15:28:24</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/9d1e8f14fbd1ee3ca18f3eff740295b9bff97177">9d1e8f1</a> Remove PRD documents from the repository</td></tr>
+<tr><td>2026-10-20 08:10:33</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/37d1f37936cf7e1b0f33bc29643b0a304a750944">37d1f37</a> Fix silent season rollover: refresh cached Understat season catalog</td></tr>
 
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 20 Nov 2026 · 04:32 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 20 Nov 2026 · 10:13 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 20 Nov 2026 · 04:32 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 20 Nov 2026 · 10:13 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 20 Nov 2026 · 04:32 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 20 Nov 2026 · 10:13 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
