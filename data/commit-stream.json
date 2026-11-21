@@ -1,10 +1,30 @@
 {
   "username": "filan214",
   "source": "https://api.github.com/users/filan214/events/public",
-  "as_of": "2026-11-20",
-  "fetched_at": "2026-11-20T11:41:38Z",
+  "as_of": "2026-11-21",
+  "fetched_at": "2026-11-21T01:34:53Z",
   "scope": "Up to 10 latest available public PushEvents by this user; one exact head commit per push, all branches; profile and configured exclusions omitted",
   "pushes": [
+    {
+      "repo": "filan214/FormWAtch-Football",
+      "sha": "e28e7e29e2fb55e60cb48b3fc27ad18caa6ebff8",
+      "message": "Add daily keepalive workflow for Supabase and cron",
+      "created_at": "2026-11-19T04:46:48Z",
+      "url": "https://github.com/filan214/FormWAtch-Football/commit/e28e7e29e2fb55e60cb48b3fc27ad18caa6ebff8",
+      "event_id": "27767002975",
+      "branch": "master",
+      "message_available": true
+    },
+    {
+      "repo": "filan214/AIFinanceTracker",
+      "sha": "f63c303704793d137198c8db2eeda04f91a1c5f8",
+      "message": "fix(ai): fall back to Flash-Lite when 3.5 Flash is overloaded",
+      "created_at": "2026-11-19T04:35:42Z",
+      "url": "https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8",
+      "event_id": "27755180438",
+      "branch": "main",
+      "message_available": true
+    },
     {
       "repo": "filan214/Jogja-House-Valuation",
       "sha": "ce9c4df3553f5d40c4706c02b010faa063d37e03",
@@ -82,16 +102,6 @@
       "created_at": "2026-11-03T10:07:47Z",
       "url": "https://github.com/filan214/F1-tyre-degradation/commit/3dd79e8c5a058cc3ee6ae2832c7543fc8c9d9d69",
       "event_id": "26202289587",
-      "branch": "main",
-      "message_available": true
-    },
-    {
-      "repo": "filan214/dealership-crosssell-propensity",
-      "sha": "358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
-      "message": "update 2",
-      "created_at": "2026-10-24T07:05:47Z",
-      "url": "https://github.com/filan214/dealership-crosssell-propensity/commit/358d87e60c8110bbbf5d0cd3f7a45ebd27a5482d",
-      "event_id": "25029317328",
       "branch": "main",
       "message_available": true
     }
