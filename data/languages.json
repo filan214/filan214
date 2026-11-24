@@ -1,49 +1,49 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 13,
-  "total_bytes": 2904726,
+  "repo_count": 12,
+  "total_bytes": 2934809,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1274582,
-      "percent": 43.88
+      "percent": 43.43
     },
     {
       "name": "Python",
-      "bytes": 1121284,
-      "percent": 38.6
+      "bytes": 1151367,
+      "percent": 39.23
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 202433,
-      "percent": 6.97
+      "percent": 6.9
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 3.38
+      "percent": 3.34
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 3.06
+      "percent": 3.03
     },
     {
       "name": "PLpgSQL",
       "bytes": 42249,
-      "percent": 1.45
+      "percent": 1.44
     },
     {
       "name": "JavaScript",
       "bytes": 33941,
-      "percent": 1.17
+      "percent": 1.16
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.73
+      "percent": 0.72
     },
     {
       "name": "CSS",
@@ -58,9 +58,17 @@
   ],
   "repos": {
     "filan214/ai_scout_football": {
-      "pushed_at": "2026-11-19T05:38:46Z",
+      "pushed_at": "2026-11-23T16:14:06Z",
       "languages": {
         "Python": 356972
+      }
+    },
+    "filan214/netflix-gap-analysis": {
+      "pushed_at": "2026-11-23T16:06:08Z",
+      "languages": {
+        "Python": 89873,
+        "Jupyter Notebook": 55240,
+        "PLpgSQL": 16802
       }
     },
     "filan214/FormWAtch-Football": {
@@ -81,23 +89,11 @@
         "JavaScript": 81
       }
     },
-    "filan214/netflix-gap-analysis": {
-      "pushed_at": "2026-11-17T19:41:05Z",
-      "languages": {
-        "Python": 59790,
-        "Jupyter Notebook": 55240,
-        "PLpgSQL": 16802
-      }
-    },
     "filan214/Jogja-House-Valuation": {
       "pushed_at": "2026-11-10T15:31:44Z",
       "languages": {
         "Python": 282150
       }
-    },
-    "filan214/smartphone-demand-forecasting-dss": {
-      "pushed_at": "2026-11-06T17:08:27Z",
-      "languages": {}
     },
     "filan214/F1-tyre-degradation": {
       "pushed_at": "2026-11-03T15:45:20Z",

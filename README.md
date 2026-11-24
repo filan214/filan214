@@ -10,11 +10,11 @@
 
 <h3 align="left">Recent repositories</h3>
 
-<p><a href="https://github.com/filan214/ai_scout_football"><img src="./repo-card-1.svg" width="420" alt="ai_scout_football"></a> <a href="https://github.com/filan214/FormWAtch-Football"><img src="./repo-card-2.svg" width="420" alt="FormWAtch-Football: Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard."></a></p>
+<p><a href="https://github.com/filan214/ai_scout_football"><img src="./repo-card-1.svg" width="420" alt="ai_scout_football"></a> <a href="https://github.com/filan214/netflix-gap-analysis"><img src="./repo-card-2.svg" width="420" alt="netflix-gap-analysis"></a></p>
 
-<p><a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-3.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a> <a href="https://github.com/filan214/netflix-gap-analysis"><img src="./repo-card-4.svg" width="420" alt="netflix-gap-analysis"></a></p>
+<p><a href="https://github.com/filan214/FormWAtch-Football"><img src="./repo-card-3.svg" width="420" alt="FormWAtch-Football: Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard."></a> <a href="https://github.com/filan214/AIFinanceTracker"><img src="./repo-card-4.svg" width="420" alt="AIFinanceTracker: AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support."></a></p>
 
-<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-5.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/smartphone-demand-forecasting-dss"><img src="./repo-card-6.svg" width="420" alt="smartphone-demand-forecasting-dss"></a></p>
+<p><a href="https://github.com/filan214/Jogja-House-Valuation"><img src="./repo-card-5.svg" width="420" alt="Jogja-House-Valuation"></a> <a href="https://github.com/filan214/F1-tyre-degradation"><img src="./repo-card-6.svg" width="420" alt="F1-tyre-degradation"></a></p>
 
 <p align="left"><a href="https://github.com/filan214?tab=repositories">See all repositories</a></p>
 
@@ -92,13 +92,13 @@
 
 <table width="860"><tr><th width="27%" align="left">Repository</th><th width="15%" align="left">Code</th><th width="25%" align="left">Commits · 28d</th><th width="19%" align="left">Last push (UTC)</th><th width="14%" align="left">Explore</th></tr>
 
-<tr><td><a href="https://github.com/filan214/ai_scout_football">ai_scout_football</a></td><td>Python</td><td><a href="https://github.com/filan214/ai_scout_football/commits"><img src="./repo-activity-1.svg" width="180" alt="ai_scout_football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-19</td><td><a href="https://github.com/filan214/ai_scout_football/commit/f55b75e98fd245e057a330c4fb1d8cf474ec1d24">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/ai_scout_football">ai_scout_football</a></td><td>Python</td><td><a href="https://github.com/filan214/ai_scout_football/commits"><img src="./repo-activity-1.svg" width="180" alt="ai_scout_football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-23</td><td><a href="https://github.com/filan214/ai_scout_football/commit/b0a2501409b6c1afcad7f449bda22d89967ce416">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-2.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-19</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Python</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-2.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-23</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/3830b766c43569687d9dc6888874c9247a8fafe2">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-3.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-19</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
+<tr><td><a href="https://github.com/filan214/FormWAtch-Football">FormWAtch-Football</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/FormWAtch-Football/commits"><img src="./repo-activity-3.svg" width="180" alt="FormWAtch-Football: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-19</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a">Commit</a></td></tr>
 
-<tr><td><a href="https://github.com/filan214/netflix-gap-analysis">netflix-gap-analysis</a></td><td>Python</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commits"><img src="./repo-activity-4.svg" width="180" alt="netflix-gap-analysis: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-17</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/665ade1e8f7f1de8c7779ffead4bfe59f16ba609">Commit</a></td></tr>
+<tr><td><a href="https://github.com/filan214/AIFinanceTracker">AIFinanceTracker</a></td><td>TypeScript</td><td><a href="https://github.com/filan214/AIFinanceTracker/commits"><img src="./repo-activity-4.svg" width="180" alt="AIFinanceTracker: daily default-branch commits over 28 days, all authors; line scaled to its own peak"></a></td><td>2026-11-19</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8">Commit</a> · <a href="https://ai-finance-tracker-delta-drab.vercel.app">Site</a></td></tr>
 
 </table>
 
@@ -115,6 +115,8 @@
 <br>
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
+
+<tr><td>2026-11-23 15:57:37</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/9184eac69cfcab407995e545238f48e16ba0351e">9184eac</a> Update README for Tableau dashboard</td></tr>
 
 <tr><td>2026-11-19 04:46:48</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/e28e7e29e2fb55e60cb48b3fc27ad18caa6ebff8">e28e7e2</a> Add daily keepalive workflow for Supabase and cron</td></tr>
 
@@ -134,13 +136,11 @@
 
 <tr><td>2026-11-05 15:25:13</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/c83241d43df19e32075cc774f248c29fb3e4cc2d">c83241d</a> docs: handoff + progress for chat formatting, focus ring and register fixes</td></tr>
 
-<tr><td>2026-11-03 10:07:47</td><td><a href="https://github.com/filan214/F1-tyre-degradation">filan214/F1-tyre-degradation</a><br>main</td><td><a href="https://github.com/filan214/F1-tyre-degradation/commit/3dd79e8c5a058cc3ee6ae2832c7543fc8c9d9d69">3dd79e8</a> done added</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 23 Nov 2026 · 16:03 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 24 Nov 2026 · 13:01 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 23 Nov 2026 · 16:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 24 Nov 2026 · 13:01 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 23 Nov 2026 · 16:03 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 24 Nov 2026 · 13:01 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
