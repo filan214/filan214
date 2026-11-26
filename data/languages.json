@@ -1,44 +1,44 @@
 {
   "username": "filan214",
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "source": "https://api.github.com/users/filan214/repos",
   "repo_count": 16,
-  "total_bytes": 3638335,
+  "total_bytes": 3651479,
   "languages": [
     {
       "name": "Python",
       "bytes": 1636078,
-      "percent": 44.97
+      "percent": 44.81
     },
     {
       "name": "TypeScript",
-      "bytes": 1356833,
-      "percent": 37.29
+      "bytes": 1361182,
+      "percent": 37.28
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 202433,
-      "percent": 5.56
+      "percent": 5.54
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 2.69
+      "percent": 2.68
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 2.44
+      "percent": 2.43
+    },
+    {
+      "name": "Go",
+      "bytes": 74604,
+      "percent": 2.04
     },
     {
       "name": "JavaScript",
       "bytes": 67235,
-      "percent": 1.85
-    },
-    {
-      "name": "Go",
-      "bytes": 66212,
-      "percent": 1.82
+      "percent": 1.84
     },
     {
       "name": "PLpgSQL",
@@ -47,8 +47,8 @@
     },
     {
       "name": "CSS",
-      "bytes": 39055,
-      "percent": 1.07
+      "bytes": 39458,
+      "percent": 1.08
     },
     {
       "name": "Shell",
@@ -63,7 +63,7 @@
     {
       "name": "PowerShell",
       "bytes": 4559,
-      "percent": 0.13
+      "percent": 0.12
     },
     {
       "name": "HTML",
@@ -75,9 +75,9 @@
     "filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test": {
       "pushed_at": "2026-11-26T15:08:30Z",
       "languages": {
-        "TypeScript": 82251,
-        "Go": 66212,
-        "CSS": 12099,
+        "TypeScript": 86600,
+        "Go": 74604,
+        "CSS": 12502,
         "PLpgSQL": 8092,
         "HTML": 322
       }

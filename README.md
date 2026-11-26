@@ -116,6 +116,8 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-11-26 13:33:35</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test">filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test</a><br>main</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test/commit/549b831d053a263b457bac71b6dcf3a29c8a5eb7">549b831</a> docs: complete README with setup, API curl examples, and design decisions</td></tr>
+
 <tr><td>2026-11-23 15:57:37</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/9184eac69cfcab407995e545238f48e16ba0351e">9184eac</a> Update README for Tableau dashboard</td></tr>
 
 <tr><td>2026-11-19 04:46:48</td><td><a href="https://github.com/filan214/FormWAtch-Football">filan214/FormWAtch-Football</a><br>master</td><td><a href="https://github.com/filan214/FormWAtch-Football/commit/e28e7e29e2fb55e60cb48b3fc27ad18caa6ebff8">e28e7e2</a> Add daily keepalive workflow for Supabase and cron</td></tr>
@@ -134,13 +136,11 @@
 
 <tr><td>2026-11-05 15:48:18</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1319d97cbca2756cf7ef9c492e4c904dd5273f5f">1319d97</a> chore: stop tracking docs/superpowers (kept locally, now gitignored)</td></tr>
 
-<tr><td>2026-11-05 15:25:13</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/c83241d43df19e32075cc774f248c29fb3e4cc2d">c83241d</a> docs: handoff + progress for chat formatting, focus ring and register fixes</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 26 Nov 2026 · 22:13 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 27 Nov 2026 · 06:51 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 26 Nov 2026 · 22:13 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 27 Nov 2026 · 06:51 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 26 Nov 2026 · 22:13 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 27 Nov 2026 · 06:51 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
