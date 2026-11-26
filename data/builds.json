@@ -1,7 +1,7 @@
 {
   "username": "filan214",
   "as_of": "2026-11-26",
-  "fetched_at": "2026-11-26T05:01:52Z",
+  "fetched_at": "2026-11-26T15:13:39Z",
   "source": "https://api.github.com/users/filan214/repos?type=owner&sort=pushed&direction=desc",
   "selection": "Most recently pushed public owned projects; configured exclusions, forks and archives omitted",
   "profile": {
@@ -9,43 +9,43 @@
     "name": "Ferdian Filan ",
     "bio": "Information Systems graduate,. Building across Data Analytics, Data Science, AI Engineering & Web Development.",
     "location": "Yogyakarta, Indonesia",
-    "public_repos": 14,
+    "public_repos": 18,
     "followers": 1,
     "following": 7,
     "created_at": "2024-02-22T15:45:34Z"
   },
-  "eligible_repo_count": 12,
+  "eligible_repo_count": 16,
   "projects": [
     {
-      "name": "ai_scout_football",
-      "full_name": "filan214/ai_scout_football",
-      "url": "https://github.com/filan214/ai_scout_football",
-      "title": "AI Scout — explainable football recruitment",
+      "name": "Software-Engineer--Full-Stack--1-Day-Practical-Test",
+      "full_name": "filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test",
+      "url": "https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test",
+      "title": "StockFlow — Inventory & Sales (Mini ERP Module)",
       "description": "",
       "homepage": "",
-      "language": "Python",
+      "language": "TypeScript",
       "topics": [],
-      "pushed_at": "2026-11-23T16:14:06Z",
+      "pushed_at": "2026-11-26T15:08:30Z",
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
       "commit": {
-        "repo": "filan214/ai_scout_football",
-        "sha": "b0a2501409b6c1afcad7f449bda22d89967ce416",
-        "message": "Refresh live squads and values (2026-11-23)",
-        "created_at": "2026-11-23T16:14:05Z",
-        "url": "https://github.com/filan214/ai_scout_football/commit/b0a2501409b6c1afcad7f449bda22d89967ce416",
-        "author": "github-actions[bot]",
+        "repo": "filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test",
+        "sha": "09965e05a047b8bd056e587d82d25982a19bf0e1",
+        "message": "fix bonus",
+        "created_at": "2026-11-26T15:08:16Z",
+        "url": "https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test/commit/09965e05a047b8bd056e587d82d25982a19bf0e1",
+        "author": "Valentinus Filan",
         "branch": "main"
       },
       "activity_days": [
         {
           "date": "2026-10-30",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-10-31",
-          "count": 2
+          "count": 0
         },
         {
           "date": "2026-11-01",
@@ -85,7 +85,155 @@
         },
         {
           "date": "2026-11-10",
+          "count": 0
+        },
+        {
+          "date": "2026-11-11",
+          "count": 0
+        },
+        {
+          "date": "2026-11-12",
+          "count": 0
+        },
+        {
+          "date": "2026-11-13",
+          "count": 0
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 0
+        },
+        {
+          "date": "2026-11-17",
+          "count": 0
+        },
+        {
+          "date": "2026-11-18",
+          "count": 0
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
+        },
+        {
+          "date": "2026-11-21",
+          "count": 0
+        },
+        {
+          "date": "2026-11-22",
+          "count": 0
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
+        },
+        {
+          "date": "2026-11-25",
+          "count": 0
+        },
+        {
+          "date": "2026-11-26",
           "count": 7
+        }
+      ]
+    },
+    {
+      "name": "f1-2026-procedural-film",
+      "full_name": "filan214/f1-2026-procedural-film",
+      "url": "https://github.com/filan214/f1-2026-procedural-film",
+      "title": "M O D E S W I T C H",
+      "description": "MODE SWITCH — A 12.8s procedural 2026 Formula 1 technical short film built 100% in Python & Blender 5.2 (4.08M procedural polygons, physics solver, Cycles OptiX, 16-bit HUD, synthesized stereo audio).",
+      "homepage": "",
+      "language": "Python",
+      "topics": [
+        "3d-graphics",
+        "audio-synthesis",
+        "blender",
+        "computer-graphics",
+        "cycles",
+        "formula-1",
+        "physics-simulation",
+        "procedural-generation",
+        "python",
+        "technical-art"
+      ],
+      "pushed_at": "2026-11-26T15:04:04Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/f1-2026-procedural-film",
+        "sha": "33837061d4865443a25ff8f47b9b305eaf6bd2bd",
+        "message": "Expand Video Render Demo to full-width 3-act widescreen showcase",
+        "created_at": "2026-11-26T15:03:56Z",
+        "url": "https://github.com/filan214/f1-2026-procedural-film/commit/33837061d4865443a25ff8f47b9b305eaf6bd2bd",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05",
+          "count": 0
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
         },
         {
           "date": "2026-11-11",
@@ -109,7 +257,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-17",
@@ -121,7 +269,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-11-20",
@@ -137,7 +285,7 @@
         },
         {
           "date": "2026-11-23",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-24",
@@ -149,172 +297,31 @@
         },
         {
           "date": "2026-11-26",
-          "count": 0
+          "count": 3
         }
       ]
     },
     {
-      "name": "netflix-gap-analysis",
-      "full_name": "filan214/netflix-gap-analysis",
-      "url": "https://github.com/filan214/netflix-gap-analysis",
-      "title": "Netflix Catalog vs IMDb Ratings",
+      "name": "procedural-21700-cell-loop",
+      "full_name": "filan214/procedural-21700-cell-loop",
+      "url": "https://github.com/filan214/procedural-21700-cell-loop",
+      "title": "21700 Energy Cell Inspection Loop",
       "description": "",
       "homepage": "",
       "language": "Python",
       "topics": [],
-      "pushed_at": "2026-11-23T16:06:08Z",
+      "pushed_at": "2026-11-26T14:47:15Z",
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
       "commit": {
-        "repo": "filan214/netflix-gap-analysis",
-        "sha": "3830b766c43569687d9dc6888874c9247a8fafe2",
-        "message": "Add Tableau dashboard screenshots to README",
-        "created_at": "2026-11-23T16:00:48Z",
-        "url": "https://github.com/filan214/netflix-gap-analysis/commit/3830b766c43569687d9dc6888874c9247a8fafe2",
+        "repo": "filan214/procedural-21700-cell-loop",
+        "sha": "33900ed13d2b7d7a3bbdb4b2e26ed8b7ede12b75",
+        "message": "Add looping preview GIF and direct MP4 video links to README",
+        "created_at": "2026-11-26T14:47:11Z",
+        "url": "https://github.com/filan214/procedural-21700-cell-loop/commit/33900ed13d2b7d7a3bbdb4b2e26ed8b7ede12b75",
         "author": "Valentinus Filan",
         "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05",
-          "count": 0
-        },
-        {
-          "date": "2026-11-06",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08",
-          "count": 0
-        },
-        {
-          "date": "2026-11-09",
-          "count": 0
-        },
-        {
-          "date": "2026-11-10",
-          "count": 0
-        },
-        {
-          "date": "2026-11-11",
-          "count": 0
-        },
-        {
-          "date": "2026-11-12",
-          "count": 0
-        },
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
-        {
-          "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
-          "count": 0
-        },
-        {
-          "date": "2026-11-17",
-          "count": 1
-        },
-        {
-          "date": "2026-11-18",
-          "count": 1
-        },
-        {
-          "date": "2026-11-19",
-          "count": 0
-        },
-        {
-          "date": "2026-11-20",
-          "count": 0
-        },
-        {
-          "date": "2026-11-21",
-          "count": 0
-        },
-        {
-          "date": "2026-11-22",
-          "count": 0
-        },
-        {
-          "date": "2026-11-23",
-          "count": 3
-        },
-        {
-          "date": "2026-11-24",
-          "count": 0
-        },
-        {
-          "date": "2026-11-25",
-          "count": 0
-        },
-        {
-          "date": "2026-11-26",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "FormWAtch-Football",
-      "full_name": "filan214/FormWAtch-Football",
-      "url": "https://github.com/filan214/FormWAtch-Football",
-      "title": "FormWatch",
-      "description": "Bayesian anomaly detection for EPL player form, with a Python analysis pipeline and Next.js dashboard.",
-      "homepage": "",
-      "language": "TypeScript",
-      "topics": [
-        "anomaly-detection",
-        "sports-analytics",
-        "typescript"
-      ],
-      "pushed_at": "2026-11-19T05:11:39Z",
-      "default_branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/FormWAtch-Football",
-        "sha": "7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a",
-        "message": "Switch AI narratives to free OpenRouter models",
-        "created_at": "2026-11-19T05:11:09Z",
-        "url": "https://github.com/filan214/FormWAtch-Football/commit/7d15011be3dc8b4bd3528bf10e2c1c52b7e5570a",
-        "author": "Valentinus Filan",
-        "branch": "master"
       },
       "activity_days": [
         {
@@ -399,7 +406,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-11-20",
@@ -427,65 +434,60 @@
         },
         {
           "date": "2026-11-26",
-          "count": 0
-        }
-      ]
-    },
-    {
-      "name": "AIFinanceTracker",
-      "full_name": "filan214/AIFinanceTracker",
-      "url": "https://github.com/filan214/AIFinanceTracker",
-      "title": "Smart Finn Track",
-      "description": "AI-assisted personal finance tracker with transaction insights, charts, and English/Indonesian support.",
-      "homepage": "https://ai-finance-tracker-delta-drab.vercel.app",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "fintech",
-        "nextjs",
-        "web-development"
-      ],
-      "pushed_at": "2026-11-19T04:35:42Z",
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "commit": {
-        "repo": "filan214/AIFinanceTracker",
-        "sha": "f63c303704793d137198c8db2eeda04f91a1c5f8",
-        "message": "fix(ai): fall back to Flash-Lite when 3.5 Flash is overloaded",
-        "created_at": "2026-11-19T04:25:14Z",
-        "url": "https://github.com/filan214/AIFinanceTracker/commit/f63c303704793d137198c8db2eeda04f91a1c5f8",
-        "author": "Valentinus Filan",
-        "branch": "main"
-      },
-      "activity_days": [
-        {
-          "date": "2026-10-30",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03",
-          "count": 0
-        },
-        {
-          "date": "2026-11-04",
           "count": 2
+        }
+      ]
+    },
+    {
+      "name": "oldtrafford",
+      "full_name": "filan214/oldtrafford",
+      "url": "https://github.com/filan214/oldtrafford",
+      "title": "OLD TRAFFORD IN 3D",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "pushed_at": "2026-11-26T14:30:04Z",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "commit": {
+        "repo": "filan214/oldtrafford",
+        "sha": "356c6cef31d8e990ba3801944817b83690e22e80",
+        "message": "ci: add GitHub Pages workflow and live demo link in README",
+        "created_at": "2026-11-26T14:26:33Z",
+        "url": "https://github.com/filan214/oldtrafford/commit/356c6cef31d8e990ba3801944817b83690e22e80",
+        "author": "Valentinus Filan",
+        "branch": "main"
+      },
+      "activity_days": [
+        {
+          "date": "2026-10-30",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03",
+          "count": 0
+        },
+        {
+          "date": "2026-11-04",
+          "count": 0
         },
         {
           "date": "2026-11-05",
-          "count": 8
+          "count": 0
         },
         {
           "date": "2026-11-06",
@@ -541,7 +543,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-20",
@@ -569,7 +571,7 @@
         },
         {
           "date": "2026-11-26",
-          "count": 0
+          "count": 2
         }
       ]
     }
@@ -577,11 +579,11 @@
   "activity_days": [
     {
       "date": "2026-10-30",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-10-31",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-11-01",
@@ -621,7 +623,7 @@
     },
     {
       "date": "2026-11-10",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-11-11",
@@ -645,7 +647,7 @@
     },
     {
       "date": "2026-11-16",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-17",
@@ -657,7 +659,7 @@
     },
     {
       "date": "2026-11-19",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-11-20",
@@ -673,7 +675,7 @@
     },
     {
       "date": "2026-11-23",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-11-24",
@@ -685,10 +687,46 @@
     },
     {
       "date": "2026-11-26",
-      "count": 0
+      "count": 7
     }
   ],
   "repositories": [
+    {
+      "name": "Software-Engineer--Full-Stack--1-Day-Practical-Test",
+      "url": "https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test",
+      "description": "",
+      "homepage": "",
+      "language": "TypeScript",
+      "created_at": "2026-11-26T12:20:06Z",
+      "pushed_at": "2026-11-26T15:08:30Z"
+    },
+    {
+      "name": "f1-2026-procedural-film",
+      "url": "https://github.com/filan214/f1-2026-procedural-film",
+      "description": "MODE SWITCH — A 12.8s procedural 2026 Formula 1 technical short film built 100% in Python & Blender 5.2 (4.08M procedural polygons, physics solver, Cycles OptiX, 16-bit HUD, synthesized stereo audio).",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-26T14:18:01Z",
+      "pushed_at": "2026-11-26T15:04:04Z"
+    },
+    {
+      "name": "procedural-21700-cell-loop",
+      "url": "https://github.com/filan214/procedural-21700-cell-loop",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-26T14:40:28Z",
+      "pushed_at": "2026-11-26T14:47:15Z"
+    },
+    {
+      "name": "oldtrafford",
+      "url": "https://github.com/filan214/oldtrafford",
+      "description": "",
+      "homepage": "",
+      "language": "Python",
+      "created_at": "2026-11-26T14:16:49Z",
+      "pushed_at": "2026-11-26T14:30:04Z"
+    },
     {
       "name": "ai_scout_football",
       "url": "https://github.com/filan214/ai_scout_football",

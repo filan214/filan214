@@ -2,61 +2,109 @@
   "username": "filan214",
   "as_of": "2026-11-26",
   "source": "https://api.github.com/users/filan214/repos",
-  "repo_count": 12,
-  "total_bytes": 2934809,
+  "repo_count": 16,
+  "total_bytes": 3638335,
   "languages": [
     {
-      "name": "TypeScript",
-      "bytes": 1274582,
-      "percent": 43.43
+      "name": "Python",
+      "bytes": 1636078,
+      "percent": 44.97
     },
     {
-      "name": "Python",
-      "bytes": 1151367,
-      "percent": 39.23
+      "name": "TypeScript",
+      "bytes": 1356833,
+      "percent": 37.29
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 202433,
-      "percent": 6.9
+      "percent": 5.56
     },
     {
       "name": "Blade",
       "bytes": 98039,
-      "percent": 3.34
+      "percent": 2.69
     },
     {
       "name": "PHP",
       "bytes": 88894,
-      "percent": 3.03
-    },
-    {
-      "name": "PLpgSQL",
-      "bytes": 42249,
-      "percent": 1.44
+      "percent": 2.44
     },
     {
       "name": "JavaScript",
-      "bytes": 33941,
-      "percent": 1.16
+      "bytes": 67235,
+      "percent": 1.85
+    },
+    {
+      "name": "Go",
+      "bytes": 66212,
+      "percent": 1.82
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 50341,
+      "percent": 1.38
+    },
+    {
+      "name": "CSS",
+      "bytes": 39055,
+      "percent": 1.07
     },
     {
       "name": "Shell",
       "bytes": 21101,
-      "percent": 0.72
-    },
-    {
-      "name": "CSS",
-      "bytes": 17477,
-      "percent": 0.6
+      "percent": 0.58
     },
     {
       "name": "Perl",
       "bytes": 4726,
-      "percent": 0.16
+      "percent": 0.13
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 4559,
+      "percent": 0.13
+    },
+    {
+      "name": "HTML",
+      "bytes": 2829,
+      "percent": 0.08
     }
   ],
   "repos": {
+    "filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test": {
+      "pushed_at": "2026-11-26T15:08:30Z",
+      "languages": {
+        "TypeScript": 82251,
+        "Go": 66212,
+        "CSS": 12099,
+        "PLpgSQL": 8092,
+        "HTML": 322
+      }
+    },
+    "filan214/f1-2026-procedural-film": {
+      "pushed_at": "2026-11-26T15:04:04Z",
+      "languages": {
+        "Python": 286307,
+        "PowerShell": 3992
+      }
+    },
+    "filan214/procedural-21700-cell-loop": {
+      "pushed_at": "2026-11-26T14:47:15Z",
+      "languages": {
+        "Python": 155495,
+        "PowerShell": 567
+      }
+    },
+    "filan214/oldtrafford": {
+      "pushed_at": "2026-11-26T14:30:04Z",
+      "languages": {
+        "Python": 42909,
+        "JavaScript": 33294,
+        "CSS": 9479,
+        "HTML": 2507
+      }
+    },
     "filan214/ai_scout_football": {
       "pushed_at": "2026-11-23T16:14:06Z",
       "languages": {
