@@ -116,6 +116,10 @@
 
 <table width="860"><tr><th align="left" width="20%">Pushed (UTC)</th><th align="left" width="25%">Repository / branch</th><th align="left" width="55%">Head commit</th></tr>
 
+<tr><td>2026-11-26 15:08:31</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test">filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test</a><br>main</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test/commit/09965e05a047b8bd056e587d82d25982a19bf0e1">09965e0</a> fix bonus</td></tr>
+
+<tr><td>2026-11-26 14:47:16</td><td><a href="https://github.com/filan214/procedural-21700-cell-loop">filan214/procedural-21700-cell-loop</a><br>main</td><td><a href="https://github.com/filan214/procedural-21700-cell-loop/commit/33900ed13d2b7d7a3bbdb4b2e26ed8b7ede12b75">33900ed</a> Add looping preview GIF and direct MP4 video links to README</td></tr>
+
 <tr><td>2026-11-26 13:33:35</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test">filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test</a><br>main</td><td><a href="https://github.com/filan214/Software-Engineer--Full-Stack--1-Day-Practical-Test/commit/549b831d053a263b457bac71b6dcf3a29c8a5eb7">549b831</a> docs: complete README with setup, API curl examples, and design decisions</td></tr>
 
 <tr><td>2026-11-23 15:57:37</td><td><a href="https://github.com/filan214/netflix-gap-analysis">filan214/netflix-gap-analysis</a><br>main</td><td><a href="https://github.com/filan214/netflix-gap-analysis/commit/9184eac69cfcab407995e545238f48e16ba0351e">9184eac</a> Update README for Tableau dashboard</td></tr>
@@ -132,15 +136,11 @@
 
 <tr><td>2026-11-10 10:05:57</td><td><a href="https://github.com/filan214/ai_scout_football">filan214/ai_scout_football</a><br>main</td><td><a href="https://github.com/filan214/ai_scout_football/commit/d356e0604e5340712e3be127421603ce16d7bf9c">d356e06</a> Add weekly Transfermarkt snapshot freshness check</td></tr>
 
-<tr><td>2026-11-05 16:39:39</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/370149aaaf24c72afe9142e6f0021b1e74a47c78">370149a</a> chore: stop tracking internal working files (kept locally, now gitignored)</td></tr>
-
-<tr><td>2026-11-05 15:48:18</td><td><a href="https://github.com/filan214/AIFinanceTracker">filan214/AIFinanceTracker</a><br>main</td><td><a href="https://github.com/filan214/AIFinanceTracker/commit/1319d97cbca2756cf7ef9c492e4c904dd5273f5f">1319d97</a> chore: stop tracking docs/superpowers (kept locally, now gitignored)</td></tr>
-
 </table>
 
 <p>Public push events by filan214 across repositories and branches. GitHub exposes a limited event window and may delay events; fewer than ten results are shown when that is all it supplies. Profile automation and configured exclusions are omitted.</p>
 
-<p>Push feed synced: 28 Nov 2026 · 08:58 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
+<p>Push feed synced: 28 Nov 2026 · 17:25 WIB · <a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Inspect source snapshot</a></p>
 
 </details>
 
@@ -168,9 +168,9 @@
 
 <table width="860"><tr><th align="left">Snapshot</th><th align="left">What it measures</th></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 28 Nov 2026 · 08:58 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/builds.json">Projects &amp; activity</a></td><td>Public repository metadata, most recently pushed repositories, and 28-day default-branch commit history, all authors. Synced 28 Nov 2026 · 17:25 WIB.</td></tr>
 
-<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 28 Nov 2026 · 08:58 WIB.</td></tr>
+<tr><td><a href="https://github.com/filan214/filan214/blob/main/data/commit-stream.json">Cross-repo pushes</a></td><td>Available public push events by filan214; one exact head commit per push. Synced 28 Nov 2026 · 17:25 WIB.</td></tr>
 
 <tr><td><a href="https://github.com/filan214/filan214/blob/main/data/highlights.json">Project spotlights</a></td><td>File inventories pinned to the displayed source commit, valuation and cross-sell results quoted from each project&#x27;s README at the same commit, 90-day commit history, latest public workflow observation, and a public finance landing-page check.</td></tr>
 
